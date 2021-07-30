@@ -1,5 +1,6 @@
 import React, {useRef, useState, useEffect} from 'react';
 import eLogo from '../images/eLogo.png';
+import Button from 'react-bootstrap/Button';
 import '../CSS/App.css';
 
 const NavBar = () => {
@@ -36,8 +37,8 @@ const NavBar = () => {
       </div>
       <div>
       <ul className="nav-links">
-        <li>Home</li>
-        <li onClick={onClick}>Specialties</li> 
+        <li className="home-link">HOME</li>
+        <li onClick={onClick}>SPECIALTIES</li> 
           <nav ref={dropdownRef} className={`menu ${dropdown ? 'active' : 'inactive'}`}>
 
           <ul>
@@ -51,10 +52,11 @@ const NavBar = () => {
             <li>Professional</li>
           </ul>
           </nav>
-        <li>Testimonials</li>
-        <li>Trainings</li>
-        <li>Team</li>
-        <li>Login</li>
+        <li>TESTIMONIALS</li>
+        <li>TRAININGS</li>
+        <li>TEAM</li>
+        <li>LOGIN</li>
+        <li><Button className="contact-button" variant="outline-dark">Contact</Button></li>
       </ul>
      </div>
     </div>
