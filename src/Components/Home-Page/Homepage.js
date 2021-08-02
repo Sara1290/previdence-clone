@@ -1,9 +1,13 @@
 import React from 'react'
-import NavBarTwo from './NavBarTwo';
-import TheClip from '../images/TheClip.mp4';
-import PrevLogo from '../images/PrevLogo.png';
-import '../CSS/App.css';
+import NavBarTwo from '../../Components/NavBarTwo';
+import TheClip from '../../images/TheClip.mp4';
+import PrevLogo from '../../images/PrevLogo.png';
+import '../../CSS/App.css';
 import GroupSection from './GroupSection';
+import Specialties from './Specialties';
+import Testimonials from './Testimonials';
+import MultiCarousel from './MultiCarousel';
+import Footer from './Footer';
 
 const Homepage = () => {
 
@@ -14,11 +18,15 @@ const Homepage = () => {
         <video autoPlay loop muted className="prev-clip">
            <source src={TheClip} type="video/mp4" />
         </video>
-      <div className="logo-wrapper">
+      <div className="logo-wrapper i i ">
         <img alt="previdence logo" src={PrevLogo} className="prev-logo" />
       </div>
       </div>
       <GroupSection />
+      <Specialties />
+      <MultiCarousel />
+      <Testimonials />
+      <Footer />
     </div>
   )
 }
