@@ -18,8 +18,8 @@ const NavBarTwo = () => {
       style={{ maxHeight: '100px' }}
       navbarScroll
       >
-      <Nav.Link><Link to="/">HOME</Link></Nav.Link>
-      <NavDropdown title="SPECIALTIES" id="navbarScrollingDropdown">
+      <Nav.Link><Link to="/" className="link">HOME</Link></Nav.Link>
+      <NavDropdown title="SPECIALTIES" id="navbarScrollingDropdown" className="link">
       <NavDropdown.Item>Public Safety</NavDropdown.Item>
         <NavDropdown.Item>K-12</NavDropdown.Item>
         <NavDropdown.Item>Military</NavDropdown.Item>
@@ -29,10 +29,10 @@ const NavBarTwo = () => {
         <NavDropdown.Item>Correctional Facilities</NavDropdown.Item>
         <NavDropdown.Item>Corporations</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link >TESTIMONIALS</Nav.Link>
-      <Nav.Link >TRAININGS</Nav.Link>
-      <Nav.Link ><Link to="/team">TEAM</Link></Nav.Link>
-      <Nav.Link>LOGIN</Nav.Link>
+      <Nav.Link><Link to="/testimonials" className="link">TESTIMONIALS</Link></Nav.Link>
+      <Nav.Link><Link to="/trainings" className="link">TRAININGS</Link></Nav.Link>
+      <Nav.Link ><Link to="/team" className="link">TEAM</Link></Nav.Link>
+      <Nav.Link><Link to="/loginApollo" className="link">LOGIN</Link></Nav.Link>
       <li><Button className="contact-button" variant="outline-dark">Contact</Button></li>
 
     </Nav>

@@ -323,3 +323,8 @@ p {
 .team-inner > h2 {
   font-size: 40px;
 }
+.link { 
+  text-decoration: none;
+  color: black;
+}
+ 
