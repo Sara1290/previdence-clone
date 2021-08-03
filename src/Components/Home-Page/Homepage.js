@@ -3,6 +3,7 @@ import NavBarTwo from '../../Components/NavBarTwo';
 import TheClip from '../../images/TheClip.mp4';
 import PrevLogo from '../../images/PrevLogo.png';
 import '../../CSS/App.css';
+
 import GroupSection from './GroupSection';
 import Specialties from './Specialties';
 import Testimonials from './Testimonials';
@@ -18,7 +19,7 @@ const Homepage = () => {
         <video autoPlay loop muted className="prev-clip">
            <source src={TheClip} type="video/mp4" />
         </video>
-      <div className="logo-wrapper i i ">
+      <div className="logo-wrapper">
         <img alt="previdence logo" src={PrevLogo} className="prev-logo" />
       </div>
       </div>
