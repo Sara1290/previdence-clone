@@ -9,6 +9,8 @@ const GroupSection = () => {
 
   return(
     <div className="container-fluid group-parent  section-lg text-center">
+
+
       <h1>Mental Wellness</h1>
       <div className="group-wrapper row">
         <div className="group-item row col-sm-4 col-md-4 col-lg-4 col-xl-4">
@@ -30,6 +32,7 @@ const GroupSection = () => {
         </div>
       </div>
     </div>
+ 
 
   
   )

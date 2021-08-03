@@ -44,15 +44,15 @@ justify-content: space-between;
 width: 25vw;
 height: 10vh;
 background-color: white;
+z-index: 1;
 }
 
 .nav-links {
-  position: fixed;
+  position: absolute;
   top: 40px;
   display: flex;
   justify-content: space-around;
   width: 75vw;
-  height: 10vh;
   background-color: white;
 }
 
@@ -97,7 +97,7 @@ background-color: white;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-  bottom: 10vh;
+  /* bottom: 10vh; */
 }
 
 .navbar-spacing {
@@ -282,4 +282,44 @@ p {
 .contact {
   margin-top: 10vh;
   margin-bottom: 10vh;
+}
+
+.team-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.team-background {
+  background-color: #7b0303;
+  color: #CFCFCF;
+}
+.team-img {
+  height: auto;
+  width: 100%;
+  padding: 25px;
+}
+.thumb__title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.33;
+  text-align: center;
+}
+.thumb__subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.71429;
+  font-style: italic;
+  text-align: center;
+}
+.thumb-corporate__caption {
+  margin-top: 10px;
+}
+.team-spacing {
+  padding-top: 8vh;
+  padding-bottom: 5vh;
+}
+.team-inner {
+  padding-bottom: 3vh;
+}
+.team-inner > h2 {
+  font-size: 40px;
 }

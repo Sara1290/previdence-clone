@@ -1,6 +1,7 @@
 import React, {useRef, useState, useEffect} from 'react';
 import eLogo from '../images/eLogo.png';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 import '../CSS/App.css';
 
 const NavBar = () => {
@@ -54,7 +55,7 @@ const NavBar = () => {
           </nav>
         <li>TESTIMONIALS</li>
         <li>TRAININGS</li>
-        <li>TEAM</li>
+        <li><Link to="/team">TEAM</Link></li>
         <li>LOGIN</li>
         <li><Button className="contact-button" variant="outline-dark">Contact</Button></li>
       </ul>
