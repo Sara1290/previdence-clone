@@ -80,3 +80,25 @@
 .fireFighter-img {
   width: 100vw;
 }
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border: 1px solid #CFCFCF;
+  border-radius: 50%;
+}
+.icon-item > p {
+  text-align: center;
+}
+.react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.icon {
+  font-size: 30px;
+}

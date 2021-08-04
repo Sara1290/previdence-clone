@@ -2,12 +2,14 @@ import React from "react";
 import NavBarTwo from "../NavBarTwo";
 import firefighters from '../../images/firefighters.jpg'
 import TestimonialsPS from "./TestimonialsPS";
+import PsCarousel from "./PsCarousel";
 
 const PublicSafety = () => {
   return (
     <div>
     <NavBarTwo />
     <div className="PS-Outer">
+      
       <div className="PS-Left">
         <h1>Public Safety</h1>
         <br></br>
@@ -36,10 +38,18 @@ const PublicSafety = () => {
         Previdence provides options to help all public safety staff members, as well as
         family members of those who serve.
         </p>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+      <PsCarousel />
+    
         <button className="liaison">
           CONTACT OUR PUBLIC SAFETY LIAISON
         </button>
       </div>
+
       <div className="PS-Right">
         <img alt="firefighters" src={firefighters} className="fireFighter-img" />
       </div>

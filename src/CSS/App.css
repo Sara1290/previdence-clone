@@ -80,7 +80,7 @@ z-index: 1;
 .navbar-spacing {
   display: flex;
   justify-content: space-between;
-  z-index: 1;
+  z-index: 1                                                                                                                                ;
 }
 
 /* VIDEO */
