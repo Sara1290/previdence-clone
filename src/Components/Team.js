@@ -5,6 +5,8 @@ import kentMarble from '../images/kentMarble.png';
 import markMarble from '../images/markMarble.png';
 import tiaMarble from '../images/tiaMarble.png';
 import saraMarble from '../images/saraMarble.png';
+import '../CSS/Pages.css';
+import '../CSS/App.css';
 
 
 const Team = () => {

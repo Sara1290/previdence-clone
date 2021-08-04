@@ -1,0 +1,82 @@
+/* TEAM */ 
+.team-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.team-background {
+  background-color: #7b0303;
+  color: #CFCFCF;
+}
+.team-img {
+  height: auto;
+  width: 100%;
+  padding: 25px;
+}
+.thumb__title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.33;
+  text-align: center;
+}
+.thumb__subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.71429;
+  font-style: italic;
+  text-align: center;
+}
+.thumb-corporate__caption {
+  margin-top: 10px;
+}
+.team-spacing {
+  padding-top: 8vh;
+  padding-bottom: 5vh;
+}
+.team-inner {
+  padding-bottom: 3vh;
+}
+.team-inner > h2 {
+  font-size: 40px;
+}
+
+/* PUBLIC SAFETY */ 
+.liaison {
+  background-color: transparent;
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  border: 1px solid #e0e0e3;
+  color: #CFCFCF;
+  border-radius: 3px;
+  padding: 12px 30px;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: "Libre Franklin", ;
+  font-weight: 600;
+  letter-spacing: .06em;
+  transition: .33s all ease;
+  white-space: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+}
+
+.PS-Outer {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.PS-Left {
+  background-color: #7b0303;
+  color: #CFCFCF;
+  padding: 20px;
+}
+.PS-List {
+  text-align: left;
+  font-weight: bolder;
+}
+.PS-Left {
+  font-size: 14px;
+}
+.fireFighter-img {
+  width: 100vw;
+}

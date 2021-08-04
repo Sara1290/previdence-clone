@@ -20,7 +20,7 @@ const NavBarTwo = () => {
       >
       <Nav.Link><Link to="/" className="link">HOME</Link></Nav.Link>
       <NavDropdown title="SPECIALTIES" id="navbarScrollingDropdown" className="link">
-      <NavDropdown.Item>Public Safety</NavDropdown.Item>
+      <NavDropdown.Item><Link to="/publicsafety" className="link">Public Safety</Link></NavDropdown.Item>
         <NavDropdown.Item>K-12</NavDropdown.Item>
         <NavDropdown.Item>Military</NavDropdown.Item>
         <NavDropdown.Item>Professional</NavDropdown.Item>

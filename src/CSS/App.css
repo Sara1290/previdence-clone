@@ -1,29 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+/* APP.CSS IS ALL THE HOME PAGE STYLES. NOTHING ELSE IS IN THIS STYLESHEET, AND THERE AREN'T HOME PAGE STYLES ELSEWHERE */ 
 
-.App {
-  text-align: center;
-  font-family: 'Libre Franklin', sans-serif;
-}
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */ */
-.home-text {
-  position: relative;
-  top: 10vh;
-}
-
+/* NAV BAR */
 ul {
   list-style-type: none;
 }
 
 .home-link {
   color: #7b0303;
+}
+
+.link { 
+  text-decoration: none;
+  color: black;
 }
 .contact-button:hover {
   background-color: #7b0303;
@@ -89,7 +77,13 @@ z-index: 1;
   padding: 15px 20px;
   display: block;
 }
+.navbar-spacing {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
 
+/* VIDEO */
 .background-video {
   position: relative;
   /* background-color: black; */
@@ -97,12 +91,7 @@ z-index: 1;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-  /* bottom: 10vh; */
-}
-
-.navbar-spacing {
-  display: flex;
-  justify-content: space-between;
+  bottom: 10vh;
 }
 
 .prev-clip {
@@ -128,9 +117,9 @@ z-index: 1;
 .prev-logo {
   height: 20vh;
   position: relative;
-
 }
 
+/* GROUPS SECTION */
 .group-wrapper {
   display: flex;
   justify-content: space-evenly;
@@ -151,13 +140,13 @@ p {
    padding: 40px;
  }
   .group-img {
+    width: 20%;
+    height: auto;
+  }
+  /* .group-img-1 {
     height: 300px;
-    width: 400px
-  }
-  .group-img-1 {
-    height: 275px;
-    width: 350px;
-  }
+    width: 250px;
+  } */
 
   .caption {
     text-align: left;
@@ -169,6 +158,7 @@ p {
     line-height: 1.8;
   }
 
+  /* SPECIALITIES SECTION */
   .specialty-img {
     height: 250px;
     width: 350px;
@@ -180,10 +170,10 @@ p {
   .specialties-inner {
     display: flex;
     justify-content: center;
+    padding-bottom: 10vh;
   }
   .specialty-parent {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 80vw;
@@ -192,6 +182,7 @@ p {
     line-height: 2;
   }
 
+  /* MULTI CAROUSEL (LOGOS) */
   .logo-carousel {
     background-color: #7b0303;
     height: 25vh;
@@ -225,6 +216,7 @@ p {
   background-color: #7b0303;
 }
 
+/* TESTIMONIAL CAROUSEL */
 .testimonial-logo {
   height: 35px;
   width: 35px;
@@ -250,6 +242,7 @@ p {
   padding-bottom: 10vh;
 }
 
+/* FOOTER */
 .footer-outer {
   background-color: #7b0303;
   color: #CFCFCF;
@@ -284,47 +277,5 @@ p {
   margin-bottom: 10vh;
 }
 
-.team-flex {
-  display: flex;
-  justify-content: space-around;
-}
-.team-background {
-  background-color: #7b0303;
-  color: #CFCFCF;
-}
-.team-img {
-  height: auto;
-  width: 100%;
-  padding: 25px;
-}
-.thumb__title {
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 1.33;
-  text-align: center;
-}
-.thumb__subtitle {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.71429;
-  font-style: italic;
-  text-align: center;
-}
-.thumb-corporate__caption {
-  margin-top: 10px;
-}
-.team-spacing {
-  padding-top: 8vh;
-  padding-bottom: 5vh;
-}
-.team-inner {
-  padding-bottom: 3vh;
-}
-.team-inner > h2 {
-  font-size: 40px;
-}
-.link { 
-  text-decoration: none;
-  color: black;
-}
+
  

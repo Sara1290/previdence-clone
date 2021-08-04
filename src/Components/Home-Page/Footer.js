@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../CSS/Bootstrap.css'
+import '../../CSS/Responsive.css'
 import '../../CSS/App.css'
 
 

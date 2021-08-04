@@ -2,12 +2,12 @@ import React from 'react'
 import NavBarTwo from '../../Components/NavBarTwo';
 import TheClip from '../../images/TheClip.mp4';
 import PrevLogo from '../../images/PrevLogo.png';
-import '../../CSS/App.css';
 import GroupSection from './GroupSection';
 import Specialties from './Specialties';
 import Testimonials from './Testimonials';
 import MultiCarousel from './MultiCarousel';
 import Footer from './Footer';
+import '../../CSS/App.css';
 
 
 const Homepage = () => {
