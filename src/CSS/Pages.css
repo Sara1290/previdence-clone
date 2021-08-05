@@ -106,3 +106,22 @@
 .icon {
   font-size: 30px;
 }
+
+/* HUMANITARIAN */
+.hum-outer {
+  background-color: #7b0303;
+  color: #CFCFCF;
+  text-align: center;
+  padding-top: 30px;
+}
+.hum-carousel-img {
+  width: 75%;
+  height: auto;
+}
+.hum-left-top {
+  padding: 20px;
+}
+.achf-img-container {
+  padding: 10px;
+  margin-bottom: 20px;
+}

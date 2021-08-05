@@ -4,3 +4,9 @@
   text-align: center;
   font-family: 'Libre Franklin', sans-serif;
 }
+
+/* ClassName for <a> tags is "a" */
+.a {
+  text-decoration: none;
+  color: #cfcfcf;
+}

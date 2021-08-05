@@ -110,5 +110,26 @@
 }
 /* DESKTOP*/
 @media screen and (min-width: 1200px) {
+  .hum-outer {
+    display: flex;
+  }
+  .hum-carousel-img {
+    width: 700px;
+    height: 700px;
+  }
+  .hum-right-bottom {
+    width: 50vw;
+  }
+  .hum-carousel {
+    position: relative;
+    top: 10vh;
+  }
+  .hum-carousel-img-container {
+    height: 700px;
+    width: 700px;
+  }
+  .hum-outer {
+    padding-bottom: 10vh;
+  }
 
 }

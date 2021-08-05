@@ -25,7 +25,7 @@ const NavBarTwo = () => {
         <NavDropdown.Item>Military</NavDropdown.Item>
         <NavDropdown.Item>Professional</NavDropdown.Item>
         <NavDropdown.Item>Faith Based</NavDropdown.Item>
-        <NavDropdown.Item>Humanitarian</NavDropdown.Item>
+        <NavDropdown.Item><Link to="/humanitarian" className="link">Humanitarian</Link></NavDropdown.Item>
         <NavDropdown.Item>Correctional Facilities</NavDropdown.Item>
         <NavDropdown.Item>Corporations</NavDropdown.Item>
       </NavDropdown>
