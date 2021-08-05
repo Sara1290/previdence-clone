@@ -221,6 +221,12 @@ p {
   height: 35px;
   width: 35px;
 }
+.client-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .client-container > p {
   line-height: 2.5;
 }
@@ -229,7 +235,7 @@ p {
 }
 .paragraph {
   width: 65vw;
-  padding-left: 35vw;
+  /* padding-left: 35vw; */
 }
 .paragraph > p {
   line-height: 2.5;

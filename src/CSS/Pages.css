@@ -60,6 +60,10 @@
   cursor: pointer;
   text-align: center;
 }
+.button-parent {
+  display: flex;
+  justify-content: center;
+}
 
 .PS-Outer {
   text-align: left;

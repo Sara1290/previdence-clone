@@ -44,10 +44,11 @@ const PublicSafety = () => {
         <br></br>
         <br></br>
       <PsCarousel />
-    
+    <div className="button-parent">
         <button className="liaison">
           CONTACT OUR PUBLIC SAFETY LIAISON
         </button>
+    </div>
       </div>
 
       <div className="PS-Right">

@@ -1,13 +1,12 @@
 /*mobile*/
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .specialty-parent {
     display: flex;
     flex-direction: column;
-
   }
 }
 /*tablet*/
-@media (max-width: 900px ) {
+@media screen and (max-width: 900px ) {
   .background-video {
     position: relative;
     /* bottom: 40vh; */
@@ -33,7 +32,6 @@
     flex-wrap: wrap;
     align-items: center;
     width: 80vw;
-
   }
   .specialty-img {
     width: 100%;
@@ -59,7 +57,7 @@
   }
 } 
 /*laptop*/
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .specialty-parent {
     display: flex;
     flex-wrap: wrap;
@@ -75,15 +73,42 @@
     color: black;
     font-size: 15px;
   }
+
 }
 
-/*desktop*/
-@media (max-width: 1700px) {
+/*XL*/
+@media screen and (min-width: 1500px) {
   .background-video {
     margin-top: 10vh;
   }
+  .PS-Outer {
+    display: flex;
+  }
+  .PS-Left {
+    width: 50vw;
+  }
+  .PS-Right {
+    width: 25vw;
+    height: auto;
+  }
+  .fireFighter-img {
+    height: auto;
+    width: 50%;
+  }
+  .PS-Left > h1{
+    font-size: 50px;
+  }
+  .PS-Left > p {
+    font-size: 18px;
+  }
+  .PS-List > li {
+    font-size: 18px;
+  }
+  .button-parent {
+    padding-top: 100px;
+  }
 }
-/*XL*/
-@media (max-width: 2000px) {
+/* DESKTOP*/
+@media screen and (min-width: 1200px) {
 
 }
