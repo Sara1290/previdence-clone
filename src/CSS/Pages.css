@@ -113,6 +113,7 @@
   color: #CFCFCF;
   text-align: center;
   padding-top: 30px;
+  padding-left: 10vw;
 }
 .hum-carousel-img {
   width: 75%;
@@ -121,7 +122,14 @@
 .hum-left-top {
   padding: 20px;
 }
+.hum-left-top > h1 {
+  font-size: 60px;
+}
 .achf-img-container {
   padding: 10px;
   margin-bottom: 20px;
+}
+.hum-para-container {
+  width: 30vw;
+  display: inline-block;
 }

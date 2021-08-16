@@ -63,12 +63,14 @@ z-index: 1;
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+  z-index: 6;
 }
 
 .menu ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  
 }
 
 .menu li a {
@@ -76,6 +78,7 @@ z-index: 1;
   color: #333333;
   padding: 15px 20px;
   display: block;
+  
 }
 .navbar-spacing {
   display: flex;
@@ -112,11 +115,12 @@ z-index: 1;
 .logo-wrapper {
   position: relative;
   top: 30vh;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .prev-logo {
   height: 20vh;
   position: relative;
+  
 }
 
 /* GROUPS SECTION */

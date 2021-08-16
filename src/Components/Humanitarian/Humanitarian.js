@@ -39,6 +39,7 @@ const Humanitarian = ({deviceType}) => {
         <h1>Humanitarian</h1>
 
 
+        <div className="hum-para-container">
 
           <p>Previdence helps your organization create a stronger, healthier, and more productive
           community. Our incomparable mental health assessments inform key leaders about the strengths and risks
@@ -46,12 +47,15 @@ const Humanitarian = ({deviceType}) => {
           Previdence team provides customized mental health and wellness training, professional clinical support,
           and crisis response.
         </p>
+        </div>
  
         <div className="achf-img-container">
           <img alt="A Child's Hope Foundation Logo" src={achf}/>
         </div>
+        <div className="hum-para-container">
         <p>Together, we're lifting orphans from surviving to thriving. Read about our partner, A Child's Hope Foundation
         <a className="a" target="_blank" rel="noreferrer" href="https://www.achildshopefoundation.org/"> here</a></p>
+        </div>
         <br></br>
         <div className="button-parent">
         <button className="liaison">
