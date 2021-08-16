@@ -133,3 +133,60 @@
   width: 30vw;
   display: inline-block;
 }
+
+/* FAITH BASED */
+.faith-inner {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/sky.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+.faith-paragraphs-container > p {
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  padding: 5vh;
+}
+.faith-paragraphs-container > p:hover {
+  color: white;
+}
+#faith {
+  padding: 5vh;
+  font-size: 40px;
+}
+.faith-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  padding: 20px;
+  width: 200px;
+}
+.faith-icon > p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.icon-circle {
+  font-size: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-circle:hover {
+  background-color: white;
+}
+.faith-button-parent {
+  padding-bottom: 20px;
+}
+.liaison:hover {
+  background-color: white;
+  color: black;
+}
