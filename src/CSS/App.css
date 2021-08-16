@@ -91,7 +91,7 @@ z-index: 1;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-  bottom: 10vh;
+  bottom: 25vh;
 }
 
 .prev-clip {
@@ -133,7 +133,7 @@ p {
   background-color: #7b0303;
   color: #CFCFCF;
   position: relative;
-  bottom: 10vh;
+  bottom: 25vh;
   padding-bottom: 10vh;
 }
  .group-parent > h1 {
@@ -162,10 +162,12 @@ p {
   .specialty-img {
     height: 250px;
     width: 350px;
+  
   }
 
   .specialties-outer {
     background-color: white;
+    margin-top: -15vh;
   }
   .specialties-inner {
     display: flex;
@@ -177,12 +179,16 @@ p {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 80vw;
+    margin-top: 50px;
+  }
+  .spec-title {
+    margin-bottom: 50vh;
   }
   .specialty {
     line-height: 2;
   }
 
-  /* MULTI CAROUSEL (LOGOS) */
+  /* MULTI CAROUSEL (LOGOS) HOME */
   .logo-carousel {
     background-color: #7b0303;
     height: 25vh;
@@ -216,7 +222,7 @@ p {
   background-color: #7b0303;
 }
 
-/* TESTIMONIAL CAROUSEL */
+/* TESTIMONIAL CAROUSEL HOME */
 .testimonial-logo {
   height: 35px;
   width: 35px;

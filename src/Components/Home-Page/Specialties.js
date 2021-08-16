@@ -13,7 +13,7 @@ import '../../CSS/App.css';
 const Specialties = () => {
   return (
     <div className="text-center specialties-outer ">
-      <h1>Specialties</h1>
+      <h1 id="spec-title">Specialties</h1>
       {/* <br></br>
       <br></br>
       <br></br> */}
