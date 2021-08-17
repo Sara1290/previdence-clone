@@ -152,9 +152,10 @@
 .faith-paragraphs-container > p:hover {
   color: white;
 }
-#faith {
+.faith {
   padding: 5vh;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 400;
 }
 .faith-icon {
   display: flex;
@@ -172,7 +173,7 @@
 
 .icon-circle {
   font-size: 30px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -182,6 +183,7 @@
 }
 .icon-circle:hover {
   background-color: white;
+  border: 2px solid white;
 }
 .faith-button-parent {
   padding-bottom: 20px;

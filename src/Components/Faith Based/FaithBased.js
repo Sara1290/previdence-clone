@@ -12,7 +12,7 @@ const FaithBased = () => {
       {/* <img alt="clouds" src={sky} /> */}
       <NavBarTwo />
       <div className="faith-inner">
-        <h1 id="faith">Faith Based</h1>
+        <h1 className="faith">Faith Based</h1>
         <div className="faith-paragraphs-container">
           <p>
             Previdence helps your organization create a stronger, healthier, and
