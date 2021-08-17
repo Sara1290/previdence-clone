@@ -73,16 +73,19 @@
   background-color: #7b0303;
   color: #CFCFCF;
   padding: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.PS-Left > h1 {
+  padding-top: 40px;
 }
 .PS-List {
   text-align: left;
   font-weight: bolder;
 }
-.PS-Left {
-  font-size: 14px;
-}
 .fireFighter-img {
   width: 100vw;
+  margin-top: 10px;
 }
 .icon-item {
   display: flex;
@@ -191,4 +194,44 @@
 .liaison:hover {
   background-color: white;
   color: black;
+}
+
+/*PROFESSIONAL*/
+.pro-inner {
+  padding: 20px;
+  text-align: left;
+  background-image: url('../images/waterLily.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.pro-container > h1 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.pro-para > p {
+  padding-bottom: 100px;
+  font-weight: 600;
+}
+.liaison-dark {
+  background-color: transparent;
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  border: 1px solid rgb(22, 22, 22);
+  color: rgb(22, 22, 22);
+  border-radius: 3px;
+  padding: 15px 35px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Libre Franklin", ;
+  font-weight: 800;
+  letter-spacing: .06em;
+  transition: .33s all ease;
+  white-space: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
 }

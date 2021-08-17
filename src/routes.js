@@ -5,6 +5,7 @@ import Team from './Components/Team';
 import PublicSafety from './Components/Public Safety/PublicSafety';
 import Humanitarian from './Components/Humanitarian/Humanitarian';
 import FaithBased from './Components/Faith Based/FaithBased';
+import Professional from './Components/Professional/Professional';
 
 export default (
   <Switch>
@@ -13,5 +14,6 @@ export default (
     <Route path="/publicsafety" component={PublicSafety} />
     <Route path="/humanitarian" component={Humanitarian} />
     <Route path="/faithbased" component={FaithBased} />
+    <Route path="/professional" component={Professional} />
   </Switch>
 )

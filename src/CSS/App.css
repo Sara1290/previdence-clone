@@ -21,7 +21,7 @@ ul {
 .nav-img {
   height: 48px;
   width: 48px;
-  margin: 40px 40px 40px 80px;
+  margin: 40px 40px 40px 0px;
 }
 
 .navbar-wrapper {
@@ -83,7 +83,8 @@ z-index: 1;
 .navbar-spacing {
   display: flex;
   justify-content: space-between;
-  z-index: 1                                                                                                                                ;
+  z-index: 1;   
+  height: 10vh;                                                                                                                              ;
 }
 
 /* VIDEO */
@@ -94,7 +95,7 @@ z-index: 1;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-  bottom: 25vh;
+  bottom: 22vh;
 }
 
 .prev-clip {
