@@ -1,12 +1,12 @@
 import React from 'react';
-import NavBarTwo from '../Components/NavBarTwo'
-import johnMarble from '../images/johnMarble.png';
-import kentMarble from '../images/kentMarble.png';
-import markMarble from '../images/markMarble.png';
-import tiaMarble from '../images/tiaMarble.png';
-import saraMarble from '../images/saraMarble.png';
-import '../CSS/Pages.css';
-import '../CSS/App.css';
+import NavBarTwo from '../NavBarTwo'
+import johnMarble from '../../images/johnMarble.png';
+import kentMarble from '../../images/kentMarble.png';
+import markMarble from '../../images/markMarble.png';
+import tiaMarble from '../../images/tiaMarble.png';
+import saraMarble from '../../images/saraMarble.png';
+import '../../CSS/Pages.css';
+import '../../CSS/App.css';
 
 
 const Team = () => {

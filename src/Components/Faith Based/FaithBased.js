@@ -31,56 +31,56 @@ const FaithBased = () => {
         </div>
           <div className="icon-container">
 
-          <div className="faith-icon">
+          <div className="icon">
               <div className="icon-circle">
               <FaChartBar />
               </div>
               <p>Instant Individual Analysis</p>
             </div>
 
-            <div className="faith-icon">
+            <div className="icon">
               <div className="icon-circle">
               <FaEdit />
               </div>
               <p>Cutting-Edge Mental Wellness Asessments</p>
             </div>
 
-            <div className="faith-icon">
+            <div className="icon">
               <div className="icon-circle">
               <FaTrophy />
               </div>
               <p>Award Winning Services</p>
             </div>
 
-            <div className="faith-icon">
+            <div className="icon">
               <div className="icon-circle">
               <FaHourglassHalf />
               </div>
               <p>Rapid Pairing with Mental Health Professionals</p>
             </div>
 
-            <div className="faith-icon">
+            <div className="icon">
               <div className="icon-circle">
               <FaDesktop />
               </div>
               <p>Continuous Outcome Based Monitoring</p>
             </div>
 
-            <div className="faith-icon">
+            <div className="icon">
               <div className="icon-circle">
               <FaUserLock />
               </div>
               <p>Data is Encrypted and Stored</p>
             </div>
 
-            <div className="faith-icon">
+            <div className="icon">
               <div className="icon-circle">
               <FaUserFriends />
               </div>
               <p>Customized Organizational Training</p>
             </div>
 
-            <div className="faith-icon">
+            <div className="icon">
               <div className="icon-circle">
               <FaUsers />
               </div>

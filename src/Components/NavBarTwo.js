@@ -26,7 +26,7 @@ const NavBarTwo = () => {
         <NavDropdown.Item><Link to="/professional" className="link">Professional</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to="/faithbased" className="link">Faith Based</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to="/humanitarian" className="link">Humanitarian</Link></NavDropdown.Item>
-        <NavDropdown.Item>Correctional Facilities</NavDropdown.Item>
+        <NavDropdown.Item><Link to="/correctional" className="link">Correctional Facilities</Link></NavDropdown.Item>
         <NavDropdown.Item>Corporations</NavDropdown.Item>
       </NavDropdown>
       <Nav.Link><Link to="/testimonials" className="link">TESTIMONIALS</Link></Nav.Link>

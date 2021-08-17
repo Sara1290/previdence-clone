@@ -160,7 +160,7 @@
   font-size: 50px;
   font-weight: 400;
 }
-.faith-icon {
+.icon {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -169,7 +169,7 @@
   padding: 20px;
   width: 200px;
 }
-.faith-icon > p {
+.icon > p {
   font-size: 20px;
   text-align: center;
 }
@@ -234,4 +234,59 @@
   text-transform: uppercase;
   cursor: pointer;
   text-align: center;
+}
+/*CORRECTIONAL FACILITIES*/
+.corr-inner {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/leaf.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover; 
+  height: 100%;
+  color: white;
+}
+.corr-inner > h1 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: italic;
+  
+}
+.corr-para > p {
+  font-size: 20  px;
+  padding: 20px;
+  font-weight: 500;
+}
+.button-parent-corr {
+  padding-bottom: 50px;
+}
+.cor-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  padding: 20px;
+  width: 300px;
+}
+
+.cor-icon > p {
+  font-size: 20px;
+  text-align: center;
+}
+.icon-circle-cor {
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-circle-cor:hover {
+  background-color: black;
+  color: white;
 }
