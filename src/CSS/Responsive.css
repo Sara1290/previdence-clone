@@ -170,9 +170,15 @@
   .cor-icon {
     margin-top: 50px;
   }
-  /* .corr-inner {
-    height: 100vh;
-  } */
+  /* K 12 */
+  .k12 {
+    width: 60vw;
+    margin-left: 20vw;
+  }
+  .k12-inner > h1 {
+    font-size: 60px;
+  }
+
 }
 /*XL*/
 @media screen and (min-width: 1500px) {
@@ -226,7 +232,12 @@
     width: 40vw;
   }
   /* CORRECTIONAL */
-  /* .corr-inner {
-    height: 100vh;
-  } */
+  /* K 12 */
+  .k12 {
+    width: 60vw;
+    margin-left: 20vw;
+  }
+  .k12-inner > h1 {
+    font-size: 60px;
+  }
 }

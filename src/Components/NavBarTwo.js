@@ -21,13 +21,13 @@ const NavBarTwo = () => {
       <Nav.Link><Link to="/" className="link">HOME</Link></Nav.Link>
       <NavDropdown title="SPECIALTIES" id="navbarScrollingDropdown" className="link">
         <NavDropdown.Item><Link to="/publicsafety" className="link">Public Safety</Link></NavDropdown.Item>
-        <NavDropdown.Item>K-12</NavDropdown.Item>
-        <NavDropdown.Item>Military</NavDropdown.Item>
+        <NavDropdown.Item><Link to="/k12" className="link">K12</Link></NavDropdown.Item>
+        <NavDropdown.Item><Link to="/military" className="link">Military</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to="/professional" className="link">Professional</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to="/faithbased" className="link">Faith Based</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to="/humanitarian" className="link">Humanitarian</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to="/correctional" className="link">Correctional Facilities</Link></NavDropdown.Item>
-        <NavDropdown.Item>Corporations</NavDropdown.Item>
+        <NavDropdown.Item><Link to="/corporations" className="link">Corporations</Link></NavDropdown.Item>
       </NavDropdown>
       <Nav.Link><Link to="/testimonials" className="link">TESTIMONIALS</Link></Nav.Link>
       <Nav.Link><Link to="/trainings" className="link">TRAININGS</Link></Nav.Link>
