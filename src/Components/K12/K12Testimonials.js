@@ -32,7 +32,7 @@ const K12Testimonials = ({ deviceType }) => {
         // ssr={true} // means to render carousel on server-side.
         infinite={true}
         deviceType={deviceType}
-        // autoPlay={deviceType !== "mobile" ? true : false}
+        autoPlay={deviceType !== "mobile" ? true : false}
         autoPlaySpeed={10000}
         keyBoardControl={true}
         customTransition="transform 1000ms ease-in-out"
