@@ -59,7 +59,7 @@ const Humanitarian = ({deviceType}) => {
         <br></br>
         <div className="button-parent">
         <button className="liaison">
-          CONTACT OUR PUBLIC SAFETY LIAISON
+          CONTACT OUR HUMANITARIAN LIAISON
         </button>
     </div>
       </div>

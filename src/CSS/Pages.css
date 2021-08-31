@@ -268,7 +268,9 @@
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 300px;
 }
 
@@ -332,4 +334,29 @@
 
 .k12-paragraph > p  {
   text-align: left;
+}
+/* CORPORATIONS */
+
+.corp-outer {
+  background-color: #7b0303;
+  color: #CFCFCF;
+}
+.corp-img {
+  width: 80%;
+  height: auto;
+}
+.corp-outer > h1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.corp-inner > p {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.button-parent-corp {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }

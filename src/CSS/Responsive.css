@@ -19,7 +19,6 @@
   }
   .background-video {
     position: relative;
-    /* bottom: 40vh; */
   }
   .prev-logo {
     position: relative;
@@ -38,7 +37,6 @@
   }
   .specialty-parent {
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     align-items: center;
     width: 80vw;
@@ -72,7 +70,6 @@
     align-items: flex-start;
     flex-wrap: wrap;
     width: 100%;
-    /* padding-left: 25%; */
   }
   .faith-paragraphs-container {
     width: 85vw;
@@ -82,9 +79,14 @@
   .corr-inner {
     height: 100vh;
   }
+  /* CORPORATIONS */
+  .corp-inner > img {
+    width: 400px;
+    height: auto;
+  }
 } 
 /*laptop*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .specialty-parent {
     display: flex;
     flex-wrap: wrap;
@@ -108,7 +110,6 @@
     flex-wrap: wrap;
     width: 85%;
     padding-left: 20%;
-    
   }
   .faith-paragraphs-container {
     width: 85vw;
@@ -123,6 +124,15 @@
     height: 100vh;
   }
 }
+  /* CORPORATIONS */
+  .corp-inner > img {
+    width: 400px;
+    height: auto;
+  }
+  .corp-p {
+    padding: 200px;
+    font-weight: bolder;
+  }
 
 /* DESKTOP*/
 @media screen and (min-width: 1200px) {
