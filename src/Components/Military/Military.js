@@ -28,6 +28,21 @@ const Military = () => {
             <h2>300,000</h2>
             <h4>Men and Women Served in hte US Armed Forces</h4>
             </div>
+            <div className="counter">
+              <FaUsers className="counter-icon"/>
+            <h2>6,000</h2>
+            <h4>Military Therapist Users</h4>
+            </div>
+            <div className="counter">
+              <FaUsers className="counter-icon"/>
+            <h2>56%</h2>
+            <h4>Reduced Soldier Suicide with the Wounded Warrior Transfer Unit</h4>
+            </div>
+            <div className="counter">
+              <FaUsers className="counter-icon"/>
+            <h2>332</h2>
+            <h4>Military Bases</h4>
+            </div>
           </div>
       </div>
     </div>

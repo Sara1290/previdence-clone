@@ -398,8 +398,13 @@
 .mili-paragraph {
   text-align: left;
   width: 40vw;
+  font-size: 18px;
 }
-
+.mili-counters {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80vw;
+}
 .counter {
   display: flex;
   flex-direction: column;
@@ -410,4 +415,5 @@
 }
 .counter-icon {
   font-size: 30px;
+  color: #7b0303
 }
