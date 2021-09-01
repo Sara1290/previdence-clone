@@ -336,7 +336,6 @@
   text-align: left;
 }
 /* CORPORATIONS */
-
 .corp-outer {
   background-color: #7b0303;
   color: #CFCFCF;
@@ -381,5 +380,34 @@
   -o-transition: 1s ease;
   transition: 1s ease;
 }
+/* MILITARY */
 
+.mili-inner {
+  background-image: url('../images/fadedflag.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mili-img {
+  width: 406px;
+  height: 406px;
+  border-radius: 50%;
+}
 
+.mili-paragraph {
+  text-align: left;
+  width: 40vw;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px
+}
+.counter-icon {
+  font-size: 30px;
+}

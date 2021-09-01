@@ -10,6 +10,7 @@ import Correctional from './Components/Correctional/Correctional';
 import Corporations from './Components/Corperations/Corporations';
 import K12 from './Components/K12/K12';
 import Military from './Components/Military/Military';
+import Trainings from './Components/Trainings/Trainings';
 
 export default (
   <Switch>
@@ -23,5 +24,6 @@ export default (
     <Route path="/corporations" component={Corporations} />
     <Route path="/k12" component={K12} />
     <Route path="/military" component={Military} />
+    <Route path="/trainings" component={Trainings} />
   </Switch>
 )
