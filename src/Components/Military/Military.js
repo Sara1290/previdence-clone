@@ -7,21 +7,26 @@ const Military = () => {
 
   return (
     <div>
-      <NavBarTwo />
+      <NavBarTwo />       
       <div className="mili-inner">
-        <h1 className="h1">
-          MILITARY
-        </h1>
-        <img alt="military uniform" className="mili-img" src={uniform} />
-        <div className="mili-paragraph">
-          <p>
-          Previdence helps your organization create a stronger, healthier,
-          and more productive, battle ready workforce. Our incomparable mental health assessments inform key leaders
-          about the strengths and risks of their organization, while keeping the individuals’ information
-          confidential. Additionally, the Previdence team provides customized mental health and wellness training,
-          professional clinical support, and crisis response.
-          </p>
-        </div>
+          <h1 className="h1">
+            MILITARY
+          </h1>
+          <img alt="military uniform" className="mili-img" src={uniform} />
+          <div className="mili-paragraph">
+            <p>
+            Previdence helps your organization create a stronger, healthier,
+            and more productive, battle ready workforce. Our incomparable mental health assessments inform key leaders
+            about the strengths and risks of their organization, while keeping the individuals’ information
+            confidential. Additionally, the Previdence team provides customized mental health and wellness training,
+            professional clinical support, and crisis response.
+            </p>
+          </div>
+          <div className="button-parent-mili">
+              <button className="liaison-mili">
+                CONTACT OUR PUBLIC SAFETY LIAISON
+              </button>
+          </div>
           <div className="mili-counters">
             <div className="counter">
               <FaUsers className="counter-icon"/><br></br>

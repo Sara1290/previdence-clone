@@ -384,6 +384,7 @@
 
 .mili-inner {
   background-image: url('../images/fadedflag.jpg');
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -401,9 +402,31 @@
 }
 .mili-paragraph {
   text-align: left;
-  width: 40vw;
+  /* width: 40vw; */
   font-size: 18px;
-  
+}
+.button-parent-mili {
+  padding: 40px 0px 100px 0px;
+}
+.liaison-mili {
+  background-color: transparent;
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  border: 1px solid rgb(31, 31, 31);
+  color: rgb(31, 31, 31);
+  border-radius: 3px;
+  padding: 12px 30px;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: "Libre Franklin", ;
+  font-weight: 600;
+  letter-spacing: .06em;
+  transition: .33s all ease;
+  white-space: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
 }
 .mili-counters {
   display: flex;
@@ -413,7 +436,7 @@
 .counter {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   width: 200px;
