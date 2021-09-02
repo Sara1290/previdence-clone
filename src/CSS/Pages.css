@@ -389,16 +389,21 @@
   justify-content: center;
   align-items: center;
 }
+.mili-inner > h1 {
+  padding: 40px 0px 40px 0px;
+  font-size: 50px;
+}
 .mili-img {
   width: 406px;
   height: 406px;
   border-radius: 50%;
+  margin-bottom: 50px;
 }
-
 .mili-paragraph {
   text-align: left;
   width: 40vw;
   font-size: 18px;
+  
 }
 .mili-counters {
   display: flex;
@@ -408,12 +413,16 @@
 .counter {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
-  width: 200px
+  width: 200px;
+  padding-bottom: 10px;
+}
+.counter > h2 {
+  font-size: 35px;
 }
 .counter-icon {
-  font-size: 30px;
+  font-size: 40px;
   color: #7b0303
 }

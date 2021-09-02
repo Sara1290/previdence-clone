@@ -1,6 +1,6 @@
 import React from 'react';
 import uniform from '../../images/uniform.jpg'
-import {FaUsers} from 'react-icons/fa';
+import {FaUsers, FaUserFriends, FaHandHoldingHeart, FaWarehouse} from 'react-icons/fa';
 import NavBarTwo from '../NavBarTwo';
 
 const Military = () => {
@@ -9,7 +9,7 @@ const Military = () => {
     <div>
       <NavBarTwo />
       <div className="mili-inner">
-        <h1>
+        <h1 className="h1">
           MILITARY
         </h1>
         <img alt="military uniform" className="mili-img" src={uniform} />
@@ -24,22 +24,22 @@ const Military = () => {
         </div>
           <div className="mili-counters">
             <div className="counter">
-              <FaUsers className="counter-icon"/>
+              <FaUsers className="counter-icon"/><br></br>
             <h2>300,000</h2>
             <h4>Men and Women Served in hte US Armed Forces</h4>
             </div>
             <div className="counter">
-              <FaUsers className="counter-icon"/>
+              <FaUserFriends className="counter-icon"/><br></br>
             <h2>6,000</h2>
             <h4>Military Therapist Users</h4>
             </div>
             <div className="counter">
-              <FaUsers className="counter-icon"/>
+              <FaHandHoldingHeart className="counter-icon"/><br></br>
             <h2>56%</h2>
             <h4>Reduced Soldier Suicide with the Wounded Warrior Transfer Unit</h4>
             </div>
             <div className="counter">
-              <FaUsers className="counter-icon"/>
+              <FaWarehouse className="counter-icon"/><br></br>
             <h2>332</h2>
             <h4>Military Bases</h4>
             </div>
