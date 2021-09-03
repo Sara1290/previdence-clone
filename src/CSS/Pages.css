@@ -62,7 +62,7 @@
 }
 .button-parent {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .PS-Outer {
@@ -72,12 +72,18 @@
 .PS-Left {
   background-color: #7b0303;
   color: #CFCFCF;
-  padding: 20px;
+  /* padding: 20px;
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 14px; */
 }
-.PS-Left > h1 {
-  padding-top: 40px;
+.Left-inner > h1 {
+  font-size: 50px;
+}
+.Left-inner {
+  width: 50vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vh;
 }
 .PS-List {
   text-align: left;
@@ -95,7 +101,7 @@
   text-align: center;
   width: 250px;
   height: 250px;
-  border: 1px solid #CFCFCF;
+  border: 2px solid #CFCFCF;
   border-radius: 50%;
 }
 .icon-item > p {
@@ -107,6 +113,10 @@
   padding-bottom: 40px;
 }
 .icon {
+  font-size: 30px;
+}
+.icon-light {
+  color: #CFCFCF;
   font-size: 30px;
 }
 

@@ -10,7 +10,7 @@ const NavBarTwo = () => {
     <Navbar  expand="lg" className="navbar-spacing">
       <Container>
 
-  <Navbar.Brand ><img alt="" src={eLogo} className="nav-img" /></Navbar.Brand>
+  <Navbar.Brand ><Link to="/" className="link"><img alt="" src={eLogo} className="nav-img" /></Link></Navbar.Brand>
   <Navbar.Toggle aria-controls="navbarScroll" />
   <Navbar.Collapse id="navbarScroll" className="justify-content-end">
     <Nav
@@ -29,10 +29,10 @@ const NavBarTwo = () => {
         <NavDropdown.Item><Link to="/correctional" className="link">Correctional Facilities</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to="/corporations" className="link">Corporations</Link></NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link><Link to="/testimonials" className="link">TESTIMONIALS</Link></Nav.Link>
+     <a href="./#testimonials" className="link a-link" >TESTIMONIALS</a>
       <Nav.Link><Link to="/trainings" className="link">TRAININGS</Link></Nav.Link>
       <Nav.Link ><Link to="/team" className="link">TEAM</Link></Nav.Link>
-      <Nav.Link><Link to="/loginApollo" className="link">LOGIN</Link></Nav.Link>
+      <a href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" className="link a-link" rel="noreferrer">LOGIN</a>
       <li><Button className="contact-button" variant="outline-dark">Contact</Button></li>
 
     </Nav>

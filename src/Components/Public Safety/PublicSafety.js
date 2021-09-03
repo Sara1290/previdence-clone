@@ -1,6 +1,7 @@
 import React from "react";
 import NavBarTwo from "../NavBarTwo";
 import firefighters from '../../images/firefighters.jpg'
+
 import TestimonialsPS from "./TestimonialsPS";
 import PsCarousel from "./PsCarousel";
 
@@ -11,6 +12,7 @@ const PublicSafety = () => {
     <div className="PS-Outer">
       
       <div className="PS-Left">
+        <div className="Left-inner">
         <h1>Public Safety</h1>
         <br></br>
         <p>
@@ -50,6 +52,7 @@ const PublicSafety = () => {
         </button>
     </div>
       </div>
+        </div>
 
       <div className="PS-Right">
         <img alt="firefighters" src={firefighters} className="fireFighter-img" />

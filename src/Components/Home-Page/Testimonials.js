@@ -25,6 +25,7 @@ const Testimonials = ({deviceType}) => {
 
   return (
     <div className="testimonial-outer">
+      <section id="testimonials"></section>
       <h1>Client Testimonials</h1>
     <Carousel
       swipeable={false}
