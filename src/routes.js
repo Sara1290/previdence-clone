@@ -7,7 +7,7 @@ import Humanitarian from './Components/Humanitarian/Humanitarian';
 import FaithBased from './Components/Faith Based/FaithBased';
 import Professional from './Components/Professional/Professional';
 import Correctional from './Components/Correctional/Correctional';
-import Corporations from './Components/Corperations/Corporations';
+import Corporations from './Components/Corporations/Corporations';
 import K12 from './Components/K12/K12';
 import Military from './Components/Military/Military';
 import Trainings from './Components/Trainings/Trainings';

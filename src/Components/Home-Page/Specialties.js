@@ -73,9 +73,9 @@ const Specialties = () => {
 
           <div className="specialty-item">
             <div className="specialty-img-container">
-            <Link to="/corporate"><img alt="wrist watch" className="specialty-img" src={corporate} /></Link>
+            <Link to="/corporations"><img alt="wrist watch" className="specialty-img" src={corporate} /></Link>
             </div>
-            <Link to="/corporate" className="link"><h3 className="specialty">Corporate</h3></Link>
+            <Link to="/corporations" className="link"><h3 className="specialty">Corporate</h3></Link>
           </div>
         </div>
       </div>
