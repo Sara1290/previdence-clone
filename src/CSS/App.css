@@ -175,10 +175,18 @@ p {
   }
   .specialty-item {
     width: 275px;
+    
+  }
+  .specialty-img-container {
+    overflow: hidden;
   }
   .specialty-img {
     width: 100%;
     height: 215px;
+    transition: all .8s ease-in-out;
+  }
+  .specialty-img:hover {
+    transform: scale(1.5); 
   }
   .spec-title {
     margin-bottom: 50vh;
