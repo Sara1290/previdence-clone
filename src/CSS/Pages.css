@@ -458,3 +458,11 @@
   font-size: 40px;
   color: #7b0303
 }
+
+/* CONTACT */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
