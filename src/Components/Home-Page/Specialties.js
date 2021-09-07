@@ -19,7 +19,7 @@ const Specialties = () => {
       <br></br> */}
       <div className="specialties-inner">
         <div className="specialty-parent">
-          <div className="">
+          <div className="specialty-item">
             <img
               alt="public safety"
               className="specialty-img"
@@ -28,32 +28,32 @@ const Specialties = () => {
             <h3 className="specialty">Public Safety</h3>
           </div>
 
-          <div className="">
+          <div className="specialty-item">
             <img alt="K-12" className="specialty-img" src={k12} />
             <h3 className="specialty">K-12</h3>
           </div>
 
-          <div className="">
+          <div className="specialty-item">
             <img alt="flag" className="specialty-img" src={flag} />
             <h3 className="specialty">Military</h3>
           </div>
 
-          <div className="">
+          <div className="specialty-item">
             <img alt="lady" className="specialty-img" src={profesh} />
             <h3 className="specialty">Professional</h3>
           </div>
 
-          <div className="">
+          <div className="specialty-item">
             <img alt="clouds" className="specialty-img" src={faithBased} />
             <h3 className="specialty">Faith Based</h3>
           </div>
 
-          <div className="">
+          <div className="specialty-item">
             <img alt="hands" className="specialty-img" src={humanitarian} />
             <h3 className="specialty">Humanitarian</h3>
           </div>
 
-          <div className="">
+          <div className="specialty-item">
             <img
               alt="barbed wire with a leaf"
               className="specialty-img"
@@ -62,7 +62,7 @@ const Specialties = () => {
             <h3 className="specialty">Correctional Facilities</h3>
           </div>
 
-          <div className="">
+          <div className="specialty-item">
             <img alt="wrist watch" className="specialty-img" src={corporate} />
             <h3 className="specialty">Corporations</h3>
           </div>
