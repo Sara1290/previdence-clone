@@ -125,15 +125,6 @@ z-index: 1;
 }
 
 /* GROUPS SECTION */
-.group-wrapper {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-p {
-  text-align: left;
-}
-
 .group-parent {
   background-color: #7b0303;
   color: #CFCFCF;
@@ -141,27 +132,29 @@ p {
   bottom: 25vh;
   padding-bottom: 10vh;
 }
- .group-parent > h1 {
-   padding: 40px;
- }
-  .group-img {
-    width: 20%;
-    height: auto;
-  }
-  /* .group-img-1 {
-    height: 300px;
-    width: 250px;
-  } */
-
-  .caption {
-    text-align: left;
-    line-height: 2;
-    font-weight: 400;
-  }
-
-  p {
-    line-height: 1.8;
-  }
+.group-parent > h1 {
+  padding: 40px;
+}
+.group-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.group-item {
+  width: 400px;
+}
+.group-img {
+  width: 100%;
+  height: auto;
+}
+.caption {
+  text-align: left;
+  line-height: 2;
+  font-weight: 400;
+}
+p {
+  text-align: left;
+  line-height: 1.8;
+}
 
   /* SPECIALITIES SECTION */
   .specialty-img {

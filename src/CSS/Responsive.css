@@ -292,9 +292,11 @@
 
 /*XL*/
 @media screen and (min-width: 1500px) {
+  /* HOME */
   .background-video {
     margin-top: 10vh;
   }
+  /* PUBLIC SAFETY */
   .PS-Outer {
     display: flex;
   }
