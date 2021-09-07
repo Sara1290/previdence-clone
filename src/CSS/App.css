@@ -13,6 +13,9 @@ ul {
   text-decoration: none;
   color: black;
 }
+.link:hover {
+  color: #7b0303;
+}
 .contact-button:hover {
   background-color: #7b0303;
   border: 1px solid white;

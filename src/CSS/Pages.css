@@ -160,6 +160,15 @@
   font-size: 50px;
   font-weight: 400;
 }
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85vw;
+  flex-wrap: wrap;
+  position: relative;
+  right: 5vw;
+}
 .icon {
   display: flex;
   flex-direction: column;

@@ -10,7 +10,7 @@ const NavBarTwo = () => {
     <Navbar  expand="lg" className="navbar-spacing">
       <Container>
 
-  <Navbar.Brand ><img alt="" src={eLogo} className="nav-img" /></Navbar.Brand>
+  <Navbar.Brand ><Link to="/" className="link"><img alt="" src={eLogo} className="nav-img" /></Link></Navbar.Brand>
   <Navbar.Toggle aria-controls="navbarScroll" />
   <Navbar.Collapse id="navbarScroll" className="justify-content-end">
     <Nav
