@@ -33,7 +33,7 @@ const NavBarTwo = () => {
       <Nav.Link><Link to="/trainings" className="link">TRAININGS</Link></Nav.Link>
       <Nav.Link ><Link to="/team" className="link">TEAM</Link></Nav.Link>
       <Nav.Link><Link to="/loginApollo" className="link">LOGIN</Link></Nav.Link>
-      <li><Button className="contact-button" variant="outline-dark"><Link to="/contact" className="link">Contact</Link></Button></li>
+      <li><Button className="contact-button" variant=""><Link to="/contact" className="link">Contact</Link></Button></li>
 
     </Nav>
 

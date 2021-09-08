@@ -7,6 +7,15 @@ import "../../CSS/App.css";
 import "../../CSS/index.css";
 
 const FaithBased = () => {
+
+  const Mailto = ({ email, subject = '', body = '', children }) => {
+    let params = subject || body ? '?' : '';
+    if (subject) params += `subject=${encodeURIComponent(subject)}`;
+    if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+  
+    return <a className="a" href={`mailto:${email}${params}`}>{children}</a>;
+  };
+
   return (
     <div className="faith-outer">
       {/* <img alt="clouds" src={sky} /> */}
@@ -88,9 +97,11 @@ const FaithBased = () => {
             </div>
 
           </div>
-          <div className="faith-button-parent">
-            <button className="liaison">
+          <div className="faith-button-parent a">
+            <button className="liaison a">
+          <Mailto className="a" email="reedsara90@gmail.com" subject="Faith Based Liaison" body="Hello">
               CONTACT OUR PUBLIC SAFETY LIAISON
+          </Mailto>
             </button>
           </div>
       </div>

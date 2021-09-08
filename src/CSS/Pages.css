@@ -163,7 +163,7 @@
 .icon-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 85vw;
   flex-wrap: wrap;
   position: relative;
@@ -243,6 +243,9 @@
   text-transform: uppercase;
   cursor: pointer;
   text-align: center;
+}
+.liaison-dark:hover {
+  background-color: rgba(245, 245, 245, 0.582);
 }
 /*CORRECTIONAL FACILITIES*/
 .corr-inner {
@@ -459,7 +462,7 @@
   color: #7b0303
 }
 
-/* CONTACT */
+/* --------------CONTACT--------------- */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -506,7 +509,7 @@
 }
 
 .contact-input {
-  width: 600px;
+  width: 350px;
   min-height: 50px;
   border-radius: 5px;
   border: none;
