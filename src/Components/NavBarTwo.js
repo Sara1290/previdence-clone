@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-
+import { HashLink as Links } from 'react-router-hash-link';
 import { NavDropdown, Navbar, Nav, Button, Container } from 'react-bootstrap';
 import eLogo from '../images/eLogo.png'
 
@@ -29,10 +29,10 @@ const NavBarTwo = () => {
         <NavDropdown.Item><Link to="/correctional" className="link">Correctional Facilities</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to="/corporations" className="link">Corporations</Link></NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link><Link to="/testimonials" className="link">TESTIMONIALS</Link></Nav.Link>
+      <Links smooth to="/#testimonials" className="link t-link">TESTIMONIALS</Links>
       <Nav.Link><Link to="/trainings" className="link">TRAININGS</Link></Nav.Link>
       <Nav.Link ><Link to="/team" className="link">TEAM</Link></Nav.Link>
-      <Nav.Link><Link to="/loginApollo" className="link">LOGIN</Link></Nav.Link>
+      <a href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer" className="a link t-link">LOGIN</a>
       <li><Button className="contact-button" variant=""><Link to="/contact" className="link">Contact</Link></Button></li>
 
     </Nav>

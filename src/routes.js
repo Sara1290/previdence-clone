@@ -12,6 +12,7 @@ import K12 from './Components/K12/K12';
 import Military from './Components/Military/Military';
 import Trainings from './Components/Trainings/Trainings';
 import Contact from './Components/Contact/Contact';
+import Testimonials from './Components/Home-Page/Testimonials';
 
 export default (
   <Switch>
@@ -27,5 +28,6 @@ export default (
     <Route path="/military" component={Military} />
     <Route path="/trainings" component={Trainings} />
     <Route path="/contact" component={Contact} />
+    <Route path="/testimonials" component={Testimonials} />
   </Switch>
 )

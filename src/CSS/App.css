@@ -16,6 +16,10 @@ ul {
 .link:hover {
   color: #7b0303;
 }
+.t-link {
+  position: relative;
+  top: 7px;
+}
 .contact-button {
   border: 1px solid black;
 }
