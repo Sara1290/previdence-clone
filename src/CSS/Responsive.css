@@ -72,6 +72,19 @@
     right: 12px;
   }
 
+  /* -- HUMANITARIAN -- */
+  .hum-left-top {
+    position: relative;
+    right: 50px;
+  }
+  .hum-para-container {
+    position: relative;
+    left: 20px;
+  }
+  .button-parent {
+    position: relative;
+    left: 20px;
+  }
 }
 /*tablet*/
 @media screen and (max-width: 900px ) {

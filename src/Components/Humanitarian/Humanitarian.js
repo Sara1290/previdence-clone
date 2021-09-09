@@ -63,7 +63,7 @@ const Humanitarian = ({deviceType}) => {
         </div>
         <div className="hum-para-container">
         <p>Together, we're lifting orphans from surviving to thriving. Read about our partner, A Child's Hope Foundation
-        <a className="a" target="_blank" rel="noreferrer" href="https://www.achildshopefoundation.org/"> here</a></p>
+        <a className="a2" target="_blank" rel="noreferrer" href="https://www.achildshopefoundation.org/"> here</a></p>
         </div>
         <br></br>
         <div className="button-parent">
