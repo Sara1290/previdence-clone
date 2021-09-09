@@ -2,7 +2,7 @@ import React from 'react';
 import emailjs  from 'emailjs-com';
 import NavBarTwo from '../NavBarTwo';
 import { FaUser, FaEnvelope, FaPenFancy, FaPenAlt } from 'react-icons/fa'
-import ReCaptchaComponent from './ReCaptchaComponent'
+// import ReCaptchaComponent from './ReCaptchaComponent'
 
 
 const Contact = () => {
@@ -65,7 +65,7 @@ const Contact = () => {
 
           <input className="form-btn" type="submit" value="Send Message"></input>
         </form>
-    <ReCaptchaComponent />
+    {/* <ReCaptchaComponent /> */}
       </div>
       </div>
     </div>
