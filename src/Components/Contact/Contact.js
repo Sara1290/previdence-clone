@@ -1,7 +1,7 @@
 import React from 'react';
 import emailjs  from 'emailjs-com';
 import NavBarTwo from '../NavBarTwo';
-import { FaUser, FaEnvelope, FaPenFancy, FaPenAlt } from 'react-icons/fa'
+import { FaUser, FaEnvelope, FaPenFancy, FaPenAlt, FaPhoneAlt } from 'react-icons/fa'
 // import ReCaptchaComponent from './ReCaptchaComponent'
 
 
@@ -50,20 +50,25 @@ const Contact = () => {
 
           <div>
             <FaPenFancy className="input-icons" />
-            <textarea className="contact-input" type="text" placeholder="Your Message Here" name="message"></textarea>
+            <textarea className="contact-input" type="text" required placeholder="Your Message Here" name="message"></textarea>
           </div>
 
             <div>
               <FaUser className="input-icons" />
-              <input className="contact-input" type="text" placeholder="Your Name" name="name" />
+              <input className="contact-input" type="text" required placeholder="Your Name" name="name" />
+            </div>
+
+            <div>
+              <FaPhoneAlt className="input-icons" />
+              <input className="contact-input" type="phone" required  placeholder="Your Phone Number" name="phone" />
             </div>
 
             <div>
               <FaEnvelope className="input-icons" />
-              <input className="contact-input" type="email" placeholder="Your Email" name="email" />
+              <input className="contact-input" type="email" required placeholder="Your Email" name="email" />
             </div>
 
-          <input className="form-btn" type="submit" value="Send Message"></input>
+          <input className="form-btn" type="submit"  value="Send Message"></input>
         </form>
     {/* <ReCaptchaComponent /> */}
       </div>
