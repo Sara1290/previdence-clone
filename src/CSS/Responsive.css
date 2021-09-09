@@ -335,33 +335,7 @@
   .background-video {
     margin-top: 10vh;
   }
-  /* PUBLIC SAFETY */
-  .PS-Outer {
-    display: flex;
-  }
-  .PS-Left {
-    width: 50vw;
-  }
-  .PS-Right {
-    width: 25vw;
-    height: auto;
-  }
-  .fireFighter-img {
-    height: auto;
-    width: 50%;
-  }
-  .PS-Left > h1{
-    font-size: 50px;
-  }
-  .PS-Left > p {
-    font-size: 18px;
-  }
-  .PS-List > li {
-    font-size: 18px;
-  }
-  .button-parent {
-    padding-top: 100px;
-  }
+ 
   /*Faith Based */
   .icon-container {
     display: flex;
@@ -416,6 +390,40 @@
   .button-parent-mili{
     padding-bottom: 40px;
   }
-  /* ----------CONTACT--------- */
+  /* --CONTACT-- */
     
+}
+/* ------------------super large ------------ */
+@media screen and (min-width: 2000px) {
+   /* PUBLIC SAFETY */
+   .PS-Outer {
+    display: flex;
+    /* justify-content: center;
+    align-items: flex-start; */
+  }
+  .PS-Left {
+    width: 50vw;
+  }
+
+  .PS-Right {
+    width: 50vw;
+    height: auto;
+    /* overflow: hidden; */
+  }
+  .fireFighter-img {
+    height: auto;
+    width: 50vw;
+  }
+  .PS-Left > h1{
+    font-size: 50px;
+  }
+  .PS-Left > p {
+    font-size: 18px;
+  }
+  .PS-List > li {
+    font-size: 18px;
+  }
+  .button-parent {
+    padding-top: 100px;
+  }
 }
