@@ -1,7 +1,7 @@
 import React from 'react';
 import emailjs  from 'emailjs-com';
 import NavBarTwo from '../NavBarTwo';
-import { FaUser, FaEnvelope, FaPenFancy, FaPenAlt, FaPhoneAlt, FaFacebook, FaLinkedin } from 'react-icons/fa'
+import { FaUser, FaEnvelope, FaPenFancy, FaPenAlt, FaPhoneAlt, FaLinkedin, FaFacebook } from 'react-icons/fa'
 // import ReCaptchaComponent from './ReCaptchaComponent'
 
 
@@ -19,6 +19,13 @@ const Contact = () => {
       e.target.reset()
   };
 
+  const Mailto = ({ email, subject = '', body = '', children }) => {
+    let params = subject || body ? '?' : '';
+    if (subject) params += `subject=${encodeURIComponent(subject)}`;
+    if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+  
+    return <a className="a" href={`mailto:${email}${params}`}>{children}</a>;
+  };
 
 
   return (
@@ -37,7 +44,9 @@ const Contact = () => {
           801-409-0904
         </p>
         <h5>Email</h5>
+        <Mailto className="a" email="public.relations@previdence.com" subject="From The Contact Us Page" body="Hello">
         <p>public.relations@previdence.com</p>
+        </Mailto>
         <div className="socials">
         <a href="https://www.facebook.com/PrevidenceMentalHealthRiskAssessment/" target="_blank" rel="noreferrer"><FaFacebook className="social" /></a>
         <a href="https://www.linkedin.com/company/previdence-corporation/mycompany/" target="_blank" rel="noreferrer"><FaLinkedin className="social" /></a>
