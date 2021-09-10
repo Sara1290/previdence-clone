@@ -1,3 +1,35 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Sara1290 
+Sara1290
+/
+previdence-clone
+Public
+1
+0
+0
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+previdence-clone/src/CSS/Responsive.css
+@Sara1290
+Sara1290 humanitarian mobile
+Latest commit 8412d88 19 hours ago
+ History
+ 1 contributor
+442 lines (433 sloc)  7.32 KB
+  
 /*mobile*/
 @media screen and (max-width: 480px) {
   /* HOME */
@@ -9,6 +41,15 @@
     height: 48px;
     width: 48px;
     margin: 0px 40px 40px 0px;
+  }
+  .group-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .group-item {
+    width: 350px;
   }
   /* CORPORATIONS */
   .corp-inner {
@@ -50,6 +91,31 @@
     justify-content: space-around;
     align-items: center;
     height: 1000px;
+  }
+  .contact-outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-form {
+    width: 300px;
+    position: relative;
+    right: 12px;
+  }
+
+  /* -- HUMANITARIAN -- */
+  .hum-left-top {
+    position: relative;
+    right: 50px;
+  }
+  .hum-para-container {
+    position: relative;
+    left: 20px;
+  }
+  .button-parent {
+    position: relative;
+    left: 20px;
   }
 }
 /*tablet*/
@@ -371,4 +437,45 @@
   }
   /* --CONTACT-- */
     
+}
+@media screen and (min-width: 1900px) {
+    /* HOME */
+    .specialty-parent {
+      width: 70vw;
+    }
+}
+/* ------------------ SUPER LARGE ------------ */
+@media screen and (min-width: 2000px) {
+   /* PUBLIC SAFETY */
+   .PS-Outer {
+    display: flex;
+    /* justify-content: center;
+    align-items: flex-start; */
+  }
+  .PS-Left {
+    width: 50vw;
+  }
+
+  .PS-Right {
+    width: 50vw;
+    height: auto;
+    /* overflow: hidden; */
+  }
+  .fireFighter-img {
+    height: auto;
+    width: 50vw;
+  }
+  .PS-Left > h1{
+    font-size: 50px;
+  }
+  .PS-Left > p {
+    font-size: 18px;
+  }
+  .PS-List > li {
+    font-size: 18px;
+  }
+  .button-parent {
+    padding-top: 100px;
+  }
+
 }
