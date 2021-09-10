@@ -50,7 +50,7 @@ const CorCarousel = ({deviceType}) => {
       <div className="icon-circle-cor">
         <FaChartBar />
         </div>
-        <p>Instant Individual Analysis</p>
+        <p>Instant Individual <br></br> Analysis</p>
       </div>
 
       <div className="cor-icon">
@@ -64,7 +64,7 @@ const CorCarousel = ({deviceType}) => {
       <div className="icon-circle-cor">
         <FaTrophy />
         </div>
-        <p>Award Winning Services</p>
+        <p>Award Winning <br></br> Services</p>
       </div>
 
       <div className="cor-icon">
@@ -99,7 +99,7 @@ const CorCarousel = ({deviceType}) => {
           <div className="icon-circle-cor">
           <FaUsers />
           </div>
-        <p>Expert Team</p>
+        <p>Expert <br></br> Team</p>
       </div>
 
 

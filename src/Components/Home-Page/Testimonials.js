@@ -24,9 +24,8 @@ const Testimonials = ({deviceType}) => {
   };
 
   return (
-    <div className="testimonial-outer">
-      <section id="testimonials"></section>
-      <h1>Client Testimonials</h1>
+    <div className="testimonial-outer" >
+      <h1 id="testimonials">Client Testimonials</h1>
     <Carousel
       swipeable={false}
       draggable={false}

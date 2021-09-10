@@ -1,5 +1,57 @@
 /*mobile*/
-
+@media screen and (max-width: 480px) {
+  /* HOME */
+  .specialty-parent {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-img {
+    height: 48px;
+    width: 48px;
+    margin: 0px 40px 40px 0px;
+  }
+  /* CORPORATIONS */
+  .corp-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .corp-paragraph > p {
+    position: relative;
+    padding-left: 10vw;
+    width: 100vw;
+    font-size: 15px;
+  }
+  .corp-inner > img {
+    width: 80%;
+    height: auto;
+  }
+  .corp-outer > h1 {
+    font-size: 50px;
+  }
+  /* MILITARY */
+  .mili-inner > img {
+    width: 345px;
+    height: 345px;
+  }
+ .h1 {
+    font-size: 40px;
+  }
+  div.mili-paragraph {
+    width: 80vw;
+    padding-left: 5px;
+  }
+  .mili-paragraph > p  {
+    font-size: 14px;
+  }
+  .mili-counters {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 1000px;
+  }
+}
 /*tablet*/
 @media screen and (max-width: 900px ) {
   .nav-img {
@@ -19,12 +71,18 @@
     position: relative;
     bottom: 40vh;
   }
-  .specialties-outer {
+.group-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  /* .specialties-outer {
     position: relative;
     bottom: 20vh;
     left: 25vw;
     width: 50vw;
-  }
+  } */
   .specialty-parent {
     display: flex;
     flex-wrap: wrap;
@@ -33,7 +91,7 @@
   }
   .specialty-img {
     width: 100%;
-    height: auto;
+    height: 215px;
   }
   .carouselHome {
     position: relative;
@@ -60,6 +118,8 @@
     align-items: flex-start;
     flex-wrap: wrap;
     width: 100%;
+    position: relative;
+    left: 10vw;
   }
   .faith-paragraphs-container {
     width: 85vw;
@@ -98,22 +158,29 @@
     font-size: 16px;
   }
 } 
-/*laptop*/
-@media screen and (max-width: 1025px) {
+/*laptop / ipad PRO*/
+@media screen and (min-width: 1025px) {
+  /* HOME */
   .specialty-parent {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 5vh;
   }
-  .specialty-img {
+  /* .specialty-img {
     height: 115px;
     width: 150px;
     padding: 8px;
-  }
+  } */
   .specialty {
     color: black;
     font-size: 15px;
+  }
+  .group-wrapper {
+    margin: 50px;
+  }
+  .group-item {
+    margin: 25px;
   }
   /* FAITH BASED*/
   .icon-container {
@@ -122,7 +189,9 @@
     align-items: flex-start;
     flex-wrap: wrap;
     width: 85%;
-    padding-left: 20%;
+    /* padding-left: 25vw; */
+    position: relative;
+    left: 10vw;
   }
   .faith-paragraphs-container {
     width: 85vw;
@@ -199,9 +268,10 @@
     justify-content: left;
     align-items: flex-start;
     flex-wrap: wrap;
-    width: 80%;
-    padding-left: 25%;
-    
+    width: 85%;
+    /* padding-left: 25vw; */
+    position: relative;
+    left: 10vw;
   }
   .faith-paragraphs-container {
     width: 85vw;
@@ -240,35 +310,11 @@
 
 /*XL*/
 @media screen and (min-width: 1500px) {
+  /* HOME */
   .background-video {
     margin-top: 10vh;
   }
-  .PS-Outer {
-    display: flex;
-  }
-  .PS-Left {
-    width: 50vw;
-  }
-  .PS-Right {
-    width: 25vw;
-    height: auto;
-  }
-  .fireFighter-img {
-    height: auto;
-    width: 50%;
-  }
-  .PS-Left > h1{
-    font-size: 50px;
-  }
-  .PS-Left > p {
-    font-size: 18px;
-  }
-  .PS-List > li {
-    font-size: 18px;
-  }
-  .button-parent {
-    padding-top: 100px;
-  }
+ 
   /*Faith Based */
   .icon-container {
     display: flex;
@@ -323,59 +369,6 @@
   .button-parent-mili{
     padding-bottom: 40px;
   }
+  /* --CONTACT-- */
     
-}
-/*mobile*/
-@media screen and (max-width: 480px) {
-  /* HOME */
-  .specialty-parent {
-    display: flex;
-    flex-direction: column;
-  }
-  .nav-img {
-    height: 48px;
-    width: 48px;
-    margin: 0px 40px 40px 0px;
-  }
-  /* CORPORATIONS */
-  .corp-inner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .corp-paragraph > p {
-    position: relative;
-    padding-left: 10vw;
-    width: 100vw;
-    font-size: 15px;
-  }
-  .corp-inner > img {
-    width: 80%;
-    height: auto;
-  }
-  .corp-outer > h1 {
-    font-size: 50px;
-  }
-  /* MILITARY */
-  .mili-inner > img {
-    width: 345px;
-    height: 345px;
-  }
- .h1 {
-    font-size: 40px;
-  }
-  div.mili-paragraph {
-    width: 80vw;
-    padding-left: 5px;
-  }
-  .mili-paragraph > p  {
-    font-size: 14px;
-  }
-  .mili-counters {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 1000px;
-  }
 }

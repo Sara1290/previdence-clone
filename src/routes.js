@@ -7,10 +7,11 @@ import Humanitarian from './Components/Humanitarian/Humanitarian';
 import FaithBased from './Components/Faith Based/FaithBased';
 import Professional from './Components/Professional/Professional';
 import Correctional from './Components/Correctional/Correctional';
-import Corporations from './Components/Corperations/Corporations';
+import Corporations from './Components/Corporations/Corporations';
 import K12 from './Components/K12/K12';
 import Military from './Components/Military/Military';
 import Trainings from './Components/Trainings/Trainings';
+import Contact from './Components/Contact/Contact';
 import Testimonials from './Components/Home-Page/Testimonials';
 
 export default (
@@ -26,6 +27,7 @@ export default (
     <Route path="/k12" component={K12} />
     <Route path="/military" component={Military} />
     <Route path="/trainings" component={Trainings} />
-    <Route path ="/testimonials" component={Testimonials}/>
+    <Route path="/contact" component={Contact} />
+    <Route path="/testimonials" component={Testimonials} />
   </Switch>
 )

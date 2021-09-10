@@ -6,6 +6,15 @@ import TestimonialsPS from "./TestimonialsPS";
 import PsCarousel from "./PsCarousel";
 
 const PublicSafety = () => {
+
+  const Mailto = ({ email, subject = '', body = '', children }) => {
+    let params = subject || body ? '?' : '';
+    if (subject) params += `subject=${encodeURIComponent(subject)}`;
+    if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+  
+    return <a className="a2" href={`mailto:${email}${params}`}>{children}</a>;
+  };
+
   return (
     <div>
     <NavBarTwo />
@@ -45,12 +54,14 @@ const PublicSafety = () => {
         <br></br>
         <br></br>
         <br></br>
-      <PsCarousel />
-    <div className="button-parent">
-        <button className="liaison">
-          CONTACT OUR PUBLIC SAFETY LIAISON
-        </button>
-    </div>
+      <PsCarousel className="ps-carousel" />
+      <div className="button-parent">
+            <button className="liaison">
+          <Mailto className="a" email="reedsara90@gmail.com" subject="Faith Based Liaison" body="Hello">
+              CONTACT OUR PUBLIC SAFETY LIAISON
+          </Mailto>
+            </button>
+          </div>
       </div>
         </div>
 

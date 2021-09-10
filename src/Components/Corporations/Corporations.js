@@ -6,6 +6,15 @@ import CorCarousel from "../Correctional/CorCarousel"
 
 
 const Corporations = () => {
+
+  const Mailto = ({ email, subject = '', body = '', children }) => {
+    let params = subject || body ? '?' : '';
+    if (subject) params += `subject=${encodeURIComponent(subject)}`;
+    if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+  
+    return <a className="a2" href={`mailto:${email}${params}`}>{children}</a>;
+  };
+
   return (
     <div>
       <NavBarTwo />
@@ -28,9 +37,11 @@ const Corporations = () => {
           </div>
           <div className="button-parent-corp">
             <button className="liaison">
-              CONTACT OUR CORPORATIONS LIAISON
+          <Mailto className="a" email="reedsara90@gmail.com" subject="Faith Based Liaison" body="Hello">
+              CONTACT OUR PUBLIC SAFETY LIAISON
+          </Mailto>
             </button>
-        </div>
+          </div>
       </div>
         <CorCarousel />
     </div>

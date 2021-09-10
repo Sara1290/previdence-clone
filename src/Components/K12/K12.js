@@ -8,6 +8,14 @@ import K12Testimonials from './K12Testimonials';
 
 const K12 = () => {
 
+  const Mailto = ({ email, subject = '', body = '', children }) => {
+    let params = subject || body ? '?' : '';
+    if (subject) params += `subject=${encodeURIComponent(subject)}`;
+    if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+  
+    return <a className="a2" href={`mailto:${email}${params}`}>{children}</a>;
+  };
+
   return (
     <div className="k12-outer">
       <NavBarTwo />
@@ -19,9 +27,11 @@ const K12 = () => {
         </p>
         </div>
         <div className="k12-liaison">
-          <button className="liaison">
-            CONTACT OUR LIAISON
-          </button>
+            <button className="liaison">
+          <Mailto className="a" email="reedsara90@gmail.com" subject="Faith Based Liaison" body="Hello">
+              CONTACT OUR PUBLIC SAFETY LIAISON
+          </Mailto>
+            </button>
           </div>
         <div className="k12-img-container">
           <img alt="student reading" src={student} className="k12-img" />

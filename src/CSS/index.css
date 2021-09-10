@@ -10,5 +10,12 @@
 /* ClassName for <a> tags is "a" */
 .a {
   text-decoration: none;
+  color: #0e0e0e;
+}
+.a2 {
+  text-decoration: none;
   color: #cfcfcf;
+}
+.a2:hover {
+  color: black;
 }

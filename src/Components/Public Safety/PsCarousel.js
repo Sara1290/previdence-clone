@@ -50,8 +50,8 @@ const PsCarousel = ({deviceType}) => {
       >
       
       <div className="icon-item">
-        <FaTrophy className="icon-light" /><br></br>
-        <p>Served Over 10,000 First Responders</p>
+        <FaTrophy className="icon" />
+          <p>Served Over 10,000 First Responders</p>
       </div>
       <div className="icon-item">
         <FaUserFriends className="icon-light" /><br></br>

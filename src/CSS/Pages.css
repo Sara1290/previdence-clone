@@ -142,10 +142,7 @@
   padding: 10px;
   margin-bottom: 20px;
 }
-.hum-para-container {
-  width: 30vw;
-  display: inline-block;
-}
+
 
 /* FAITH BASED */
 .faith-inner {
@@ -169,6 +166,15 @@
   padding: 5vh;
   font-size: 50px;
   font-weight: 400;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 85vw;
+  flex-wrap: wrap;
+  position: relative;
+  right: 8vw;
 }
 .icon {
   display: flex;
@@ -244,6 +250,9 @@
   text-transform: uppercase;
   cursor: pointer;
   text-align: center;
+}
+.liaison-dark:hover {
+  background-color: rgba(245, 245, 245, 0.582);
 }
 /*CORRECTIONAL FACILITIES*/
 .corr-inner {
@@ -458,4 +467,82 @@
 .counter-icon {
   font-size: 40px;
   color: #7b0303
+}
+
+/* --------------CONTACT--------------- */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  height: 75vh;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.contact-form > h1 {
+  text-align: left;
+}
+.contact-details {
+  margin-top: 45px;
+  margin-bottom: 140px;
+}
+.contact-details > h5 {
+  text-align: left;
+}
+.contact-details > h1 {
+  text-align: left;
+}
+.contact-outer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.background {
+  background-image: url('../images/handsin.jpg');
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.726), rgba(240, 240, 240, 0.863) );
+}
+
+.contact-input {
+  width: 350px;
+  min-height: 50px;
+  border-radius: 5px;
+  border: none;
+  text-align:center;
+}
+.contact-input:focus {
+  outline: 1px solid #7b0303;
+}
+.input-icons {
+  position: absolute;
+  margin-top: 12px;
+  margin-right: 5px;
+  color: #7b0303a4;
+  min-width: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+.form-btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #7b0303;
+  color: #CFCFCF;  
+}
+.form-btn:hover {
+  background-color: #CFCFCF;
+  color: #7b0303;
 }

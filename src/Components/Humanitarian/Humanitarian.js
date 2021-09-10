@@ -30,6 +30,15 @@ const Humanitarian = ({deviceType}) => {
       slidesToSlide: 1 // optional, default to 1.
     }
   };
+
+  const Mailto = ({ email, subject = '', body = '', children }) => {
+    let params = subject || body ? '?' : '';
+    if (subject) params += `subject=${encodeURIComponent(subject)}`;
+    if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+  
+    return <a className="a2" href={`mailto:${email}${params}`}>{children}</a>;
+  };
+
   return (
     <div>
 
@@ -54,14 +63,16 @@ const Humanitarian = ({deviceType}) => {
         </div>
         <div className="hum-para-container">
         <p>Together, we're lifting orphans from surviving to thriving. Read about our partner, A Child's Hope Foundation
-        <a className="a" target="_blank" rel="noreferrer" href="https://www.achildshopefoundation.org/"> here</a></p>
+        <a className="a2" target="_blank" rel="noreferrer" href="https://www.achildshopefoundation.org/"> here</a></p>
         </div>
         <br></br>
         <div className="button-parent">
-        <button className="liaison">
-          CONTACT OUR HUMANITARIAN LIAISON
-        </button>
-    </div>
+            <button className="liaison">
+          <Mailto className="a" email="reedsara90@gmail.com" subject="Faith Based Liaison" body="Hello">
+              CONTACT OUR HUMANITARIAN LIAISON
+          </Mailto>
+            </button>
+          </div>
       </div>
       <div className="hum-right-bottom">
           <Carousel className="hum-carousel"

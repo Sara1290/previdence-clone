@@ -3,6 +3,15 @@ import NavBarTwo from "../NavBarTwo";
 import CorCarousel from "./CorCarousel";
 
 const Correctional = () => {
+
+  const Mailto = ({ email, subject = '', body = '', children }) => {
+    let params = subject || body ? '?' : '';
+    if (subject) params += `subject=${encodeURIComponent(subject)}`;
+    if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+  
+    return <a className="a2" href={`mailto:${email}${params}`}>{children}</a>;
+  };
+
   return (
     <div className="corr-outer">
       <NavBarTwo />
@@ -26,11 +35,13 @@ const Correctional = () => {
             well as help keep communities safer.
           </p>
         </div>
-            <div className="button-parent-corr">
+        <div className="button-parent-corr">
             <button className="liaison">
+          <Mailto className="a" email="reedsara90@gmail.com" subject="Faith Based Liaison" body="Hello">
               CONTACT OUR PUBLIC SAFETY LIAISON
+          </Mailto>
             </button>
-            </div>
+          </div>
       </div>
       <CorCarousel />
     </div>

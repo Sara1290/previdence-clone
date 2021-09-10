@@ -26,7 +26,7 @@ const Homepage = () => {
       <GroupSection />
       <Specialties />
       <MultiCarousel />
-      <Testimonials />
+      <Testimonials id="testimonials"/>
       <Footer />
     </div>
   )

@@ -5,6 +5,14 @@ import NavBarTwo from '../NavBarTwo';
 
 const Military = () => {
 
+  const Mailto = ({ email, subject = '', body = '', children }) => {
+    let params = subject || body ? '?' : '';
+    if (subject) params += `subject=${encodeURIComponent(subject)}`;
+    if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+  
+    return <a className="a" href={`mailto:${email}${params}`}>{children}</a>;
+  };
+
   return (
     <div>
       <NavBarTwo />       
@@ -23,9 +31,11 @@ const Military = () => {
             </p>
           </div>
           <div className="button-parent-mili">
-              <button className="liaison-mili">
-                CONTACT OUR PUBLIC SAFETY LIAISON
-              </button>
+            <button className="liaison-mili">
+          <Mailto className="a" email="reedsara90@gmail.com" subject="Faith Based Liaison" body="Hello">
+              CONTACT OUR PUBLIC SAFETY LIAISON
+          </Mailto>
+            </button>
           </div>
           <div className="mili-counters">
             <div className="counter">
