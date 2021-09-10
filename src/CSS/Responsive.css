@@ -1,35 +1,5 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Sara1290 
-Sara1290
-/
-previdence-clone
-Public
-1
-0
-0
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-previdence-clone/src/CSS/Responsive.css
-@Sara1290
-Sara1290 humanitarian mobile
-Latest commit 8412d88 19 hours ago
- History
- 1 contributor
-442 lines (433 sloc)  7.32 KB
-  
+
+
 /*mobile*/
 @media screen and (max-width: 480px) {
   /* HOME */

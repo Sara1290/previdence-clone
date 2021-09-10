@@ -1,7 +1,7 @@
 import React from 'react';
 import emailjs  from 'emailjs-com';
 import NavBarTwo from '../NavBarTwo';
-import { FaUser, FaEnvelope, FaPenFancy, FaPenAlt, FaPhoneAlt } from 'react-icons/fa'
+import { FaUser, FaEnvelope, FaPenFancy, FaPenAlt, FaPhoneAlt, FaFacebook, FaLinkedin } from 'react-icons/fa'
 // import ReCaptchaComponent from './ReCaptchaComponent'
 
 
@@ -38,6 +38,10 @@ const Contact = () => {
         </p>
         <h5>Email</h5>
         <p>public.relations@previdence.com</p>
+        <div className="socials">
+        <a href="https://www.facebook.com/PrevidenceMentalHealthRiskAssessment/" target="_blank" rel="noreferrer"><FaFacebook className="social" /></a>
+        <a href="https://www.linkedin.com/company/previdence-corporation/mycompany/" target="_blank" rel="noreferrer"><FaLinkedin className="social" /></a>
+        </div>
       </div>
       <div className="contact-form">
         <form onSubmit={sendEmail} className="contact-form">

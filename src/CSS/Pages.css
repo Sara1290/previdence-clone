@@ -492,6 +492,19 @@
 .contact-details > h1 {
   text-align: left;
 }
+.socials {
+  width: 30%;
+  font-size: 32px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.social {
+  color: #7b0303;
+}
+.social:hover {
+  color: #7b0303a4;
+}
 .contact-outer {
   display: flex;
   justify-content: space-evenly;
