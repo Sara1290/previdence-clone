@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBarTwo from '../NavBarTwo';
 import ShopifyBuy from '@shopify/buy-button-js'
+import { Modal } from 'react-bootstrap';
 
 const Trainings = () => {
 
@@ -16,9 +17,10 @@ const Trainings = () => {
     // node: document.getElementById('my-product'),
     options: {
       product: {
+        buttonDestination: 'modal',
       layout: 'horizontal',
       contents: {
-        desciption: true
+        descrition: true
       }
     }
   }
@@ -28,9 +30,10 @@ const Trainings = () => {
     // node: document.getElementById('my-product'),
     options: {
       product: {
+        buttonDestination: 'modal',
       layout: 'horizontal',
       contents: {
-        desciption: true
+        descrition: true
       }
     }
   }
