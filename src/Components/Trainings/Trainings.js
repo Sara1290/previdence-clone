@@ -43,8 +43,6 @@ const Trainings = () => {
     <div className="trainings-outer">
       <NavBarTwo />
       <h1>Courses</h1>
-  
-      
     </div>
   )
 }

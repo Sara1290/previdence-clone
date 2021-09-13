@@ -4,6 +4,10 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-KZFN54QPYQ"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 
 const Router = BrowserRouter;
