@@ -23,6 +23,18 @@ const Trainings = () => {
     }
   }
   });
+  ui.createComponent('product', {
+    id: 7023956328604,
+    // node: document.getElementById('my-product'),
+    options: {
+      product: {
+      layout: 'horizontal',
+      contents: {
+        desciption: true
+      }
+    }
+  }
+  });
 
   return (
     <div className="trainings-outer">
