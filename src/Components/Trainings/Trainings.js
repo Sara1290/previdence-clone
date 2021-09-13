@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBarTwo from '../NavBarTwo';
 import ShopifyBuy from '@shopify/buy-button-js'
-import { Modal } from 'react-bootstrap';
+
 
 const Trainings = () => {
 
