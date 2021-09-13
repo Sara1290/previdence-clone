@@ -2,19 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
-import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.css';
+import { createBrowserHistory } from 'history';
 import ReactGA from 'react-ga';
+import 'bootstrap/dist/css/bootstrap.css';
+import reportWebVitals from './reportWebVitals';
+
+const history = createBrowserHistory();
 
 const TRACKING_ID = "G-KZFN54QPYQ"; // YOUR_OWN_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
 
 const Router = BrowserRouter;
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router history={history} >
       <App />
     </Router>
   </React.StrictMode>,
