@@ -559,3 +559,7 @@
   background-color: #CFCFCF;
   color: #7b0303;
 }
+/*-------------TRAININGS--------*/
+.trainings-outer h1 {
+  margin-bottom: 12vh;
+}

@@ -25,9 +25,9 @@ const Trainings = () => {
   });
 
   return (
-    <div>
+    <div className="trainings-outer">
       <NavBarTwo />
-      <h1>TRAININGS</h1>
+      <h1>Courses</h1>
   
       
     </div>
