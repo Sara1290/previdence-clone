@@ -1,4 +1,4 @@
-/* TEAM */ 
+/* ---------------------TEAM------------------------ */ 
 .team-flex {
   display: flex;
   justify-content: space-around;
@@ -39,7 +39,7 @@
   font-size: 40px;
 }
 
-/* PUBLIC SAFETY */ 
+/*--------------------- PUBLIC SAFETY--------------------- */ 
 .liaison {
   background-color: transparent;
   display: inline-block;
@@ -90,8 +90,10 @@
   font-weight: bolder;
 }
 .fireFighter-img {
-  width: 100vw;
-  margin-top: 10px;
+  width: 55vw;
+  position: absolute;
+  bottom: 13vh;
+  left: 45vw;
 }
 .icon-item {
   display: flex;
@@ -120,7 +122,7 @@
   font-size: 30px;
 }
 
-/* HUMANITARIAN */
+/* -------------------HUMANITARIAN------------------------ */
 .hum-outer {
   background-color: #7b0303;
   color: #CFCFCF;
@@ -144,7 +146,7 @@
 }
 
 
-/* FAITH BASED */
+/* ---------------------FAITH BASED------------------ */
 .faith-inner {
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/sky.jpg');
   -webkit-background-size: cover;
@@ -212,7 +214,7 @@
   color: black;
 }
 
-/*PROFESSIONAL*/
+/*-----------------PROFESSIONAL-------------------*/
 .pro-inner {
   padding: 20px;
   text-align: left;
@@ -254,7 +256,7 @@
 .liaison-dark:hover {
   background-color: rgba(245, 245, 245, 0.582);
 }
-/*CORRECTIONAL FACILITIES*/
+/*----------------------CORRECTIONAL FACILITIES-------------------*/
 .corr-inner {
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/leaf.jpg');
   -webkit-background-size: cover;
@@ -354,7 +356,7 @@
 .k12-paragraph > p  {
   text-align: left;
 }
-/* CORPORATIONS */
+/* ---------------------CORPORATIONS-------------------- */
 .corp-outer {
   background-color: #7b0303;
   color: #CFCFCF;
@@ -399,7 +401,7 @@
   -o-transition: 1s ease;
   transition: 1s ease;
 }
-/* MILITARY */
+/* --------------MILITARY--------------- */
 
 .mili-inner {
   background-image: url('../images/fadedflag.jpg');

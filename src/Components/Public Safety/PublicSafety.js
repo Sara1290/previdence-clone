@@ -49,6 +49,7 @@ const PublicSafety = () => {
         Previdence provides options to help all public safety staff members, as well as
         family members of those who serve.
         </p>
+        <img alt="firefighters" src={firefighters} className="fireFighter-img" />
         <br></br>
         <br></br>
         <br></br>
@@ -65,9 +66,7 @@ const PublicSafety = () => {
       </div>
         </div>
 
-      <div className="PS-Right">
-        <img alt="firefighters" src={firefighters} className="fireFighter-img" />
-      </div>
+
      </div>
      <TestimonialsPS />
     </div>
