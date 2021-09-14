@@ -274,6 +274,7 @@ p {
 }
 .paragraph > p {
   line-height: 2.5;
+  
 }
 .container > h1 {
   line-height: 3;

@@ -68,66 +68,45 @@
 
 .PS-Outer {
   text-align: left;
-  margin-bottom: 10px;
-  display: flex;
+  /* margin-bottom: 10px; */
+  /* display: flex; */
 }
 .PS-Left {
   background-color: #7b0303;
   color: #CFCFCF;
-  /* padding: 20px;
-  margin-top: 10px;
-  font-size: 14px; */
+
 }
 .Left-inner > h1 {
   font-size: 50px;
 }
-.Left-inner {
-  width: 50vw;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-top: 5vh;
-}
+/* .Left-inner {
+
+} */
 .PS-List {
   text-align: left;
   font-weight: bolder;
 }
 .fireFighter-img {
-  width: 60%;
+  width: 33%;
   height: auto;
-  /* padding: 20px; */
-  /* margin-top: 10px; */
-  /* transform: rotate(355deg); */
-  position: relative;
-  left: 10vw;
-  bottom: 4vh;
-  /* border-radius: 25px; */
+
   box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
 -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
 -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
 }
 
 .fireTruck2 {
-  width: 55%;
+  width: 33%;
   height: auto;
-  /* padding: 20px; */
-  /* transform: rotate(355deg); */
-  position: relative;
-  left: 17vw;
-  top: 8vh;
-  /* border-radius: 40px; */
+
   box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
 -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
 -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
 }
 .fireTruck3 {
-  width: 45%;
+  width: 33%;
   height: auto;
-  /* padding: 20px; */
-  /* transform: rotate(355deg); */
-  position: relative;
-  /* left: 17vw; */
-  bottom: 1vh;
-  /* border-radius: 40px; */
+
   box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
 -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
 -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
@@ -135,7 +114,7 @@
 
 .ps-img-container {
   background-color: #7b0303;
-  display: grid;
+  /* display: grid; */
 }
 .icon-item {
   display: flex;

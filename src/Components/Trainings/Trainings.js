@@ -22,6 +22,16 @@ const Trainings = () => {
       contents: {
         descrition: true
       }
+    },
+    cart: {
+      startOpen: false,
+      popup: true,
+      contents: {
+        note: true,
+      },
+      text: {
+        noteDescription: "NAME AND EMAIL OF EACH ATTENDEE"
+      }
     }
   }
   });
@@ -34,6 +44,16 @@ const Trainings = () => {
       layout: 'horizontal',
       contents: {
         descrition: true
+      }
+    },
+    cart: {
+      startOpen: false,
+      popup: true,
+      contents: {
+        note: true,
+      },
+      text: {
+        noteDescription: 'NAME AND EMAIL OF EACH ATTENDEE'
       }
     }
   }
