@@ -1,7 +1,9 @@
 import React from "react";
 import NavBarTwo from "../NavBarTwo";
 import firefighters from '../../images/firefighters.jpg'
-
+import fireTruck from '../../images/fireTruck.jpg';
+import fireFighter2 from '../../images/fireFighter2.jpg';
+import paramedic from '../../images/paramedic.jpg';
 import TestimonialsPS from "./TestimonialsPS";
 import PsCarousel from "./PsCarousel";
 
@@ -45,14 +47,11 @@ const PublicSafety = () => {
           <li>Parole and Probation</li>
           <li>Search and Rescue Teams</li>
         </ul>
+        <br></br>
         <p>
         Previdence provides options to help all public safety staff members, as well as
         family members of those who serve.
         </p>
-        <img alt="firefighters" src={firefighters} className="fireFighter-img" />
-        <br></br>
-        <br></br>
-        <br></br>
         <br></br>
         <br></br>
       <PsCarousel className="ps-carousel" />
@@ -65,6 +64,12 @@ const PublicSafety = () => {
           </div>
       </div>
         </div>
+          <div className='ps-img-container'>
+            <img alt="fireTruck" src={fireFighter2} className="fireTruck2" />
+            <img alt="fireTruck" src={paramedic} className="fireTruck3" />
+            <img alt="firefighters" src={firefighters} className="fireFighter-img" />
+            {/* <img alt="fireTruck" src={fireTruck} className="fireTruck" /> */}
+          </div>
 
 
      </div>

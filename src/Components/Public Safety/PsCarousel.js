@@ -14,7 +14,7 @@ const PsCarousel = ({deviceType}) => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 2,
+      items: 3,
       slidesToSlide: 1 // optional, default to 1.
     },
     tablet: {
@@ -50,8 +50,10 @@ const PsCarousel = ({deviceType}) => {
       >
       
       <div className="icon-item">
-        <FaTrophy className="icon" />
+        <FaTrophy className="icon-light" /><br></br>
+        <div className="ps-icon-para">
           <p>Served Over 10,000 First Responders</p>
+        </div>
       </div>
       <div className="icon-item">
         <FaUserFriends className="icon-light" /><br></br>
@@ -59,7 +61,10 @@ const PsCarousel = ({deviceType}) => {
       </div>
       <div className="icon-item">
         <FaTachometerAlt className="icon-light" /> <br></br>
+        <div className="ps-icon-para-rapid">
         <p>Rapid Pairing with Vetted and Trauma-Trained Mental Health Professionals</p>
+        </div>
+
       </div>
       <div className="icon-item">
         <FaHeart className="icon-light" /><br></br>
@@ -67,7 +72,9 @@ const PsCarousel = ({deviceType}) => {
       </div>
       <div className="icon-item">
         <FaCertificate className="icon-light" /><br></br>
+        <div className="ps-icon-para">
         <p>92% Decrease in PTSD Symptoms After 4 Sessions</p>
+        </div>
       </div>
       <div className="icon-item">
         <FaUsers className="icon-light" /><br></br>

@@ -62,12 +62,14 @@
 }
 .button-parent {
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  margin-bottom: 3vh;
 }
 
 .PS-Outer {
   text-align: left;
   margin-bottom: 10px;
+  display: flex;
 }
 .PS-Left {
   background-color: #7b0303;
@@ -90,10 +92,50 @@
   font-weight: bolder;
 }
 .fireFighter-img {
-  width: 55vw;
-  position: absolute;
-  bottom: 13vh;
-  left: 45vw;
+  width: 60%;
+  height: auto;
+  /* padding: 20px; */
+  /* margin-top: 10px; */
+  /* transform: rotate(355deg); */
+  position: relative;
+  left: 10vw;
+  bottom: 4vh;
+  /* border-radius: 25px; */
+  box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
+}
+
+.fireTruck2 {
+  width: 55%;
+  height: auto;
+  /* padding: 20px; */
+  /* transform: rotate(355deg); */
+  position: relative;
+  left: 17vw;
+  top: 8vh;
+  /* border-radius: 40px; */
+  box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
+}
+.fireTruck3 {
+  width: 45%;
+  height: auto;
+  /* padding: 20px; */
+  /* transform: rotate(355deg); */
+  position: relative;
+  /* left: 17vw; */
+  bottom: 1vh;
+  /* border-radius: 40px; */
+  box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
+}
+
+.ps-img-container {
+  background-color: #7b0303;
+  display: grid;
 }
 .icon-item {
   display: flex;
@@ -101,8 +143,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 250px;
-  height: 250px;
+  width: 225px;
+  height: 225px;
   border: 2px solid #CFCFCF;
   border-radius: 50%;
 }
@@ -120,6 +162,23 @@
 .icon-light {
   color: #CFCFCF;
   font-size: 30px;
+  text-align: center;
+}
+.ps-icon-para {
+  font-size: 16px;
+  text-align: center;
+  width: 70%;
+}
+.ps-icon-para > p {
+  text-align: center;
+}
+.ps-icon-para-rapid {
+  font-size: 15px;
+  text-align: center;
+  width: 80%;
+}
+.ps-icon-para-rapid > p {
+  text-align: center;
 }
 
 /* -------------------HUMANITARIAN------------------------ */
