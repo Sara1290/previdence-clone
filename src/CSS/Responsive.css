@@ -78,7 +78,7 @@
     flex-direction: column;
   }
   .fireFighter-img {
-   display: none;
+   width: 98%;
   }
   .ps-img-container {
     display: flex;
@@ -87,7 +87,7 @@
     justify-self: center;
   }
   .fireTruck2 {
-    width: 98%;
+    display: none;
   }
 
   /* -- HUMANITARIAN -- */
@@ -103,6 +103,20 @@
     position: relative;
     left: 20px;
   }
+}
+@media screen and (min-width: 760px) {
+  .ps-img-container {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
+  .fireTruck2 {
+    width: 33.3%;
+  }
+  .fireFighter-img {
+    width: 50%;
+  }
+  
 }
 /*tablet*/
 @media screen and (max-width: 900px ) {
@@ -300,6 +314,9 @@
   .fireTruck2 {
     width: 33.3%;
   }
+  .fireFighter-img {
+    width: 33.3%;
+  }
 }
 
 
@@ -378,7 +395,9 @@
   .Left-inner {
     width: 100%;
   }
-
+  .fireFighter-img {
+    width: 33.3%;
+  }
 
 }
 
@@ -444,7 +463,10 @@
     padding-bottom: 40px;
   }
   /* --CONTACT-- */
-    
+  /*--PUBLIC SAFETY --*/
+  .fireFighter-img {
+    width: 33.3%;
+  }
 }
 @media screen and (min-width: 1900px) {
     /* HOME */
@@ -456,6 +478,9 @@
       width: 75vw;
       position: relative;
       left: 12vw;
+      }
+      .fireFighter-img {
+        width: 33.3%;
       }
 }
 /* ------------------ SUPER LARGE ------------ */
@@ -493,6 +518,9 @@
   }
     /*PUBLIC SAFETY*/
     .fireTruck2 {
+      width: 33.3%;
+    }
+    .fireFighter-img {
       width: 33.3%;
     }
 

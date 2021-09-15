@@ -110,7 +110,7 @@
   font-weight: bolder;
 }
 .fireFighter-img {
-  width: 33.3%;
+  /* width: 33.3%; */
   height: auto;
 
   box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
