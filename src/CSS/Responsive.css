@@ -89,6 +89,9 @@
   .fireTruck2 {
     display: none;
   }
+  .fireTruck3 {
+    display: none;
+  }
 
   /* -- HUMANITARIAN -- */
   .hum-left-top {
@@ -115,6 +118,9 @@
   }
   .fireFighter-img {
     width: 50%;
+  }
+  .fireTruck3 {
+    display: none;
   }
   
 }
@@ -227,6 +233,9 @@
   .fireTruck2 {
     width: 33.3%;
   }
+  .fireTruck3 {
+    display: none;
+  }
 } 
 /*laptop / ipad PRO*/
 @media screen and (min-width: 1023px) {
@@ -317,6 +326,9 @@
   .fireFighter-img {
     width: 33.3%;
   }
+  .fireTruck3 {
+    display: none;
+  }
 }
 
 
@@ -397,6 +409,9 @@
   }
   .fireFighter-img {
     width: 33.3%;
+  }
+  .fireTruck3 {
+    display: none;
   }
 
 }

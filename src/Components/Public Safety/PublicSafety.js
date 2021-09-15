@@ -3,6 +3,7 @@ import NavBarTwo from "../NavBarTwo";
 import firefighters from '../../images/firefighters.jpg'
 import paramedic from '../../images/paramedic.jpg';
 import fireFighter1 from '../../images/fireFighter1.jpg';
+import fireFighter2 from '../../images/fireFighter2.jpg';
 import medic from '../../images/medic.jpg';
 import TestimonialsPS from "./TestimonialsPS";
 import PsCarousel from "./PsCarousel";
@@ -38,7 +39,7 @@ const PublicSafety = () => {
           </div>
         <br></br>
           <div className="PS-list-outer">
-          {/* <img alt="fireTruck" src={fireFighter2} className="fireTruck3" /> */}
+          <img alt="fireTruck" src={fireFighter2} className="fireTruck3" />
 
       <div className="ps-pros">
           <h4>Public Safety Professionals Include:</h4>
