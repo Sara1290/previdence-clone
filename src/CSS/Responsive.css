@@ -79,6 +79,8 @@
   }
   .fireFighter-img {
    width: 98%;
+   position: relative;
+   left: 18px;
   }
   .ps-img-container {
     display: flex;
@@ -91,6 +93,13 @@
   }
   .fireTruck3 {
     display: none;
+  }
+  .ps-pros {
+    box-shadow: none !important;
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    margin-bottom: 30px;
   }
 
   /* -- HUMANITARIAN -- */
@@ -122,7 +131,14 @@
   img.fireTruck3 {
     display: none;
   }
-  
+  .ps-pros {
+    height: 575px !important;
+  }
+  .PS-list-outer {
+    position: relative;
+    margin-left: 15px;
+  }
+
 }
 /*tablet*/
 @media screen and (max-width: 900px ) {
