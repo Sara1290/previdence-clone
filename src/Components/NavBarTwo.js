@@ -32,6 +32,7 @@ const NavBarTwo = () => {
       <Links smooth to="/#testimonials" className="link t-link">TESTIMONIALS</Links>
       <Nav.Link><Link to="/trainings" className="link">TRAINING</Link></Nav.Link>
       <Nav.Link ><Link to="/team" className="link">TEAM</Link></Nav.Link>
+      <Nav.Link ><Link to="/resources" className="link">RESOURCES</Link></Nav.Link>
       <a href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer" className="a link t-link">LOGIN</a>
       <li><Button className="contact-button" variant=""><Link to="/contact" className="link">CONTACT</Link></Button></li>
 

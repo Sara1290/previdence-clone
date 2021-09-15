@@ -1,7 +1,7 @@
 import React from "react";
 import NavBarTwo from "../NavBarTwo";
 import firefighters from '../../images/firefighters.jpg'
-import paramedic from '../../images/paramedic.jpg';
+
 import fireFighter1 from '../../images/fireFighter1.jpg';
 import fireLady from '../../images/fireLady.jpg';
 import medic from '../../images/medic.jpg';

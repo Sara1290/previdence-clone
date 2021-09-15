@@ -662,3 +662,30 @@
 .trainings-outer h1 {
   margin-bottom: 12vh;
 }
+
+/*------------- RESOURCES -----------*/
+.resource-outer {
+  margin-top: 5vh;
+}
+.text-only {
+  background-color: #5f0303c5;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 10px;
+}
+.texts {
+  text-align: left;
+  width: 100px;
+}
+.texts > p {
+  font-size: 11px;
+}
+.text-only-btn {
+  height: 40px;
+  border: 1px solid whitesmoke;
+  background-color: azure;
+  border-radius: 10px 0 10px 0;
+  position: relative;
+  top: 20px;
+}
