@@ -119,7 +119,7 @@
   .fireFighter-img {
     width: 50%;
   }
-  .fireTruck3 {
+  img.fireTruck3 {
     display: none;
   }
   
@@ -410,9 +410,7 @@
   .fireFighter-img {
     width: 33.3%;
   }
-  .fireTruck3 {
-    display: none;
-  }
+
 
 }
 
