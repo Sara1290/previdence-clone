@@ -31,11 +31,11 @@ ul {
 .nav-img {
   height: 48px;
   width: 48px;
-  margin: 40px 0px 40px -150px;
+  /* margin: 40px 0px 40px -150px; */
 }
-#navbarScroll {
+/* #navbarScroll {
   margin:  40px 0px 40px 750px;
-}
+} */
 .navbar-wrapper {
 position: fixed;
 display: flex;

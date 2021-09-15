@@ -1,7 +1,6 @@
 import React from "react";
 import NavBarTwo from "../NavBarTwo";
 import firefighters from '../../images/firefighters.jpg'
-import fireFighter2 from '../../images/fireFighter2.jpg';
 import paramedic from '../../images/paramedic.jpg';
 import fireFighter1 from '../../images/fireFighter1.jpg';
 import medic from '../../images/medic.jpg';
@@ -39,7 +38,7 @@ const PublicSafety = () => {
           </div>
         <br></br>
           <div className="PS-list-outer">
-          <img alt="fireTruck" src={fireFighter2} className="fireTruck3" />
+          {/* <img alt="fireTruck" src={fireFighter2} className="fireTruck3" /> */}
 
       <div className="ps-pros">
           <h4>Public Safety Professionals Include:</h4>
@@ -76,9 +75,9 @@ const PublicSafety = () => {
       </div>
         </div>
           <div className='ps-img-container'>
-            <img alt="firefighters" src={medic} className="fireFighter-img" />
+            <img alt="firefighters" src={medic} className="fireTruck2" />
             <img alt="fireTruck" src={fireFighter1} className="fireTruck2" />
-            <img alt="fireTruck" src={paramedic} className="fireTruck3" />
+            <img alt="fireTruck" src={paramedic} className="fireTruck2" />
           </div>
 
 
