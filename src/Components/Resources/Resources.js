@@ -30,6 +30,24 @@ const Resources = () => {
             Learn More
           </button>
         </div>
+        <div className="text-only2">
+          <div className="texts">
+            <h3>Depression Management</h3>
+            <p>thisistheresource.com</p>
+          </div>
+          <button className="text-only-btn">
+            Learn More
+          </button>
+        </div>
+        <div className="text-only">
+          <div className="texts">
+            <h3>Depression Management</h3>
+            <p>thisistheresource.com</p>
+          </div>
+          <button className="text-only-btn">
+            Learn More
+          </button>
+        </div>
         <br></br>
         <div className="line"></div>
         <br></br>

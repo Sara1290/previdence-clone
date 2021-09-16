@@ -46,7 +46,12 @@ height: 10vh;
 background-color: white;
 z-index: 1;
 }
-
+.navbar-nav-scroll {
+  background-color: white;
+  max-height: 300px !important;
+  position: relative;
+  bottom: 20px;
+}
 .nav-links {
   position: absolute;
   top: 40px;

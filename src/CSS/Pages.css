@@ -677,11 +677,19 @@
   width: 100%;
 }
 .text-only {
-  background-color: #333333c5;
-  color: whitesmoke;
+  background-color: #cececec5;
+  color: black;
   display: flex;
   justify-content: space-between;
   padding: 0 15px 0 10px;
+}
+.text-only2 {
+  background-color: #dadadac5;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 10px;
+  margin: 10px 0 10px 0;
 }
 .texts {
   text-align: left;
