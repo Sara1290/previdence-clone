@@ -725,8 +725,8 @@
 .airbb-btn {
   border: none;
   border-radius: 50px;
-  background-color: #7b0303a1;
-  color: black;
+  background-color: #7b0303;
+  color: rgb(255, 255, 255);
 }
 
 .card {
