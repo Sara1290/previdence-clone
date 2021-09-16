@@ -666,9 +666,13 @@
 /*------------- RESOURCES -----------*/
 .resource-outer {
   margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 .text-only {
-  background-color: #5f0303c5;
+  background-color: #333333c5;
   color: whitesmoke;
   display: flex;
   justify-content: space-between;
@@ -688,4 +692,59 @@
   border-radius: 10px 0 10px 0;
   position: relative;
   top: 20px;
+}
+
+.resourceImg {
+  width: 90%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+  -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+}
+.airbb-texts {
+  width: 80%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  left: 10vw;
+  padding-top: 4vh;
+}
+.airbb-texts > h3 {
+  font-weight: 900;
+  color: #7b0303;
+}
+.airbb-btn {
+  border: none;
+  border-radius: 50px;
+  background-color: #7b0303a1;
+  color: black;
+}
+
+.card {
+  border: 1px solid rgb(100, 100, 100);
+  width: 80%;
+  position: relative;
+  left: 10vw;
+}
+.lil-box {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 42%;
+  position: relative;
+  left: 23vw;
+  bottom: 10px;
+}
+.card-texts {
+  padding: 10px 15px;
+}
+.card-btn {
+  background-color: transparent;
+  border: 1px solid #7b0303;
+  color: #7b0303;
+  height: 40px;
 }

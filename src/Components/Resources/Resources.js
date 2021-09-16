@@ -1,4 +1,5 @@
 import React from 'react';
+import resourceImg from '../../images/resourceImg.jpg'
 import NavBarTwo from '../NavBarTwo';
 
 const Resources = () => {
@@ -16,6 +17,10 @@ const Resources = () => {
       <NavBarTwo />
       <div className="resource-outer">
         <h1>Resources</h1>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <div className="text-only">
           <div className="texts">
             <h3>Depression Management</h3>
@@ -24,6 +29,32 @@ const Resources = () => {
           <button className="text-only-btn">
             Learn More
           </button>
+        </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <div className="airbb">
+          <img alt="" src={resourceImg} className="resourceImg" />
+          <div className="airbb-texts">
+            <h3>Suicide Prevention</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            <p>suicidehelp.com</p>
+            <button className="airbb-btn" >Learn More</button>
+          </div>
+        </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <div className="card">
+          <img alt="" src={resourceImg} className="cardImg" />
+            <div className="lil-box">
+              SuicideHelp.com
+            </div>
+          <div className="card-texts">
+            <h3>Suicide Prevention</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            <button className="card-btn" >Learn More</button>
+          </div>
         </div>
       </div>
     </div>
