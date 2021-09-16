@@ -56,6 +56,9 @@ const Resources = () => {
             <button className="card-btn" >Learn More</button>
           </div>
         </div>
+        <br></br>
+        <br></br>
+        <br></br>
       </div>
     </div>
   )
