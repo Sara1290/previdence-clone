@@ -671,6 +671,11 @@
   /* align-items: center; */
   /* justify-content: center; */
 }
+.line {
+  background-color: rgb(160, 160, 160);
+  height: 1px;
+  width: 100%;
+}
 .text-only {
   background-color: #333333c5;
   color: whitesmoke;
@@ -725,10 +730,16 @@
 }
 
 .card {
-  border: 1px solid rgb(100, 100, 100);
+  border: 1px solid rgb(150, 150, 150);
   width: 80%;
   position: relative;
   left: 10vw;
+  box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.15);
+}
+.cardImg {
+  height: 200px;
 }
 .lil-box {
   background-color: black;
@@ -738,6 +749,9 @@
   position: relative;
   left: 23vw;
   bottom: 10px;
+  box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+  -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
 }
 .card-texts {
   padding: 10px 15px;

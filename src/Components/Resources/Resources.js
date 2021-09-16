@@ -31,6 +31,7 @@ const Resources = () => {
           </button>
         </div>
         <br></br>
+        <div className="line"></div>
         <br></br>
         <br></br>
         <div className="airbb">
@@ -43,6 +44,7 @@ const Resources = () => {
           </div>
         </div>
         <br></br>
+        <div className="line"></div>
         <br></br>
         <br></br>
         <div className="card">
@@ -57,6 +59,7 @@ const Resources = () => {
           </div>
         </div>
         <br></br>
+        <div className="line"></div>
         <br></br>
         <br></br>
       </div>
