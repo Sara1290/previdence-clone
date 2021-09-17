@@ -30,8 +30,9 @@ const Resources = () => {
           </div>
         </div>
         <br></br>
-        <div className="line"></div>
         <br></br>
+        <br></br>
+        <div className="line"></div>
         <br></br>
         <div className="card">
           <img alt="" src={resourceImg} className="cardImg" />
