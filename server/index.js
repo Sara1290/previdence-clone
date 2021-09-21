@@ -13,42 +13,54 @@ const path = require('path')
 
 app.use(express.json());
 
+//hosting thing - used from another project, idk if it's exactly what i need but it's here.
+// app.use(express.static(`${__dirname}/../build`))
+
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', ['*']);
+  // res.append('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+  // res.append('Access-Control-Allow-Headers', 'content-type');
+  next();
+});
+
+
 // app.use(function(req, res, next) {
-//   res.setHeader({"Content-Type" : "application/json"})
-//   res.writeHead({"Content-Type":"application/json"});
+//   res.setHeader("content-type", "application/json")
+//   res.writeHead("content-type", "application/json");
 //   next();
 // });
 
 app.use(session ({
-  resave: true,
-  saveUninitialized: false,
+  resave: false,
+  saveUninitialized: true,
   secret: SESSION_SECRET,
   cookie: {
     maxAge: 1000 * 60 * 60 * 24 * 7
   }
 })
 );
+
+
 //-----PUT ENDPOINTS HERE -----//
 app.get('/api/resources', ctrl.getAll)
 
-//hosting thing - used from another project, idk if it's exactly what i need but it's here.
-app.use(express.static(`${__dirname}/../build`))
+
 
 //hosting thing ^^
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../build/index.html'))
-  })
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(__dirname, '../build/index.html'))
+// })
 
-  //connect to my DB
+//connect to my DB
 massive ({
-    connectionString : CONNECTION_STRING,
-    ssl : {
-        rejectUnauthorized: false,
-    }
+  connectionString : CONNECTION_STRING,
+  ssl : {
+    rejectUnauthorized: false,
+  }
 })
 .then(db => {
-    app.set("db", db);
-    app.listen(SERVER_PORT, () => console.log(`Db Up And Server Running On ${SERVER_PORT}`));
+  app.set("db", db);
+  app.listen(SERVER_PORT, () => console.log(`DB Up And Server Running On ${SERVER_PORT}`));
 })
 .catch(err => console.log(err));
 

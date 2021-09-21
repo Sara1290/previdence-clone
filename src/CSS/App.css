@@ -18,6 +18,8 @@ ul {
 }
 .t-link {
   position: relative;
+  padding-left: 5px;
+  padding-right: 5px;
   top: 7px;
 }
 .contact-button {

@@ -13,6 +13,7 @@ const Resources = () => {
   const handleChange = (e) => {
     setSearch(e.target.value)
   };
+  
   useEffect(() => {
     const results = resources.filter((resourcecards) => 
     resourcecards.title.includes(search)

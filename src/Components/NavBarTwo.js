@@ -18,7 +18,7 @@ const NavBarTwo = () => {
       style={{ maxHeight: '100px' }}
       navbarScroll
       >
-      <Nav.Link><Link to="/" className="link">HOME</Link></Nav.Link>
+      <Link to="/" className="link t-link">HOME</Link>
       <NavDropdown title="SPECIALTIES" id="navbarScrollingDropdown" className="link">
         <NavDropdown.Item><Link to="/publicsafety" className="link">Public Safety</Link></NavDropdown.Item>
         <NavDropdown.Item><Link to="/k12" className="link">K12</Link></NavDropdown.Item>
@@ -30,9 +30,9 @@ const NavBarTwo = () => {
         <NavDropdown.Item><Link to="/corporations" className="link">Corporations</Link></NavDropdown.Item>
       </NavDropdown>
       <Links smooth to="/#testimonials" className="link t-link">TESTIMONIALS</Links>
-      <Nav.Link><Link to="/trainings" className="link">TRAINING</Link></Nav.Link>
-      <Nav.Link ><Link to="/team" className="link">TEAM</Link></Nav.Link>
-      <Nav.Link ><Link to="/resources" className="link">RESOURCES</Link></Nav.Link>
+      <Link to="/trainings" className="link t-link">TRAINING</Link>
+      <Link to="/team" className="link t-link">TEAM</Link>
+      <Link to="/resources" className="link t-link">RESOURCES</Link>
       <a href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer" className="a link t-link">LOGIN</a>
       <li><Button className="contact-button" variant=""><Link to="/contact" className="link">CONTACT</Link></Button></li>
 
