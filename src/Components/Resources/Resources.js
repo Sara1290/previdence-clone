@@ -13,7 +13,7 @@ const Resources = () => {
   const handleChange = (e) => {
     setSearch(e.target.value)
   };
-  
+
   useEffect(() => {
     const results = resources.filter((resourcecards) => 
     resourcecards.title.includes(search)
@@ -23,7 +23,7 @@ const Resources = () => {
 
   //get all resources on load
   const getResources = () => {
-    axios.get("/api/resourcecards")
+    axios.get("/api/resources")
     .then((res) => { 
       setResources(res.data)
     })
@@ -35,15 +35,17 @@ const Resources = () => {
   }, []);
 
   //map over resourcecards and return the structure of the cards
-  let mappedResources = resources.map((resourcecards) => {
+  let mappedResources = resources.map((resources) => {
     return (
-      <div key={resources.resourcecards.id}>
+      <div key={resources.id}>
         <img src={resources.img} alt="" />
-        <div className="resource-texts">
+        <div className="airbb-texts">
           <h4>{resources.title}</h4>
           <p>{resources.description}</p>
           <p>{resources.link}</p>
+          <button className="airbb-btn">Learn More</button>
         </div>
+        <div className="line"></div>
       </div>
     )
   });
@@ -52,13 +54,15 @@ console.log(resources)
 //map over the resources that match search results
 let mappedSearch = searchResults.map((resources) => {
   return (
-    <div key={resources.resourcecards.id}>
-    <img src={resources.img} alt="" />
-    <div className="resource-texts">
+    <div key={resources.id} className="airbb">
+    <img src={resources.img} alt="" className="resourceImg"  />
+    <div className="airbb-texts">
       <h4>{resources.title}</h4>
       <p>{resources.description}</p>
       <p>{resources.link}</p>
+      <button className="airbb-btn"> Learn More</button>
     </div>
+    <div className="line"></div>
   </div>
   )
 })

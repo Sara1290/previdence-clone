@@ -2,7 +2,8 @@ require('dotenv').config();
 const massive = require('massive');
 const express = require('express');
 const session = require('express-session');
-const ctrl = require('./Controller')
+const cors = require('cors');
+const ctrl = require('./Controller');
 
 const app = express();
 
@@ -12,23 +13,13 @@ const {SERVER_PORT, SESSION_SECRET, CONNECTION_STRING} = process.env;
 const path = require('path')
 
 app.use(express.json());
+app.use(cors({
+  origin: '*'
+}));
 
 //hosting thing - used from another project, idk if it's exactly what i need but it's here.
 // app.use(express.static(`${__dirname}/../build`))
 
-app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', ['*']);
-  // res.append('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
-  // res.append('Access-Control-Allow-Headers', 'content-type');
-  next();
-});
-
-
-// app.use(function(req, res, next) {
-//   res.setHeader("content-type", "application/json")
-//   res.writeHead("content-type", "application/json");
-//   next();
-// });
 
 app.use(session ({
   resave: false,

@@ -255,7 +255,7 @@
 } 
 /*laptop / ipad PRO*/
 @media screen and (min-width: 1023px) {
-  /* HOME */
+  /*-- HOME-- */
   .specialty-parent {
     display: flex;
     flex-wrap: wrap;
@@ -277,7 +277,7 @@
   .group-item {
     margin: 25px;
   }
-  /* FAITH BASED*/
+  /*-- FAITH BASED--*/
   .icon-container {
     display: flex;
     justify-content: left;
@@ -296,11 +296,11 @@
     padding: 0px 0px 0px 0px;
     width: 350px;
   }
-  /* CORRECTIONAL */
+  /*-- CORRECTIONAL-- */
   .corr-inner {
     height: 100vh;
   }
-  /* CORPORATIONS */
+  /* --CORPORATIONS --*/
   .corp-inner {
     display: flex;
     flex-direction: column;
@@ -322,7 +322,7 @@
   .corp-outer > h1 {
     font-size: 50px;
   }
-    /* MILITARY */
+    /*--MILITARY-- */
     .mili-paragraph {
       width: 90vw;
       padding-left: 5px;
@@ -335,7 +335,7 @@
      padding-right: 15px;
      padding-left: 15px;
    }
-     /*PUBLIC SAFETY*/
+     /*--PUBLIC SAFETY--*/
   .fireTruck2 {
     width: 33.3%;
   }
@@ -344,6 +344,14 @@
   }
   .fireTruck3 {
     display: none;
+  }
+  /*--RESOURCES--*/
+  .resources {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .airbb {
+    width: 250px;
   }
 }
 
