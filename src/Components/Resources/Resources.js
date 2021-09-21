@@ -15,8 +15,8 @@ const Resources = () => {
   };
 
   useEffect(() => {
-    const results = resources.filter((resourcecards) => 
-    resourcecards.title.includes(search)
+    const results = resources.filter((resources) => 
+    resources.topic.toLowerCase().includes(search)
     );
     setSearchResults(results);
   }, [resources, search])
@@ -37,15 +37,20 @@ const Resources = () => {
   //map over resourcecards and return the structure of the cards
   let mappedResources = resources.map((resources) => {
     return (
-      <div key={resources.id}>
-        <img src={resources.img} alt="" />
+      <div>
+        {/* <div className="line"></div>
+        <h1>{resources.topic}</h1> */}
+      <div key={resources.id} className="airbb">
+        <img src={resources.img} alt="" className="resourceImg" />
         <div className="airbb-texts">
           <h4>{resources.title}</h4>
           <p>{resources.description}</p>
           <p>{resources.link}</p>
+          <p>{resources.topic}</p>
           <button className="airbb-btn">Learn More</button>
         </div>
-        <div className="line"></div>
+
+      </div>
       </div>
     )
   });
@@ -54,16 +59,22 @@ console.log(resources)
 //map over the resources that match search results
 let mappedSearch = searchResults.map((resources) => {
   return (
+    <div>
+      {/* <h1>{resources.topic.charAt[0]}</h1>
+      <div className="line"></div> */}
+      <h6>{resources.topic}</h6>
     <div key={resources.id} className="airbb">
     <img src={resources.img} alt="" className="resourceImg"  />
     <div className="airbb-texts">
       <h4>{resources.title}</h4>
       <p>{resources.description}</p>
       <p>{resources.link}</p>
+      <p>{resources.topic}</p>
       <button className="airbb-btn"> Learn More</button>
     </div>
-    <div className="line"></div>
+    
   </div>
+    </div>
   )
 })
 
@@ -78,8 +89,8 @@ let mappedSearch = searchResults.map((resources) => {
       <input type="text" placeholder="Search" value={search} onChange={handleChange} />
       <div className="resources">
         {searchResults.length < 1 
-        ? mappedResources
-        : mappedSearch}
+        ? mappedSearch
+        : mappedResources}
       </div>
     </div>
   )
