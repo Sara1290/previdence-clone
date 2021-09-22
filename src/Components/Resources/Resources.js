@@ -39,33 +39,33 @@ const Resources = () => {
   let mappedResources = resources.map((resources) => {
     return (
       <div className="card-container">
-      <div className="rsc-header" >
-      <h3>{resources.topic.charAt(0).toUpperCase()}</h3>
-      <div className="line"></div>
-      </div>
-      <p>{resources.topic}</p>
+        <div className="rsc-header" >
+        <h3>{resources.alpha}</h3>
+        <div className="line"></div>
+        </div>
+        <p>{resources.topic}</p>
     <div key={resources.id} className="airbb">
-    <img src={resources.img} alt="" className="resourceImg"  />
-    <div className="airbb-texts">
-      <h4>{resources.title}</h4>
-      <p>{resources.description}</p>
-      <p>{resources.link}</p>
-      {/* <p>{resources.topic}</p> */}
-      <button className="airbb-btn"> Learn More</button>
-    </div>
-    
-  </div>
-    </div>
+      <img src={resources.img} alt="" className="resourceImg"  />
+      <div className="airbb-texts">
+        <h4>{resources.title}</h4>
+        <p>{resources.description}</p>
+        <p>{resources.link}</p>
+        {/* <p>{resources.topic}</p> */}
+        <button className="airbb-btn" > Learn More</button>
+        </div> 
+        </div>
+      </div>
     )
-  });
+      })
 console.log(resources)
 
 //map over the resources that match search results
+
 let mappedSearch = searchResults.map((resources) => {
   return (
     <div className="card-container">
       <div className="rsc-header" >
-      <h3>{resources.topic.charAt(0).toUpperCase()}</h3>
+      <h3>{resources.alpha}</h3>
       <div className="line"></div>
       </div>
       <p>{resources.topic}</p>
@@ -77,9 +77,8 @@ let mappedSearch = searchResults.map((resources) => {
       <p>{resources.link}</p>
       {/* <p>{resources.topic}</p> */}
       <button className="airbb-btn"> Learn More</button>
-    </div>
-    
-  </div>
+      </div> 
+      </div>
     </div>
   )
 })
@@ -96,7 +95,7 @@ return (
       <div className="resources">
         {searchResults.length < 1 
         ? mappedResources
-        : mappedSearch}
+        : mappedSearch }
       </div>
     </div>
   )

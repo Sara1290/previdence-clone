@@ -1,2 +1,2 @@
-SELECT id, title, link, description, img, topic FROM resourceCards
-WHERE lower(topic) like $1;
+SELECT id, title, link, description, img, topic, alpha FROM resourceCards
+WHERE lower(topic) ilike $1;

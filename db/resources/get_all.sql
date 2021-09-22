@@ -1,2 +1,2 @@
-SELECT id, title, link, description, img, topic FROM resourcecards
+SELECT id, title, link, description, img, topic, alpha FROM resourcecards
 ORDER BY topic ASC;
