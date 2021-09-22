@@ -9,18 +9,6 @@ const Resources = () => {
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
-  //SEARCH
-  const handleChange = (e) => {
-    setSearch(e.target.value)
-  };
-
-  useEffect(() => {
-    const results = resources.filter((resources) => 
-    resources.topic.toLowerCase().includes(search)
-    );
-    setSearchResults(results);
-  }, [resources, search])
-
   //get all resources on load
   const getResources = () => {
     axios.get("/api/resources")
@@ -34,24 +22,40 @@ const Resources = () => {
     getResources();
   }, []);
 
+  //SEARCH
+  const handleChange = (e) => {
+    setSearch(e.target.value)
+  };
+
+  useEffect(() => {
+    const results = resources.filter((resources) => 
+    resources.topic.toLowerCase().includes(search)
+    );
+    setSearchResults(results);
+  }, [resources, search])
+
+
   //map over resourcecards and return the structure of the cards
   let mappedResources = resources.map((resources) => {
     return (
-      <div>
-        {/* <div className="line"></div>
-        <h1>{resources.topic}</h1> */}
-      <div key={resources.id} className="airbb">
-        <img src={resources.img} alt="" className="resourceImg" />
-        <div className="airbb-texts">
-          <h4>{resources.title}</h4>
-          <p>{resources.description}</p>
-          <p>{resources.link}</p>
-          <p>{resources.topic}</p>
-          <button className="airbb-btn">Learn More</button>
-        </div>
-
+      <div className="card-container">
+      <div className="rsc-header" >
+      <h3>{resources.topic.charAt(0).toUpperCase()}</h3>
+      <div className="line"></div>
       </div>
-      </div>
+      <p>{resources.topic}</p>
+    <div key={resources.id} className="airbb">
+    <img src={resources.img} alt="" className="resourceImg"  />
+    <div className="airbb-texts">
+      <h4>{resources.title}</h4>
+      <p>{resources.description}</p>
+      <p>{resources.link}</p>
+      {/* <p>{resources.topic}</p> */}
+      <button className="airbb-btn"> Learn More</button>
+    </div>
+    
+  </div>
+    </div>
     )
   });
 console.log(resources)
@@ -59,17 +63,19 @@ console.log(resources)
 //map over the resources that match search results
 let mappedSearch = searchResults.map((resources) => {
   return (
-    <div>
-      {/* <h1>{resources.topic.charAt[0]}</h1>
-      <div className="line"></div> */}
-      <h6>{resources.topic}</h6>
+    <div className="card-container">
+      <div className="rsc-header" >
+      <h3>{resources.topic.charAt(0).toUpperCase()}</h3>
+      <div className="line"></div>
+      </div>
+      <p>{resources.topic}</p>
     <div key={resources.id} className="airbb">
     <img src={resources.img} alt="" className="resourceImg"  />
     <div className="airbb-texts">
       <h4>{resources.title}</h4>
       <p>{resources.description}</p>
       <p>{resources.link}</p>
-      <p>{resources.topic}</p>
+      {/* <p>{resources.topic}</p> */}
       <button className="airbb-btn"> Learn More</button>
     </div>
     
@@ -78,8 +84,8 @@ let mappedSearch = searchResults.map((resources) => {
   )
 })
 
-    return (
-    <div>
+return (
+  <div>
       <NavBarTwo />
       <div className="a-z-filter">
         <h3>
@@ -89,8 +95,8 @@ let mappedSearch = searchResults.map((resources) => {
       <input type="text" placeholder="Search" value={search} onChange={handleChange} />
       <div className="resources">
         {searchResults.length < 1 
-        ? mappedSearch
-        : mappedResources}
+        ? mappedResources
+        : mappedSearch}
       </div>
     </div>
   )

@@ -670,11 +670,21 @@
   align-items: center;
   justify-content: center; */
 }
+.card-container {
+  margin-top: 5vh;
+}
 .resources {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+.rsc-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .line {
   background-color: rgb(218, 218, 218);
@@ -697,7 +707,7 @@
 }
 .resourceImg {
   width: 90%;
-  height: auto;
+  height: 180px;
   border-radius: 15px;
   box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
   -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
