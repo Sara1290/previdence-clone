@@ -45,17 +45,17 @@ const Resources = () => {
           <div className="line"></div>
           <p>{resources.topic}</p>
           </div>
-      <div key={resources.id} className="airbb">
-      <img src={resources.img} alt="" className="resourceImg"  />
-      <div className="airbb-texts">
-        <h4>{resources.title}</h4>
-        <p>{resources.description}</p>
-        <p>{resources.link}</p>
-        {/* <p>{resources.topic}</p> */}
-        <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
-        </div> 
+        <div key={resources.id} className="airbb">
+        <img src={resources.img} alt="" className="resourceImg"  />
+        <div className="airbb-texts">
+          <h4>{resources.title}</h4>
+          <p>{resources.description}</p>
+          <p>{resources.link}</p>
+          {/* <p>{resources.topic}</p> */}
+          <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
+          </div> 
+          </div>
         </div>
-      </div>
       :  <div key={resources.id} className="airbb2">
           <img src={resources.img} alt="" className="resourceImg"  />
           <div className="airbb-texts">
@@ -74,34 +74,34 @@ console.log(resources)
 
 let mappedSearch = searchResults.map((resources) => {
   return (
-    resources.alpha && resources.topic ?
-    <div className="card-container">
+    resources.alpha 
+    ? <div className="card-container">
         <div className="rsc-header" >
         <h3>{resources.alpha}</h3>
         <div className="line"></div>
         <p>{resources.topic}</p>
         </div>
-    <div key={resources.id} className="airbb">
-    <img src={resources.img} alt="" className="resourceImg"  />
-    <div className="airbb-texts">
-      <h4>{resources.title}</h4>
-      <p>{resources.description}</p>
-      <p>{resources.link}</p>
-      {/* <p>{resources.topic}</p> */}
-      <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
-      </div> 
+      <div key={resources.id} className="airbb">
+      <img src={resources.img} alt="" className="resourceImg"  />
+      <div className="airbb-texts">
+        <h4>{resources.title}</h4>
+        <p>{resources.description}</p>
+        <p>{resources.link}</p>
+        {/* <p>{resources.topic}</p> */}
+        <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
+        </div> 
+        </div>
       </div>
-    </div>
     :  <div key={resources.id} className="airbb2">
-    <img src={resources.img} alt="" className="resourceImg"  />
-    <div className="airbb-texts">
-      <h4>{resources.title}</h4>
-      <p>{resources.description}</p>
-      <p>{resources.link}</p>
-      <p>{resources.topic}</p>
-      <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
-      </div> 
-      </div>
+        <img src={resources.img} alt="" className="resourceImg"  />
+        <div className="airbb-texts">
+          <h4>{resources.title}</h4>
+          <p>{resources.description}</p>
+          <p>{resources.link}</p>
+          {/* <p>{resources.topic}</p> */}
+          <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
+          </div> 
+       </div>
   )
 })
 
