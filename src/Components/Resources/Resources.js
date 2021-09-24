@@ -38,23 +38,34 @@ const Resources = () => {
   //map over resourcecards and return the structure of the cards
   let mappedResources = resources.map((resources) => {
     return (
-      <div className="card-container">
-        <div className="rsc-header" >
-        <h3>{resources.alpha}</h3>
-        <div className="line"></div>
-        </div>
-        <p>{resources.topic}</p>
-    <div key={resources.id} className="airbb">
+      resources.alpha 
+      ? <div className="card-container">
+          <div className="rsc-header" >
+          <h3>{resources.alpha}</h3>
+          <div className="line"></div>
+          <p>{resources.topic}</p>
+          </div>
+      <div key={resources.id} className="airbb">
       <img src={resources.img} alt="" className="resourceImg"  />
       <div className="airbb-texts">
         <h4>{resources.title}</h4>
         <p>{resources.description}</p>
         <p>{resources.link}</p>
         {/* <p>{resources.topic}</p> */}
-        <button className="airbb-btn" > Learn More</button>
+        <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
         </div> 
         </div>
       </div>
+      :  <div key={resources.id} className="airbb2">
+          <img src={resources.img} alt="" className="resourceImg"  />
+          <div className="airbb-texts">
+            <h4>{resources.title}</h4>
+            <p>{resources.description}</p>
+            <p>{resources.link}</p>
+            {/* <p>{resources.topic}</p> */}
+            <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
+            </div> 
+         </div>
     )
       })
 console.log(resources)
@@ -63,12 +74,13 @@ console.log(resources)
 
 let mappedSearch = searchResults.map((resources) => {
   return (
+    resources.alpha && resources.topic ?
     <div className="card-container">
-      <div className="rsc-header" >
-      <h3>{resources.alpha}</h3>
-      <div className="line"></div>
-      </div>
-      <p>{resources.topic}</p>
+        <div className="rsc-header" >
+        <h3>{resources.alpha}</h3>
+        <div className="line"></div>
+        <p>{resources.topic}</p>
+        </div>
     <div key={resources.id} className="airbb">
     <img src={resources.img} alt="" className="resourceImg"  />
     <div className="airbb-texts">
@@ -76,12 +88,23 @@ let mappedSearch = searchResults.map((resources) => {
       <p>{resources.description}</p>
       <p>{resources.link}</p>
       {/* <p>{resources.topic}</p> */}
-      <button className="airbb-btn"> Learn More</button>
+      <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
       </div> 
       </div>
     </div>
+    :  <div key={resources.id} className="airbb2">
+    <img src={resources.img} alt="" className="resourceImg"  />
+    <div className="airbb-texts">
+      <h4>{resources.title}</h4>
+      <p>{resources.description}</p>
+      <p>{resources.link}</p>
+      <p>{resources.topic}</p>
+      <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
+      </div> 
+      </div>
   )
 })
+
 
 return (
   <div>
@@ -94,8 +117,9 @@ return (
       <input type="text" placeholder="Search" value={search} onChange={handleChange} />
       <div className="resources">
         {searchResults.length < 1 
-        ? mappedResources
-        : mappedSearch }
+        ? mappedResources 
+        : mappedSearch 
+        }
       </div>
     </div>
   )
