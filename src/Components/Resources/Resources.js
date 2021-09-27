@@ -55,8 +55,14 @@ const Resources = () => {
           <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
           </div> 
           </div>
+          <br></br>
         </div>
-      :  <div key={resources.id} className="airbb2">
+        : <div className="card-container" >
+         <div className="rsc-header" >
+            <div className="line"></div>
+            <p>{resources.topic}</p>
+            </div> 
+          <div key={resources.id} className="airbb2">
           <img src={resources.img} alt="" className="resourceImg"  />
           <div className="airbb-texts">
             <h4>{resources.title}</h4>
@@ -65,6 +71,7 @@ const Resources = () => {
             {/* <p>{resources.topic}</p> */}
             <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
             </div> 
+        </div>
          </div>
     )
       })
@@ -91,8 +98,14 @@ let mappedSearch = searchResults.map((resources) => {
         <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
         </div> 
         </div>
+        <br></br>
       </div>
-    :  <div key={resources.id} className="airbb2">
+      : <div className="card-container" >
+       <div className="rsc-header" >
+          <div className="line"></div>
+          <p>{resources.topic}</p>
+          </div> 
+        <div key={resources.id} className="airbb2">
         <img src={resources.img} alt="" className="resourceImg"  />
         <div className="airbb-texts">
           <h4>{resources.title}</h4>
@@ -101,6 +114,7 @@ let mappedSearch = searchResults.map((resources) => {
           {/* <p>{resources.topic}</p> */}
           <button className="airbb-btn" ><a href= {resources.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
           </div> 
+      </div>
        </div>
   )
 })

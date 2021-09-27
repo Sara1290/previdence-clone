@@ -672,6 +672,11 @@
 }
 .card-container {
   margin-top: 5vh;
+  width: 75%;
+}
+.card-container2 {
+  margin-top: 88px;
+  /* width: 75%; */
 }
 .link2 {
   text-decoration: none;
@@ -682,7 +687,7 @@
 }
 .resources {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   justify-content: center;
   /* align-items: center; */
   flex-wrap: wrap;
@@ -704,26 +709,26 @@
 
 .airbb {
  /* height: 500px; */
- width: 300px;
+ /* width: 300px; */
  display: flex;
- flex-direction: column;
- justify-content: center;
+ /* flex-direction: column; */
+ justify-content: space-between;
  align-items: center;
- padding-bottom: 10%;
- padding-top: 10%;
+ /* padding-bottom: 10%;
+ padding-top: 10%; */
 }
 .airbb2 {
   /* height: 500px; */
-  width: 300px;
+  /* width: 300px; */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* flex-direction: column; */
+  justify-content: space-between;
   align-items: center;
-  padding-bottom: 10%;
-  padding-top: 12%;
+  /* padding-bottom: 10%;
+  padding-top: 12%; */
  }
 .resourceImg {
-  width: 90%;
+  width: 275px;
   height: 180px;
   border-radius: 15px;
   box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
@@ -731,13 +736,13 @@
   -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
 }
 .airbb-texts {
-  width: 90%;
+  width: 600px;
   text-align: left;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
-  padding-top: 4vh;
+  justify-content: space-around;
+  /* padding-top: 4vh; */
 }
 .airbb-texts > h4 {
   font-weight: 900;
@@ -755,6 +760,7 @@
   background-color: #7b0303;
   color: rgb(255, 255, 255);
 }
+
 
 /* .card {
   height: 475px !important;
