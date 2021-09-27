@@ -670,14 +670,14 @@
   align-items: center;
   justify-content: center; */
 }
+.resource-input {
+  margin-top: 15px;
+}
 .card-container {
   margin-top: 5vh;
-  width: 75%;
+  width: 65%;
 }
-.card-container2 {
-  margin-top: 88px;
-  /* width: 75%; */
-}
+
 .link2 {
   text-decoration: none;
   color: #CFCFCF;

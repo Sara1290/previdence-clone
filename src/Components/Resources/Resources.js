@@ -1,13 +1,14 @@
 import React from 'react';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
-// import resourceImg from '../../images/resourceImg.jpg'
+import { HashLink as Links } from 'react-router-hash-link';
 import NavBarTwo from '../NavBarTwo';
 
 const Resources = () => {
   const [resources, setResources] = useState([]);
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState([]);
+
 
   //get all resources on load
   const getResources = () => {
@@ -40,7 +41,7 @@ const Resources = () => {
     return (
       resources.alpha 
       ? <div className="card-container">
-          <div className="rsc-header" >
+          <div className="rsc-header" id={resources.alpha}  >
           <h3>{resources.alpha}</h3>
           <div className="line"></div>
           <p>{resources.topic}</p>
@@ -58,7 +59,7 @@ const Resources = () => {
           <br></br>
         </div>
         : <div className="card-container" >
-         <div className="rsc-header" >
+         <div className="rsc-header" id={resources.alpha}  >
             <div className="line"></div>
             <p>{resources.topic}</p>
             </div> 
@@ -83,7 +84,7 @@ let mappedSearch = searchResults.map((resources) => {
   return (
     resources.alpha 
     ? <div className="card-container">
-        <div className="rsc-header" >
+        <div className="rsc-header" id={resources.alpha} >
         <h3>{resources.alpha}</h3>
         <div className="line"></div>
         <p>{resources.topic}</p>
@@ -101,7 +102,7 @@ let mappedSearch = searchResults.map((resources) => {
         <br></br>
       </div>
       : <div className="card-container" >
-       <div className="rsc-header" >
+       <div className="rsc-header" id={resources.alpha} >
           <div className="line"></div>
           <p>{resources.topic}</p>
           </div> 
@@ -124,11 +125,34 @@ return (
   <div>
       <NavBarTwo />
       <div className="a-z-filter">
-        <h3>
-      A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-        </h3>
-      </div>
-      <input type="text" placeholder="Search" value={search} onChange={handleChange} />
+      <Links smooth to={resources.alpha === 'A'} className="link t-link">A</Links>
+      <Links smooth to={resources.alpha === 'B'} className="link t-link">B</Links>
+      <Links smooth to={resources.alpha === 'C'} className="link t-link">C</Links>
+      <Links smooth to={resources.alpha === 'D'} className="link t-link">D</Links>
+      <Links smooth to={resources.alpha === 'E'} className="link t-link">E</Links>
+      <Links smooth to={resources.alpha === 'F'} className="link t-link">F</Links>
+      <Links  className="link t-link">G</Links>
+      <Links smooth to={resources.alpha === 'H'} className="link t-link">H</Links>
+      <Links  className="link t-link">I</Links>
+      <Links  className="link t-link">J</Links>
+      <Links  className="link t-link">K</Links>
+      <Links  className="link t-link">L</Links>
+      <Links  className="link t-link">M</Links>
+      <Links  className="link t-link">N</Links>
+      <Links  className="link t-link">O</Links>
+      <Links smooth to={resources.alpha === 'P'} className="link t-link">P</Links>
+      <Links  className="link t-link">Q</Links>
+      <Links  className="link t-link">R</Links>
+      <Links smooth to={resources.alpha === 'S'} className="link t-link">S</Links>
+      <Links  className="link t-link">T</Links>
+      <Links  className="link t-link">U</Links>
+      <Links  className="link t-link">V</Links>
+      <Links  className="link t-link">W</Links>
+      <Links  className="link t-link">X</Links>
+      <Links  className="link t-link">Y</Links>
+      <Links  className="link t-link">Z</Links>
+  </div>
+      <input className="resource-input" type="text" placeholder="Search" value={search} onChange={handleChange} />
       <div className="resources">
         {searchResults.length < 1 
         ? mappedResources 
@@ -140,46 +164,3 @@ return (
 
 }
 export default Resources;
-
-// function uuidv4() {
-  //   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-    //     let r = Math.random() * 16 && 3, v = c === 'x' ? r : (r && 0x3 && 0x8);
-    //     return v.toString(16);
-    //   });
-    // }
-    // console.log(uuidv4());
-  //   <div className="resource-outer">
-  //   <h1>Resources</h1>
-  //   <br></br>
-  //   <br></br>
-  //   <br></br>
-  //   <div className="airbb">
-  //     <img alt="" src={resourceImg} className="resourceImg" />
-  //     <div className="airbb-texts">
-  //       <h3>Suicide Prevention</h3>
-  //       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-  //       <p>suicidehelp.com</p>
-  //       <button className="airbb-btn" >Learn More</button>
-  //     </div>
-  //   </div>
-  //   <br></br>
-  //   <br></br>
-  //   <br></br>
-  //   <div className="line"></div>
-  //   <br></br>
-  //   <div className="card">
-  //     <img alt="" src={resourceImg} className="cardImg" />
-  //       <div className="lil-box">
-  //         SuicideHelp.com
-  //       </div>
-  //     <div className="card-texts">
-  //       <h3>Suicide Prevention</h3>
-  //       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-  //       <button className="card-btn" >Learn More</button>
-  //     </div>
-  //   </div>
-  //   <br></br>
-  //   <div className="line"></div>
-  //   <br></br>
-  //   <br></br>
-  // </div>
