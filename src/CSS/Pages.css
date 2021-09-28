@@ -670,8 +670,12 @@
   align-items: center;
   justify-content: center; */
 }
+#h3 {
+  margin-top: 10vh;
+}
 .resource-input {
-  margin-top: 15px;
+  margin-top: 3vh;
+  width: 40vw;
 }
 .card-container {
   margin-top: 5vh;

@@ -31,5 +31,6 @@ export default (
     <Route path="/contact" component={Contact} />
     <Route path="/testimonials" component={Testimonials} />
     <Route path="/resources" component={Resources} />
+    <Route path="/alpha" component={Resources} />
   </Switch>
 )

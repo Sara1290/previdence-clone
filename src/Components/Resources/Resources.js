@@ -1,7 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
-import { HashLink as Links } from 'react-router-hash-link';
 import NavBarTwo from '../NavBarTwo';
 
 const Resources = () => {
@@ -30,7 +29,7 @@ const Resources = () => {
 
   useEffect(() => {
     const results = resources.filter((resources) => 
-    resources.topic.toLowerCase().includes(search)
+    resources.topic.toLowerCase().includes(search.toLowerCase())
     );
     setSearchResults(results);
   }, [resources, search])
@@ -41,8 +40,8 @@ const Resources = () => {
     return (
       resources.alpha 
       ? <div className="card-container">
-          <div className="rsc-header" id={resources.alpha}  >
-          <h3>{resources.alpha}</h3>
+          <div className="rsc-header" >
+          <h3 id="alpha">{resources.alpha}</h3>
           <div className="line"></div>
           <p>{resources.topic}</p>
           </div>
@@ -59,7 +58,7 @@ const Resources = () => {
           <br></br>
         </div>
         : <div className="card-container" >
-         <div className="rsc-header" id={resources.alpha}  >
+         <div className="rsc-header">
             <div className="line"></div>
             <p>{resources.topic}</p>
             </div> 
@@ -81,11 +80,12 @@ console.log(resources)
 //map over the resources that match search results
 
 let mappedSearch = searchResults.map((resources) => {
+  console.log(resources.alpha)
   return (
     resources.alpha 
     ? <div className="card-container">
-        <div className="rsc-header" id={resources.alpha} >
-        <h3>{resources.alpha}</h3>
+        <div className="rsc-header" >  
+        <h3 id="alpha">{resources.alpha}</h3>
         <div className="line"></div>
         <p>{resources.topic}</p>
         </div>
@@ -102,7 +102,7 @@ let mappedSearch = searchResults.map((resources) => {
         <br></br>
       </div>
       : <div className="card-container" >
-       <div className="rsc-header" id={resources.alpha} >
+       <div className="rsc-header" >
           <div className="line"></div>
           <p>{resources.topic}</p>
           </div> 
@@ -124,34 +124,10 @@ let mappedSearch = searchResults.map((resources) => {
 return (
   <div>
       <NavBarTwo />
-      <div className="a-z-filter">
-      <Links smooth to={resources.alpha === 'A'} className="link t-link">A</Links>
-      <Links smooth to={resources.alpha === 'B'} className="link t-link">B</Links>
-      <Links smooth to={resources.alpha === 'C'} className="link t-link">C</Links>
-      <Links smooth to={resources.alpha === 'D'} className="link t-link">D</Links>
-      <Links smooth to={resources.alpha === 'E'} className="link t-link">E</Links>
-      <Links smooth to={resources.alpha === 'F'} className="link t-link">F</Links>
-      <Links  className="link t-link">G</Links>
-      <Links smooth to={resources.alpha === 'H'} className="link t-link">H</Links>
-      <Links  className="link t-link">I</Links>
-      <Links  className="link t-link">J</Links>
-      <Links  className="link t-link">K</Links>
-      <Links  className="link t-link">L</Links>
-      <Links  className="link t-link">M</Links>
-      <Links  className="link t-link">N</Links>
-      <Links  className="link t-link">O</Links>
-      <Links smooth to={resources.alpha === 'P'} className="link t-link">P</Links>
-      <Links  className="link t-link">Q</Links>
-      <Links  className="link t-link">R</Links>
-      <Links smooth to={resources.alpha === 'S'} className="link t-link">S</Links>
-      <Links  className="link t-link">T</Links>
-      <Links  className="link t-link">U</Links>
-      <Links  className="link t-link">V</Links>
-      <Links  className="link t-link">W</Links>
-      <Links  className="link t-link">X</Links>
-      <Links  className="link t-link">Y</Links>
-      <Links  className="link t-link">Z</Links>
-  </div>
+      {/* <div className="a-z-filter">
+        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+      </div> */}
+      <h1 id="h3">Resources</h1>
       <input className="resource-input" type="text" placeholder="Search" value={search} onChange={handleChange} />
       <div className="resources">
         {searchResults.length < 1 
