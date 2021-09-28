@@ -672,13 +672,14 @@
 }
 #h3 {
   margin-top: 10vh;
+  font-size: 50px;
 }
 .resource-input {
-  margin-top: 3vh;
+  margin-top: 7vh;
   width: 40vw;
 }
 .card-container {
-  margin-top: 5vh;
+  margin-top: 8vh;
   width: 65%;
 }
 
@@ -706,8 +707,6 @@
   background-color: rgb(218, 218, 218);
   height: 1px;
   width: 100%;
-  /* position: relative;
-  top: 15px; */
   margin-top: 15px;
 }
 

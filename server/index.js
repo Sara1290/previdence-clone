@@ -24,10 +24,10 @@ app.use(cors({
 app.use(session ({
   resave: false,
   saveUninitialized: true,
-  secret: SESSION_SECRET,
-  cookie: {
-    maxAge: 1000 * 60 * 60 * 24 * 7
-  }
+  secret: SESSION_SECRET
+  // cookie: {
+  //   maxAge: 1000 * 60 * 60 * 24 * 7
+  // }
 })
 );
 

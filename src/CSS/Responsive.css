@@ -638,27 +638,29 @@
       .fireFighter-img {
         width: 33.3%;
       }
+      /*----RESOURCES-----*/
       .resources {
-        padding: 0 5vw 0 5vw;
-      }
-      .resources {
+        padding: 0 0vw 0 18vw;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-start;
       }
       .card-container {
-        width: 90vw !important;
+        width: 95vw !important;
+      }
+      .line {
+        width: 65% !important;
       }
       .airbb-texts {
         width: 600px !important;
       }
       .airbb {
-        width: 55% !important;
+        width: 65% !important;
         justify-content: space-around;
       }
       .airbb2 {
-        width: 55% !important;
+        width: 65% !important;
         justify-content: space-around;
       }
 }
