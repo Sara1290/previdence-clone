@@ -59,6 +59,10 @@ z-index: 1;
   position: relative;
   bottom: 20px;
 }
+.navbar-collapse {
+  position: relative;
+  top: 21px;
+}
 .nav-links {
   position: absolute;
   top: 40px;
