@@ -764,39 +764,46 @@
   color: rgb(255, 255, 255);
 }
 
+/*----------- OFD TIPS --------*/
 
-/* .card {
-  height: 475px !important;
-  width: 300px !important;
-  border: 1px solid rgb(150, 150, 150);
-  width: 80%;
-  position: relative;
-  left: 10vw;
-  box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.15);
-  -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.15);
-  -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.15);
-} */
-/* .cardImg {
-  height: 200px;
+ol {
+  text-align: left;
+  line-height: 25pt;
 }
-.lil-box {
-  background-color: black;
-  color: white;
-  border: none;
-  width: 42%;
-  position: relative;
-  left: 5vw;
-  bottom: 10px;
-  box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
-  -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
-  -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
-} */
-/* .card-texts {
-  padding: 10px 15px;
+ul {
+  text-align: left;
+  line-height: 25pt;
 }
-.card-btn {
-  background-color: transparent;
-  border: 1px solid #7b0303;
-  color: #7b0303;
-  height: 40px;
-} */
+.LI {
+  font-weight: bolder;
+}
+.tips-container {
+  margin-top: 10vh;
+}
+.tips-container h1 {
+  margin-top: 2vh;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+.CIT h5:first-of-type {
+margin: 5vh 0 5vh 0;
+} 
+.CIT h5 {
+  font-weight: bolder;
+}
+.CIT p {
+  margin-left: 5vw;
+  line-height: 15pt;
+}
+.CRP {
+  margin-top: 12vh;
+  text-align: left;
+}
+.CRP h2 {
+  margin-left: 5vw;
+}
+.phones {
+  text-align: left;
+  margin:  12vh 2vw 10vh 5vw;
+}
