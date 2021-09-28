@@ -201,6 +201,9 @@
     justify-content: space-between;
     margin-left: 10px;
   }
+  .tips-container {
+    width: 80vw;
+  }
 
 }
 /*tablet*/
@@ -531,6 +534,9 @@
     width: 75% !important;
     justify-content: space-around;
   }
+  .tips-container {
+    width: 60vw;
+  }
 }
 
 /*XL*/
@@ -622,6 +628,9 @@
   .airbb2 {
     width: 75% !important;
     justify-content: space-around;
+  }
+  .tips-container {
+    width: 50vw;
   }
 }
 @media screen and (min-width: 1900px) {
