@@ -1,5 +1,6 @@
 import React from 'react';
 import * as Survey from "survey-react";
+import NavbarTwo from '../NavBarTwo'
 import "survey-react/modern.css";
 
 
@@ -18,9 +19,12 @@ const Ppn = () => {
   }
   );
   return (
+    <div className="ppn-survey">
+    <NavbarTwo />
     <Survey.Survey
         model={survey}
-    />
+        />
+    </div>
 );
 
 }
