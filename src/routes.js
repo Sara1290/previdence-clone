@@ -15,6 +15,7 @@ import Contact from './Components/Contact/Contact';
 import Testimonials from './Components/Home-Page/Testimonials';
 import Resources from './Components/Resources/Resources';
 import OfdTips from './Components/Tips/OfdTips';
+import Ppn from './Components/Surveys/Ppn';
 
 export default (
   <Switch>
@@ -33,6 +34,7 @@ export default (
     <Route path="/testimonials" component={Testimonials} />
     <Route path="/resources" component={Resources} />
     <Route path="/alpha" component={Resources} />
-    <Route path="/OfdTips" component={OfdTips} />
+    <Route path="/ofdtips" component={OfdTips} />
+    <Route path="/ppn" component={Ppn} />
   </Switch>
 )
