@@ -4,7 +4,7 @@ import NavBarTwo from '../NavBarTwo'
 import "survey-react/modern.css";
 
 
-const Ppn = () => {
+const PrevEval = () => {
   Survey.StylesManager.applyTheme("modern");
   
   const json = {
@@ -21,7 +21,7 @@ const Ppn = () => {
   return (
     <div className="survey">
     <NavBarTwo />
-    <h1>Previdence Provider Network Survey</h1>
+    <h1>Previdence Evaluation Survey</h1>
     <Survey.Survey
         model={survey}
         />
@@ -29,4 +29,4 @@ const Ppn = () => {
 );
 
 }
-export default Ppn;
+export default PrevEval;

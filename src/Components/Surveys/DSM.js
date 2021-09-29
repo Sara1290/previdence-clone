@@ -4,12 +4,12 @@ import NavBarTwo from '../NavBarTwo'
 import "survey-react/modern.css";
 
 
-const Ppn = () => {
+const DSM = () => {
   Survey.StylesManager.applyTheme("modern");
   
   const json = {
-    surveyId: '441dc37c-4257-47cc-9784-d9fc7f8d766b',
-    surveyPostId: '443e95a0-de53-42fd-8447-271d31f56c8f'
+    surveyId: '265752f1-d993-4444-9dcf-2c7d8e749e01',
+    surveyPostId: 'fcf7a9d7-8cb4-4058-8666-df5abe1a52c4'
   }
   const survey = new Survey.Model(json);
   
@@ -21,7 +21,7 @@ const Ppn = () => {
   return (
     <div className="survey">
     <NavBarTwo />
-    <h1>Previdence Provider Network Survey</h1>
+    <h1>DSM Survey</h1>
     <Survey.Survey
         model={survey}
         />
@@ -29,4 +29,4 @@ const Ppn = () => {
 );
 
 }
-export default Ppn;
+export default DSM;

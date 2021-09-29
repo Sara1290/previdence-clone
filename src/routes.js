@@ -16,6 +16,13 @@ import Testimonials from './Components/Home-Page/Testimonials';
 import Resources from './Components/Resources/Resources';
 import OfdTips from './Components/Tips/OfdTips';
 import Ppn from './Components/Surveys/Ppn';
+import PpnAdditional from './Components/Surveys/PpnAddtional';
+import CrisisResponse from './Components/Surveys/CrisisResponse';
+import InClinicArt from './Components/Surveys/InClincArt';
+import ClientFollowUp from './Components/Surveys/ClientFollowUp';
+import PrevEval from './Components/Surveys/PrevEval';
+import DSM from './Components/Surveys/DSM';
+import DSMParents from './Components/Surveys/DSMParents';
 
 export default (
   <Switch>
@@ -33,8 +40,14 @@ export default (
     <Route path="/contact" component={Contact} />
     <Route path="/testimonials" component={Testimonials} />
     <Route path="/resources" component={Resources} />
-    <Route path="/alpha" component={Resources} />
     <Route path="/ofdtips" component={OfdTips} />
     <Route path="/ppn" component={Ppn} />
+    <Route path="ppnadditional" component={PpnAdditional} />
+    <Route path="crisisresponse" component={CrisisResponse} />
+    <Route path="inclinicart" component={InClinicArt} />
+    <Route path="clientfollowup" component={ClientFollowUp} />
+    <Route path="preveval" component={PrevEval} />
+    <Route path="dsm" component={DSM} />
+    <Route path="dsmparents" component={DSMParents} />
   </Switch>
 )
