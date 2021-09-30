@@ -812,3 +812,8 @@ margin: 5vh 0 5vh 0;
 .survey {
   text-align: left;
 }
+
+#surveyResult { 
+  width: 60%;
+  margin-left: 5vw;
+}

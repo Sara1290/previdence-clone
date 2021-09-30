@@ -3,7 +3,7 @@ import ofd5 from '../../images/ofd5.png'
 import safeUT from '../../images/safeUT.jpg'
 import NavbarTwo from '../NavBarTwo';
 
-const OfdTips = () => {
+const OFDTips = () => {
 
   return (
     <div className="tips-outer">
@@ -77,4 +77,4 @@ const OfdTips = () => {
   )
 
 };
-export default OfdTips;
+export default OFDTips;

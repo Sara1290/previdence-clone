@@ -25,7 +25,7 @@ const PpnAdditional = () => {
     <h1>Previdence Provider Network - Additional Information</h1>
     <Survey.Survey
         model={survey}
-        />
+        />  
     </div>
 );
 
