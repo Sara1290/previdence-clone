@@ -11,12 +11,12 @@ const Trainings = () => {
   });
 
   var ui = ShopifyBuy.UI.init(client);
-
- useEffect(() => {
+  
+  useEffect(() => {
 
    ui.createComponent('product', {
      id: 7023956328604,
-     // node: document.getElementById('my-product'),
+     node: document.getElementById('my-product'),
      options: {
       product: {
         buttonDestination: 'modal',
@@ -42,7 +42,7 @@ const Trainings = () => {
   return (
     <div className="trainings-outer">
       <NavBarTwo />
-      <div className="courses-container">
+      <div className="courses-container" id="my-product">
         <h1>Courses</h1>
       </div>
     </div>
