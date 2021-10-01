@@ -281,7 +281,7 @@
     font-size: 12px;
   }
   /*Faith Based*/
-  .icon-container {
+  /* .icon-container {
     display: flex;
     justify-content: left;
     align-items: flex-start;
@@ -289,7 +289,7 @@
     width: 100%;
     position: relative;
     left: 10vw;
-  }
+  } */
   .faith-paragraphs-container {
     width: 85vw;
     padding-left: 15%;
@@ -589,8 +589,8 @@
     justify-content: left;
     align-items: flex-start;
     flex-wrap: wrap;
-    width: 75%;
-    padding-left: 30%;
+    width: 60%;
+    /* padding-left: 10%; */
   }
   /*PROFESSIONAL*/
   .pro-container {
@@ -619,9 +619,14 @@
     height: auto !important;
   }
   .corp-paragraph {
-    width: 30vw;
-    margin: 60px;
+    width: 200px;
+    /* margin: 60px; */
     font-size: 20px;
+    position: relative;
+    right: 700px;
+  }
+  .corp-paragraph > p {
+    text-align: center;
   }
   .corp-outer > h1 {
     font-size: 60px;

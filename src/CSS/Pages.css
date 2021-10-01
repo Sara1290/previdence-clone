@@ -241,6 +241,9 @@
   padding: 10px;
   margin-bottom: 20px;
 }
+.react-multi-carousel-track {
+  left: 90px
+}
 
 
 /* ---------------------FAITH BASED------------------ */
@@ -306,9 +309,33 @@
 .faith-button-parent {
   padding-bottom: 20px;
 }
-.liaison:hover {
-  background-color: white;
+.faith-liaison {
+  background-color: whitesmoke;
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  border: 1px solid #e0e0e3;
+  color: #CFCFCF;
+  border-radius: 3px;
+  padding: 12px 30px;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: "Libre Franklin", ;
+  font-weight: 600;
+  letter-spacing: .06em;
+  transition: .33s all ease;
+  white-space: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+}
+.faith-liaison:hover {
+  background-color: transparent;
   color: black;
+  cursor: default; 
+}
+.a:hover {
+  color: white;
 }
 
 /*-----------------PROFESSIONAL-------------------*/
@@ -376,6 +403,7 @@
   font-size: 20  px;
   padding: 20px;
   font-weight: 500;
+  text-align: center;
 }
 .button-parent-corr {
   padding-bottom: 50px;
@@ -410,10 +438,10 @@
   background-color: black;
   color: white;
 }
-/* K 12 */
+/* K12 */
 .k12-inner {
   background-color: #7b0303;
-  text-align: center;
+  text-align: center !important;
   color: #CFCFCF;
 }
 .k12-inner > h1 {
@@ -421,18 +449,21 @@
   font-size: 40px;
 }
 .k12-inner > p {
-  text-align: left;
+  text-align: center !important;
   font-size: 20px;
   /* font-weight: 500; */
   padding-left: 25px;
   padding-right: 2px;
 }
 .k12 {
-  text-align: left;
+  text-align: center !important;
   font-size: 20px;
   /* font-weight: 500; */
   padding-left: 25px;
   padding-right: 2px;
+}
+.k12 > p {
+  text-align: center;
 }
 .k12-img {
   max-width: 375px;
@@ -519,9 +550,12 @@
   margin-bottom: 50px;
 }
 .mili-paragraph {
-  text-align: left;
+  text-align: center;
   /* width: 40vw; */
-  font-size: 18px;
+  font-size: 18px
+}
+.mili-paragraph > p {
+  text-align: center;
 }
 .button-parent-mili {
   padding: 40px 0px 100px 0px;
@@ -668,11 +702,6 @@
   align-items: center;
 }
 
-/* .shopify-buy-frame .shopify-buy-frame--product .shopify-buy__layout-vertical {
- display: flex;
- justify-content: center;
- align-items: center;
-} */
 
 /*------------- RESOURCES -----------*/
 .resource-outer {
