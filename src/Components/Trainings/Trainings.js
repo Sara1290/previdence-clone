@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import NavBarTwo from '../NavBarTwo';
 import ShopifyBuy from '@shopify/buy-button-js'
 
@@ -12,33 +12,12 @@ const Trainings = () => {
 
   var ui = ShopifyBuy.UI.init(client);
 
-  ui.createComponent('product', {
-    id: 6162478989468,
-    // node: document.getElementById('my-product'),
-    options: {
-      product: {
-        buttonDestination: 'modal',
-      layout: 'horizontal',
-      contents: {
-        descrition: true
-      }
-    },
-    cart: {
-      startOpen: false,
-      popup: true,
-      contents: {
-        note: true,
-      },
-      text: {
-        noteDescription: "NAME AND EMAIL OF EACH ATTENDEE"
-      }
-    }
-  }
-  });
-  ui.createComponent('product', {
-    id: 7023956328604,
-    // node: document.getElementById('my-product'),
-    options: {
+ useEffect(() => {
+
+   ui.createComponent('product', {
+     id: 7023956328604,
+     // node: document.getElementById('my-product'),
+     options: {
       product: {
         buttonDestination: 'modal',
       layout: 'horizontal',
@@ -57,12 +36,15 @@ const Trainings = () => {
       }
     }
   }
-  });
+});
 
+}, [ui])
   return (
     <div className="trainings-outer">
       <NavBarTwo />
-      <h1>Courses</h1>
+      <div className="courses-container">
+        <h1>Courses</h1>
+      </div>
     </div>
   )
 }

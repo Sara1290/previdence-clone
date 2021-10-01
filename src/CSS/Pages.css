@@ -661,6 +661,18 @@
 .trainings-outer h1 {
   margin-bottom: 12vh;
 }
+.courses-container {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .shopify-buy-frame .shopify-buy-frame--product .shopify-buy__layout-vertical {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+} */
 
 /*------------- RESOURCES -----------*/
 .resource-outer {
