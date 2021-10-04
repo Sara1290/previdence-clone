@@ -4,7 +4,7 @@ import { useState, useEffect} from 'react';
 import NavBarTwo from '../NavBarTwo';
 
 const Resources = () => {
-  const [setResources] = useState([]);
+  const [resources, setResources] = useState([]);
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
@@ -314,7 +314,7 @@ const Resources = () => {
     resources1.topic.toLowerCase().includes(search.toLowerCase())
     );
     setSearchResults(results);
-  }, [search])
+  }, [resources, search])
 
 
   //map over resourcecards and return the structure of the cards
