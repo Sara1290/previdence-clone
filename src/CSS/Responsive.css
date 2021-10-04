@@ -573,14 +573,12 @@
 @media screen and (min-width: 1500px) {
   /* HOME */
   .prev-logo {
-    
-    /* width: 70%; */
-    height: 220px;
+    height: 250px;
     margin: 0px 10px 100px 10px;
     padding: 0px 20px 0px 10px;
   }
   .background-video {
-    margin-top: 20vh;
+    margin-top: 10vh;
   }
  
   /*Faith Based */

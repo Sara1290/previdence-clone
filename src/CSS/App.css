@@ -292,7 +292,7 @@ p {
 }
 .paragraph > p {
   line-height: 2.5;
-  
+ 
 }
 .container > h1 {
   line-height: 3;
@@ -301,7 +301,9 @@ p {
 .testimonial-outer > h1 {
   padding-top: 10vh;
   padding-bottom: 10vh;
+  margin-left: 150px;
 }
+
 
 /* FOOTER */
 .footer-outer {
