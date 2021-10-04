@@ -1,10 +1,10 @@
 import React from 'react';
 import axios from 'axios';
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect} from 'react';
 import NavBarTwo from '../NavBarTwo';
 
 const Resources = () => {
-  const [resources, setResources] = useState([]);
+  const [setResources] = useState([]);
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
@@ -314,7 +314,7 @@ const Resources = () => {
     resources1.topic.toLowerCase().includes(search.toLowerCase())
     );
     setSearchResults(results);
-  }, [resources1, search])
+  }, [search])
 
 
   //map over resourcecards and return the structure of the cards
