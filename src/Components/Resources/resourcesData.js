@@ -1,14 +1,8 @@
 import React from 'react';
-import axios from 'axios';
-import { useState, useEffect, useMemo } from 'react';
-import NavBarTwo from '../NavBarTwo';
 
-const Resources = () => {
-  const [resources, setResources] = useState([]);
-  const [search, setSearch] = useState("");
-  const [searchResults, setSearchResults] = useState([]);
+const resourcesData = () => {
 
-  const resources1 = [
+  const resources = [
     {
       "id": 47,
       "title": "National Institute of Mental Health (NIMH)",
@@ -93,7 +87,7 @@ const Resources = () => {
     {
       "id": 60,
       "title": "National Education Alliance for Borderline Personality Disorder",
-      "link": "https://www.borderlinepersonalitydisorder.org/consumer-recovery-resources1/",
+      "link": "https://www.borderlinepersonalitydisorder.org/consumer-recovery-resources/",
       "description": "A collection of information about recovering from borderline personality disorder, reviewed by a committee of people who have had the diagnosis, are family members of a loved one with the diagnosis, and two dedicated professionals who work with individuals diagnosed with BPD.",
       "img": "https://www.borderlinepersonalitydisorder.org/wp-content/uploads/2020/07/priscilla-du-preez-nF8xhLMmg0c-unsplash.jpg",
       "topic": "bpd borderline personality disorder",
@@ -289,136 +283,5 @@ const Resources = () => {
       "alpha": null
     }
   ]
-
-
-  //get all resources1 on load
-  const getResources = () => {
-    axios.get("/api/resources1")
-    .then((res) => { 
-      setResources(res.data)
-    })
-    .catch((err) => console.log(err));
-  }
-  
-  useEffect(() => {
-    getResources();
-  }, []);
-
-  //SEARCH
-  const handleChange = (e) => {
-    setSearch(e.target.value)
-  };
-
-  useEffect(() => {
-    const results = resources1.filter((resources1) => 
-    resources1.topic.toLowerCase().includes(search.toLowerCase())
-    );
-    setSearchResults(results);
-  }, [resources1, search])
-
-
-  //map over resourcecards and return the structure of the cards
-  let mappedResources = resources1.map((resources1) => {
-    return (
-      resources1.alpha 
-      ? <div className="card-container">
-          <div className="rsc-header" >
-          <h3 id="alpha">{resources1.alpha}</h3>
-          <div className="line"></div>
-          <p>{resources1.topic}</p>
-          </div>
-        <div key={resources1.id} className="airbb">
-        <img src={resources1.img} alt="" className="resourceImg"  />
-        <div className="airbb-texts">
-          <h4>{resources1.title}</h4>
-          <p>{resources1.description}</p>
-          <p>{resources1.link}</p>
-          {/* <p>{resources1.topic}</p> */}
-          <button className="airbb-btn" ><a href= {resources1.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
-          </div> 
-          </div>
-          <br></br>
-        </div>
-        : <div className="card-container" >
-         <div className="rsc-header">
-            <div className="line"></div>
-            <p>{resources1.topic}</p>
-            </div> 
-          <div key={resources1.id} className="airbb2">
-          <img src={resources1.img} alt="" className="resourceImg"  />
-          <div className="airbb-texts">
-            <h4>{resources1.title}</h4>
-            <p>{resources1.description}</p>
-            <p>{resources1.link}</p>
-            {/* <p>{resources1.topic}</p> */}
-            <button className="airbb-btn" ><a href= {resources1.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
-            </div> 
-        </div>
-         </div>
-    )
-      })
-console.log(resources1)
-
-//map over the resources1 that match search results
-
-let mappedSearch = searchResults.map((resources1) => {
-  console.log(resources1.alpha)
-  return (
-    resources1.alpha 
-    ? <div className="card-container">
-        <div className="rsc-header" >  
-        <h3 id="alpha">{resources1.alpha}</h3>
-        <div className="line"></div>
-        <p>{resources1.topic}</p>
-        </div>
-      <div key={resources1.id} className="airbb">
-      <img src={resources1.img} alt="" className="resourceImg"  />
-      <div className="airbb-texts">
-        <h4>{resources1.title}</h4>
-        <p>{resources1.description}</p>
-        <p>{resources1.link}</p>
-        {/* <p>{resources1.topic}</p> */}
-        <button className="airbb-btn" ><a href= {resources1.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
-        </div> 
-        </div>
-        <br></br>
-      </div>
-      : <div className="card-container" >
-       <div className="rsc-header" >
-          <div className="line"></div>
-          <p>{resources1.topic}</p>
-          </div> 
-        <div key={resources1.id} className="airbb2">
-        <img src={resources1.img} alt="" className="resourceImg"  />
-        <div className="airbb-texts">
-          <h4>{resources1.title}</h4>
-          <p>{resources1.description}</p>
-          <p>{resources1.link}</p>
-          {/* <p>{resources1.topic}</p> */}
-          <button className="airbb-btn" ><a href= {resources1.link} target="_blank" rel="noreferrer" className='link2'>Learn More</a></button>
-          </div> 
-      </div>
-       </div>
-  )
-})
-
-
-return (
-  <div>
-      <NavBarTwo />
-      {/* <div className="a-z-filter">
-        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-      </div> */}
-      <h1 id="h3">Resources</h1>
-      <input className="resource-input" type="text" placeholder="Search" value={search} onChange={handleChange} />
-      <div className="resources1">
-        {searchResults.length < 1 
-        ? mappedResources 
-        : mappedSearch 
-        }
-      </div>
-    </div>
-  )
-
 }
-export default Resources;
+export default resourcesData;
