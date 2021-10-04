@@ -1,6 +1,7 @@
 import React, {useState, useEffect } from 'react';
 import axios from 'axios';
 import NavBarTwo from '../NavBarTwo';
+import { data } from './data'
 
 const Resources = () => {
   const [resources, setResources] = useState([]);
@@ -123,9 +124,7 @@ let mappedSearch = searchResults.map((resources) => {
 return (
   <div>
       <NavBarTwo />
-      {/* <div className="a-z-filter">
-        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-      </div> */}
+      <data />
       <h1 id="h3">Resources</h1>
       <input className="resource-input" type="text" placeholder="Search" value={search} onChange={handleChange} />
       <div className="resources">
