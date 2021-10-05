@@ -1,7 +1,7 @@
 import React, {useState, useEffect } from 'react';
 import axios from 'axios';
 import NavBarTwo from '../NavBarTwo';
-import { data } from './data'
+
 
 const Resources = () => {
   const [resources, setResources] = useState([]);
