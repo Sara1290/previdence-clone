@@ -1,26 +1,26 @@
 import React, {useState, useEffect } from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import NavBarTwo from '../NavBarTwo';
-
+import { resources } from './Data'
 
 const Resources = () => {
-  const [resources, setResources] = useState([]);
+  // const [resources, setResources] = useState([]);
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
 
   //get all resources on load
-  const getResources = () => {
-    axios.get("/api/resources")
-    .then((res) => { 
-      setResources(res.data)
-    })
-    .catch((err) => console.log(err));
-  }
+  // const getResources = () => {
+  //   axios.get("/api/resources")
+  //   .then((res) => { 
+  //     setResources(res.data)
+  //   })
+  //   .catch((err) => console.log(err));
+  // }
   
-  useEffect(() => {
-    getResources();
-  }, []);
+  // useEffect(() => {
+  //   getResources();
+  // }, []);
 
   //SEARCH
   const handleChange = (e) => {
@@ -32,7 +32,7 @@ const Resources = () => {
     resources.topic.toLowerCase().includes(search.toLowerCase())
     );
     setSearchResults(results);
-  }, [resources, search])
+  }, [search])
 
 
   //map over resourcecards and return the structure of the cards
@@ -124,7 +124,7 @@ let mappedSearch = searchResults.map((resources) => {
 return (
   <div>
       <NavBarTwo />
-      <data />
+
       <h1 id="h3">Resources</h1>
       <input className="resource-input" type="text" placeholder="Search" value={search} onChange={handleChange} />
       <div className="resources">

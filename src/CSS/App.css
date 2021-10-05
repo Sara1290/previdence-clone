@@ -27,6 +27,9 @@ ul {
   padding-right: 5px;
   top: 7px;
 }
+.t-link:hover {
+  color: #7b0303;
+}
 .contact-button {
   border: none;
 }

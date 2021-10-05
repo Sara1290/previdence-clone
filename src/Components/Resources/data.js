@@ -1,5 +1,5 @@
 
- export const data = [
+ export const resources = [
     {
       "id": 47,
       "title": "National Institute of Mental Health (NIMH)",
