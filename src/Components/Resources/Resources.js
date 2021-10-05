@@ -7,6 +7,7 @@ const Resources = () => {
   // const [resources, setResources] = useState([]);
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState([]);
+  
 
 
   //get all resources on load
