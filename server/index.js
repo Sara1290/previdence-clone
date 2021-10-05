@@ -38,9 +38,9 @@ app.get('/api/resources', ctrl.getAll)
 
 
 //hosting thing ^^
-// app.get('*', (req, res) => {
-//   res.sendFile(path.join(__dirname, '../build/index.html'))
-// })
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../build/index.html'))
+})
 
 //connect to my DB
 massive ({

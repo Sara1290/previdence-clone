@@ -40,6 +40,7 @@
 }
 
 /*--------------------- PUBLIC SAFETY--------------------- */ 
+
 .liaison {
   background-color: transparent;
   display: inline-block;
@@ -59,6 +60,10 @@
   text-transform: uppercase;
   cursor: pointer;
   text-align: center;
+}
+.liaison:hover {
+  background-color: whitesmoke;
+  color: black;
 }
 .button-parent {
   display: flex;
@@ -216,8 +221,9 @@
 .PS-Carousel {
   width: 80vw;
   position: relative;
-  left: 10vw;
+  left: 5vw;
 }
+
 
 /* -------------------HUMANITARIAN------------------------ */
 .hum-outer {
@@ -334,9 +340,7 @@
   color: black;
   cursor: default; 
 }
-.a:hover {
-  color: white;
-}
+
 
 /*-----------------PROFESSIONAL-------------------*/
 .pro-inner {
@@ -441,7 +445,7 @@
 /* K12 */
 .k12-inner {
   background-color: #7b0303;
-  text-align: center !important;
+  /* text-align: center !important; */
   color: #CFCFCF;
 }
 .k12-inner > h1 {
@@ -449,14 +453,14 @@
   font-size: 40px;
 }
 .k12-inner > p {
-  text-align: center !important;
+  /* text-align: center !important; */
   font-size: 20px;
   /* font-weight: 500; */
   padding-left: 25px;
   padding-right: 2px;
 }
 .k12 {
-  text-align: center !important;
+  /* text-align: center !important; */
   font-size: 20px;
   /* font-weight: 500; */
   padding-left: 25px;
@@ -477,8 +481,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 85vw;
-  padding-left: 2vw;
+  width: 75vw;
+  /* margin-right: 150px; */
 }
 
 .k12-paragraph > p  {
