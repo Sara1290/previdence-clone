@@ -1,7 +1,7 @@
 import React, {useState, useEffect } from 'react';
 // import axios from 'axios';
 import NavBarTwo from '../NavBarTwo';
-import { resources } from './Data'
+import { resources } from './data'
 
 const Resources = () => {
   // const [resources, setResources] = useState([]);
@@ -125,7 +125,6 @@ let mappedSearch = searchResults.map((resources) => {
 return (
   <div>
       <NavBarTwo />
-
       <h1 id="h3">Resources</h1>
       <input className="resource-input" type="text" placeholder="Search" value={search} onChange={handleChange} />
       <div className="resources">
