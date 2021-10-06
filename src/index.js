@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { Router } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import ReactGA from 'react-ga';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -9,7 +9,7 @@ import reportWebVitals from './reportWebVitals';
 
 const history = createBrowserHistory();
 
-// const Router = BrowserRouter;
+const Router = BrowserRouter;
 
 
 const TRACKING_ID = "G-KZFN54QPYQ"; // YOUR_OWN_TRACKING_ID
