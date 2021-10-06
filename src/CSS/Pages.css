@@ -233,12 +233,17 @@
   padding-top: 30px;
   padding-left: 10vw;
 }
+.hum-para-container > p {
+  text-align: center;
+}
 .hum-carousel-img {
   width: 75%;
   height: auto;
 }
 .hum-left-top {
   padding: 20px;
+  position: relative;
+  right: 5vw;
 }
 .hum-left-top > h1 {
   font-size: 60px;
@@ -248,7 +253,7 @@
   margin-bottom: 20px;
 }
 .react-multi-carousel-track {
-  left: 90px
+  left: 80px
 }
 
 
@@ -419,9 +424,14 @@
   justify-content: center;
   font-weight: 800;
   padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 300px;
+  /* padding-left: 20px; */
+  /* padding-right: 40px; */
+  width: 250px;
+}
+.carousel-container-cor {
+  width: 100vw;
+  position: relative;
+  right: 100px;
 }
 
 .cor-icon > p {
@@ -494,14 +504,16 @@
   color: #CFCFCF;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .corp-inner {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 90vw;
-  position: relative;
-  left: 5vw;
+  /* position: relative; */
+  /* left: 5vw; */
 }
 .corp-inner > img {
   width: 80%;
@@ -511,11 +523,9 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.corp-inner > p {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-right: 32px;
-
+.corp-paragraph > p {
+text-align: center;
+font-size: 18px;
 }
 .button-parent-corp {
   padding-top: 100px;

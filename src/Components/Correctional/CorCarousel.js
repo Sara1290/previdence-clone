@@ -11,11 +11,11 @@ const CorCarousel = ({deviceType}) => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 4,
+      items: 3,
       slidesToSlide: 1 // optional, default to 1.
     },
     tablet: {
-      breakpoint: { max: 900, min: 480 },
+      breakpoint: { max: 1000, min: 480 },
       items: 2,
       slidesToSlide: 1 // optional, default to 1.
     },
@@ -27,7 +27,7 @@ const CorCarousel = ({deviceType}) => {
   };
   return (
     
-    <Carousel className=" PS-Carousel CarouselHome"
+    <Carousel className=""
       swipeable={false}
       draggable={false}
       // showDots={true}
@@ -40,7 +40,7 @@ const CorCarousel = ({deviceType}) => {
       keyBoardControl={true}
       customTransition="transform 500ms ease-in-out"
       transitionDuration={500}
-      containerClass="carousel-container"
+      containerClass="carousel-container-cor "
       removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
       // dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"

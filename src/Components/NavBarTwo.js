@@ -6,10 +6,11 @@ import eLogo from '../images/eLogo.png'
 
 const NavBarTwo = () => {
 
+
+  //render on mount set to true means the children, the list items, will render so we can more easily set the dropdown to open on hover
   return(
     <Navbar  expand="lg" className="navbar-spacing">
       <Container>
-
   <Navbar.Brand ><Link to="/" className="link"><img alt="" src={eLogo} className="nav-img" /></Link></Navbar.Brand>
   <Navbar.Toggle aria-controls="navbarScroll" />
   <Navbar.Collapse id="navbarScroll" className="justify-content-end">
@@ -19,7 +20,7 @@ const NavBarTwo = () => {
       navbarScroll
       >
       <Link to="/" className="link t-link">HOME</Link>
-      <NavDropdown title="SPECIALTIES" id="navbarScrollingDropdown" className="link">
+      <NavDropdown title="SPECIALTIES" id="navbarScrollingDropdown" className="link" renderMenuOnMount={true}>
         <NavLink as={Link} to="/publicsafety" classname="link NavLink">Public Safety</NavLink>
         <NavLink as={Link} to="/k12" classname="link NavLink">K12</NavLink>
         <NavLink as={Link} to="/military" classname="link NavLink">Military</NavLink>

@@ -1,6 +1,7 @@
 import React from "react";
 import NavBarTwo from "../NavBarTwo";
 import {FaTrophy, FaEdit, FaUserFriends, FaChartBar, FaUsers, FaDesktop, FaUserLock, FaHourglassHalf} from 'react-icons/fa';
+import CorCarousel from '../Correctional/CorCarousel'
 import "../../CSS/Pages.css";
 import "../../CSS/Responsive.css";
 import "../../CSS/App.css";
@@ -38,65 +39,7 @@ const FaithBased = () => {
             religious institution flourish.
           </p>
         </div>
-          <div className="icon-container">
-
-          <div className="icon">
-              <div className="icon-circle">
-              <FaChartBar />
-              </div>
-              <p>Instant Individual Analysis</p>
-            </div>
-
-            <div className="icon">
-              <div className="icon-circle">
-              <FaEdit />
-              </div>
-              <p>Cutting-Edge Mental Wellness Asessments</p>
-            </div>
-
-            <div className="icon">
-              <div className="icon-circle">
-              <FaTrophy />
-              </div>
-              <p>Award Winning Services</p>
-            </div>
-
-            <div className="icon">
-              <div className="icon-circle">
-              <FaHourglassHalf />
-              </div>
-              <p>Rapid Pairing with Mental Health Professionals</p>
-            </div>
-
-            <div className="icon">
-              <div className="icon-circle">
-              <FaDesktop />
-              </div>
-              <p>Continuous Outcome Based Monitoring</p>
-            </div>
-
-            <div className="icon">
-              <div className="icon-circle">
-              <FaUserLock />
-              </div>
-              <p>Data is Encrypted and Stored</p>
-            </div>
-
-            <div className="icon">
-              <div className="icon-circle">
-              <FaUserFriends />
-              </div>
-              <p>Customized Organizational Training</p>
-            </div>
-
-            <div className="icon">
-              <div className="icon-circle">
-              <FaUsers />
-              </div>
-              <p>Expert Team</p>
-            </div>
-
-          </div>
+          <CorCarousel />
           <div className="faith-button-parent a">
             <button className="faith-liaison a" onClick={Mailto}>
           <Mailto className="a" email="reedsara90@gmail.com" subject="Faith Based Liaison" body="Hello">

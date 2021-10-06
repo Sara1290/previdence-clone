@@ -35,8 +35,8 @@ const K12Testimonials = ({ deviceType }) => {
         autoPlay={deviceType !== "mobile" ? true : false}
         autoPlaySpeed={10000}
         keyBoardControl={true}
-        customTransition="transform 1000ms ease-in-out"
-        transitionDuration={500}
+        customTransition="transform 1000ms ease"
+        transitionDuration={5000}
         containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
         dotListClass="custom-dot-list-style"
