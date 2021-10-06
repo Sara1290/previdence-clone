@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import { HashLink as Links } from 'react-router-hash-link';
-import { NavDropdown, Navbar, Nav, Button, Container } from 'react-bootstrap';
+import { NavDropdown, Navbar, Nav, Button, Container, NavLink } from 'react-bootstrap';
 import eLogo from '../images/eLogo.png'
 
 const NavBarTwo = () => {
@@ -20,14 +20,14 @@ const NavBarTwo = () => {
       >
       <Link to="/" className="link t-link">HOME</Link>
       <NavDropdown title="SPECIALTIES" id="navbarScrollingDropdown" className="link">
-        <NavDropdown.Item><Link to="/publicsafety" className="link">Public Safety</Link></NavDropdown.Item>
-        <NavDropdown.Item><Link to="/k12" className="link">K12</Link></NavDropdown.Item>
-        <NavDropdown.Item><Link to="/military" className="link">Military</Link></NavDropdown.Item>
-        <NavDropdown.Item><Link to="/professional" className="link">Professional</Link></NavDropdown.Item>
-        <NavDropdown.Item><Link to="/faithbased" className="link">Faith Based</Link></NavDropdown.Item>
-        <NavDropdown.Item><Link to="/humanitarian" className="link">Humanitarian</Link></NavDropdown.Item>
-        <NavDropdown.Item><Link to="/correctional" className="link">Correctional Facilities</Link></NavDropdown.Item>
-        <NavDropdown.Item><Link to="/corporations" className="link">Corporations</Link></NavDropdown.Item>
+        <NavLink as={Link} to="/publicsafety" classname="link NavLink">Public Safety</NavLink>
+        <NavLink as={Link} to="/k12" classname="link NavLink">K12</NavLink>
+        <NavLink as={Link} to="/military" classname="link NavLink">Military</NavLink>
+        <NavLink as={Link} to="/professional" classname="link NavLink">Professional</NavLink>
+        <NavLink as={Link} to="/faithbased" classname="link NavLink">Faith Based</NavLink>
+        <NavLink as={Link} to="/humanitarian" classname="link NavLink">Humanitarian</NavLink>
+        <NavLink as={Link} to="/correctional" classname="link NavLink">Correctional Facilities</NavLink>
+        <NavLink as={Link} to="/corporations" classname="link NavLink">Corporations</NavLink>
       </NavDropdown>
       <Links smooth to="/#testimonials" className="link t-link">TESTIMONIALS</Links>
       <Link to="/trainings" className="link t-link">TRAINING</Link>
