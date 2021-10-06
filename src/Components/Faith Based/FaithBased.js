@@ -1,6 +1,5 @@
 import React from "react";
 import NavBarTwo from "../NavBarTwo";
-import {FaTrophy, FaEdit, FaUserFriends, FaChartBar, FaUsers, FaDesktop, FaUserLock, FaHourglassHalf} from 'react-icons/fa';
 import CorCarousel from '../Correctional/CorCarousel'
 import "../../CSS/Pages.css";
 import "../../CSS/Responsive.css";
