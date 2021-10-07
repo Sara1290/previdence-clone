@@ -98,9 +98,9 @@
   color: black;
   height: 525px;
   z-index: 1;
-  position: relative;
+  /* position: relative;
   left: 5vw;
-  top: 4vw;
+  top: 3vh; */
   padding: 5vh .5vw 0vh .5vw;
 }
 .ps-para {
@@ -149,21 +149,7 @@
 -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
 -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
 }
-/* .fireTruck {
-  width: 30%;
-  height: auto;
-  box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
--webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
--moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
-} */
 .fireTruck2 {
-  width: 33.3%;
-  height: auto;
-  box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
--webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
--moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
-}
-.fireTruck3 {
   width: 33.3%;
   height: auto;
   box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
@@ -219,9 +205,15 @@
   text-align: center;
 }
 .PS-Carousel {
-  width: 80vw;
+  width: 80%;
   position: relative;
-  left: 5vw;
+  /* right: 1vw; */
+  /* left: 1px; */
+}
+.ps-carousel-container {
+  width: 100%;
+  position: relative;
+  right: 100px;
 }
 
 
@@ -252,6 +244,7 @@
   padding: 10px;
   margin-bottom: 20px;
 }
+/* needed for the humanitarian image carousel, but it does effect all the other carousels. */
 .react-multi-carousel-track {
   left: 80px
 }

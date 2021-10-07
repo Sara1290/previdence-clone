@@ -23,7 +23,7 @@ const PsCarousel = ({deviceType}) => {
       slidesToSlide: 1 // optional, default to 1.
     },
     mobile: {
-      breakpoint: { max: 479, min: 0 },
+      breakpoint: { max: 500, min: 0 },
       items: 1,
       slidesToSlide: 1 // optional, default to 1.
     }
@@ -43,7 +43,7 @@ const PsCarousel = ({deviceType}) => {
       keyBoardControl={true}
       customTransition="transform 500ms ease-in-out"
       transitionDuration={500}
-      containerClass="carousel-container"
+      containerClass="carousel-container ps-carousel-container"
       removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
       // dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
