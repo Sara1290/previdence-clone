@@ -238,7 +238,7 @@ p {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 80vw;
+    /* width: 80vw; */
     margin-top: 50px;
   }
   .specialty-item {

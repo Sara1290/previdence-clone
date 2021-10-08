@@ -10,6 +10,10 @@
     width: 48px;
     margin: 0px 40px 40px 0px;
   }
+  .group-parent {
+    position: relative;
+    bottom: 40vh !important;
+  }
   .group-wrapper {
     display: flex;
     flex-direction: column;
@@ -439,6 +443,10 @@
   }
 } 
 @media screen and (min-width: 901px) {
+  /*---------HOME ---------*/
+  .specialty-parent {
+    width: 80vw;
+  }
   .corp-inner {
     display: flex;
     flex-direction: column;
@@ -501,10 +509,11 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 5vh;
+    width: 70vw;
   }
   .specialty {
     color: black;
-    font-size: 15px;
+    /* font-size: 15px; */
   }
   .group-wrapper {
     margin: 50px;
@@ -607,6 +616,11 @@
     justify-content: space-around;
   }
 
+}
+@media screen and (min-width: 1159px) {
+  .specialty-parent {
+    width: 100vw;
+  }
 }
 /* DESKTOP*/
 @media screen and (min-width: 1200px) {
@@ -731,6 +745,12 @@
     width: 60vw;
   }
 }
+
+@media screen and (min-width: 1375px) {
+  .specialty-parent {
+    width: 90vw;
+  }
+}
 /*XL*/
 @media screen and (min-width: 1500px) {
   /* HOME */
@@ -741,6 +761,9 @@
   }
   .background-video {
     margin-top: 10vh;
+  }
+  .specialty-parent {
+    width: 80vw;
   }
  
   /*Faith Based */
@@ -833,6 +856,11 @@
     width: 50vw;
   }
 }
+@media screen and (min-width: 1719px) {
+  .specialty-parent {
+    width: 73vw !important;
+  }
+}
 @media screen and (min-width: 1900px) {
     /* HOME */
     .prev-logo {
@@ -844,7 +872,7 @@
       padding: 0px 20px 0px 10px;
     }
     .specialty-parent {
-      width: 70vw;
+      width: 60vw !important;
     }
     /*PUBLIC SAFETY*/
     .PS-list-outer {
@@ -891,6 +919,9 @@
     height: 250px;
     margin: 0px 10px 0px 10px;
     padding: 0px 20px 0px 10px;
+  }
+  .specialty-parent {
+    width: 60vw !important;
   }
    /*------------ PUBLIC SAFETY----------- */
    .PS-Outer {
