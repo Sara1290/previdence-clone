@@ -25,7 +25,7 @@
   }
   .prev-logo {
     position: relative;
-    top: 4vh;
+    top: 12vh;
     margin: 0px 8px 0px 5px;
     padding: 0px 20px 0px 10px;
     width: 377px !important;
@@ -189,7 +189,7 @@
   /*-----HOME-----*/
   .prev-logo {
     position: relative;
-    top: 4vh;
+    top: 12vh;
     margin: 0px 8px 0px 10px;
     padding: 0px 20px 0px 10px;
     /* width: 300px !important; */
@@ -499,7 +499,7 @@
   /*-- HOME-- */
   .prev-logo {
     position: relative;
-    top: 8vh;
+    top: 16vh;
     /* width: 75%; */
     margin: 0px 10px 0px 10px;
     padding: 0px 20px 0px 10px;
