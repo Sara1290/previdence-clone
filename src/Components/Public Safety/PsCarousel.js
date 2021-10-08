@@ -19,11 +19,11 @@ const PsCarousel = ({deviceType}) => {
     },
     tablet: {
       breakpoint: { max: 1023, min: 480 },
-      items: 2,
+      items: 1,
       slidesToSlide: 1 // optional, default to 1.
     },
     mobile: {
-      breakpoint: { max: 500, min: 0 },
+      breakpoint: { max: 479, min: 0 },
       items: 1,
       slidesToSlide: 1 // optional, default to 1.
     }
