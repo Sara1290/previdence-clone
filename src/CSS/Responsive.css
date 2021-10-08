@@ -22,10 +22,10 @@
   .prev-logo {
     position: relative;
     top: 4vh;
-    margin: 0px 8px 0px 10px;
+    margin: 0px 8px 0px 5px;
     padding: 0px 20px 0px 10px;
-    /* width: 300px !important; */
-    height: 100px;
+    width: 377px !important;
+    /* height: 100px; */
   }
   /* CORPORATIONS */
   .corp-inner {
@@ -253,7 +253,7 @@
 @media screen and (min-width: 760px) {
   .prev-logo {
     position: relative;
-    top: 1vh;
+    top: 8vh;
     margin: 0px 10px 0px 10px;
     padding: 0px 20px 0px 10px;
   }
@@ -349,7 +349,7 @@
   .prev-logo {
     position: relative;
     /* bottom: 10vh; */
-    width: 100vw;
+    /* width: 100vw; */
   }
   .group-parent {
     position: relative;
@@ -491,8 +491,8 @@
   /*-- HOME-- */
   .prev-logo {
     position: relative;
-    top: 3vh;
-    width: 75%;
+    top: 8vh;
+    /* width: 75%; */
     margin: 0px 10px 0px 10px;
     padding: 0px 20px 0px 10px;
   }
@@ -614,7 +614,8 @@
   .prev-logo {
     position: relative;
     top: 3vh;
-    width: 75%;
+    /* width: 75%; */
+    height: 172px !important;
     margin: 0px 10px 0px 10px;
     padding: 0px 20px 0px 10px;
   }
@@ -837,7 +838,8 @@
     .prev-logo {
       position: relative;
       /* top: 3vh; */
-      width: 70%;
+      /* width: 70%; */
+      height: 260px !important;
       margin: 0px 10px 0px 10px;
       padding: 0px 20px 0px 10px;
     }
@@ -885,7 +887,7 @@
   .prev-logo {
     position: relative;
     top: 3vh;
-    width: 50%;
+    /* width: 50%; */
     height: 250px;
     margin: 0px 10px 0px 10px;
     padding: 0px 20px 0px 10px;
