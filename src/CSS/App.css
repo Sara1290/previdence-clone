@@ -20,7 +20,10 @@ background-color: rgb(241, 240, 240);
   border: none;
   animation: easeUp 300ms;
 }
-
+.dropdown-menu {
+  font-size: 14px;
+  line-height: 12pt;
+}
 .dropdown:hover>.dropdown-menu {
   display: block;
   color: rgb(15, 15, 15);
@@ -41,7 +44,10 @@ ul {
 .home-link {
   color: #7b0303;
 }
-
+.nav-wrapper {
+  font-size: 12px;
+  font-weight: 600;
+}
 .link { 
   text-decoration: none;
   color: black;
@@ -53,7 +59,7 @@ ul {
   position: relative;
   padding-left: 5px;
   padding-right: 5px;
-  top: 7px;
+  top: 8px;
 }
 .t-link:hover {
   color: #7b0303;
@@ -61,8 +67,12 @@ ul {
 .a:hover {
   color: white;
 }
+.contact-btn {
+  border: 1px solid rgb(196, 196, 196) !important;
+}
 .contact-button {
-  border: none;
+  font-size: 12px;
+  font-weight: 600;
 }
 .contact-button:hover {
   background-color: whitesmoke;

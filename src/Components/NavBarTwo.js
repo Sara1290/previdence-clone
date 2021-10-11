@@ -15,8 +15,7 @@ const NavBarTwo = () => {
   <Navbar.Toggle aria-controls="navbarScroll" />
   <Navbar.Collapse id="navbarScroll" className="justify-content-end">
     <Nav
-      className="mr-auto my-2 my-lg-0 justify-content-start"
-      style={{ maxHeight: '100px' }}
+      className="mr-auto my-2 my-lg-0 justify-content-start nav-wrapper"
       navbarScroll
       >
       <Link to="/" className="link t-link">HOME</Link>
@@ -35,7 +34,11 @@ const NavBarTwo = () => {
       <Link to="/team" className="link t-link">TEAM</Link>
       <Link to="/resources" className="link t-link">RESOURCES</Link>
       <a href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer" className="a link t-link">LOGIN</a>
-      <li><Button className="contact-button" variant=""><Link to="/contact" className="link">CONTACT</Link></Button></li>
+      <li>
+        <Button className="contact-btn " variant="">
+          <Link to="/contact" className="link contact-button">CONTACT</Link>
+        </Button>
+      </li>
 
     </Nav>
 

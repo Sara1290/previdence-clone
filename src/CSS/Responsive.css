@@ -494,6 +494,11 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 991px) {
+  .contact-btn {
+    border: none !important;
+  }
+}
 /*laptop / ipad PRO*/
 @media screen and (min-width: 1023px) {
   /*-- HOME-- */
