@@ -10,6 +10,9 @@ nav {
   color: black !important;
   margin-left: 5px;
 }
+.home-link {
+  color: #7b0303 !important;
+}
 .nav-link:last-of-type {
   margin-bottom: 3px;
 }

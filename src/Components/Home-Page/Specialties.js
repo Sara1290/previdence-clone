@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom'
-import publicSafety from "../../images/publicSafety.jpg";
+import fireTruckSmall from '../../images/fireTruckSmall.jpg'
 import k12 from "../../images/k12.jpg";
 import flag from "../../images/flag.jpg";
 import correctional from "../../images/correctional.jpg";
@@ -23,7 +23,7 @@ const Specialties = () => {
               <Link to="/publicsafety"><img
                 alt="public safety"
                 className="specialty-img"
-                src={publicSafety}
+                src={fireTruckSmall}
               /></Link>
             </div>
             <Link to="/publicsafety" className="link"><h3 className="specialty">Public Safety</h3></Link>

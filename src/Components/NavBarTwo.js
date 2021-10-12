@@ -18,7 +18,7 @@ const NavBarTwo = () => {
       className="mr-auto my-2 my-lg-0 justify-content-start nav-wrapper"
       navbarScroll
       >
-      <Link to="/" className="link t-link">HOME</Link>
+      <Link to="/" className="link t-link home-link">HOME</Link>
       <NavDropdown title="SPECIALTIES" id="navbarScrollingDropdown" className="link" renderMenuOnMount={true}>
         <NavLink as={Link} to="/publicsafety" classname="link NavLink">Public Safety</NavLink>
         <NavLink as={Link} to="/k12" classname="link NavLink">K12</NavLink>
