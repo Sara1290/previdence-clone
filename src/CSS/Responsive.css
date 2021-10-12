@@ -123,21 +123,24 @@
   .fireFighter-img {
     display: none;
   }
-  
-
   /* -- HUMANITARIAN -- */
   .hum-left-top {
-    position: relative;
-    right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .hum-para-container {
     position: relative;
-    left: 20px;
+
   }
-  /* .button-parent {
-    position: relative;
-    left: 20px;
-  } */
+  /* ---- K12 ----*/
+  .k12 > p {
+    margin-right: 25px;
+  }
+  .k12-paragraph {
+    margin-right: 15px;
+  }
   /*--RESOURCES--*/
   .resources {
     display: flex;
@@ -394,10 +397,10 @@
     font-size: 12px;
   }
   /*Faith Based*/
-  .faith-paragraphs-container {
+  /* .faith-paragraphs-container {
     width: 85vw;
     padding-left: 15%;
-  }
+  } */
   /*CORRECTIONAL*/
   .corr-inner {
     height: 100vh;
