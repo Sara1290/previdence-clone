@@ -1,6 +1,7 @@
 import React from 'react';
 import * as Survey from "survey-react";
 import NavBarTwo from '../NavBarTwo'
+import { withRouter } from 'react-router';
 import "survey-react/modern.css";
 
 
@@ -614,4 +615,4 @@ const Ppn = () => {
 );
 
 }
-export default Ppn;
+export default withRouter(Ppn);

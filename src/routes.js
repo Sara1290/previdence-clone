@@ -23,6 +23,7 @@ import ClientFollowUp from './Components/Surveys/ClientFollowUp';
 import PrevEval from './Components/Surveys/PrevEval';
 import DSM from './Components/Surveys/DSM';
 import DSMParents from './Components/Surveys/DSMParents';
+import DSMSample from './Components/Surveys/DSMSample';
 
 export default (
   <Switch>
@@ -49,5 +50,6 @@ export default (
     <Route path="/preveval" component={PrevEval} />
     <Route path="/dsm" component={DSM} />
     <Route path="/dsmparents" component={DSMParents} />
+    <Route path="/dsmsample" component={DSMSample} />
   </Switch>
 )
