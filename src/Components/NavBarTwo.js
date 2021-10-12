@@ -33,7 +33,7 @@ const NavBarTwo = () => {
       <Link to="/trainings" className="link t-link">TRAINING</Link>
       <Link to="/team" className="link t-link">TEAM</Link>
       <Link to="/resources" className="link t-link">RESOURCES</Link>
-      <a href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer" className="a link t-link">LOGIN</a>
+      <a href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer" className="link t-link">LOGIN</a>
       <li>
         <Button className="contact-btn " variant="">
           <Link to="/contact" className="link contact-button">CONTACT</Link>
