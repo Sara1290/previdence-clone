@@ -320,7 +320,8 @@ p {
 .testimonial-logo {
   height: 35px;
   width: 35px;
-
+  position: relative;
+  right: 10px;
 }
 .client-container {
   display: flex;
@@ -342,6 +343,8 @@ p {
 .paragraph > p {
   line-height: 2.5;
   text-align: center;
+  position: relative;
+  left: 10px;
 }
 .container > h1 {
   line-height: 3;
@@ -350,7 +353,6 @@ p {
 .testimonial-outer > h1 {
   padding-top: 10vh;
   padding-bottom: 10vh;
-  margin-left: 50px;
 }
 
 
