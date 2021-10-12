@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from "react-router";
 import officePeople from "../../images/officePeople.jpg";
 import highFive from "../../images/highFive.jpg";
 import NavBarTwo from "../NavBarTwo";
@@ -38,7 +39,7 @@ const Corporations = () => {
           <div className="button-parent-corp">
             <button className="liaison">
           <Mailto className="a" email="reedsara90@gmail.com" subject="Faith Based Liaison" body="Hello">
-              CONTACT OUR PUBLIC SAFETY LIAISON
+              CONTACT OUR PUBLIC SAFETY LIAISON.
           </Mailto>
             </button>
           </div>
@@ -47,4 +48,4 @@ const Corporations = () => {
     </div>
   );
 };
-export default Corporations;
+export default withRouter(Corporations);
