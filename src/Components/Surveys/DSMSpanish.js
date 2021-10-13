@@ -1520,14 +1520,15 @@ const DSMSpanish = () => {
 
 
 
-  return (
-    <div className="survey" id="surveyResult">
+return (
+  <div>
     <NavBarTwo />
-    <h1>DSM Survey Espanol - Parents/Guardians</h1>
-    <Survey.Survey
-        model={survey}
-        />
-    </div>
+      <div className="survey" id="surveyResult">
+      <Survey.Survey
+          model={survey}
+          />
+      </div>
+  </div>
 );
 
 }

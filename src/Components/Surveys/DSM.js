@@ -1043,7 +1043,6 @@ return (
   <div>
     <NavBarTwo />
     <div className="survey" id="surveyResult">
-    <h1>DSM Survey</h1>
     <Survey.Survey
         model={survey}
         />

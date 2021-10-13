@@ -117,7 +117,6 @@ const PpnAdditional = () => {
   return (
     <div className="survey">
     <NavBarTwo />
-    <h1>Previdence Provider Network - Additional Information</h1>
     <Survey.Survey
         model={survey}
         />  

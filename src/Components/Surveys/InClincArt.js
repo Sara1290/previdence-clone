@@ -164,7 +164,6 @@ const InClinicArt = () => {
   return (
     <div className="survey">
     <NavBarTwo />
-    <h1>In Clinic Art</h1>
     <Survey.Survey
         model={survey}
         />

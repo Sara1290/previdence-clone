@@ -110,7 +110,6 @@ const ClientFollowUp = () => {
   return (
     <div className="survey">
     <NavBarTwo />
-    <h1>Client Follow Up Survey</h1>
     <Survey.Survey
         model={survey}
         />

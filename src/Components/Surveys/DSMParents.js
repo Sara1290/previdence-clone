@@ -1070,12 +1070,13 @@ const DSMParents = () => {
 
 
   return (
-    <div className="survey" id="surveyResult">
+    <div>
     <NavBarTwo />
-    <h1>DSM Survey - Parents/Guardians</h1>
+    <div className="survey" id="surveyResult">
     <Survey.Survey
         model={survey}
         />
+    </div>
     </div>
 );
 

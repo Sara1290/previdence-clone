@@ -1041,12 +1041,13 @@ survey
 
 
 return (
-  <div className="survey" id="surveyResult">
-  <NavBarTwo />
-  <h1>DSM Survey</h1>
-  <Survey.Survey
-      model={survey}
-      />
+  <div>
+    <NavBarTwo />
+      <div className="survey" id="surveyResult">
+      <Survey.Survey
+          model={survey}
+          />
+      </div>
   </div>
 );
 

@@ -172,7 +172,6 @@ const CrisisResponse = () => {
   return (
     <div className="survey">
     <NavBarTwo />
-    <h1>Crisis Response Survey</h1>
     <Survey.Survey
         model={survey}
         />
