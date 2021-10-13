@@ -102,7 +102,6 @@
     display: none;
   }
   .ps-pros {
-    /* box-shadow: none !important; */
     width: 85%;
     color: black;
     background-color: whitesmoke;
@@ -123,6 +122,11 @@
   .fireFighter-img {
     display: none;
   }
+  .ps-carousel-container {
+    width: 111px;
+    position: relative;
+    right: 15px;
+  }
   /* -- HUMANITARIAN -- */
   .hum-left-top {
     display: flex;
@@ -132,7 +136,12 @@
   }
   .hum-para-container {
     position: relative;
-
+  }
+  .hum-carousel-img-container {
+    height: 700px;
+    width: 700px;
+    position: relative;
+    left: 30px !important;
   }
   /* ---- K12 ----*/
   .k12 > p {
@@ -186,7 +195,6 @@
   .card-container {
     width: 80% !important;
   }
-
 }
 @media screen and (min-width: 481px) {
   /*-----HOME-----*/
@@ -206,7 +214,6 @@
     align-items: center;
   }
   .airbb {
-  /* height: 500px; */
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -214,7 +221,6 @@
   padding-bottom: 10%;
     }
     .airbb2 {
-  /* height: 500px; */
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -255,6 +261,7 @@
   .fireFighter-img {
     display: none;
   }
+
 }
 
 @media screen and (min-width: 760px) {
@@ -290,6 +297,13 @@
   .PS-list-outer {
     position: relative;
     margin-left: 15px;
+  }
+  /*---HUMANITARIAN--*/
+  .hum-carousel-img-container {
+    height: 700px;
+    width: 700px;
+    position: relative;
+    left: 60px !important;
   }
   /*--------RESOURCES-------*/
   .resources {
@@ -659,6 +673,8 @@
   .hum-carousel-img-container {
     height: 700px;
     width: 700px;
+    position: relative;
+    left: 96px;
   }
   .hum-outer {
     padding-bottom: 10vh;

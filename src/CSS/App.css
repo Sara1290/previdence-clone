@@ -161,11 +161,10 @@ nav {
   justify-content: space-between;
   z-index: 1;   
   height: 10vh;
-  width: 100vw;
 }
-.navbar {
+/* .navbar {
   width: 100vw !important;
-}
+} */
 
 #navbarScrollingDropdown {
   color: #333333;
@@ -331,7 +330,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-right: 150px;
+  /* margin-right: 150px; */
 }
 .client-container > p {
   line-height: 2.5;

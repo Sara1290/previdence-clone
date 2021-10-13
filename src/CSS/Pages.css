@@ -204,17 +204,15 @@
 .ps-icon-para-rapid > p {
   text-align: center;
 }
-.PS-Carousel {
+/* .PS-Carousel {
   width: 80%;
   position: relative;
   margin-left: 10px;
-  /* right: 1vw; */
-  /* left: 1px; */
-}
+} */
 .ps-carousel-container {
   width: 100%;
   position: relative;
-  right: 100px;
+  left: 0px;
 }
 
 
@@ -246,9 +244,9 @@
   margin-bottom: 20px;
 }
 /* needed for the humanitarian image carousel, but it does effect all the other carousels. */
-.react-multi-carousel-track {
+/* .react-multi-carousel-track {
   left: 80px
-}
+} */
 
 
 /* ---------------------FAITH BASED------------------ */
