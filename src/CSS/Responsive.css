@@ -38,10 +38,16 @@
     justify-content: center;
     align-items: center;
   }
+  .corp-paragraph {
+    width: 90vw;
+    display: flex;
+
+  }
   .corp-paragraph > p {
     position: relative;
-    padding-left: 10vw;
-    width: 100vw;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 15px;
   }
   .corp-inner > img {

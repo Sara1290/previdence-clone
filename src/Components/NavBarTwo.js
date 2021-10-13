@@ -20,14 +20,14 @@ const NavBarTwo = () => {
       >
       <Link to="/" className="link t-link home-link">HOME</Link>
       <NavDropdown title="SPECIALTIES" id="navbarScrollingDropdown" className="link" renderMenuOnMount={true}>
-        <NavLink as={Link} to="/publicsafety" classname="link NavLink">Public Safety</NavLink>
-        <NavLink as={Link} to="/k12" classname="link NavLink">K12</NavLink>
-        <NavLink as={Link} to="/military" classname="link NavLink">Military</NavLink>
-        <NavLink as={Link} to="/professional" classname="link NavLink">Professional</NavLink>
-        <NavLink as={Link} to="/faithbased" classname="link NavLink">Faith Based</NavLink>
-        <NavLink as={Link} to="/humanitarian" classname="link NavLink">Humanitarian</NavLink>
-        <NavLink as={Link} to="/correctional" classname="link NavLink">Correctional Facilities</NavLink>
-        <NavLink as={Link} to="/corporations" classname="link NavLink">Corporations</NavLink>
+        <NavLink as={Link} to="/publicsafety" className="link NavLink">Public Safety</NavLink>
+        <NavLink as={Link} to="/k12" className="link NavLink">K12</NavLink>
+        <NavLink as={Link} to="/military" className="link NavLink">Military</NavLink>
+        <NavLink as={Link} to="/professional" className="link NavLink">Professional</NavLink>
+        <NavLink as={Link} to="/faithbased" className="link NavLink">Faith Based</NavLink>
+        <NavLink as={Link} to="/humanitarian" className="link NavLink">Humanitarian</NavLink>
+        <NavLink as={Link} to="/correctional" className="link NavLink">Correctional Facilities</NavLink>
+        <NavLink as={Link} to="/corporations" className="link NavLink">Corporations</NavLink>
       </NavDropdown>
       <Links smooth to="/#testimonials" className="link t-link">TESTIMONIALS</Links>
       <Link to="/trainings" className="link t-link">TRAINING</Link>
