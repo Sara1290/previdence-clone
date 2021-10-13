@@ -4,12 +4,12 @@ import NavBarTwo from '../NavBarTwo'
 import "survey-react/modern.css";
 
 
-const DSM = () => {
+const DSMSample = () => {
   Survey.StylesManager.applyTheme("modern");
   
   const json = {
-    surveyId: '265752f1-d993-4444-9dcf-2c7d8e749e01',
-    surveyPostId: 'fcf7a9d7-8cb4-4058-8666-df5abe1a52c4',
+    surveyId: '6ce44023-61af-4eae-85d4-aa55fb73b40e',
+    surveyPostId: '4431e2d9-d0ee-4813-b99c-84dc25064e22',
     
     title: "Sample DSM-5 Age 11–17",
     pages: [
@@ -1051,4 +1051,4 @@ return (
 );
 
 }
-export default DSM;
+export default DSMSample;

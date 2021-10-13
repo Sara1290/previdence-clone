@@ -24,6 +24,7 @@ import PrevEval from './Components/Surveys/PrevEval';
 import DSM from './Components/Surveys/DSM';
 import DSMParents from './Components/Surveys/DSMParents';
 import DSMSample from './Components/Surveys/DSMSample';
+import DSMSpanish from './Components/Surveys/DSMSpanish';
 
 export default (
   <Switch>
@@ -51,5 +52,6 @@ export default (
     <Route path="/dsm" component={DSM} />
     <Route path="/dsmparents" component={DSMParents} />
     <Route path="/dsmsample" component={DSMSample} />
+    <Route path="/dsmspanish" component={DSMSpanish} />
   </Switch>
 )
