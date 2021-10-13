@@ -760,24 +760,16 @@ font-size: 18px;
 }
 
 .airbb {
- /* height: 500px; */
- /* width: 300px; */
  display: flex;
- /* flex-direction: column; */
  justify-content: space-between;
  align-items: center;
- /* padding-bottom: 10%;
- padding-top: 10%; */
+ padding: 0;
 }
 .airbb2 {
-  /* height: 500px; */
-  /* width: 300px; */
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   align-items: center;
-  /* padding-bottom: 10%;
-  padding-top: 12%; */
+  padding: 0;
  }
 .resourceImg {
   width: 275px;
@@ -860,6 +852,7 @@ margin: 5vh 0 5vh 0;
 
 .survey {
   text-align: left;
+  width: 100vw !important;
 }
 
 #surveyResult { 

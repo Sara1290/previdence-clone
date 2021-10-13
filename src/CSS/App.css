@@ -155,13 +155,16 @@ nav {
   color: #333333;
   padding: 15px 20px;
   display: block;
-  
 }
 .navbar-spacing {
   display: flex;
   justify-content: space-between;
   z-index: 1;   
   height: 10vh;
+  width: 100vw;
+}
+.navbar {
+  width: 100vw !important;
 }
 
 #navbarScrollingDropdown {
