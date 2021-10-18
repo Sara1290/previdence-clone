@@ -41,7 +41,7 @@ const Military = () => {
             <div className="counter">
               <FaUsers className="counter-icon"/><br></br>
             <h2>300,000</h2>
-            <h4>Men and Women Served in hte US Armed Forces</h4>
+            <h4>Men and Women Served in the US Armed Forces</h4>
             </div>
             <div className="counter">
               <FaUserFriends className="counter-icon"/><br></br>
@@ -51,7 +51,7 @@ const Military = () => {
             <div className="counter">
               <FaHandHoldingHeart className="counter-icon"/><br></br>
             <h2>56%</h2>
-            <h4>Reduced Soldier Suicide with the Wounded Warrior Transfer Unit</h4>
+            <h4>Reduced Soldier Suicide with the Wounded Warrior Transition Unit</h4>
             </div>
             <div className="counter">
               <FaWarehouse className="counter-icon"/><br></br>
