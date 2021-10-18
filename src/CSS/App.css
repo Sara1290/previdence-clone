@@ -26,7 +26,10 @@ background-color: rgb(241, 240, 240);
 .dropdown-menu {
   font-size: 14px;
   line-height: 12pt;
+  position: relative;
+  top: 20px;
 }
+
 .dropdown:hover>.dropdown-menu {
   display: block;
   color: rgb(15, 15, 15);
