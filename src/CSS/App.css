@@ -73,6 +73,9 @@ ul {
 .a:hover {
   color: white;
 }
+.white-hover:hover {
+  color: white;
+}
 .contact-btn {
   border: 1px solid rgb(196, 196, 196) !important;
 }

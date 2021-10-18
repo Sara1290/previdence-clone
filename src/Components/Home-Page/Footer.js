@@ -5,6 +5,14 @@ import '../../CSS/App.css'
 
 const Footer = () => {
 
+  const Mailto = ({ email, subject = '', body = '', children }) => {
+    let params = subject || body ? '?' : '';
+    if (subject) params += `subject=${encodeURIComponent(subject)}`;
+    if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+  
+    return <a className="a2" href={`mailto:${email}${params}`}>{children}</a>;
+  };
+
 return (
 <div className="footer-outer">
  {/* <div className="container-fluid footer-container"> */}
@@ -17,9 +25,12 @@ return (
         South Ogden, UT 84403
       </p>  
         <p>Phone: (801) 409-0904</p>
-        <p>Email: public-relations@previdence.com</p>
+          <Mailto email="reedsara90@gmail.com" subject="Public Relations" body="Hello">
+        <p className="white-hover">Email: public-relations@previdence.com</p>
+          </Mailto>
         <p>Hours: Monday - Friday <br></br>
           8:00 am - 5:00 pm MST</p>
+
   </div>
 
 

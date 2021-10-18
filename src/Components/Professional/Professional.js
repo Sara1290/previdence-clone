@@ -24,8 +24,8 @@ const Professional = () => {
             </div>
         <div className="">
             <button className="liaison-dark">
-          <Mailto className="a" email="reedsara90@gmail.com" subject="Faith Based Liaison" body="Hello">
-              CONTACT OUR LIAISON
+          <Mailto className="a" email="reedsara90@gmail.com" subject="Therapist Advocate" body="Hello">
+              CONTACT OUR THERAPIST ADVOCATE
           </Mailto>
             </button>
           </div>

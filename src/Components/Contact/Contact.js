@@ -44,7 +44,7 @@ const Contact = () => {
           801-409-0904
         </p>
         <h5>Email</h5>
-        <Mailto className="a" email="public.relations@previdence.com" subject="From The Contact Us Page" body="Hello">
+        <Mailto className="a" email="public.relations@previdence.com" subject="Contact Us" body="Hello">
         <p>public.relations@previdence.com</p>
         </Mailto>
         <div className="socials">

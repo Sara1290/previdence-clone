@@ -28,8 +28,8 @@ const K12 = () => {
         </div>
         <div className="k12-liaison">
             <button className="liaison">
-          <Mailto className="a" email="reedsara90@gmail.com" subject="Faith Based Liaison" body="Hello">
-              CONTACT OUR PUBLIC SAFETY LIAISON
+          <Mailto className="a" email="reedsara90@gmail.com" subject="K-12 Liaison" body="Hello">
+              CONTACT OUR K-12 LIAISON
           </Mailto>
             </button>
           </div>
