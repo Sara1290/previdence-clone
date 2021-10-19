@@ -37,11 +37,11 @@ const Corporations = () => {
           <img alt="office people" className="corp-img box-shadow-slow" src={highFive} />
           </div>
           <div className="button-parent-corp">
+          <Mailto className="a" email="sales@previdence.com" subject="Corportate Liaison" body="Hello">
             <button className="liaison">
-          <Mailto className="a" email="reedsara90@gmail.com" subject="Corportate Liaison" body="Hello">
               CONTACT OUR CORPORATE LIAISON.
-          </Mailto>
             </button>
+          </Mailto>
           </div>
       </div>
         <CorCarousel />

@@ -40,11 +40,11 @@ const FaithBased = () => {
         </div>
           <CorCarousel />
           <div className="faith-button-parent a">
-            <button className="faith-liaison a" onClick={Mailto}>
-          <Mailto className="a" email="reedsara90@gmail.com" subject="Faith Based Liaison" body="Hello">
+          <Mailto className="a" email="sales@previdence.com" subject="Faith Based Liaison" body="Hello">
+            <button className="faith-liaison a" >
               CONTACT OUR FAITH BASED LIAISON
-          </Mailto>
             </button>
+          </Mailto>
           </div>
       </div>
     </div>

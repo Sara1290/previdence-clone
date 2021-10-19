@@ -27,11 +27,11 @@ const K12 = () => {
         </p>
         </div>
         <div className="k12-liaison">
+          <Mailto className="a" email="sales@previdence.com" subject="K-12 Liaison" body="Hello">
             <button className="liaison">
-          <Mailto className="a" email="reedsara90@gmail.com" subject="K-12 Liaison" body="Hello">
               CONTACT OUR K-12 LIAISON
-          </Mailto>
             </button>
+          </Mailto>
           </div>
         <div className="k12-img-container">
           <img alt="student reading" src={student} className="k12-img" />

@@ -1467,48 +1467,48 @@ const DSMSpanish = () => {
 	<tr>
 		<td>${panelI.name}</td>
 
-		<td style="${(panelOne < 3) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelOne}</td>
+		<td style="${(panelOne < 3) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelOne} - Síntomas somáticos</td>
 	</tr>
 	<tr>
 		<td>${panelII.name}</td>
 
-		<td style="${(panelTwo < 2) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelTwo}</td>
+		<td style="${(panelTwo < 2) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelTwo} -  Problemas para dormir</td>
 	</tr>
 	<tr>
 		<td>${panelIII.name}</td>
-		<td style="${(panelThree < 1) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelThree}</td>
+		<td style="${(panelThree < 1) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelThree} - Inatención</td>
 	</tr>
 	<tr>
 		<td>${panelIV.name}</td>
-		<td style="${(panelFour < 3) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelFour}</td>
+		<td style="${(panelFour < 3) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelFour} - Depresión</td>
 	</tr>
 	<tr>
 		<td>${panelVandVI.name}</td>
-		<td style="${(panelFiveAndSix < 3) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelFiveAndSix}</td>
+		<td style="${(panelFiveAndSix < 3) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelFiveAndSix} - Ira e irritabilidad</td>
 	</tr>
 	<tr>
 		<td>${panelVII.name}</td>
-		<td style="${(panelSeven < 3) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelSeven}</td>
+		<td style="${(panelSeven < 3) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelSeven} - Manía</td>
 	</tr>
 	<tr>
 		<td>${panelVIII.name}</td>
-		<td style="${(panelEight < 4) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelEight}</td>
+		<td style="${(panelEight < 4) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelEight} - Ansiedad</td>
 	</tr>
 	<tr>
 		<td>${panelIX.name}</td>
-		<td style="${(panelNine < 1) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelNine}</td>
+		<td style="${(panelNine < 1) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelNine} - Psicosis</td>
 	</tr>
 	<tr>
 		<td>${panelX.name}</td>
-		<td style="${(panelTen < 5) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelTen}</td>
+		<td style="${(panelTen < 5) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelTen} - Pensamientos y comportamientos repetitivos</td>
 	</tr>
 	<tr>
 		<td>${panelXI.name}</td>
-		<td style="${(panelEleven < 1) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelEleven}</td>
+		<td style="${(panelEleven < 1) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelEleven} - Uso de sustancias</td>
 	</tr>
 	<tr>
 		<td>${panelXII.name}</td>
-		<td style="${(panelTwelve < 1) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelTwelve}</td>
+		<td style="${(panelTwelve < 1) ? "color: white; background-color:green": "color: black; background-color: yellow"}">${panelTwelve} - Ideas suicidas / intentos de suicidio</td>
 	</tr>
 	<tbody>
 </table>

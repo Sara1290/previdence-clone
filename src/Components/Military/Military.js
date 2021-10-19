@@ -31,11 +31,11 @@ const Military = () => {
             </p>
           </div>
           <div className="button-parent-mili">
+          <Mailto className="a" email="sales@previdence.com" subject="Military Liaison" body="Hello">
             <button className="liaison-mili">
-          <Mailto className="a" email="reedsara90@gmail.com" subject="Military Liaison" body="Hello">
               CONTACT OUR MILITARY LIAISON
-          </Mailto>
             </button>
+          </Mailto>
           </div>
           <div className="mili-counters">
             <div className="counter">

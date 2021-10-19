@@ -23,11 +23,11 @@ const Professional = () => {
             </p>
             </div>
         <div className="">
+          <Mailto className="a" email="sales@previdence.com" subject="Therapist Advocate" body="Hello">
             <button className="liaison-dark">
-          <Mailto className="a" email="reedsara90@gmail.com" subject="Therapist Advocate" body="Hello">
               CONTACT OUR THERAPIST ADVOCATE
-          </Mailto>
             </button>
+          </Mailto>
           </div>
         </div>
       </div>

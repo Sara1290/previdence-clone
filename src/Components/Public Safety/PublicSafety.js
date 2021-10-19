@@ -67,11 +67,11 @@ const PublicSafety = () => {
         <br></br>
       <PsCarousel className="ps-carousel" />
       <div className="button-parent">
+          <Mailto className="a"  email="sales@previdence.com" subject="Public Safety Liaison" body="Hello">
             <button className="liaison">
-          <Mailto className="a" email="reedsara90@gmail.com" subject="Public Safety Liaison" body="Hello">
               CONTACT OUR PUBLIC SAFETY LIAISON
-          </Mailto>
             </button>
+          </Mailto>
           </div>
       </div>
         </div>

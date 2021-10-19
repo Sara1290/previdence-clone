@@ -25,7 +25,7 @@ return (
         South Ogden, UT 84403
       </p>  
         <p>Phone: (801) 409-0904</p>
-          <Mailto email="reedsara90@gmail.com" subject="Public Relations" body="Hello">
+          <Mailto email="sales@previdence.com" subject="Public Relations" body="Hello">
         <p className="white-hover">Email: public-relations@previdence.com</p>
           </Mailto>
         <p>Hours: Monday - Friday <br></br>

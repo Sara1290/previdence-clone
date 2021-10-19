@@ -329,13 +329,11 @@
   transition: .33s all ease;
   white-space: normal;
   text-transform: uppercase;
-  cursor: pointer;
   text-align: center;
 }
 .faith-liaison:hover {
   background-color: transparent;
-  color: black;
-  cursor: default; 
+  color: black; 
 }
 
 
@@ -584,6 +582,10 @@ font-size: 18px;
   text-transform: uppercase;
   cursor: pointer;
   text-align: center;
+}
+.liaison-mili:hover{
+  background-color: whitesmoke;
+  color: black;
 }
 .mili-counters {
   display: flex;

@@ -36,11 +36,11 @@ const Correctional = () => {
           </p>
         </div>
         <div className="button-parent-corr">
+          <Mailto className="a" email="sales@previdence.com" subject="Correctional Facility Liaison" body="Hello">
             <button className="liaison">
-          <Mailto className="a" email="reedsara90@gmail.com" subject="Correctional Facility Liaison" body="Hello">
               CONTACT OUR CORRECTIONAL LIAISON
-          </Mailto>
             </button>
+          </Mailto>
           </div>
       </div>
       <CorCarousel />
