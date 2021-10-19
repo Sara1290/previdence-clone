@@ -4,7 +4,7 @@ import NavBarTwo from '../NavBarTwo'
 import "survey-react/modern.css";
 
 
-const DSMSpanish = () => {
+const DSMSpanishParents = () => {
   Survey.StylesManager.applyTheme("modern");
   
   const json = {
@@ -1573,4 +1573,4 @@ return (
 );
 
 }
-export default DSMSpanish;
+export default DSMSpanishParents;
