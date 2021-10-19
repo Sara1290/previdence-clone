@@ -51,11 +51,11 @@ export default (
     <Route path="/inclinicart" component={InClinicArt} />
     <Route path="/clientfollowup" component={ClientFollowUp} />
     <Route path="/preveval" component={PrevEval} />
-    <Route path="/dsm" component={DSM} />
-    <Route path="/dsmparents" component={DSMParents} />
+    <Route path="/dsmwebersd" component={DSM} />
+    <Route path="/dsmparentswebersd" component={DSMParents} />
     <Route path="/dsmsample" component={DSMSample} />
-    <Route path="/dsmspanish" component={DSMSpanish} />
-    <Route path="/dsmspanishparents" component={DSMSpanishParents} />
+    <Route path="/dsmspanishwebersd" component={DSMSpanish} />
+    <Route path="/dsmspanishparentswebersd" component={DSMSpanishParents} />
     <Route path="/ppninfo" component={PpnInfo} />
   </Switch>
 )

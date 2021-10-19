@@ -5,6 +5,9 @@ import kentMarble from '../../images/kentMarble.png';
 import markMarble from '../../images/markMarble.png';
 import tiaMarble from '../../images/tiaMarble.png';
 import saraMarble from '../../images/saraMarble.png';
+import codyMarble from '../../images/codyMarble.jpg';
+import JeffMarble from '../../images/JeffMarble.png';
+import johnnyMarble from '../../images/johnnyMarble.jpg'
 import '../../CSS/Pages.css';
 import '../../CSS/App.css';
 
@@ -63,16 +66,51 @@ const Team = () => {
               </div>
             </div>
           </div>
+
           <div class="col-md-6 col-lg-4">
             <div class="thumb thumb-corporate">
               <div class="thumb-corporate__main"><img src={johnMarble} alt="" className="team-img" />
               </div>
               <div class="thumb-corporate__caption">
-                <p class="thumb__title even-section">John&nbsp;Wright</p>
+                <p class="thumb__title even-section">John Wright</p>
                 <p class="thumb__subtitle even-section">IT Director</p>
               </div>
             </div>
           </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="thumb thumb-corporate">
+              <div class="thumb-corporate__main"><img src={codyMarble} alt="" className="team-img" />
+              </div>
+              <div class="thumb-corporate__caption">
+                <p class="thumb__title even-section">Cody Wilson</p>
+                <p class="thumb__subtitle even-section">PPN Advocate Manager</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="thumb thumb-corporate">
+              <div class="thumb-corporate__main"><img src={JeffMarble} alt="" className="team-img" />
+              </div>
+              <div class="thumb-corporate__caption">
+                <p class="thumb__title even-section">Jeffery Denning</p>
+                <p class="thumb__subtitle even-section">Sales Director</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="thumb thumb-corporate">
+              <div class="thumb-corporate__main"><img src={johnnyMarble} alt="" className="team-img" />
+              </div>
+              <div class="thumb-corporate__caption">
+                <p class="thumb__title even-section">John O'Callaghan</p>
+                <p class="thumb__subtitle even-section">Business Development</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
