@@ -94,7 +94,7 @@ const Team = () => {
               <div class="thumb-corporate__main"><img src={JeffMarble} alt="" className="team-img" />
               </div>
               <div class="thumb-corporate__caption">
-                <p class="thumb__title even-section">Jeffery Denning</p>
+                <p class="thumb__title even-section">Jeffrey Denning</p>
                 <p class="thumb__subtitle even-section">Sales Director</p>
               </div>
             </div>
