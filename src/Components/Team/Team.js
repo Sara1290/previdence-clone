@@ -21,7 +21,7 @@ const Team = () => {
       <div class="container team-spacing">
         <div class="row row-fix row-30 justify-content-lg-center">
           <div class="col-lg-11 col-xl-9 team-inner">
-            <h2 class="even-section">Executive Team</h2>
+            {/* <h2 class="even-section">Executive Team</h2> */}
           </div>
         </div>
         <div class="row row-50 offset-top-1 team-flex" >
