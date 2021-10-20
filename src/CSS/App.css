@@ -78,16 +78,16 @@ ul {
 }
 .contact-btn {
   border: 1px solid rgb(196, 196, 196) !important;
+  font-size: 12px !important;
+  padding: 5px !important;
+  position: relative;
+  top: 2px;
+  left: 5px;
 }
-.contact-button {
-  font-size: 12px;
-  font-weight: 600;
+.contact-btn:hover {
+  color: #7b0303 !important;
 }
-.contact-button:hover {
-  background-color: whitesmoke;
-  border: 1px solid white;
-  color: #7b0303;
-}
+
 .nav-img {
   height: 48px;
   width: 48px;
