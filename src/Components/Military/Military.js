@@ -2,7 +2,7 @@ import React from 'react';
 import uniform from '../../images/uniform.jpg'
 import {FaUsers, FaUserFriends, FaHandHoldingHeart, FaWarehouse} from 'react-icons/fa';
 import NavBarTwo from '../NavBarTwo';
-// import UniFooter from '../UniFooter';
+import UniFooter from '../UniFooter';
 
 const Military = () => {
 
@@ -61,7 +61,7 @@ const Military = () => {
             </div>
           </div>
       </div>
-      {/* <UniFooter /> */}
+      <UniFooter />
     </div>
   )
 }

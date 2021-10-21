@@ -1,32 +1,68 @@
 /*--------------UNIversal FOOTER-------------*/
 .uni-footer {
-  /*background color for a back up for browsers that don't support gradients.*/
-  /* background-color: #7b0303; */
-  background-image:linear-gradient(#7b0303, #7b03035f);
-  color: #cfcfcf;
-  padding: 3vh;
+  background-color: transparent;
+  /* border-top: 1px solid #cfcfcf; */
+  padding: 2vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .footer-logo {
- width: 15%;
+ width: 18%;
+ padding-right: 2%;
+}
+.footer-snippet {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 275px;
+}
+.footer-snippet-larger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+}
+.footer-snippet > p:first-of-type, .footer-snippet-larger > p:first-of-type{
+  font-weight: 600;
+  position: relative;
+  top: 6px;
+  margin-right: 2%;
+}
+.email-hover-dark:hover {
+  color: #7b0303;
+}
+.footer-icons {
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #7b0303;
+  background-color: #7b0303;
+  border-radius: 50%;
+}
+.footer-icon {
+  position: relative;
+  top: 11px;
+  font-size: 18px;
 }
 .socials-footer {
-  width: 15%;
-  font-size: 32px;
+  width: 10%;
+  font-size: 40px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  position: relative;
+  bottom: 2px;
 }
 .social-f {
-  color: #cfcfcf;
+  color: #7b0303;
 }
-
-.socials-footer > p {
-  font-size: 20px;
-  position: relative;
-  top: 10px;
+.footer-line {
+  height: 60px;
+  width: 1px;
+  background-color: black;
 }
 /* ---------------------TEAM---------------- */ 
 .team-flex {
