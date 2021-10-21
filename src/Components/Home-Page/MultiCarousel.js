@@ -10,6 +10,7 @@ import LDS from '../../images/LDS.png';
 import opd from '../../images/opd.png';
 import osd from '../../images/osd.png';
 import wsd from '../../images/wsd.png';
+import bcpd11 from '../../images/bcpd11.png';
 
 const MultiCarousel = ({deviceType}) => {
   const responsive = {
@@ -48,31 +49,34 @@ const MultiCarousel = ({deviceType}) => {
   // dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
 >
-  <div>
+  <div className="logo-carousel-item">
     <img alt="" className="DHA" src={DHA} />
   </div>
-  <div>
+  <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={WTU} />
   </div>
-  <div>
+  <div className="logo-carousel-item">
+  <img alt="" className="bcpd" src={bcpd11} />
+  </div>
+  <div className="logo-carousel-item">
   <img alt="" className="tooele" src={tooele} />
   </div>
-  <div>
+  <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={DOD} />
   </div>
-  <div>
+  <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={harrisville}/>
   </div>
-  <div>
+  <div className="logo-carousel-item">
   <img alt="" className="lds" src={LDS} />
   </div>
-  <div>
+  <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={opd} />
   </div>
-  <div>
+  <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={osd} />
   </div>
-  <div>
+  <div className="logo-carousel-item1">
   <img alt="" className="wsd" src={wsd} />
   </div>
 </Carousel>

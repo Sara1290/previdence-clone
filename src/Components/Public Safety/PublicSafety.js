@@ -7,6 +7,7 @@ import fireLady from '../../images/fireLady.jpg';
 import medic from '../../images/medic.jpg';
 import TestimonialsPS from "./TestimonialsPS";
 import PsCarousel from "./PsCarousel";
+// import UniFooter from "../UniFooter";
 
 const PublicSafety = () => {
 
@@ -84,6 +85,7 @@ const PublicSafety = () => {
 
      </div>
      <TestimonialsPS />
+     {/* <UniFooter /> */}
     </div>
   );
 };

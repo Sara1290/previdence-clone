@@ -1,4 +1,34 @@
-/* ---------------------TEAM------------------------ */ 
+/*--------------UNIversal FOOTER-------------*/
+.uni-footer {
+  /*background color for a back up for browsers that don't support gradients.*/
+  /* background-color: #7b0303; */
+  background-image:linear-gradient(#7b0303, #7b03035f);
+  color: #cfcfcf;
+  padding: 3vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo {
+ width: 15%;
+}
+.socials-footer {
+  width: 15%;
+  font-size: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social-f {
+  color: #cfcfcf;
+}
+
+.socials-footer > p {
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+}
+/* ---------------------TEAM---------------- */ 
 .team-flex {
   display: flex;
   justify-content: space-around;
@@ -242,6 +272,18 @@
 .achf-img-container {
   padding: 10px;
   margin-bottom: 20px;
+}
+.ACHF {
+  width: 40%;
+}
+.here {
+  font-weight: 800;
+  text-decoration: none;
+  color: #CFCFCF;
+}
+.here:hover {
+  font-size: 15px;
+  color: #cfcfcf;
 }
 /* needed for the humanitarian image carousel, but it does effect all the other carousels. */
 /* .react-multi-carousel-track {
@@ -500,9 +542,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90vw;
-  /* position: relative; */
-  /* left: 5vw; */
+  width: 9
+  0vw;
 }
 .corp-inner > img {
   width: 80%;
@@ -541,6 +582,7 @@ font-size: 18px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
 }
 .mili-inner > h1 {
   padding: 40px 0px 40px 0px;

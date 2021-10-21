@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import NavBarTwo from '../NavBarTwo'
-import achf from '../../images/achf.png';
+import ACHFNew from '../../images/ACHFNew.png';
 import hugs from '../../images/hugs.jpg';
 import twins from '../../images/twins.jpg';
 import girlOnSwing from '../../images/girlOnSwing.jpg';
@@ -59,11 +59,11 @@ const Humanitarian = ({deviceType}) => {
         </div>
  
         <div className="achf-img-container">
-          <img alt="A Child's Hope Foundation Logo" src={achf}/>
+        <a className="a2" target="_blank" rel="noreferrer" href="https://www.achildshopefoundation.org/"><img alt="A Child's Hope Foundation Logo" className="ACHF" src={ACHFNew}/></a>
         </div>
         <div className="hum-para-container">
-        <p>Together, we're lifting orphans from surviving to thriving. Read about our partner, A Child's Hope Foundation
-        <a className="a2" target="_blank" rel="noreferrer" href="https://www.achildshopefoundation.org/"> here</a></p>
+        <p>Together, we're lifting orphans from surviving to thriving. <br></br> Read about our partner, A Child's Hope Foundation 
+        <a className=" here" target="_blank" rel="noreferrer" href="https://www.achildshopefoundation.org/"> here.</a> </p>
         </div>
         <br></br>
         <div className="button-parent">

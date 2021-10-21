@@ -4,6 +4,7 @@ import student from '../../images/student.jpg'
 import books from '../../images/books.jpg';
 import graduation from '../../images/graduation.jpg';
 import K12Testimonials from './K12Testimonials';
+// import UniFooter from '../UniFooter';
 
 
 const K12 = () => {
@@ -40,6 +41,7 @@ const K12 = () => {
         </div>
       </div>
         <K12Testimonials />
+        {/* <UniFooter /> */}
     </div>
   )
 }
