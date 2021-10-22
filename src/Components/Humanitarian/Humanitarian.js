@@ -9,7 +9,7 @@ import girlOnSwing from '../../images/girlOnSwing.jpg';
 import summerCamp from '../../images/summerCamp.jpg';
 import building from '../../images/building.jpg';
 import soccer from '../../images/soccer.jpg';
-
+import UniFooter from '../UniFooter';
 
 
 const Humanitarian = ({deviceType}) => {
@@ -115,6 +115,7 @@ const Humanitarian = ({deviceType}) => {
           </Carousel>
       </div>
     </div>
+    <UniFooter />
   </div>
   )
 }

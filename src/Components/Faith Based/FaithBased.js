@@ -5,7 +5,7 @@ import "../../CSS/Pages.css";
 import "../../CSS/Responsive.css";
 import "../../CSS/App.css";
 import "../../CSS/index.css";
-// import UniFooter from "../UniFooter";
+import UniFooter from "../UniFooter";
 
 const FaithBased = () => {
 
@@ -47,8 +47,8 @@ const FaithBased = () => {
             </button>
           </Mailto>
           </div>
+      <UniFooter />
       </div>
-      {/* <UniFooter /> */}
     </div>
   );
 };

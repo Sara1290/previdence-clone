@@ -1,6 +1,6 @@
 import React from 'react';
-import PrevLogo from '../images/PrevLogo.png';
-import {FaLinkedin, FaFacebook, FaRegEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'
+import PrevNoMotto from '../images/PrevNoMotto.png'
+import {FaRegEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'
 
 const UniFooter = () => {
 
@@ -12,10 +12,10 @@ const UniFooter = () => {
   
     return <a className="a2" href={`mailto:${email}${params}`}>{children}</a>;
   };
-
+//we got rid of the social media links because we don't use them//
   return (
   <div className="uni-footer">
-     <img src={PrevLogo} alt="previdence logo" className="footer-logo" />
+     <img src={PrevNoMotto} alt="previdence logo" className="footer-logo" />
      {/* <h5>Previdence Corporation</h5> */}
 
      <div className="footer-snippet-larger">
@@ -39,15 +39,15 @@ const UniFooter = () => {
         <FaRegEnvelope className="footer-icon" />
       </div>
         <Mailto email="sales@previdence.com" subject="Public Relations and Sales" body="Hello">
-          <p className="email-hover-dark" style={{color: 'black'}}>Email Us: <br></br> sales@previdence.com</p>
+          <p className="email-hover-dark" style={{color: 'black', marginRight: "5px"}}>Email Us: <br></br> sales@previdence.com</p>
         </Mailto>
         <div className="footer-line"></div>
      </div>
 
-     <div className="socials-footer">
+     {/* <div className="socials-footer">
         <a href="https://www.facebook.com/PrevidenceMentalHealthRiskAssessment/" target="_blank" rel="noreferrer"><FaFacebook className="social-f" /></a>
         <a href="https://www.linkedin.com/company/previdence-corporation/mycompany/" target="_blank" rel="noreferrer"><FaLinkedin className="social-f" /></a>
-        </div>
+        </div> */}
   </div>
   )
 }

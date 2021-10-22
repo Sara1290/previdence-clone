@@ -1,5 +1,6 @@
 import React from "react";
 import NavBarTwo from "../NavBarTwo";
+import UniFooter from "../UniFooter";
 import CorCarousel from "./CorCarousel";
 
 const Correctional = () => {
@@ -44,6 +45,8 @@ const Correctional = () => {
           </div>
       </div>
       <CorCarousel />
+      <div className="whitespace"></div>
+      <UniFooter />
     </div>
   );
 };

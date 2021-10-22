@@ -4,6 +4,7 @@ import officePeople from "../../images/officePeople.jpg";
 import highFive from "../../images/highFive.jpg";
 import NavBarTwo from "../NavBarTwo";
 import CorCarousel from "../Correctional/CorCarousel"
+import UniFooter from "../UniFooter";
 
 
 const Corporations = () => {
@@ -45,6 +46,8 @@ const Corporations = () => {
           </div>
       </div>
         <CorCarousel />
+        <div className="whitespace"></div>
+        <UniFooter />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 /*--------------UNIversal FOOTER-------------*/
 .uni-footer {
-  background-color: transparent;
-  /* border-top: 1px solid #cfcfcf; */
+  /* background-color: transparent; */
+  background-image: linear-gradient(transparent, white);
   padding: 2vh;
   display: flex;
   justify-content: center;
@@ -28,7 +28,6 @@
   font-weight: bold;
 }
 .footer-snippet > p:first-of-type, .footer-snippet-larger > p:first-of-type{
-  /* font-weight: 600; */
   position: relative;
   top: 6px;
   margin-right: 2%;
@@ -51,7 +50,7 @@
   top: 9px;
   font-size: 15px;
 }
-.socials-footer {
+/* .socials-footer {
   width: 5%;
   font-size: 30px;
   display: flex;
@@ -62,11 +61,14 @@
 }
 .social-f {
   color: #cfcfcf;
-}
+} */
 .footer-line {
   height: 60px;
   width: 1px;
   background-color: #cfcfcf;
+}
+.whitespace {
+  height: 10vh;
 }
 /* ---------------------TEAM---------------- */ 
 .team-flex {
@@ -339,6 +341,10 @@
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 .faith-paragraphs-container > p {
   font-size: 18px;
@@ -393,6 +399,8 @@
 }
 .faith-button-parent {
   padding-bottom: 20px;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
 }
 .faith-liaison {
   background-color: whitesmoke;

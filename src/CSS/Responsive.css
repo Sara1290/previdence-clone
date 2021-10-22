@@ -417,10 +417,9 @@
     font-size: 12px;
   }
   /*Faith Based*/
-  /* .faith-paragraphs-container {
-    width: 85vw;
-    padding-left: 15%;
-  } */
+  .faith-paragraphs-container {
+    width: 75vw;
+  }
   /*CORRECTIONAL*/
   .corr-inner {
     height: 100vh;
@@ -560,8 +559,7 @@
     left: 10vw;
   }
   .faith-paragraphs-container {
-    width: 85vw;
-    padding-left: 15%;
+    width: 75vw;
   }
   .icon {
     padding: 0px 0px 0px 0px;
@@ -656,7 +654,6 @@
   .prev-logo {
     position: relative;
     top: 3vh;
-    /* width: 75%; */
     height: 172px !important;
     margin: 0px 10px 0px 10px;
     padding: 0px 20px 0px 10px;
@@ -692,13 +689,13 @@
     align-items: flex-start;
     flex-wrap: wrap;
     width: 85%;
-    /* padding-left: 25vw; */
+
     position: relative;
     left: 10vw;
   }
   .faith-paragraphs-container {
-    width: 85vw;
-    padding-left: 15%;
+    width: 75vw;
+
   }
   /* CORRECTIONAL */
   .corr-para {

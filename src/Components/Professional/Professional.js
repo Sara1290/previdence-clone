@@ -1,6 +1,6 @@
 import React from "react";
 import NavBarTwo from "../NavBarTwo";
-// import UniFooter from "../UniFooter";
+import UniFooter from "../UniFooter";
 
 const Professional = () => {
 
@@ -32,7 +32,7 @@ const Professional = () => {
           </div>
         </div>
       </div>
-      {/* <UniFooter /> */}
+      <UniFooter />
     </div>
   )
 }
