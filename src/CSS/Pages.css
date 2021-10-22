@@ -24,7 +24,7 @@
   width: 350px;
 }
 .footer-snippet > p:first-of-type, .footer-snippet-larger > p:first-of-type{
-  font-weight: 600;
+  /* font-weight: 600; */
   position: relative;
   top: 6px;
   margin-right: 2%;
