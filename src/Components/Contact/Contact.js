@@ -1,29 +1,28 @@
-import React, {useRef} from 'react';
-import emailjs  from 'emailjs-com';
+import React from 'react';
+// import emailjs  from 'emailjs-com';
 import NavBarTwo from '../NavBarTwo';
-import {FaLinkedin, FaFacebook, FaPenAlt, FaPenFancy, FaUser, FaPhoneAlt, FaEnvelope } from 'react-icons/fa'
-// import ReCaptchaComponent from './ReCaptchaComponent'
-
+import {FaLinkedin, FaFacebook } from 'react-icons/fa'
+// require('dotenv').config()
 
 
 const Contact = () => {
-
-  //THIS IS THE SEND FUNCTION FOR THE FORM, IT'S JUST FOR THE FORM.
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    // the arguments serviceID, templateID, e.target, userID, access token
-    emailjs.sendForm('service_3jjo4uo', 'template_eqscyfd', e.target, 'user_rbpqRkclByRof3uBBcLVG', '47267216205e32b76c884990c5be99d7')
-      .then((result) => {
-          console.log("SUCCESS", result.text);
-      }, (error) => {
-          console.log("FAIL",error.text);
-      });
-      e.target.reset()
-  };
-
+  
+  // const form = useRef();
+  
+  // //THIS IS THE SEND FUNCTION FOR THE FORM, IT'S JUST FOR THE FORM.
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+    
+  //   // the arguments serviceID, templateID, e.target, userID, access token
+  //   emailjs.sendForm('process.env.REACT_APP_EMAIL_JS_SERVICE', 'process.env.REACT_APP_EMAIL_JS_TEMPLATE', e.target, 'process.env.REACT_APP_EMAIL_JS_USER', 'process.env.REACT_APP_EMAIL_JS_ACCESS')
+  //   .then((result) => {
+  //     console.log("SUCCESS", result.text);
+  //   }, (error) => {
+  //     console.log("FAIL",error.text);
+  //   });
+  //   e.target.reset()
+  // };
+  
   const Mailto = ({ email, subject = '', body = '', children }) => {
     let params = subject || body ? '?' : '';
     if (subject) params += `subject=${encodeURIComponent(subject)}`;
@@ -57,8 +56,8 @@ const Contact = () => {
         <a href="https://www.linkedin.com/company/previdence-corporation/mycompany/" target="_blank" rel="noreferrer"><FaLinkedin className="social" /></a>
         </div>
       </div>
-      {/*THIS IS THE STRUCTURE OF THE FORM. REMOVED FOR NOW BECAUSE I DON'T WANT IT UP UNTIL IT'S FULLY WORKING. */}
-      <div className="contact-form">
+      {/* above are the contact details, with a link to open user's email, below is a contact form so they can mail straight from here. */}
+      {/* <div className="contact-form">
         <form ref={form} onSubmit={sendEmail} className="contact-form">
         <h1>Send Us A Message</h1>
         <div>
@@ -89,10 +88,8 @@ const Contact = () => {
 
           <input className="form-btn" type="submit"  value="Send Message"></input>
         </form>
-      </div>
-   
+       </div> */}
       </div> 
-      
     </div>
   )
 }

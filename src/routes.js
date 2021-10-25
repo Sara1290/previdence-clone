@@ -27,6 +27,7 @@ import DSMSample from './Components/Surveys/DSMSample';
 import DSMSpanish from './Components/Surveys/DSMSpanish';
 import DSMSpanishParents from './Components/Surveys/DSMSpanishParents';
 import PpnInfo from './Components/PPN/PpnInfo';
+import OpdTips from './Components/Tips/OpdTips';
 
 export default (
   <Switch>
@@ -45,6 +46,7 @@ export default (
     <Route path="/testimonials" component={Testimonials} />
     <Route path="/resources" component={Resources} />
     <Route path="/ofdtips" component={OfdTips} />
+    <Route path="/opdtips" component={OpdTips} />
     <Route path="/ppn" component={Ppn} />
     <Route path="/ppnadditional" component={PpnAdditional} />
     <Route path="/crisisresponse" component={CrisisResponse} />
