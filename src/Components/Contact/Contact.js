@@ -1,7 +1,7 @@
-import React from 'react';
-// import emailjs  from 'emailjs-com';
+import React, {useRef} from 'react';
+import emailjs  from 'emailjs-com';
 import NavBarTwo from '../NavBarTwo';
-import {FaLinkedin, FaFacebook } from 'react-icons/fa'
+import {FaLinkedin, FaFacebook, FaPenAlt, FaPenFancy, FaUser, FaPhoneAlt, FaEnvelope } from 'react-icons/fa'
 // import ReCaptchaComponent from './ReCaptchaComponent'
 
 
@@ -9,20 +9,20 @@ import {FaLinkedin, FaFacebook } from 'react-icons/fa'
 const Contact = () => {
 
   //THIS IS THE SEND FUNCTION FOR THE FORM, IT'S JUST FOR THE FORM.
-  // const form = useRef();
+  const form = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   // the arguments serviceID, templateID, e.target, userID, access token
-  //   emailjs.sendForm('service_3jjo4uo', 'template_eqscyfd', e.target, 'user_rbpqRkclByRof3uBBcLVG', '47267216205e32b76c884990c5be99d7')
-  //     .then((result) => {
-  //         console.log("SUCCESS", result.text);
-  //     }, (error) => {
-  //         console.log("FAIL",error.text);
-  //     });
-  //     e.target.reset()
-  // };
+    // the arguments serviceID, templateID, e.target, userID, access token
+    emailjs.sendForm('service_3jjo4uo', 'template_eqscyfd', e.target, 'user_rbpqRkclByRof3uBBcLVG', '47267216205e32b76c884990c5be99d7')
+      .then((result) => {
+          console.log("SUCCESS", result.text);
+      }, (error) => {
+          console.log("FAIL",error.text);
+      });
+      e.target.reset()
+  };
 
   const Mailto = ({ email, subject = '', body = '', children }) => {
     let params = subject || body ? '?' : '';
@@ -58,7 +58,7 @@ const Contact = () => {
         </div>
       </div>
       {/*THIS IS THE STRUCTURE OF THE FORM. REMOVED FOR NOW BECAUSE I DON'T WANT IT UP UNTIL IT'S FULLY WORKING. */}
-      {/* <div className="contact-form">
+      <div className="contact-form">
         <form ref={form} onSubmit={sendEmail} className="contact-form">
         <h1>Send Us A Message</h1>
         <div>
@@ -90,7 +90,7 @@ const Contact = () => {
           <input className="form-btn" type="submit"  value="Send Message"></input>
         </form>
       </div>
-    */}
+   
       </div> 
       
     </div>
