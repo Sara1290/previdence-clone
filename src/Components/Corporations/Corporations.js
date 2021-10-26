@@ -1,7 +1,7 @@
 import React from "react";
 import { withRouter } from "react-router";
 import officePeople from "../../images/officePeople.jpg";
-import highFive from "../../images/highFive.jpg";
+import meeting2 from '../../images/meeting2.jpg';
 import NavBarTwo from "../NavBarTwo";
 import CorCarousel from "../Correctional/CorCarousel"
 import UniFooter from "../UniFooter";
@@ -35,7 +35,7 @@ const Corporations = () => {
               and crisis response.
             </p>
           </div>
-          <img alt="office people" className="corp-img box-shadow-slow" src={highFive} />
+          <img alt="office people" className="corp-img box-shadow-slow" src={meeting2} />
           </div>
           <div className="button-parent-corp">
           <Mailto className="a" email="sales@previdence.com" subject="Corportate Liaison" body="Hello">

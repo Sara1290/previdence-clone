@@ -26,6 +26,8 @@ const UniFooter = () => {
         <div className="footer-line"></div>
      </div>
 
+        <div className="footer-line-mobile"></div>
+
      <div className="footer-snippet">
       <div className="footer-icons">
         <FaPhoneAlt className="footer-icon" />
@@ -34,15 +36,21 @@ const UniFooter = () => {
         <div className="footer-line"></div>
      </div>
 
+     <div className="footer-line-mobile"></div>
+
+
      <div className="footer-snippet">
       <div className="footer-icons">
         <FaRegEnvelope className="footer-icon" />
       </div>
-        <Mailto email="sales@previdence.com" subject="Public Relations and Sales" body="Hello">
+        <Mailto className="footer-email" email="sales@previdence.com" subject="Public Relations and Sales" body="Hello">
           <p className="email-hover-dark" style={{color: 'black', marginRight: "5px"}}>Email Us: <br></br> sales@previdence.com</p>
         </Mailto>
         <div className="footer-line"></div>
      </div>
+
+     <div className="footer-line-mobile"></div>
+
 
      {/* <div className="socials-footer">
         <a href="https://www.facebook.com/PrevidenceMentalHealthRiskAssessment/" target="_blank" rel="noreferrer"><FaFacebook className="social-f" /></a>

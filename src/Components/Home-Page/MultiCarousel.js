@@ -11,7 +11,7 @@ import opd from '../../images/opd.png';
 import osd from '../../images/osd.png';
 import wsd from '../../images/wsd.png';
 import bcpd11 from '../../images/bcpd11.png';
-// import ofdWhite from '../../images/ofdWhite.png';
+import ofdWhite from '../../images/ofdWhite.png';
 
 const MultiCarousel = ({deviceType}) => {
   const responsive = {
@@ -40,7 +40,7 @@ const MultiCarousel = ({deviceType}) => {
   // ssr={true} // means to render carousel on server-side.
   infinite={true}
   deviceType={deviceType}
-  // autoPlay={deviceType !== "mobile" ? true : false}
+  autoPlay={deviceType !== "mobile" ? true : false}
   autoPlaySpeed={5000}
   keyBoardControl={true}
   customTransition="transform 500ms ease-in-out"
@@ -53,9 +53,6 @@ const MultiCarousel = ({deviceType}) => {
   <div className="logo-carousel-item">
     <img alt="" className="DHA" src={DHA} />
   </div>
-  {/* <div className="logo-carousel-item">
-  <img alt="" className="org-logo" src={ofdWhite} />
-  </div> */}
   <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={WTU} />
   </div>
@@ -79,6 +76,9 @@ const MultiCarousel = ({deviceType}) => {
   </div>
   <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={osd} />
+  </div>
+  <div className="logo-carousel-item">
+  <img alt="" className="org-logo" src={ofdWhite} />
   </div>
   <div className="logo-carousel-item1">
   <img alt="" className="wsd" src={wsd} />
