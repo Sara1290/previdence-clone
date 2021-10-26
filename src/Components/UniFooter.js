@@ -26,7 +26,7 @@ const UniFooter = () => {
         <div className="footer-line"></div>
      </div>
 
-        <div className="footer-line-mobile"></div>
+    
 
      <div className="footer-snippet">
       <div className="footer-icons">
@@ -36,7 +36,7 @@ const UniFooter = () => {
         <div className="footer-line"></div>
      </div>
 
-     <div className="footer-line-mobile"></div>
+ 
 
 
      <div className="footer-snippet">
@@ -49,7 +49,6 @@ const UniFooter = () => {
         <div className="footer-line"></div>
      </div>
 
-     <div className="footer-line-mobile"></div>
 
 
      {/* <div className="socials-footer">

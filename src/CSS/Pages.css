@@ -789,8 +789,14 @@ font-size: 18px;
   color: #7b0303;
 }
 /*-------------TRAININGS--------*/
-.trainings-outer h1 {
-  margin-bottom: 12vh;
+.trainings-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+iframe {
+  margin-bottom: 100px;
 }
 .courses-container {
   margin-top: 10vh;

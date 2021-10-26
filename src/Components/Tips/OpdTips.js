@@ -2,6 +2,7 @@ import React from 'react';
 import OPDTips from '../../images/OPDTips.png'
 import safeUT from '../../images/safeUT.jpg'
 import NavbarTwo from '../NavBarTwo';
+import UniFooter from '../UniFooter';
 
 const OpdTips = () => {
 
@@ -73,6 +74,7 @@ const OpdTips = () => {
         </div> */}
         <img alt="safeUT" src={safeUT} />
       </div>
+      <UniFooter />
     </div>
   )
 

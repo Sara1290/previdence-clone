@@ -10,6 +10,7 @@ import JeffMarble from '../../images/JeffMarble.png';
 import johnnyMarble from '../../images/johnnyMarble.jpg'
 import '../../CSS/Pages.css';
 import '../../CSS/App.css';
+import UniFooter from '../UniFooter';
 
 
 const Team = () => {
@@ -114,6 +115,7 @@ const Team = () => {
         </div>
       </div>
     </section>
+    <UniFooter />
     </div>
   )
 }

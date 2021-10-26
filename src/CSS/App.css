@@ -352,6 +352,7 @@ p {
 }
 .client-container > span {
   font-weight: bolder;
+  padding-left: 10px;
 }
 .paragraph {
   width: 65vw;

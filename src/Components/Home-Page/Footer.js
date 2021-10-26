@@ -24,7 +24,6 @@ return (
         <br></br>
         South Ogden, UT 84403
       </p> 
-      <a href="+1-801-409-0904">801-409-0904</a> 
         <p>Phone: (801) 409-0904</p>
           <Mailto email="sales@previdence.com" subject="Public Relations" body="Hello">
         <p className="white-hover">Email: public-relations@previdence.com</p>

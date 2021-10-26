@@ -1,6 +1,7 @@
 import React, {useState, useEffect } from 'react';
 // import axios from 'axios';
 import NavBarTwo from '../NavBarTwo';
+import UniFooter from '../UniFooter';
 import { resources } from './data'
 
 const Resources = () => {
@@ -133,6 +134,7 @@ return (
         : mappedSearch 
         }
       </div>
+      <UniFooter />
     </div>
   )
 
