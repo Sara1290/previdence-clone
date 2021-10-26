@@ -1,5 +1,5 @@
 import React from "react";
-import NavBarTwo from "../NavBarTwo";
+import NavBar from "../NavBar";
 import CorCarousel from '../Correctional/CorCarousel'
 import "../../CSS/Pages.css";
 import "../../CSS/Responsive.css";
@@ -20,7 +20,7 @@ const FaithBased = () => {
   return (
     <div className="faith-outer">
       {/* <img alt="clouds" src={sky} /> */}
-      <NavBarTwo />
+      <NavBar />
       <div className="faith-inner">
         <h1 className="faith">Faith Based</h1>
         <div className="faith-paragraphs-container">

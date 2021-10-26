@@ -2,7 +2,7 @@ import React from "react";
 import { withRouter } from "react-router";
 import officePeople from "../../images/officePeople.jpg";
 import meeting2 from '../../images/meeting2.jpg';
-import NavBarTwo from "../NavBarTwo";
+import NavBar from "../NavBar";
 import CorCarousel from "../Correctional/CorCarousel"
 import UniFooter from "../UniFooter";
 
@@ -19,7 +19,7 @@ const Corporations = () => {
 
   return (
     <div>
-      <NavBarTwo />
+      <NavBar />
       <div className="corp-outer">
         <h1>Corporations</h1>
         <div className="corp-inner">

@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Survey from 'survey-react';
-import NavBarTwo from '../NavBarTwo';
+import NavBar from '../NavBar';
 import "survey-react/modern.css";
 
 
@@ -171,7 +171,7 @@ const CrisisResponse = () => {
   );
   return (
     <div className="survey">
-    <NavBarTwo />
+    <NavBar />
     <Survey.Survey
         model={survey}
         />

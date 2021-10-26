@@ -1,7 +1,7 @@
 import React from 'react';
 import ofd5 from '../../images/ofd5.png'
 import safeUT from '../../images/safeUT.jpg'
-import NavbarTwo from '../NavBarTwo';
+import NavbarTwo from '../NavBar';
 import UniFooter from '../UniFooter';
 
 const OfdTips = () => {

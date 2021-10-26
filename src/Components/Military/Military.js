@@ -1,7 +1,7 @@
 import React from 'react';
 import uniform from '../../images/uniform.jpg'
 import {FaUsers, FaUserFriends, FaHandHoldingHeart, FaWarehouse} from 'react-icons/fa';
-import NavBarTwo from '../NavBarTwo';
+import NavBar from '../NavBar';
 import UniFooter from '../UniFooter';
 
 const Military = () => {
@@ -16,7 +16,7 @@ const Military = () => {
 
   return (
     <div>
-      <NavBarTwo />       
+      <NavBar />       
       <div className="mili-inner">
           <h1 className="h1">
             MILITARY

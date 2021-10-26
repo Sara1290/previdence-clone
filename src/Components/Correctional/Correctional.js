@@ -1,5 +1,5 @@
 import React from "react";
-import NavBarTwo from "../NavBarTwo";
+import NavBar from "../NavBar";
 import UniFooter from "../UniFooter";
 import CorCarousel from "./CorCarousel";
 
@@ -15,7 +15,7 @@ const Correctional = () => {
 
   return (
     <div className="corr-outer">
-      <NavBarTwo />
+      <NavBar />
       <div className="corr-inner">
         <h1>Correctional Facilities</h1>
         <div className="corr-para">

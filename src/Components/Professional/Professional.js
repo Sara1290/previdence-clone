@@ -1,5 +1,5 @@
 import React from "react";
-import NavBarTwo from "../NavBarTwo";
+import NavBar from "../NavBar";
 import UniFooter from "../UniFooter";
 
 const Professional = () => {
@@ -14,7 +14,7 @@ const Professional = () => {
 
   return (
     <div className="pro-outer">
-      <NavBarTwo />
+      <NavBar />
       <div className="pro-inner">
         <div className="pro-container">
           <h1>Professional</h1>

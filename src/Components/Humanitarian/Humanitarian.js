@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import NavBarTwo from '../NavBarTwo'
+import NavBar from '../NavBar'
 import ACHFNew from '../../images/ACHFNew.png';
 import hugs from '../../images/hugs.jpg';
 import twins from '../../images/twins.jpg';
@@ -42,7 +42,7 @@ const Humanitarian = ({deviceType}) => {
   return (
     <div>
 
-    <NavBarTwo />
+    <NavBar />
     <div className="hum-outer">
       <div className="hum-left-top">
         <h1>Humanitarian</h1>

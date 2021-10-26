@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBarTwo from '../NavBarTwo'
+import NavBar from '../NavBar'
 import johnMarble from '../../images/johnMarble.png';
 import kentMarble from '../../images/kentMarble.png';
 import markMarble from '../../images/markMarble.png';
@@ -17,7 +17,7 @@ const Team = () => {
 
   return (
     <div>
-      <NavBarTwo />
+      <NavBar />
       <section class="section novi-bg novi-bg-img section-xl bg-default text-center team-background">
       <div class="container team-spacing">
         <div class="row row-fix row-30 justify-content-lg-center">

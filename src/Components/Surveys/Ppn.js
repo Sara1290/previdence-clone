@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Survey from "survey-react";
-import NavBarTwo from '../NavBarTwo'
+import NavBar from '../NavBar'
 import { withRouter } from 'react-router';
 import "survey-react/modern.css";
 
@@ -606,7 +606,7 @@ const Ppn = () => {
   );
   return (
     <div className="survey">
-    <NavBarTwo />
+    <NavBar />
     <Survey.Survey
         model={survey}
         />

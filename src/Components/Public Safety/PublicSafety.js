@@ -1,5 +1,5 @@
 import React from "react";
-import NavBarTwo from "../NavBarTwo";
+import NavBar from "../NavBar";
 import firefighters from '../../images/firefighters.jpg'
 
 import fireFighter1 from '../../images/fireFighter1.jpg';
@@ -21,7 +21,7 @@ const PublicSafety = () => {
 
   return (
     <div>
-    <NavBarTwo />
+    <NavBar />
     <div className="PS-Outer"> 
       <div className="PS-Left">
         <div className="Left-inner">

@@ -1,6 +1,6 @@
 import React, {useState, useEffect } from 'react';
 // import axios from 'axios';
-import NavBarTwo from '../NavBarTwo';
+import NavBar from '../NavBar';
 import UniFooter from '../UniFooter';
 import { resources } from './data'
 
@@ -125,7 +125,7 @@ let mappedSearch = searchResults.map((resources) => {
 
 return (
   <div>
-      <NavBarTwo />
+      <NavBar />
       <h1 id="h3">Resources</h1>
       <input className="resource-input" type="text" placeholder="Search" value={search} onChange={handleChange} />
       <div className="resources">

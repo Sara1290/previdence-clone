@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBarTwo from '../NavBarTwo';
+import NavBar from '../NavBar';
 import student from '../../images/student.jpg'
 import books from '../../images/books.jpg';
 import graduation from '../../images/graduation.jpg';
@@ -19,7 +19,7 @@ const K12 = () => {
 
   return (
     <div className="k12-outer">
-      <NavBarTwo />
+      <NavBar />
       <div className="k12-inner">
         <h1>K-12</h1>
         <div className="k12">

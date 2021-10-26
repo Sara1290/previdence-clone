@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import NavBarTwo from '../NavBarTwo';
+import NavBar from '../NavBar';
 import ShopifyBuy from '@shopify/buy-button-js'
 import UniFooter from '../UniFooter';
 
@@ -67,7 +67,7 @@ const Trainings = () => {
 
   return (
     <div className="trainings-outer">
-      <NavBarTwo />
+      <NavBar />
       <div className="trainings-inner">
         <h1>Courses</h1>
       <div className="courses-container" id="my-product">

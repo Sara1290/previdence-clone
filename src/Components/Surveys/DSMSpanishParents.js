@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Survey from "survey-react";
-import NavBarTwo from '../NavBarTwo'
+import NavBar from '../NavBar'
 import "survey-react/modern.css";
 
 
@@ -1563,7 +1563,7 @@ const DSMSpanishParents = () => {
 
 return (
   <div>
-    <NavBarTwo />
+    <NavBar />
       <div className="survey" id="surveyResult">
       <Survey.Survey
           model={survey}

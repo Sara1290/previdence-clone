@@ -11,7 +11,7 @@ const GroupSection = () => {
     <div className=" group-parent">
 
 
-      <h1>Mental Wellness</h1>
+      <h1>Personalized Mental Wellness Platform</h1>
       <div className="group-wrapper">
         <div className="group-item">
         <img className="group-img" alt="" src={individuals}/>
