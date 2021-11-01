@@ -1,7 +1,6 @@
 /*--------------UNIversal FOOTER-------------*/
 .uni-footer {
-  /* background-color: transparent; */
-  background-color: white;
+  background-color: white !important;
   padding: 2vh;
   display: flex;
   justify-content: center;

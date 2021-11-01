@@ -30,7 +30,7 @@ background-color: rgb(241, 240, 240);
   top: 20px;
 }
 
-.dropdown:hover>.dropdown-menu {
+.dropdown:hover>.dropdown-menu { 
   display: block;
   color: rgb(15, 15, 15);
   border: none;
@@ -328,6 +328,10 @@ p {
   padding-top: 70px;
   height: 135px;
   width: 250px;
+}
+.CJC {
+  position: relative;
+  top: 23%;
 }
 .carouselHome {
   background-color: #7b0303;

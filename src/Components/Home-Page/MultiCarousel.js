@@ -12,6 +12,10 @@ import osd from '../../images/osd.png';
 import wsd from '../../images/wsd.png';
 import bcpd11 from '../../images/bcpd11.png';
 import ofdWhite from '../../images/ofdWhite.png';
+import weberRed from '../../images/weberRed.png';
+import riverdalePDRed from '../../images/riverdalePDRed.png';
+import CJCRed from '../../images/CJCRed.png';
+
 
 const MultiCarousel = ({deviceType}) => {
   const responsive = {
@@ -78,9 +82,18 @@ const MultiCarousel = ({deviceType}) => {
   <img alt="" className="org-logo" src={osd} />
   </div>
   <div className="logo-carousel-item">
+  <img alt="" className="org-lo" src={riverdalePDRed} />
+  </div>
+  <div className="logo-carousel-item">
+  <img alt="" className="CJC" src={CJCRed} />
+  </div>
+  <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={ofdWhite} />
   </div>
-  <div className="logo-carousel-item1">
+  <div className="logo-carousel-item">
+  <img alt="" className="org-logo" src={weberRed} />
+  </div>
+  <div className="logo-carousel-item">
   <img alt="" className="wsd" src={wsd} />
   </div>
 </Carousel>
