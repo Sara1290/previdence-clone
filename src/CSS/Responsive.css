@@ -202,6 +202,10 @@
   .card-container {
     width: 80% !important;
   }
+  .overlay {
+    width: 306px !important;
+    height: 95px !important;
+  }
 }
 @media screen and (min-width: 481px) {
   /*-----HOME-----*/
