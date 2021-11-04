@@ -16,6 +16,7 @@ import Testimonials from './Components/Home-Page/Testimonials';
 import Resources from './Components/Resources/Resources';
 import OfdTips from './Components/Tips/OfdTips';
 import Ppn from './Components/Surveys/Ppn';
+import PpnNv from './Components/Surveys/PpnNv';
 import PpnAdditional from './Components/Surveys/PpnAddtional';
 import CrisisResponse from './Components/Surveys/CrisisResponse';
 import InClinicArt from './Components/Surveys/InClincArt';
@@ -48,6 +49,7 @@ export default (
     <Route path="/ofdtips" component={OfdTips} />
     <Route path="/opdtips" component={OpdTips} />
     <Route path="/ppn" component={Ppn} />
+    <Route path="/ppn-nv" component={PpnNv} />
     <Route path="/ppnadditional" component={PpnAdditional} />
     <Route path="/crisisresponse" component={CrisisResponse} />
     <Route path="/inclinicart" component={InClinicArt} />

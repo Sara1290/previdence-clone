@@ -1,5 +1,5 @@
 import React, {useCallback, useEffect} from 'react';
-import johnMarble from '../../images/johnMarble.png'
+import johnMarble2 from '../../images/johnMarble2.png'
 
 const JohnModal = ({showJohnModal, setShowJohnModal}) => {
 
@@ -17,7 +17,7 @@ const JohnModal = ({showJohnModal, setShowJohnModal}) => {
     <div className="cody-modal">
       {showJohnModal ? (<div className="team-modal"> 
         <div className="modal-img-container">
-          <img alt="Team Member" className="modal-img" src={johnMarble} />
+          <img alt="Team Member" className="modal-img" src={johnMarble2} />
         </div>
         <div className="modal-text">
           <h3>John Wright</h3>
