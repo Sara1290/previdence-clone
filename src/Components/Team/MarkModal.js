@@ -1,5 +1,6 @@
 import React, {useCallback, useEffect} from 'react';
 import markMarble2 from '../../images/markMarble2.png';
+import '../../CSS/animation.scss'
 
 
 const MarkModal = ({showMarkModal, setShowMarkModal}) => {
@@ -16,8 +17,7 @@ const MarkModal = ({showMarkModal, setShowMarkModal}) => {
 
   return (
     <div className="mark-modal">
-      
-      {showMarkModal ? (<div className="team-modal"> 
+      {showMarkModal ? (<div className="team-modal out"> 
         <div className="modal-img-container">
           <img alt="Team Member" className="modal-img" src={markMarble2} />
         </div>

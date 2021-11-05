@@ -31,7 +31,6 @@ const Team = () => {
   const [showMarkModal, setShowMarkModal] = useState(false);
   const [showSaraModal, setShowSaraModal] = useState(false);
   const [showTiaModal, setShowTiaModal] = useState(false);
-  // const [modalOpen, setModalOpen] = useState(false);
   const modalRef = useRef();
 
   //one function to open each team members modal .. we need a function with unique naming so that we don't open and close modals simultaneously.
@@ -61,7 +60,7 @@ const Team = () => {
   };
   
   
-  //we will come back to this funciton and setShowMEMBERModal(false) for each one that exists
+  //function will close all modals
   const closeModal = e => {
     if(modalRef.current === e.target) {
       setShowCodyModal(false)
@@ -73,22 +72,40 @@ const Team = () => {
       setShowSaraModal(false)
       setShowTiaModal(false)
     }
+    console.log('clicked')
   }
+
   
 
   return (
-    <div ref={modalRef} onClick={closeModal} >
-      <div className={"dark-background " + (showTiaModal ? "dark-background" : "hide")} ></div> 
+    <div >
+      <div className={(showCodyModal ? "dark-background " : "hide")} ref={modalRef} onClick={() => setShowCodyModal(prev => !prev)} >
+      </div>
+      <div className={(showJeffModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowJeffModal(prev => !prev)} >
+      </div>
+      <div className={(showJohnModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowJohnModal(prev => !prev)} >
+      </div>
+      <div className={(showJohnOModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowJohnOModal(prev => !prev)} >
+      </div>
+      <div className={(showKentModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowKentModal(prev => !prev)} >
+      </div>
+      <div className={(showMarkModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowMarkModal(prev => !prev)} >
+      </div>
+      <div className={(showSaraModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowSaraModal(prev => !prev)} >
+      </div>
+      <div className={(showTiaModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowTiaModal(prev => !prev)} >
+      </div>
+
       <NavBar />
-      <section className="section novi-bg novi-bg-img section-xl bg-default text-center team-background"  >
+      <section className="section novi-bg novi-bg-img section-xl bg-default text-center team-background" ref={modalRef} onClick={closeModal}  >
         <div className="container team-spacing">
           <div className="row row-fix row-30 justify-content-lg-center">
             <div className="col-lg-11 col-xl-9 team-inner">
-              {/* <h2 class="even-section">Executive Team</h2> */}
+              {/* <h2 className="even-section">Meet the Team</h2> */}
             </div>
           </div>
 
-      <div className="row row-50 offset-top-1 team-flex">
+      <div className="row row-50 offset-top-1 team-flex" ref={modalRef} onClick={closeModal} >
 
             <div className="col-md-6 col-lg-4">
               <div className="thumb thumb-corporate">
@@ -144,7 +161,7 @@ const Team = () => {
                 />
             </div>
 
-            <div className="col-md-6 col-lg-4 ">
+            <div className="col-md-6 col-lg-4">
               <div className="thumb thumb-corporate">
                 <div className="thumb-corporate__main team-member-container">
                   <button className="open-button" onClick={openTiaModal}>
@@ -155,7 +172,7 @@ const Team = () => {
                     <p>Director of Research and Development</p>
                   </div>
                 </div>
-                <div class="thumb-corporate__caption">
+                <div className="thumb-corporate__caption">
 
                 </div>
               </div>
