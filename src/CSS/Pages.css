@@ -81,8 +81,9 @@
 }
 .team-img {
   height: auto;
-  width: 105%;
-  padding: 25px;
+  width: 95%;
+  margin: 15px;
+  margin-right: 20px;
 }
 .thumb__title {
   font-size: 25px;
@@ -113,14 +114,15 @@
 .team-member-container {
   position: relative;
 }
+
 .overlay {
   position: absolute;
-  bottom: 26px;
-  left: 31px;
+  bottom: 16px;
+  left: 20px;
   right: 0;
   background-color: #d4d4d49d;
   overflow: hidden;
-  width: 374px;
+  width: 93%;
   height: 40px;
   transition: .5s ease;
   color: black;
@@ -139,24 +141,97 @@
   height: 20px;
   width: 20px;
 }
-/* @keyframes fadeIn {
-  0%  {opacity: 0;}
-  25%  {opacity: .25;}
-  50%  {opacity: .5;}  
-  75%  {opacity: .75;}  
-  100% {opacity: 1;}
-}
-@keyframes fadeOut {
-  0%  {opacity: 100;}
-  25%  {opacity: .75;}
-  50%  {opacity: .5;}  
-  75%  {opacity: .25;}  
-  100% {opacity: 0;}
-} */
 
-.fade-out {
-  position: fixed;
-  animation: fadeOut 0.5s ease-in-out;
+  .team-modal {
+    animation: scaleUp .5s ease forwards;
+  }
+   /* .team-flex {
+    animation: scaleBack .5s ease-in-out forwards;
+  } */
+  .inactive {
+    animation: quickScaleDown 0s .1s linear forwards;
+  }
+  /* .dark-background {
+    animation: fadeOut .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  } */
+  .inactive {
+    animation: fadeOut .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+    }
+  .inactive {
+      animation: scaleDown .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  }
+  /* .team-flex {
+    animation: scaleForward .5s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
+  } */
+
+@keyframes fadeIn {
+  0% {
+    background: rgba(255, 255, 255, 0.466);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    background:rgba(0,0,0,.0);
+  }
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: translateY(1000px);
+    opacity:0;
+  }
+  100% {
+    transform:scale(1) translateY(0px);
+    opacity:1;
+  }
+}
+
+@keyframes scaleDown {
+  0% {
+    transform:scale(1) translateY(0px);
+    opacity:1;
+  }
+  100% {
+    transform:scale(.8) translateY(1000px);
+    opacity:0;
+  }
+}
+
+@keyframes scaleBack {
+  0% {
+    transform:scale(1);
+  }
+  100% {
+    transform:scale(.85);
+  }
+}
+
+@keyframes scaleForward {
+  0% {
+    transform:scale(.85);
+  }
+  100% {
+    transform:scale(1);
+  }
+}
+
+@keyframes quickScaleDown {
+  0% {
+    transform:scale(1);
+  }
+  99.9% {
+    transform:scale(1);
+  }
+  100% {
+    transform:scale(0);
+  }
 }
 .team-modal {
   display: flex;
@@ -165,17 +240,21 @@
   background-color: white;
   color: black;
   /* height: 350px; */
-  width: 40%;
+  width: 60%;
   border: none;
-  z-index: 1 !important;
+  z-index: 2 !important;
   position: fixed;
-  bottom: 20%;
-  left: 28%;
+  /* bottom: 30%;
+  left: 28%; */
+  top: 22%;
+  left: 18%;
   border-radius: 5px;
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.15);
-  animation: fadeIn 0.5s ease-in-out;
+  /* animation: fadeIn 0.5s ease-in-out; */
 }
-
+.team-modal p {
+  font-size: 16px;
+}
 .dark-background {
   background: #00000080;
   z-index: 1 !important;

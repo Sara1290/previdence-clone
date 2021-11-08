@@ -202,9 +202,26 @@
   .card-container {
     width: 80% !important;
   }
-  .overlay {
-    width: 306px !important;
-    height: 95px !important;
+  /*------- TEAM ------*/
+  .team-modal {
+    flex-direction: column;
+    width: 85% !important;
+    left: 8% !important;
+    top: 12% !important;
+  }
+  .team-modal p {
+    font-size: 12px;
+  }
+  .modal-img-container {
+    border-right: 1px solid transparent !important;
+    width: 105% !important;
+    margin-bottom: 10px;
+  }
+  .exit-btn {
+    display: none;
+  }
+  .col-md-6 {
+    padding-left: 0 !important;
   }
 }
 @media screen and (min-width: 481px) {
@@ -274,6 +291,7 @@
   }
 
 }
+
 
 @media screen and (min-width: 760px) {
   /*UNI FOOTER*/
@@ -370,10 +388,31 @@
     width: 80% !important;
   }
 
-/*------TIPS ------*/
+/*------ TIPS ------*/
   .tips-container {
     width: 80vw;
   }
+/* ----- TEAM ----*/
+  /* .team-modal {
+  flex-direction: column;
+  width: 40% !important;
+  left: 22% !important;
+  top: 25% !important;
+}  */
+.team-modal p {
+  font-size: 12px;
+}
+.modal-img-container {
+  border-right: 1px solid transparent !important;
+  width: 105% !important;
+  margin-bottom: 10px;
+}
+.exit-btn {
+  display: none;
+}
+.col-md-6 {
+  padding-left: 0 !important;
+}
 
 }
 /*tablet*/
@@ -504,8 +543,33 @@
     left: 8vw;
     top: 3vh;
   }
+  /*---- TEAM -----*/
+  /* .team-modal {
+    flex-direction: column;
+    width: 60% !important;
+    left: 20% !important;
+    top: 12% !important;
+  } */
+  .team-modal p {
+    font-size: 12px !important;
+  }
+  .modal-img-container {
+    border-right: 1px solid transparent !important;
+    width: 105% !important;
+    margin-bottom: 10px;
+  }
+  .exit-btn {
+    display: none;
+  }
+  .col-md-6 {
+    padding-left: 0 !important;
+  }
 } 
 @media screen and (min-width: 901px) {
+  .team-modal {
+    width: 60% !important;
+    left: 20% !important; 
+  }
   /*---------HOME ---------*/
   .specialty-parent {
     width: 80vw;
@@ -696,12 +760,26 @@
     font-size: 16px !important;
     text-align: left;
   }
-}
-/* @media screen and (min-width: 1024px) {
-  .corp-img {
-    width: 40% !important;
+  /*-------- TEAM --------*/
+  .team-modal {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    /* height: 350px; */
+    width: 60%;
+    border: none;
+    z-index: 2 !important;
+    position: fixed;
+    top: 35%;
+    left: 20%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.15);
+    /* animation: fadeIn 0.5s ease-in-out; */
   }
-} */
+}
+
 @media screen and (min-width: 1159px) {
   .specialty-parent {
     width: 100vw;
@@ -843,6 +921,10 @@
 }
 /*XL*/
 @media screen and (min-width: 1500px) {
+  .team-modal {
+    width: 40% !important;
+    left: 30% !important;
+  }
   /* HOME */
   .prev-logo {
     height: 250px;
