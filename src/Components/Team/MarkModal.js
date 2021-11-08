@@ -23,7 +23,9 @@ const MarkModal = ({showMarkModal, setShowMarkModal}) => {
         <div className="modal-text">
           <h3>Mark Kendell</h3>
           <h4>CEO</h4>
-          <p>Here is a very good bio about Mark! It’s a paragraph, so about 5-8 sentences. Good things to include are qualifiers for the position, background (not a job history but a background of you) and maybe a hobby or something important to you.</p>
+          <p>Mark is a purpose-driven serial entrepreneur and runs his family office focusing on direct investments and what he calls “true impact” opportunities. Very early in his career, he founded Kendell & Associates, LLC a venture banking firm, specializing in the creation, financing, and operation of a broad spectrum of companies, innovations, and investment opportunities. Since that time, he has provided leadership as an entrepreneur and investor in building new innovative companies and technologies. 
+  
+          </p>
         </div>
         <button aria-label="CloseModal" className="exit-btn " onClick={() => setShowMarkModal(prev => !prev)}>X</button>
         </div>) : null }

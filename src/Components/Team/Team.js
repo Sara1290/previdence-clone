@@ -7,6 +7,8 @@ import tiaMarble from '../../images/tiaMarble.png';
 import saraMarble2 from '../../images/saraMarble2.png';
 import codyMarble from '../../images/codyMarble.jpg';
 import jeffMarble2 from '../../images/jeffMarble2.png';
+// import jeffSuit from '../../images/jeffSuit.png';
+import jeffSuit from '../../images/jeffSuit.png'
 import johnnyMarble from '../../images/johnnyMarble.jpg'
 import '../../CSS/Pages.css';
 import '../../CSS/App.css';
@@ -223,6 +225,7 @@ const Team = () => {
                 <div className="thumb-corporate__main team-member-container">
                   <button className="open-button" onClick={openJeffModal}>
                     <img src={jeffMarble2} alt="" className="team-img " />
+                    {/* <img src={jeffSuit} alt="" className="team-img " /> */}
                   </button>
                   <div className="overlay">
                     <p>Jeffrey Denning</p>
