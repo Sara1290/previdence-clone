@@ -127,9 +127,9 @@
   transition: .5s ease;
   color: black;
 }
-.overlay p {
+/* .overlay p {
   padding-left: 2%;
-}
+} */
 .team-member-container:hover .overlay {
   height: 25%;
   overflow-x: hidden;
