@@ -12,7 +12,7 @@ const history = createBrowserHistory();
 const Router = HashRouter;
 
 
-const TRACKING_ID = "G-KZFN54QPYQ"; // YOUR_OWN_TRACKING_ID
+const TRACKING_ID = "G-VB3PNSBYJ8"; // YOUR_OWN_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 history.listen(location => {
