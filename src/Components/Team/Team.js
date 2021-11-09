@@ -8,7 +8,7 @@ import saraMarble2 from '../../images/saraMarble2.png';
 import codyMarble from '../../images/codyMarble.jpg';
 import jeffMarble2 from '../../images/jeffMarble2.png';
 // import jeffSuit from '../../images/jeffSuit.png';
-import jeffSuit from '../../images/jeffSuit.png'
+// import jeffSuit from '../../images/jeffSuit.png'
 import johnnyMarble from '../../images/johnnyMarble.jpg'
 import '../../CSS/Pages.css';
 import '../../CSS/App.css';
