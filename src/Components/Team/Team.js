@@ -114,11 +114,11 @@ const Team = () => {
                 <div className="thumb-corporate__main team-member-container">
                   <button className="open-button" onClick={openMarkModal}>
                     <img src={markMarble2} alt="" className="team-img " />
-                  </button>
                   <div className="overlay">
                     <p>Mark Kendell</p>
                     <p>CEO</p>
                   </div>
+                  </button>
                 </div>
               </div>
               <MarkModal
@@ -153,7 +153,7 @@ const Team = () => {
                   </button>
                   <div className="overlay">
                     <p>Sara Allen, ME</p>
-                    <p>Public Safety Liaison Manager</p>
+                    <p>Public Safety Liaison</p>
                   </div>
                 </div>
               </div>
@@ -171,7 +171,7 @@ const Team = () => {
                   </button>
                   <div className="overlay">
                     <p>Tia White, LCSW</p>
-                    <p>Director of Research and Development</p>
+                    <p>Director of Research</p>
                   </div>
                 </div>
                 <div className="thumb-corporate__caption">
