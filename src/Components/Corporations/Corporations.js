@@ -5,9 +5,13 @@ import meeting2 from '../../images/meeting2.jpg';
 import NavBar from "../NavBar";
 import CorCarousel from "../Correctional/CorCarousel"
 import UniFooter from "../UniFooter";
+import ReactGA from 'react-ga';
+
 
 
 const Corporations = () => {
+  ReactGA.pageview('src/Components/Coporations/Corporations.js');
+
 
   const Mailto = ({ email, subject = '', body = '', children }) => {
     let params = subject || body ? '?' : '';

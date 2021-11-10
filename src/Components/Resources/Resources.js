@@ -3,8 +3,12 @@ import React, {useState, useEffect } from 'react';
 import NavBar from '../NavBar';
 import UniFooter from '../UniFooter';
 import { resources } from './data'
+import ReactGA from 'react-ga';
+
 
 const Resources = () => {
+  ReactGA.pageview('src/Components/Resources/Resources.js');
+
   // const [resources, setResources] = useState([]);
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState([]);

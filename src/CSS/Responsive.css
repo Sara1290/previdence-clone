@@ -38,6 +38,21 @@
     width: 377px !important;
     /* height: 100px; */
   }
+  .footer-outer {
+    flex-direction: column;
+  }
+  .about {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  .about > p {
+    width: 90vw;
+    font-size: 16px;
+  }
+  .contact {
+    margin: 0 0 10px 20px;
+  }
   /* CORPORATIONS */
   .corp-inner {
     display: flex;
@@ -428,6 +443,7 @@
 .overlay {
   width: 320px;
 }
+
 }
 /*tablet*/
 @media screen and (max-width: 900px ) {
@@ -504,9 +520,9 @@
     position: relative;
     right: 5vw;
   }
-  .about > p {
+  /* .about > p {
     font-size: 12px;
-  }
+  } */
   .contact > p {
     font-size: 12px;
   }

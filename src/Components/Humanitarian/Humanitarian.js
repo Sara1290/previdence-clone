@@ -10,9 +10,12 @@ import summerCamp from '../../images/summerCamp.jpg';
 import building from '../../images/building.jpg';
 import soccer from '../../images/soccer.jpg';
 import UniFooter from '../UniFooter';
+import ReactGA from 'react-ga';
 
 
 const Humanitarian = ({deviceType}) => {
+  ReactGA.pageview('src/Components/Humanitarian/Humanitarian.js');
+
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },

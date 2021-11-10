@@ -7,9 +7,13 @@ import MultiCarousel from './MultiCarousel';
 import Footer from './Footer';
 import '../../CSS/App.css';
 import TheClipComponent from './TheClipComponent';
+import ReactGA from 'react-ga';
+
 
 
 const Homepage = () => {
+  ReactGA.pageview('src/Components/Home-Page/Homepage.js');
+
 
   return (
     <div>

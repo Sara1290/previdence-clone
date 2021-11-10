@@ -395,6 +395,7 @@ p {
 }
 .about > p {
   width: 30vw;
+  font-size: 14px;
 }
 .about > h5 {
   text-align: left;

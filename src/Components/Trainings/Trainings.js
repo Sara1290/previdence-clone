@@ -2,9 +2,11 @@ import React, {useEffect} from 'react';
 import NavBar from '../NavBar';
 import ShopifyBuy from '@shopify/buy-button-js'
 import UniFooter from '../UniFooter';
-
+import ReactGA from 'react-ga';
 
 const Trainings = () => {
+  ReactGA.pageview('src/Components/Trainings/Trainings.js');
+
 
   var client = ShopifyBuy.buildClient({
     domain: 'w4ps.myshopify.com',

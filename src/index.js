@@ -13,7 +13,14 @@ const Router = HashRouter;
 
 
 const TRACKING_ID = "G-VB3PNSBYJ8"; // YOUR_OWN_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+ReactGA.initialize(TRACKING_ID, {
+  debug: true,
+  titleCase: false,
+  gaOptions: {
+    userId: 123,
+    siteSpeedSampleRate: 100
+  }
+});;
 
 history.listen(location => {
   ReactGA.set({ page: location.pathname }); // Update the user's current page

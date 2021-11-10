@@ -5,9 +5,13 @@ import books from '../../images/books.jpg';
 import graduation from '../../images/graduation.jpg';
 import K12Testimonials from './K12Testimonials';
 import UniFooter from '../UniFooter';
+import ReactGA from 'react-ga';
+
 
 
 const K12 = () => {
+  ReactGA.pageview('src/Components/K12/K12.js');
+
 
   const Mailto = ({ email, subject = '', body = '', children }) => {
     let params = subject || body ? '?' : '';

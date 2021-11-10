@@ -6,8 +6,12 @@ import "../../CSS/Responsive.css";
 import "../../CSS/App.css";
 import "../../CSS/index.css";
 import UniFooter from "../UniFooter";
+import ReactGA from 'react-ga';
+
 
 const FaithBased = () => {
+  ReactGA.pageview('src/Components/Faith Based/FaithBased.js');
+
 
   const Mailto = ({ email, subject = '', body = '', children }) => {
     let params = subject || body ? '?' : '';

@@ -3,8 +3,11 @@ import OPDTips from '../../images/OPDTips.png'
 import safeUT from '../../images/safeUT.jpg'
 import NavbarTwo from '../NavBar';
 import UniFooter from '../UniFooter';
+import ReactGA from 'react-ga';
 
 const OpdTips = () => {
+  ReactGA.pageview('src/Components/Tips/opdTips.js');
+
 
   return (
     <div className="tips-outer">

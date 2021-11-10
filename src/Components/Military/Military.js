@@ -3,8 +3,13 @@ import uniform from '../../images/uniform.jpg'
 import {FaUsers, FaUserFriends, FaHandHoldingHeart, FaWarehouse} from 'react-icons/fa';
 import NavBar from '../NavBar';
 import UniFooter from '../UniFooter';
+import ReactGA from 'react-ga';
+
 
 const Military = () => {
+
+  ReactGA.pageview('src/Components/Military/Military.js');
+
 
   const Mailto = ({ email, subject = '', body = '', children }) => {
     let params = subject || body ? '?' : '';

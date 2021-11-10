@@ -1,15 +1,18 @@
 import React from "react";
 import NavBar from "../NavBar";
 import firefighters from '../../images/firefighters.jpg'
-
 import fireFighter1 from '../../images/fireFighter1.jpg';
 import fireLady from '../../images/fireLady.jpg';
 import medic from '../../images/medic.jpg';
 import TestimonialsPS from "./TestimonialsPS";
 import PsCarousel from "./PsCarousel";
 import UniFooter from "../UniFooter";
+import ReactGA from 'react-ga';
+
 
 const PublicSafety = () => {
+  ReactGA.pageview('src/Components/Public Safety/PublicSafety.js');
+
 
   const Mailto = ({ email, subject = '', body = '', children }) => {
     let params = subject || body ? '?' : '';

@@ -1,10 +1,12 @@
 import React, {useRef} from 'react';
 import emailjs  from 'emailjs-com';
 import NavBar from '../NavBar';
-import {FaPenAlt, FaPenFancy, FaUser, FaPhoneAlt, FaEnvelope } from 'react-icons/fa'
+import {FaPenAlt, FaPenFancy, FaUser, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import ReactGA from 'react-ga';
 require('dotenv').config();
 
 const Contact = () => {
+  ReactGA.pageview('src/Components/Contact/Contact.js');
   
   const form = useRef();
   

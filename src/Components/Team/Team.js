@@ -5,10 +5,8 @@ import kentMarble from '../../images/kentMarble.png';
 import markMarble2 from '../../images/markMarble2.png';
 import tiaMarble from '../../images/tiaMarble.png';
 import saraMarble2 from '../../images/saraMarble2.png';
-import codyMarble from '../../images/codyMarble.jpg';
+import codyNew from '../../images/codyNew.png';
 import jeffMarble2 from '../../images/jeffMarble2.png';
-// import jeffSuit from '../../images/jeffSuit.png';
-// import jeffSuit from '../../images/jeffSuit.png'
 import johnnyMarble from '../../images/johnnyMarble.jpg'
 import '../../CSS/Pages.css';
 import '../../CSS/App.css';
@@ -21,8 +19,13 @@ import KentModal from './KentModal';
 import MarkModal from './MarkModal';
 import SaraModal from './SaraModal';
 import TiaModal from './TiaModal';
+import ReactGA from 'react-ga';
+
+
 
 const Team = () => {
+  ReactGA.pageview('src/Components/Team/Team.js');
+
 
   //one state hook for each team member's modal
   const [showCodyModal, setShowCodyModal] = useState(false);
@@ -132,11 +135,11 @@ const Team = () => {
                 <div className="thumb-corporate__main team-member-container">
                   <button className="open-button" onClick={openKentModal}>
                     <img src={kentMarble} alt="" className="team-img " />
-                  </button>
                   <div className="overlay">
                     <p>Kent Allen, LMFT</p>
                     <p>Founder / Clinical Director</p>
                   </div>
+                  </button>
                 </div>
               </div>
               <KentModal
@@ -150,11 +153,11 @@ const Team = () => {
                 <div className="thumb-corporate__main team-member-container">
                   <button className="open-button" onClick={openSaraModal}>
                     <img src={saraMarble2} alt="" className="team-img " />
-                  </button>
                   <div className="overlay">
                     <p>Sara Allen, ME</p>
                     <p>Public Safety Liaison</p>
                   </div>
+                  </button>
                 </div>
               </div>
               <SaraModal
@@ -168,11 +171,11 @@ const Team = () => {
                 <div className="thumb-corporate__main team-member-container">
                   <button className="open-button" onClick={openTiaModal}>
                     <img src={tiaMarble} alt="" className="team-img " />
-                  </button>
                   <div className="overlay">
                     <p>Tia White, LCSW</p>
                     <p>Director of Research</p>
                   </div>
+                  </button>
                 </div>
                 <div className="thumb-corporate__caption">
 
@@ -189,11 +192,11 @@ const Team = () => {
                 <div className="thumb-corporate__main team-member-container">
                   <button className="open-button" onClick={openJohnModal}>
                     <img src={johnMarble2} alt="" className="team-img " />
-                  </button>
                   <div className="overlay">
                     <p>John Wright</p>
                     <p>IT Director</p>
                   </div>
+                  </button>
                 </div>
               </div>
               <JohnModal
@@ -206,12 +209,14 @@ const Team = () => {
               <div className="thumb thumb-corporate">
                 <div className="thumb-corporate__main team-member-container">
                   <button className="open-button" onClick={openCodyModal}>
-                    <img src={codyMarble} alt="" className="team-img " />
-                  </button>
+                    {/* <img src={codynewMarble} alt="" className="team-img " /> */}
+                    {/* <img src={codynewMarble2} alt="" className="team-img " /> */}
+                    <img src={codyNew} alt="" className="team-img " />
                   <div className="overlay">
                     <p>Cody Wilson</p>
-                    <p>PPN Advocate Manager</p>
+                    <p>PPN Manager</p>
                   </div>
+                  </button>
                 </div>
               </div>
               <CodyModal
@@ -226,11 +231,11 @@ const Team = () => {
                   <button className="open-button" onClick={openJeffModal}>
                     <img src={jeffMarble2} alt="" className="team-img " />
                     {/* <img src={jeffSuit} alt="" className="team-img " /> */}
-                  </button>
                   <div className="overlay">
                     <p>Jeffrey Denning</p>
                     <p>Sales Director</p>
                   </div>
+                  </button>
                 </div>
               </div>
               <JeffModal
@@ -244,11 +249,11 @@ const Team = () => {
                 <div className="thumb-corporate__main team-member-container">
                   <button className="open-button" onClick={openJohnOModal}>
                     <img src={johnnyMarble} alt="" className="team-img " />
-                  </button>
                   <div className="overlay">
                     <p>John O'Callaghan</p>
                     <p>Business Development</p>
                   </div>
+                  </button>
                 </div>
               </div>
               <JohnOModal

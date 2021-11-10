@@ -3,8 +3,12 @@ import ofd5 from '../../images/ofd5.png'
 import safeUT from '../../images/safeUT.jpg'
 import NavbarTwo from '../NavBar';
 import UniFooter from '../UniFooter';
+import ReactGA from 'react-ga';
+
 
 const OfdTips = () => {
+  ReactGA.pageview('src/Components/Tips/ofdTips.js');
+  
 
   return (
     <div className="tips-outer">

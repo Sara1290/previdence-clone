@@ -2,8 +2,12 @@ import React from "react";
 import NavBar from "../NavBar";
 import UniFooter from "../UniFooter";
 import CorCarousel from "./CorCarousel";
+import ReactGA from 'react-ga';
+
 
 const Correctional = () => {
+  ReactGA.pageview('src/Components/Correctional/Correctional.js');
+
 
   const Mailto = ({ email, subject = '', body = '', children }) => {
     let params = subject || body ? '?' : '';

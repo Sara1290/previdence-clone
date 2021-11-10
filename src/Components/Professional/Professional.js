@@ -1,8 +1,12 @@
 import React from "react";
 import NavBar from "../NavBar";
 import UniFooter from "../UniFooter";
+import ReactGA from 'react-ga';
+
 
 const Professional = () => {
+  ReactGA.pageview('src/Components/Professional/Professional.js');
+
 
   const Mailto = ({ email, subject = '', body = '', children }) => {
     let params = subject || body ? '?' : '';

@@ -79,12 +79,14 @@
   background-color: #7b0303;
   color: #CFCFCF;
 }
+
 .team-img {
   height: auto;
   width: 95%;
   margin: 15px;
   margin-right: 20px;
 }
+
 .thumb__title {
   font-size: 25px;
   font-weight: 700;
@@ -120,16 +122,21 @@
   bottom: 16px;
   left: 20px;
   right: 0;
-  background-color: #e2e2e29d;
+  background-color: #f7f7f7b7;
   overflow: hidden;
   /* width: 92%; */
   height: 40px;
   transition: .5s ease;
   color: black;
 }
-/* .overlay p {
-  padding-left: 2%;
-} */
+.overlay > p {
+  padding-left: 2%; 
+  font-weight: 500;
+}
+.team-member-container {
+  overflow: hidden;
+}
+
 .team-member-container:hover .overlay {
   height: 25%;
   overflow-x: hidden;
