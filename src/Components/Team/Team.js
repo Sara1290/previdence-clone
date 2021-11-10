@@ -106,7 +106,7 @@ const Team = () => {
         <div className="container team-spacing">
           <div className="row row-fix row-30 justify-content-lg-center">
             <div className="col-lg-11 col-xl-9 team-inner">
-              {/* <h2 className="even-section">Meet the Team</h2> */}
+              <h2 className="even-section">Meet the Team</h2>
             </div>
           </div>
 

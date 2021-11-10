@@ -12,12 +12,12 @@ const history = createBrowserHistory();
 const Router = HashRouter;
 
 
-const TRACKING_ID = "G-VB3PNSBYJ8"; // YOUR_OWN_TRACKING_ID
+const TRACKING_ID = process.env.REACT_APP_GA_TRACKING_ID; // YOUR_OWN_TRACKING_ID
 ReactGA.initialize(TRACKING_ID, {
   debug: true,
   titleCase: false,
   gaOptions: {
-    userId: 123,
+    userId: process.env.REACT_APP_GA_USER_ID,
     siteSpeedSampleRate: 100
   }
 });;
