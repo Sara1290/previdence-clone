@@ -6,11 +6,11 @@ import { createBrowserHistory } from 'history';
 import ReactGA from 'react-ga';
 import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
+require('dotenv').config();
 
 const history = createBrowserHistory();
 
 const Router = HashRouter;
-
 
 const TRACKING_ID = process.env.REACT_APP_GA_TRACKING_ID; // YOUR_OWN_TRACKING_ID
 ReactGA.initialize(TRACKING_ID, {
