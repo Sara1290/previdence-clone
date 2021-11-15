@@ -1,7 +1,8 @@
 /*mobile*/
 @media screen and (max-width: 375px) {
   .overlay {
-    width: 318px !important;
+    width: 333.4px !important;
+    left: 27px;
   }
 }
 
@@ -245,7 +246,7 @@
     padding-left: 0 !important;
   }
   .overlay {
-    width: 371px;
+    width: 334px;
   }
 }
 @media screen and (min-width: 481px) {

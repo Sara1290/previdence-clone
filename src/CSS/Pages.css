@@ -125,7 +125,8 @@
   background-color: #f7f7f7b7;
   overflow: hidden;
   /* width: 91%; */
-  margin: 0 15px 0 0px;
+  /* margin: 0 15px 0 0px; */
+  padding-right: 5px;
   height: 40px;
   transition: .5s ease;
   color: black;
