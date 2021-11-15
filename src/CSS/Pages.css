@@ -124,9 +124,8 @@
   right: 0;
   background-color: #f7f7f7b7;
   overflow: hidden;
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 91%;
+  margin: 0 15px 0 0px;
   height: 40px;
   transition: .5s ease;
   color: black;
