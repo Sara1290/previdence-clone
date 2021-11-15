@@ -17,7 +17,7 @@ ReactGA.initialize(TRACKING_ID, {
   debug: true,
   titleCase: false,
   gaOptions: {
-    userId: process.env.REACT_APP_GA_USER_ID,
+    userId: '198972821',
     siteSpeedSampleRate: 100
   }
 });;

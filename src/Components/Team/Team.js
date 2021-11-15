@@ -84,7 +84,7 @@ const Team = () => {
 
   return (
     <div >
-      <div className={(showCodyModal ? "dark-background " : "hide inactive")} ref={modalRef} onClick={() => setShowCodyModal(prev => !prev)} >
+      <div className={(showCodyModal ? "dark-background " : "hide")} ref={modalRef} onClick={() => setShowCodyModal(prev => !prev)} >
       </div>
       <div className={(showJeffModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowJeffModal(prev => !prev)} >
       </div>
