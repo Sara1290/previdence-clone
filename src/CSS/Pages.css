@@ -363,12 +363,10 @@
   -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
   background-color: whitesmoke;
   border: none;
+  border-radius: 15px;
   color: black;
-  height: 525px;
+  height: 600px;
   z-index: 1;
-  /* position: relative;
-  left: 5vw;
-  top: 3vh; */
   padding: 5vh .5vw 0vh .5vw;
 }
 .ps-para {
@@ -394,12 +392,16 @@
 .PS-list-outer h4 {
   text-align: left;
   font-size: 30px;
+  position: relative;
+  top: 10px;
 }
 .PS-List {
   text-align: left;
   font-weight: bolder;
   font-size: 20px;
   line-height: 35pt;
+  position: relative;
+  top: 10px;
 }
 .fireFighter-img {
   width: auto;
@@ -995,7 +997,6 @@ font-size: 18px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #7b0303;
 }
 iframe {
   margin-bottom: 100px;

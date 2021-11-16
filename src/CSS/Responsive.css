@@ -353,7 +353,7 @@
     width: 50%;
   }
   .ps-pros {
-    height: 575px !important;
+    height: 600px !important;
     font-size: 16px;
   }
   .PS-list-outer {
@@ -629,6 +629,7 @@
     position: relative;
     left: 8vw;
     top: 3vh;
+    height: 550px;
   }
 
 /*-------RESOURCES------*/
