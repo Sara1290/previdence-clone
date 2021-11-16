@@ -1,7 +1,7 @@
 /*mobile*/
 @media screen and (max-width: 375px) {
   .overlay {
-    width: 333.4px !important;
+    /* width: 333px !important; */
     left: 27px;
   }
 }
@@ -250,7 +250,7 @@
     padding-left: 0 !important;
   }
   .overlay {
-    width: 334px;
+    /* width: 425px; */
   }
 }
 @media screen and (min-width: 481px) {
@@ -319,7 +319,7 @@
     display: none;
   }
   .overlay {
-    width: 490px;
+    /* width: 490px; */
   }
 
 }
@@ -446,7 +446,7 @@
   padding-left: 0 !important;
 }
 .overlay {
-  width: 320px;
+  /* width: 320px; */
 }
 
 }
@@ -779,7 +779,7 @@
     justify-content: space-around;
   }
   .overlay {
-    width: 281px;
+    /* width: 281px; */
   }
 
 }
@@ -948,7 +948,7 @@
     width: 60vw;
   }
   .overlay {
-    width: 338px;
+    /* width: 338px; */
   }
 }
 
@@ -960,7 +960,7 @@
     margin: 20px;
   }
   .overlay {
-    width: 395px;
+    /* width: 395px; */
   }
 }
 /*XL*/

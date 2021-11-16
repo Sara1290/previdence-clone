@@ -82,7 +82,7 @@
 
 .team-img {
   height: auto;
-  width: 95%;
+  width: 100%;
   margin: 15px;
   margin-right: 20px;
 }
@@ -124,9 +124,9 @@
   right: 0;
   background-color: #f7f7f7b7;
   overflow: hidden;
-  /* width: 91%; */
+  width: 100%;
   /* margin: 0 15px 0 0px; */
-  padding-right: 5px;
+  /* padding-right: 5px; */
   height: 40px;
   transition: .5s ease;
   color: black;
