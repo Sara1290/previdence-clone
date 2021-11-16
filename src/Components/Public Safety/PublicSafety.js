@@ -11,7 +11,7 @@ import ReactGA from 'react-ga';
 
 
 const PublicSafety = () => {
-  // ReactGA.pageview('src/Components/Public Safety/PublicSafety.js');
+  ReactGA.pageview('src/Components/Public Safety/PublicSafety.js');
 
 
   const Mailto = ({ email, subject = '', body = '', children }) => {
