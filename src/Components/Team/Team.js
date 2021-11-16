@@ -24,7 +24,7 @@ import ReactGA from 'react-ga';
 
 
 const Team = () => {
-  // ReactGA.pageview('src/Components/Team/Team.js');
+  ReactGA.pageview('src/Components/Team/Team.js');
 
 
   //one state hook for each team member's modal

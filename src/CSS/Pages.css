@@ -995,6 +995,7 @@ font-size: 18px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #7b0303;
 }
 iframe {
   margin-bottom: 100px;
@@ -1005,7 +1006,10 @@ iframe {
   justify-content: center;
   align-items: center;
 }
-
+.training-soon {
+  width: 50%;
+  margin-top: 10%;
+}
 
 /*------------- RESOURCES -----------*/
 .resource-outer {
