@@ -669,14 +669,18 @@
 }
 /*----------------------CORRECTIONAL FACILITIES-------------------*/
 .corr-inner {
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/leaf.jpg');
+  /* background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/leaf.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  object-fit: cover; 
-  height: 100%;
-  color: white;
+  object-fit: cover; */
+  height: 100%; 
+  color: #cfcfcf;
+  background-color: #7b0303;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .corr-inner > h1 {
   padding-top: 30px;

@@ -80,7 +80,11 @@
   .corp-outer > h1 {
     font-size: 50px;
   }
-  /* MILITARY */
+  /*----- CORRECTIONAL ----------*/
+  .corr-inner > h1 {
+    padding-right: 18px;
+  }
+  /*----------- MILITARY--------*/
   .mili-inner > img {
     width: 345px;
     height: 345px;
@@ -873,7 +877,6 @@
   /* CORRECTIONAL */
   .corr-para {
     width: 55vw;
-    margin-left: 20vw;
     font-size: 20px;
   }
   .cor-icon {
