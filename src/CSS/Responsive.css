@@ -245,12 +245,13 @@
     padding-left: 0 !important;
   }
   .overlay {
-    background: transparent;
+    background-color: transparent !important;
   }
-  /* .overlay p {
-    background-color: white;
+  .overlay p {
+    background-color: #f7f7f7b7;
     height: 40px;
-  } */
+    padding-left: 5px;
+  }
 
 }
 @media screen and (min-width: 481px) {

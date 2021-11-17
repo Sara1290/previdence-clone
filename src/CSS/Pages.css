@@ -134,7 +134,7 @@
 .overlay > p {
   /* padding-left: 2%;  */
   position: relative;
-  left: 2%;
+  left: 1px;
   font-weight: 600;
 }
 .team-member-container {
