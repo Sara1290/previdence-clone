@@ -50,6 +50,9 @@ ul {
 .home-link {
   color: #7b0303;
 }
+.my-2 {
+  margin-top: 0;
+}
 .nav-wrapper {
   font-size: 12px;
   font-weight: 600;
