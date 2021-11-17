@@ -120,7 +120,7 @@
 .overlay {
   position: absolute;
   bottom: 16px;
-  left: 27px;
+  left: 20px;
   right: 0;
   background-color: #f7f7f7b7;
   overflow: hidden;
@@ -132,8 +132,10 @@
   color: black;
 }
 .overlay > p {
-  padding-left: 2%; 
-  font-weight: 500;
+  /* padding-left: 2%;  */
+  position: relative;
+  left: 2%;
+  font-weight: 600;
 }
 .team-member-container {
   overflow: hidden;
