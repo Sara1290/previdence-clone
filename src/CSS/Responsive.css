@@ -248,9 +248,13 @@
     background-color: transparent !important;
   }
   .overlay p {
-    background-color: #f7f7f7b7;
+    background-color: transparent;
     height: 40px;
-    padding-left: 5px;
+    padding-left: 10px;
+    color: white;
+  }
+  .black-font {
+    color: black;
   }
 
 }
