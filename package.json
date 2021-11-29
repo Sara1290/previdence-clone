@@ -6,7 +6,7 @@
   "main": "server/index",
   "dependencies": {
     "@popperjs/core": "^2.9.2",
-    "@shopify/buy-button-js": "^2.1.7",
+    "@shopify/buy-button-js": "^2.1.8",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
