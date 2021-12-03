@@ -6,13 +6,11 @@ import markMarble2 from '../../images/markMarble2.png';
 import tiaMarble from '../../images/tiaMarble.png';
 import saraMarble2 from '../../images/saraMarble2.png';
 import codyNew from '../../images/codyNew.png';
-import jeffMarble2 from '../../images/jeffMarble2.png';
 import johnnyMarble from '../../images/johnnyMarble.jpg'
 import '../../CSS/Pages.css';
 import '../../CSS/App.css';
 import UniFooter from '../UniFooter';
 import CodyModal from './CodyModal';
-import JeffModal from './JeffModal';
 import JohnModal from './JohnModal';
 import JohnOModal from './JohnOModal';
 import KentModal from './KentModal';
@@ -29,7 +27,6 @@ const Team = () => {
 
   //one state hook for each team member's modal
   const [showCodyModal, setShowCodyModal] = useState(false);
-  const [showJeffModal, setShowJeffModal] = useState(false);
   const [showJohnModal, setShowJohnModal] = useState(false);
   const [showJohnOModal, setShowJohnOModal] = useState(false);
   const [showKentModal, setShowKentModal] = useState(false);
@@ -41,9 +38,6 @@ const Team = () => {
   //one function to open each team members modal .. we need a function with unique naming so that we don't open and close modals simultaneously.
   const openCodyModal = () => {
     setShowCodyModal(prev => !prev)
-  };
-  const openJeffModal = () => {
-    setShowJeffModal(prev => !prev)
   };
   const openJohnModal = () => {
     setShowJohnModal(prev => !prev)
@@ -69,7 +63,6 @@ const Team = () => {
   const closeModal = e => {
     if(modalRef.current === e.target) {
       setShowCodyModal(false)
-      setShowJeffModal(false)
       setShowJohnModal(false)
       setShowJohnOModal(false)
       setShowKentModal(false)
@@ -85,8 +78,6 @@ const Team = () => {
   return (
     <div >
       <div className={(showCodyModal ? "dark-background " : "hide")} ref={modalRef} onClick={() => setShowCodyModal(prev => !prev)} >
-      </div>
-      <div className={(showJeffModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowJeffModal(prev => !prev)} >
       </div>
       <div className={(showJohnModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowJohnModal(prev => !prev)} >
       </div>
@@ -209,8 +200,6 @@ const Team = () => {
               <div className="thumb thumb-corporate">
                 <div className="thumb-corporate__main team-member-container">
                   <button className="open-button" onClick={openCodyModal}>
-                    {/* <img src={codynewMarble} alt="" className="team-img " /> */}
-                    {/* <img src={codynewMarble2} alt="" className="team-img " /> */}
                     <img src={codyNew} alt="" className="team-img " />
                   <div className="overlay">
                     <p>Cody Wilson</p>
@@ -222,25 +211,6 @@ const Team = () => {
               <CodyModal
                 showCodyModal={showCodyModal}
                 setShowCodyModal={setShowCodyModal}
-                />
-            </div>
-
-            <div className="col-md-6 col-lg-4 ">
-              <div className="thumb thumb-corporate">
-                <div className="thumb-corporate__main team-member-container">
-                  <button className="open-button" onClick={openJeffModal}>
-                    <img src={jeffMarble2} alt="" className="team-img " />
-                    {/* <img src={jeffSuit} alt="" className="team-img " /> */}
-                  <div className="overlay">
-                    <p>Jeffrey Denning</p>
-                    <p>Sales Director</p>
-                  </div>
-                  </button>
-                </div>
-              </div>
-              <JeffModal
-                showJeffModal={showJeffModal}
-                setShowJeffModal={setShowJeffModal}
                 />
             </div>
 
