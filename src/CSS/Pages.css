@@ -33,7 +33,7 @@
   margin-right: 2%;
 }
 .email-hover-dark:hover {
-  color: #7b0303;
+  color: #8f2a2b;
 }
 .footer-icons {
   color: white;
@@ -41,8 +41,8 @@
   justify-content: center;
   width: 35px;
   height: 35px;
-  /* border: 1px solid #7b0303; */
-  background-color: #7b0303;
+  /* border: 1px solid #8f2a2b; */
+  background-color: #8f2a2b;
   border-radius: 50%;
 }
 .footer-icon {
@@ -76,7 +76,7 @@
   justify-content: space-around;
 }
 .team-background {
-  background-color: #7b0303;
+  background-color: #8f2a2b;
   color: #CFCFCF;
 }
 
@@ -129,7 +129,7 @@
   /* padding-right: 5px; */
   height: 40px;
   transition: .5s ease;
-  color: black;
+  color: #111921;
 }
 .overlay > p {
   /* padding-left: 2%;  */
@@ -252,7 +252,7 @@
   justify-content: space-between;
   padding: 10px;
   background-color: white;
-  color: black;
+  color: #111921;
   /* height: 350px; */
   width: 60%;
   border: none;
@@ -283,7 +283,7 @@
 }
 
 .modal-img-container {
-  border-right: 1px solid black !important;
+  border-right: 1px solid #111921 !important;
   margin-right: 2%;
   display: flex;
   flex-direction: column;
@@ -333,7 +333,7 @@
 }
 .liaison:hover {
   background-color: whitesmoke;
-  color: black;
+  color: #111921;
 }
 .button-parent {
   display: flex;
@@ -348,13 +348,14 @@
   justify-content: center;
 }
 .PS-Left {
-  background-color: #7b0303;
+  background-color: #8f2a2b;
   color: #CFCFCF;
   width: 100%;
 }
 .Left-inner > h1 {
   margin-top: 50px;
   font-size: 50px;
+  font-weight: 300;
 }
 .Left-inner {
   text-align: center;
@@ -366,7 +367,7 @@
   background-color: whitesmoke;
   border: none;
   border-radius: 15px;
-  color: black;
+  color: #111921;
   height: 600px;
   z-index: 1;
   padding: 5vh .5vw 0vh .5vw;
@@ -430,7 +431,7 @@
 }
 
 .ps-img-container {
-  background-color: #7b0303;
+  background-color: #8f2a2b;
   /* display: grid; */
 }
 .icon-item {
@@ -490,7 +491,7 @@
 
 /* -------------------HUMANITARIAN------------------------ */
 .hum-outer {
-  background-color: #7b0303;
+  background-color: #8f2a2b;
   color: #CFCFCF;
   text-align: center;
   padding-top: 30px;
@@ -510,6 +511,7 @@
 }
 .hum-left-top > h1 {
   font-size: 60px;
+  font-weight: 300;
 }
 .achf-img-container {
   padding: 10px;
@@ -535,30 +537,35 @@
 
 /* ---------------------FAITH BASED------------------ */
 .faith-inner {
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/sky.jpg');
+  /* background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/sky.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #8f2a2b;
+
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
-.faith-paragraphs-container > p {
+.faith-paragraphs-container{
+  width: 65%;
+  color: #b1b1b1;
+}
+.faith-paragraphs-container p {
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 300;
   text-align: center;
   padding: 5vh;
 }
-.faith-paragraphs-container > p:hover {
-  color: white;
-}
+
 .faith {
   padding: 5vh;
   font-size: 50px;
-  font-weight: 400;
+  font-weight: 300;
+  color: #b1b1b1;
 }
 .icon-container {
   display: flex;
@@ -585,7 +592,7 @@
 
 .icon-circle {
   font-size: 30px;
-  border: 1px solid black;
+  border: 1px solid #111921;
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -623,7 +630,7 @@
 }
 .faith-liaison:hover {
   background-color: transparent;
-  color: black; 
+  color: #111921; 
 }
 
 
@@ -679,7 +686,7 @@
   object-fit: cover; */
   height: 100%; 
   color: #cfcfcf;
-  background-color: #7b0303;
+  background-color: #8f2a2b;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -688,7 +695,7 @@
   padding-top: 30px;
   padding-bottom: 15px;
   font-size: 60px;
-  font-weight: 600;
+  font-weight: 300;
   font-style: italic;
   
 }
@@ -723,7 +730,7 @@
 }
 .icon-circle-cor {
   font-size: 30px;
-  border: 1px solid black;
+  border: 1px solid #111921;
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -732,18 +739,19 @@
   align-items: center;
 }
 .icon-circle-cor:hover {
-  background-color: black;
+  background-color: #111921;
   color: white;
 }
 /* K12 */
 .k12-inner {
-  background-color: #7b0303;
+  background-color: #8f2a2b;
   /* text-align: center !important; */
-  color: #CFCFCF;
+  color: #b1b1b1;
 }
 .k12-inner > h1 {
   padding: 25px;
   font-size: 40px;
+  font-weight: 300;
 }
 .k12-inner > p {
   /* text-align: center !important; */
@@ -783,7 +791,7 @@
 }
 /* ---------------------CORPORATIONS-------------------- */
 .corp-outer {
-  background-color: #7b0303;
+  background-color: #8f2a2b;
   color: #CFCFCF;
   display: flex;
   flex-direction: column;
@@ -805,6 +813,7 @@
 .corp-outer > h1 {
   padding-top: 40px;
   padding-bottom: 40px;
+  font-weight: 300;
 }
 .corp-paragraph {
   width: 30%;
@@ -844,6 +853,7 @@ font-size: 18px;
 .mili-inner > h1 {
   padding: 40px 0px 40px 0px;
   font-size: 50px;
+  font-weight: 300;
 }
 .mili-img {
   width: 406px;
@@ -853,7 +863,7 @@ font-size: 18px;
 }
 .mili-paragraph {
   text-align: center;
-  /* width: 40vw; */
+  font-weight: 300;
   font-size: 18px
 }
 .mili-paragraph > p {
@@ -884,7 +894,7 @@ font-size: 18px;
 }
 .liaison-mili:hover{
   background-color: whitesmoke;
-  color: black;
+  color: #111921;
 }
 .mili-counters {
   display: flex;
@@ -905,7 +915,7 @@ font-size: 18px;
 }
 .counter-icon {
   font-size: 40px;
-  color: #7b0303
+  color: #8f2a2b
 }
 
 /* --------------CONTACT--------------- */
@@ -938,7 +948,7 @@ font-size: 18px;
   justify-content: space-between;
 }
 .social {
-  color: #7b0303;
+  color: #8f2a2b;
 }
 .social:hover {
   color: #7b0303a4;
@@ -974,7 +984,7 @@ font-size: 18px;
   text-align:center;
 }
 .contact-input:focus {
-  outline: 1px solid #7b0303;
+  outline: 1px solid #8f2a2b;
 }
 .input-icons {
   position: absolute;
@@ -990,12 +1000,12 @@ font-size: 18px;
   height: 50px;
   border-radius: 5px;
   border: none;
-  background-color: #7b0303;
+  background-color: #8f2a2b;
   color: #CFCFCF;  
 }
 .form-btn:hover {
   background-color: #CFCFCF;
-  color: #7b0303;
+  color: #8f2a2b;
 }
 /*-------------TRAININGS--------*/
 .trainings-inner {
@@ -1044,7 +1054,7 @@ iframe {
   color: #CFCFCF;
 }
 .link2:hover {
-  color: black;
+  color: #111921;
 }
 .resources {
   display: flex;
@@ -1098,7 +1108,7 @@ iframe {
 }
 .airbb-texts > h4 {
   font-weight: 900;
-  color: #7b0303;
+  color: #8f2a2b;
 }
 .airbb-texts p {
   font-size: 12px;
@@ -1109,7 +1119,7 @@ iframe {
 .airbb-btn {
   border: none;
   border-radius: 50px;
-  background-color: #7b0303;
+  background-color: #8f2a2b;
   color: rgb(255, 255, 255);
 }
 

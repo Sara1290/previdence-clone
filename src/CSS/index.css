@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
 
 
 .App {
@@ -23,21 +23,23 @@
   /* font-family: 'Sacramento', cursive; */
   /* font-family: 'Montserrat', sans-serif; */
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Libre Franklin', sans-serif;
+  /* font-family: 'Libre Franklin', sans-serif; */
+  font-family: 'Jost', sans-serif;
+  font-weight: 200;
   box-sizing: border-box;
 }
 
 /* ClassName for <a> tags is "a" */
 .a {
   text-decoration: none;
-  color: #0e0e0e;
+  color: #111921;
 }
 .a2 {
   text-decoration: none;
   color: #cfcfcf;
 }
 .a2:hover {
-  color: black;
+  color: #111921;
 }
 
 /* p {

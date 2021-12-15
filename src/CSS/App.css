@@ -7,11 +7,11 @@ nav {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: black !important;
+  color: #111921 !important;
   margin-left: 5px;
 }
 .home-link {
-  color: #7b0303 !important;
+  color: #8f2a2b !important;
 }
 .nav-link:last-of-type {
   margin-bottom: 3px;
@@ -47,9 +47,9 @@ ul {
   list-style-type: none;
 }
 
-.home-link {
-  color: #7b0303;
-}
+/* .home-link {
+  color: #8f2a2b;
+} */
 .my-2 {
   margin-top: 0;
 }
@@ -59,10 +59,10 @@ ul {
 }
 .link { 
   text-decoration: none;
-  color: black;
+  color: #111921;
 }
 .link:hover {
-  color: #7b0303;
+  color: #8f2a2b;
 }
 .t-link {
   position: relative;
@@ -71,7 +71,7 @@ ul {
   top: 8px;
 }
 .t-link:hover {
-  color: #7b0303;
+  color: #8f2a2b;
 }
 .a:hover {
   color: white;
@@ -80,7 +80,7 @@ ul {
   color: white;
 }
 .contact-btn {
-  border: 1px solid black !important;
+  border: 1px solid #111921 !important;
   font-size: 12px !important;
   font-weight: 600 !important;
   padding: 5px !important;
@@ -89,7 +89,7 @@ ul {
   left: 5px;
 }
 .contact-btn:hover {
-  color: #7b0303 !important;
+  color: #8f2a2b !important;
 }
 
 .nav-img {
@@ -183,7 +183,7 @@ nav {
 /* VIDEO */
 .background-video {
   position: relative;
-  /* background-color: black; */
+  /* background-color: #111921; */
   height: 75vh;
   min-height: 25rem;
   width: 100%;
@@ -219,7 +219,7 @@ nav {
 
 /* GROUPS SECTION */
 .group-parent {
-  background-color: #7b0303;
+  background-color: #8f2a2b;
   color: #CFCFCF;
   position: relative;
   bottom: 30vh;
@@ -291,7 +291,7 @@ p {
 
   /* MULTI CAROUSEL (LOGOS) HOME */
   .logo-carousel {
-    background-color: #7b0303;
+    background-color: #8f2a2b;
     height: 25vh;
   }
   .logo-carousel-item {
@@ -383,7 +383,7 @@ p {
 
 /* FOOTER */
 .footer-outer {
-  background-color: #7b0303;
+  background-color: #8f2a2b;
   color: #CFCFCF;
   display: flex;
   justify-content: space-around;
@@ -393,7 +393,7 @@ p {
 .footer-container {
   display: flex;
   justify-content: space-around;
-  background-color: #7b0303;
+  background-color: #8f2a2b;
   width: 100vw;
 }
 .about > p {

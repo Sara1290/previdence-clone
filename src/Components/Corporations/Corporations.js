@@ -3,7 +3,7 @@ import { withRouter } from "react-router";
 import officePeople from "../../images/officePeople.jpg";
 import meeting2 from '../../images/meeting2.jpg';
 import NavBar from "../NavBar";
-import CorCarousel from "../Correctional/CorCarousel"
+// import CorCarousel from "../Correctional/CorCarousel"
 import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
@@ -44,12 +44,12 @@ const Corporations = () => {
           <div className="button-parent-corp">
           <Mailto className="a" email="sales@previdence.com" subject="Corportate Liaison" body="Hello">
             <button className="liaison">
-              CONTACT OUR CORPORATE LIAISON.
+              CONTACT OUR CORPORATE LIAISON
             </button>
           </Mailto>
           </div>
       </div>
-        <CorCarousel />
+        {/* <CorCarousel /> */}
         <div className="whitespace"></div>
         <UniFooter />
     </div>
