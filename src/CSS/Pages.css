@@ -1177,3 +1177,166 @@ margin: 5vh 0 5vh 0;
   width: 60%;
   margin-left: 5vw;
 }
+
+/*--------- PPN WELCOME PAGE -----------*/
+/*contains the whole page minus the nav bar*/
+.ppn-wrapper {
+  /* height: 1600px; */
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/*contains the two divs that make up the header*/
+.ppn-header-wrapper {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+}
+/* below is the translucent overlay in the header*/
+.ppn-header {
+  /* background-color: #b1b1b1c2; */
+  /* background-color: #8f2a2ab2; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  /* this height is going to be not good being a hard coded px. make it so it's always the same height as the image next to it.*/
+  /* height: 540px; */
+  z-index: 1;
+}
+/*the image contained in the header*/
+.ppn-cartoon-header {
+  width: 40%;
+  position: relative;
+  right: 5%;
+}
+/*the first video on the page*/
+.welcome-video-div {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0;
+}
+/*first div of image and text*/
+.image-left-box-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+.ppn-cartoon-body1 {
+  width: 65%;
+  border-radius: 10px;
+}
+.maroon-right {
+  width: 35%;
+  border-right: 4px solid#8f2a2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.maroon-right h1 {
+  width: 75%;
+}
+.maroon-right p {
+  width: 65%;
+  font-weight: 300;
+  font-size: 18px;
+}
+.cartoon-wrapper-left {
+  z-index: 1;
+}
+/*second div of image and text*/
+.image-right-box-left {
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  margin-top: 20vh;
+  position: relative;
+  left: 10vw;
+}
+.maroon-left {
+  width: 35%;
+  height: 50vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 25vw;
+  width: 35%;
+  border-left: 4px solid#8f2a2b;
+}
+.maroon-left h1 {
+  width: 65%;
+}
+.maroon-left p {
+  width: 65%;
+  font-weight: 300;
+  font-size: 18px;
+}
+.cartoon-wrapper-right {
+  width: 30%;
+  position: relative;
+  left: 48vw;
+  z-index: 1;
+}
+.ppn-cartoon-body2 {
+  width: 80%;
+  border-radius: 10px;
+}
+/* div containing the 2 training videos*/
+.training-videos-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25vh;
+}
+.vid-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vid-wrapper p {
+  margin-top: 3vh;
+  font-weight: 400;
+}
+.trainingVid{
+  width: 60%;
+}
+/*third div of image and text*/
+.image-left-box-right2 {
+  margin-top: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ppn-cartoon-body3 {
+  width: 60%;
+  border-radius: 10px;
+}
+.cartoon-wrapper-left2 {
+  position: relative;
+  width: 40%;
+}
+.maroon-right2 {
+  width: 35%;
+  border-right: 4px solid #8f2a2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+/* the div containin a link to addt'l resources*/
+.addtl-resources {
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+}

@@ -29,6 +29,7 @@ import DSMSpanish from './Components/Surveys/DSMSpanish';
 import DSMSpanishParents from './Components/Surveys/DSMSpanishParents';
 import PpnInfo from './Components/PPN/PpnInfo';
 import OpdTips from './Components/Tips/OpdTips';
+import AdditionalResources from './Components/PPN/AdditionalResources';
 
 export default (
   <Switch>
@@ -61,5 +62,6 @@ export default (
     <Route path="/dsmspanishwebersd" component={DSMSpanish} />
     <Route path="/dsmspanishparentswebersd" component={DSMSpanishParents} />
     <Route path="/ppninfo" component={PpnInfo} />
+    <Route path="/additionalresources" component={AdditionalResources} />
   </Switch>
 )
