@@ -1,28 +1,29 @@
-import React, {useRef} from 'react';
-import emailjs  from 'emailjs-com';
+import React from 'react';
+// import emailjs  from 'emailjs-com';
 import NavBar from '../NavBar';
-import {FaPenAlt, FaPenFancy, FaUser, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+// import {FaPenAlt, FaPenFancy, FaUser, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import ReactGA from 'react-ga';
+import ContactForm from './ContactForm';
 require('dotenv').config();
 
 const Contact = () => {
   ReactGA.pageview('src/Components/Contact/Contact.js');
   
-  const form = useRef();
+  // const form = useRef();
   
   //THIS IS THE SEND FUNCTION FOR THE FORM, IT'S JUST FOR THE FORM.
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
     
-    // the arguments serviceID, templateID, e.target, userID, access token
-    emailjs.sendForm(process.env.REACT_APP_EMAIL_JS_SERVICE, process.env.REACT_APP_EMAIL_JS_TEMPLATE, e.target, process.env.REACT_APP_EMAIL_JS_USER, process.env.REACT_APP_EMAIL_JS_ACCESS)
-    .then((result) => {
-      console.log("SUCCESS", result.text);
-    }, (error) => {
-      console.log("FAIL",error.text);
-    });
-    e.target.reset()
-  };
+  //   // the arguments serviceID, templateID, e.target, userID, access token
+  //   emailjs.sendForm(process.env.REACT_APP_EMAIL_JS_SERVICE, process.env.REACT_APP_EMAIL_JS_TEMPLATE, e.target, process.env.REACT_APP_EMAIL_JS_USER, process.env.REACT_APP_EMAIL_JS_ACCESS)
+  //   .then((result) => {
+  //     console.log("SUCCESS", result.text);
+  //   }, (error) => {
+  //     console.log("FAIL",error.text);
+  //   });
+  //   e.target.reset()
+  // };
   
   const Mailto = ({ email, subject = '', body = '', children }) => {
     let params = subject || body ? '?' : '';
@@ -57,8 +58,9 @@ const Contact = () => {
         <a href="https://www.linkedin.com/company/previdence-corporation/mycompany/" target="_blank" rel="noreferrer"><FaLinkedin className="social" /></a>
         </div> */}
       </div>
+      <ContactForm />
       {/* above are the contact details, with a link to open user's email, below is a contact form so they can mail straight from here. */}
-      <div className="contact-form">
+      {/* <div className="contact-form">
         <form ref={form} onSubmit={sendEmail} className="contact-form">
         <h1>Send Us A Message</h1>
         <div>
@@ -89,7 +91,7 @@ const Contact = () => {
 
           <input className="form-btn" type="submit"  value="Send Message"></input>
         </form>
-       </div>
+       </div> */}
       </div> 
     </div>
   )
