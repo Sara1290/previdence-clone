@@ -609,7 +609,7 @@
     display: none;
   }
   
-  .image-left-text-right {
+  /* .image-left-text-right {
     width: 100%;
   }
   .text-right {
@@ -621,14 +621,14 @@
   }
   .text-right p {
     width: 80vw !important;
-  }
+  } */
 
   .image-right-text-left {
     width: 100%;
   }
   .text-left {
     width: 90vw !important;
-    right: 0;
+    right: 0 !important;
   }
   .text-left h1 {
     width: 100vw;
@@ -694,10 +694,28 @@
     align-items: center;
     width: 100%;
   }
+  /*------------PPN INFO MIN 901-------------*/
+  .text-left {
+    right: 30vw;
+  }
 }
 @media screen and (max-width: 991px) {
   .contact-btn {
     border: none !important;
+  }
+  /*-------PPN INFO MAX 991------*/
+  .image-left-text-right {
+    width: 100%;
+  }
+  .text-right {
+    width: 90vw !important;
+  }
+  .text-right h1 {
+    width: 100vw;
+    margin-bottom: 5vh;
+  }
+  .text-right p {
+    width: 80vw !important;
   }
 }
 /*laptop / ipad PRO*/
