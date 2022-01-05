@@ -4,7 +4,7 @@ import TherapyCartoonColors3 from "../../images/TherapyCartoonColors3.png";
 import ppnTherapist2Small from "../../images/ppnTherapist2Small.jpg";
 import ppnTherapist3Small from "../../images/ppnTherapist3Small.jpg";
 import ppnTherapist5Small from "../../images/ppnTherapist5Small.jpg";
-import videoPlaceHolder from "../../images/videoPlaceHolder.png";
+// import videoPlaceHolder from "../../images/videoPlaceHolder.png";
 // import TherapyCartoonColors2 from "../../images/TherapyCartoonColors2.png";
 // import TherapyCartoonColors1 from "../../images/TherapyCartoonColors1.png";
 // import ppnTherapist1Small from '../../images/ppnTherapist1Small.jpg';
@@ -31,11 +31,21 @@ const PpnInfo = () => {
           />
         </div>
         <div className="welcome-vid-container">
-          <img
-            alt="video place holder"
-            className="video1"
-            src={videoPlaceHolder}
-          />
+          {/* <img alt="video place holder" className="video1" src={videoPlaceHolder} /> */}
+          <div
+              className="assessment-training-vid"
+              style={{ padding: 0, margin: 0 }}
+            >
+              <iframe
+                src="https://player.vimeo.com/video/659743288?h=be615770b4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                className="iframe-video"
+                // style={{width: 700, height: 700 }}
+                title="Sara Allen Assessment Training - 12/23/2021, 11:50:48 AM"
+              ></iframe>
+            </div>
         </div>
         <div className="image-left-text-right">
           <div className="left-img-wrapper">
@@ -79,8 +89,21 @@ const PpnInfo = () => {
         </div>
         <div className="training-videos-container">
           <div className="vid-wrapper">
-            <img alt="" className="trainingVid" src={videoPlaceHolder} />
-            <p>CULTURE TRAINING</p>
+            {/* <img alt="" className="trainingVid" src={videoPlaceHolder} /> */}
+            <div
+              className="assessment-training-vid"
+              style={{ padding: 0, margin: 0 }}
+            >
+              <iframe
+                src="https://player.vimeo.com/video/659743288?h=be615770b4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                className="iframe-video"
+                // style={{width: 700, height: 700 }}
+                title="Sara Allen Assessment Training - 12/23/2021, 11:50:48 AM"
+              ></iframe>
+            </div>
           </div>
           <div className="vid-wrapper">
             {/* <img alt="" className="trainingVid" src={videoPlaceHolder} /> */}

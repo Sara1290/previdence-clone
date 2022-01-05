@@ -598,9 +598,9 @@
     padding-left: 0 !important;
   }
   /*-------------PPN INFO max 900px--------------------*/
-  .training-videos-container {
+  /* .training-videos-container {
     flex-direction: column;
-  }
+  } */
   .iframe-video {
     width: 80vw !important;
   }
@@ -836,9 +836,8 @@
     width: 90% !important;
     justify-content: space-around;
   }
-
-
 }
+
 @media screen and (max-width: 1200px) {
   .corp-inner {
     flex-direction: column !important;
@@ -872,6 +871,23 @@
     border-radius: 5px;
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.15);
     /* animation: fadeIn 0.5s ease-in-out; */
+  }
+  /*-----------PPN INFO MAX 1200*/
+  .training-videos-container {
+    flex-direction: column;
+  }
+  .image-left-text-right {
+    width: 100%;
+  }
+  .text-right {
+    width: 75vw !important;
+  }
+  .text-right h1 {
+    width: 80vw;
+    margin-bottom: 5vh;
+  }
+  .text-right p {
+    width: 60vw !important;
   }
 }
 
