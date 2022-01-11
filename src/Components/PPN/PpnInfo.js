@@ -13,7 +13,7 @@ import ppnTherapist5Small from "../../images/ppnTherapist5Small.jpg";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import UniFooter from "../UniFooter";
-import ContactForm from "../Contact/ContactForm";
+// import ContactForm from "../Contact/ContactForm";
 
 const PpnInfo = () => {
   return (
@@ -58,14 +58,16 @@ const PpnInfo = () => {
           <div className="text-right">
             <h1> Welcome Paragraph.</h1>
             <p>
-              {" "}
               a nice paragraph welcoming them to the <br></br>network and
               explaining the info on this page, etc. <br></br> Lorem ipsum dolor
               sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua.tempor incididunt ut
               labore et dolore magna aliqua.tempor incididunt ut labore et
-              dolore magna aliqua.{" "}
+              dolore magna aliqua.
             </p>
+              <Link to="/contact" className="link t-link" style={{fontWeight: 400, fontStyle: "italic"}}>
+                Have A Question? Send Us A Message Here!
+              </Link>
           </div>
         </div>
         <div className="image-right-text-left">
@@ -80,9 +82,8 @@ const PpnInfo = () => {
             <h1> Clinical Director's Message.</h1>
             <FaQuoteLeft />
             <p>
-              {" "}
               We can update this once a week or whatever is needed, whenever the
-              Clinical Director has a new message to share.{" "}
+              Clinical Director has a new message to share.
             </p>
             <FaQuoteRight />
           </div>
@@ -136,19 +137,16 @@ const PpnInfo = () => {
           <div className="text-right">
             <h1> Upcoming Trainings </h1>
             <p>
-              January 20th - ART - with Kent Allen <br></br> Remote via Zoom 6pm
-              MST{" "}
+            <a href='https://us02web.zoom.us/j/5860273747?pwd=OTIwdndJMjQ1eVIxdkYvSEdSK1VLUT09' className="link"> January 12th - ART - with Laney Rosenzwig <br></br> Remote via Zoom 6pm Mountain Standard Time </a>
             </p>
             <p>
-              February 17th - ART - with Kent Allen <br></br> Remote via Zoom
-              6pm MST
+              February 9th - ART - with Kent Allen <br></br> Remote via Zoom 6pm Mountain Standard Time
             </p>
           </div>
         </div>
-        <ContactForm />
+        {/* <ContactForm /> */}
         <div className="addtl-resources">
           <Link to="/additionalresources" className="link t-link">
-            {" "}
             Find Additional Resources Here
           </Link>
         </div>

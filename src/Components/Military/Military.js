@@ -4,11 +4,11 @@ import {FaUsers, FaUserFriends, FaHandHoldingHeart, FaWarehouse} from 'react-ico
 import NavBar from '../NavBar';
 import UniFooter from '../UniFooter';
 import ReactGA from 'react-ga';
-
+import CountUp from 'react-countup';
 
 const Military = () => {
 
-  ReactGA.pageview('src/Components/Military/Military.js');
+  // ReactGA.pageview('src/Components/Military/Military.js');
 
 
   const Mailto = ({ email, subject = '', body = '', children }) => {
@@ -46,22 +46,27 @@ const Military = () => {
           <div className="mili-counters">
             <div className="counter">
               <FaUsers className="counter-icon"/><br></br>
-            <h2>300,000</h2>
+              <CountUp start={0} end={300000} separator=',' delay={2} duration={2} className='CountUp'>
+              </CountUp>
             <h4>Men and Women Served in the US Armed Forces</h4>
             </div>
             <div className="counter">
               <FaUserFriends className="counter-icon"/><br></br>
-            <h2>6,000</h2>
+              <CountUp start={0} end={6000} separator=',' delay={3} duration={2} className='CountUp'>
+              </CountUp>
             <h4>Military Therapist Users</h4>
             </div>
             <div className="counter">
               <FaHandHoldingHeart className="counter-icon"/><br></br>
-            <h2>56%</h2>
+              <CountUp start={0} end={56} suffix='%' delay={4} duration={2} className='CountUp'>
+              </CountUp>
             <h4>Reduced Soldier Suicide with the Wounded Warrior Transition Unit</h4>
             </div>
             <div className="counter">
               <FaWarehouse className="counter-icon"/><br></br>
-            <h2>332</h2>
+              <CountUp start={0} end={300} delay={5} duration={2} className='CountUp'>
+              </CountUp>
+
             <h4>Military Bases</h4>
             </div>
           </div>

@@ -132,7 +132,6 @@
   .ps-pros {
     width: 85%;
     color: black;
-    background-color: whitesmoke;
     border: none;
     margin-bottom: 30px;
     margin-left: 10%;
@@ -340,6 +339,7 @@
     margin: 0px 10px 0px 10px;
     padding: 0px 20px 0px 10px;
   }
+  /*------------- PUBLIC SAFETY MIN 760-------------- */
   .ps-img-container {
     display: flex;
     align-items: center;
@@ -362,6 +362,8 @@
   .ps-pros {
     height: 600px !important;
     font-size: 16px;
+    width: 35%;
+    
   }
   .PS-list-outer {
     position: relative;
@@ -673,7 +675,6 @@
     position: relative;
     left: 8vw;
     top: 3vh;
-    height: 550px;
   }
 
 /*-------RESOURCES------*/
@@ -837,6 +838,8 @@
     justify-content: space-around;
   }
 }
+
+
 
 @media screen and (max-width: 1200px) {
   .corp-inner {

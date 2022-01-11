@@ -5,9 +5,9 @@ import "../../CSS/Pages.css";
 import "../../CSS/Responsive.css";
 import "../../CSS/App.css";
 import "../../CSS/index.css";
-import faithImage1 from "../../images/faithImage1.jpg"
-import faithImage2 from "../../images/faithImage2.jpg"
-import faithImage3 from "../../images/faithImage3.jpg"
+import faithImage1Small from "../../images/faithImage1Small.jpg"
+import faithImage2Small from "../../images/faithImage2Small.jpg"
+import faithImage3Small from "../../images/faithImage3Small.jpg"
 import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
@@ -48,9 +48,9 @@ const FaithBased = () => {
         </div>
           {/* <CorCarousel /> */}
             <div className="faith-img-container k12-img-container">
-              <img alt="praying hands" className="k12-img" src={faithImage1} />
-              <img alt="praying hands" className="k12-img" src={faithImage2} />
-              <img alt="praying hands" className="k12-img" src={faithImage3} />
+              <img alt="praying hands" className="k12-img" src={faithImage1Small} />
+              <img alt="praying hands" className="k12-img" src={faithImage2Small} />
+              <img alt="praying hands" className="k12-img" src={faithImage3Small} />
             </div>
           <div className="faith-button-parent ">
           <Mailto className="a" email="sales@previdence.com" subject="Faith Based Liaison" body="Hello">

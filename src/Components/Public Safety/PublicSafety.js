@@ -41,6 +41,12 @@ const PublicSafety = () => {
                 response.
               </p>
           </div>
+        <div className="ps-para">
+        <p>
+        Previdence provides options to help all public safety staff members, as well as
+        family members of those who serve.
+        </p>
+        </div>
         <br></br>
           <div className="PS-list-outer">
           {/* <img alt="fireTruck" src={fireFighter2} className="fireTruck3" /> */}
@@ -61,18 +67,12 @@ const PublicSafety = () => {
           <img alt="firefighters" src={fireLady} className="fireFighter-img" />
           </div>
         <br></br>
-        <div className="ps-para">
-        <p>
-        Previdence provides options to help all public safety staff members, as well as
-        family members of those who serve.
-        </p>
-        </div>
         <br></br>
         <br></br>
       <PsCarousel className="ps-carousel" />
       <div className="button-parent">
           <Mailto className="a"  email="sales@previdence.com" subject="Public Safety Liaison" body="Hello">
-            <button className="liaison">
+            <button className="liaison-mili">
               CONTACT OUR PUBLIC SAFETY LIAISON
             </button>
           </Mailto>

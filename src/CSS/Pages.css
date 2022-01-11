@@ -348,9 +348,13 @@
   justify-content: center;
 }
 .PS-Left {
-  background-color: #8f2a2b;
-  color: #CFCFCF;
+  /* background-color: #8f2a2b; */
+  background-color: #e2e2e2ec;
+  color: #111921;
   width: 100%;
+}
+.PS-Left p {
+  font-weight: 300;
 }
 .Left-inner > h1 {
   margin-top: 50px;
@@ -361,16 +365,14 @@
   text-align: center;
 }
 .ps-pros {
-  box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
+  /* box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
   -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
-  background-color: whitesmoke;
-  border: none;
-  border-radius: 15px;
+  -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5); */
+
+  border-left: 4px solid #8f2a2b;
   color: #111921;
-  height: 600px;
   z-index: 1;
-  padding: 5vh .5vw 0vh .5vw;
+  padding: 5vh .5vw 0vh 2.9vw;
 }
 .ps-para {
   width: 60vw;
@@ -388,7 +390,7 @@
   top: 50px;
   padding-bottom: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   position: relative;
   right: 10vw;
 }
@@ -442,11 +444,12 @@
   text-align: center;
   width: 215px;
   height: 215px;
-  border: 2px solid #CFCFCF;
+  border: 2px solid #8f2a2b;
   border-radius: 50%;
 }
 .icon-item > p {
   text-align: center;
+  /* color: #8f2a2b; */
 }
 .react-multi-carousel-item {
   display: flex;
@@ -457,7 +460,7 @@
   font-size: 30px;
 }
 .icon-light {
-  color: #CFCFCF;
+  color: #8f2a2b;
   font-size: 30px;
   text-align: center;
 }
@@ -465,14 +468,19 @@
   font-size: 16px;
   text-align: center;
   width: 70%;
+  /* color: #8f2a2b; */
+
 }
 .ps-icon-para > p {
   text-align: center;
+  /* color: #8f2a2b; */
+
 }
 .ps-icon-para-rapid {
   font-size: 15px;
   text-align: center;
   width: 80%;
+  /* color: #8f2a2b; */
 }
 .ps-icon-para-rapid > p {
   text-align: center;
@@ -917,6 +925,10 @@ font-size: 18px;
   font-size: 40px;
   color: #8f2a2b
 }
+.CountUp{
+  font-size: 40px;
+  font-weight: 300;
+}
 
 /* --------------CONTACT--------------- */
 .contact-form {
@@ -1302,7 +1314,7 @@ margin: 5vh 0 5vh 0;
 }
 /* div containing the 2 training videos*/
 .training-videos-container {
-  width: 100vw;
+  width: 98vw;
   display: flex;
   /* flex-direction: column; */
   justify-content: space-evenly;
