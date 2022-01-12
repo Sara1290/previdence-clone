@@ -8,7 +8,7 @@ import CountUp from 'react-countup';
 
 const Military = () => {
 
-  // ReactGA.pageview('src/Components/Military/Military.js');
+  ReactGA.pageview('src/Components/Military/Military.js');
 
 
   const Mailto = ({ email, subject = '', body = '', children }) => {

@@ -646,20 +646,41 @@
 .pro-inner {
   padding: 20px;
   text-align: left;
-  background-image: url('../images/waterLily.jpg');
+  background-image: url('../images/officeSetting.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
 }
+.pro-inner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(0deg, rgba(230, 230, 230, 0.822), rgba(230, 230, 230, 0.521) );
+}
+
 
 .pro-container > h1 {
   padding-top: 40px;
+  padding-left: 2%;
   padding-bottom: 20px;
+  border-left: 4px solid #8f2a2b;
+  margin-bottom: 0%;
 }
 .pro-para > p {
-  padding-bottom: 100px;
+  margin-top: 0%;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  padding-left: 4%;
   font-weight: 600;
+  border-left: 4px solid #8f2a2b;
+}
+.professional-contact {
+  padding-left: 4%;
 }
 .liaison-dark {
   background-color: transparent;
@@ -1202,6 +1223,7 @@ margin: 5vh 0 5vh 0;
 }
 /*contains the two divs that make up the header*/
 .ppn-header-wrapper {
+  width: 100%;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -1214,41 +1236,36 @@ margin: 5vh 0 5vh 0;
   /* background-color: #8f2a2ab2; */
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 60%;
   /* this height is going to be not good being a hard coded px. make it so it's always the same height as the image next to it.*/
-  /* height: 540px; */
+  /* height: 458px; */
   z-index: 1;
 }
 /*the image contained in the header*/
 .header-img {
   width: 40%;
   position: relative;
-  right: 5%;
-}
-/*the first video on the page*/
-.welcome-vid-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-top: 10vh;
-}
-.video1 {
-  width: 90%;
+  /* right: 5%; */
 }
 /*first div of image and text - welcome paragraph*/
-.image-left-text-right {
-  /* width: 100%; */
+.image-left-text-right1 {
+  /* background-color: #fff; */
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10vh;
-  margin-right: 5%;
+  margin-bottom: 10vh;
+  padding: 5%;
+  /* margin-right: 5%; */
 }
 .img-left1 {
   width: 70%;
   border-radius: 10px;
+  box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+  -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
 }
 .text-right {
   width: 35%;
@@ -1270,12 +1287,26 @@ margin: 5vh 0 5vh 0;
   z-index: 1;
   width: 40%;
 }
+/*the first video on the page*/
+.welcome-vid-container {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* margin-top: 10vh; */
+}
+.video1 {
+  width: 90%;
+}
 /*second div of image and text - clinical director's message*/
 .image-right-text-left {
   display: flex;
   align-items: center;
   /* justify-content: center; */
-  margin-top: 20vh;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
   margin-left: 20vw;
 }
 .text-left {
@@ -1314,7 +1345,8 @@ margin: 5vh 0 5vh 0;
 }
 /* div containing the 2 training videos*/
 .training-videos-container {
-  width: 98vw;
+  width: 100%;
+  background-color: #fff;
   display: flex;
   /* flex-direction: column; */
   justify-content: space-evenly;
@@ -1346,25 +1378,32 @@ margin: 5vh 0 5vh 0;
 }
 /*third div of image and text - upcoming trainings*/
 .image-left-text-right {
-  margin: 20vh 20vh;
+  margin: 10vh 0 0 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.img-left2 {
+/* .img-left2 {
   width: 75%;
   border-radius: 10px;
 }
 .left-img-wrapper2 {
   width: 60%;
-}
-.text-right {
-  width: 35%;
+} */
+
+.text-training {
+  width: 100vw;
   border-right: 4px solid #8f2a2b;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+}
+.training-columns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 /* the div containin a link to addt'l resources*/
 .addtl-resources {
