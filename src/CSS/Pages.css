@@ -348,9 +348,8 @@
   justify-content: center;
 }
 .PS-Left {
-  /* background-color: #8f2a2b; */
-  background-color: #e2e2e2ec;
-  color: #111921;
+  background-color: #8f2a2b;
+  color: #e4e4e4;
   width: 100%;
 }
 .PS-Left p {
@@ -365,12 +364,9 @@
   text-align: center;
 }
 .ps-pros {
-  /* box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
-  -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.5); */
-
-  border-left: 4px solid #8f2a2b;
+  border-left: 4px solid #e4e4e4;
   color: #111921;
+  color: #e4e4e4;
   z-index: 1;
   padding: 5vh .5vw 0vh 2.9vw;
 }
@@ -444,7 +440,7 @@
   text-align: center;
   width: 215px;
   height: 215px;
-  border: 2px solid #8f2a2b;
+  border: 2px solid #e4e4e4;
   border-radius: 50%;
 }
 .icon-item > p {
@@ -460,7 +456,7 @@
   font-size: 30px;
 }
 .icon-light {
-  color: #8f2a2b;
+  color: #e4e4e4;
   font-size: 30px;
   text-align: center;
 }
@@ -1348,7 +1344,7 @@ margin: 5vh 0 5vh 0;
   width: 100%;
   background-color: #fff;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   margin: 15vh 10vw 0 10vw;
@@ -1359,10 +1355,17 @@ margin: 5vh 0 5vh 0;
   width: 600px;
   height: 600px;
 }
+.vp-center {
+  align-items: flex-start !important;
+}
 .assessment-training-vid {
   border-radius: 10px;
   position: relative;
   top: 5vh;
+}
+.culture-training-vid {
+  position: relative;
+  width: 600px;
 }
 .trainingVid{
   width: 70%;
@@ -1376,33 +1379,48 @@ margin: 5vh 0 5vh 0;
   margin-top: 3vh;
   font-weight: 400;
 }
-/*third div of image and text - upcoming trainings*/
-.image-left-text-right {
+/*  upcoming trainings  */
+.ppn-trainings-outer {
+  width: 70%;
   margin: 10vh 0 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
-/* .img-left2 {
+.ppn-trainings-outer h1 {
+  margin-bottom: 10vh;
+}
+.ppn-trainings-outer h2 {
+  border-bottom: 2px solid #8f2a2b;
+  margin-bottom: 5vh;
+}
+.ppn-trainings-outer h5 {
+  margin-bottom: 2vh;
+}
+.ppn-trainings-outer p {
+  font-weight: 400;
+}
+.img-left2 {
   width: 75%;
   border-radius: 10px;
 }
 .left-img-wrapper2 {
   width: 60%;
-} */
-
+}
+.utah-trainings {
+  margin-bottom: 10vh;
+}
 .text-training {
-  width: 100vw;
-  border-right: 4px solid #8f2a2b;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
 .training-columns {
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-around;
 }
 /* the div containin a link to addt'l resources*/

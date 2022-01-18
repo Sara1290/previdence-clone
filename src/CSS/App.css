@@ -370,6 +370,7 @@ p {
   text-align: center;
   position: relative;
   left: 10px;
+  font-weight: bolder;
 }
 .container > h1 {
   line-height: 3;

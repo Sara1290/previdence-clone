@@ -611,7 +611,7 @@
     display: none;
   }
   
-  /* .image-left-text-right {
+  /* .ppn-trainings-outer {
     width: 100%;
   }
   .text-right {
@@ -705,7 +705,7 @@
     border: none !important;
   }
   /*-------PPN INFO MAX 991------*/
-  .image-left-text-right {
+  .ppn-trainings-outer {
     width: 100%;
   }
   .text-right {
@@ -719,6 +719,7 @@
     width: 80vw !important;
   }
 }
+
 /*laptop / ipad PRO*/
 @media screen and (min-width: 1023px) {
   /*-- HOME-- */
@@ -875,11 +876,11 @@
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.15);
     /* animation: fadeIn 0.5s ease-in-out; */
   }
-  /*-----------PPN INFO MAX 1200*/
+  /*-----------PPN INFO MAX 1200--------------*/
   .training-videos-container {
     flex-direction: column;
   }
-  .image-left-text-right {
+  .ppn-trainings-outer {
     width: 100%;
   }
   .text-right {
@@ -891,7 +892,11 @@
   }
   .text-right p {
     width: 60vw !important;
-  }
+  } 
+  .training-columns {
+    flex-direction: column;
+    align-items: stretch;
+  } 
 }
 
 @media screen and (min-width: 1159px) {
@@ -1021,6 +1026,11 @@
   }
   .tips-container {
     width: 60vw;
+  }
+  /*----------------ppn info min 1201---------*/
+  .training-columns {
+    flex-direction: row;
+    align-items: flex-start;
   }
 
 }

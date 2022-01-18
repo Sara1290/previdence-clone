@@ -11,7 +11,7 @@ import ReactGA from 'react-ga';
 
 
 const PublicSafety = () => {
-  ReactGA.pageview('src/Components/Public Safety/PublicSafety.js');
+  // ReactGA.pageview('src/Components/Public Safety/PublicSafety.js');
 
 
   const Mailto = ({ email, subject = '', body = '', children }) => {
@@ -72,7 +72,7 @@ const PublicSafety = () => {
       <PsCarousel className="ps-carousel" />
       <div className="button-parent">
           <Mailto className="a"  email="sales@previdence.com" subject="Public Safety Liaison" body="Hello">
-            <button className="liaison-mili">
+            <button className="liaison">
               CONTACT OUR PUBLIC SAFETY LIAISON
             </button>
           </Mailto>
