@@ -1,5 +1,4 @@
-/*mobile*/
-
+/*-----------------mobile------------------*/
 
 @media screen and (max-width: 480px) {
 
@@ -135,9 +134,12 @@
     border: none;
     margin-bottom: 30px;
     margin-left: 10%;
+    position: relative;
+    left: 10% !important;
   }
-  .ps-pros > h4 {
-    margin-left: 5px;
+  .ps-pros h4 {
+    position: relative;
+    bottom: 40px;
   }
   .PS-List {
     font-size: 16px;
@@ -326,7 +328,6 @@
 
 }
 
-
 @media screen and (min-width: 760px) {
   /*UNI FOOTER*/
   .footer-line-mobile {
@@ -453,9 +454,9 @@
 
 
 }
-/*tablet*/
+/*-----------------tablet-------------------*/
 @media screen and (max-width: 900px ) {
-    /* UNI FOOTER */
+    /* --------UNI FOOTER--------- */
     .uni-footer {
       flex-direction: column;
     }
@@ -483,6 +484,7 @@
       height: 1px;
       background-color: #cfcfcf;
     }
+  /*----------HOME--------------*/
   .nav-img {
     height: 48px;
     width: 48px;
@@ -531,7 +533,7 @@
   .contact > p {
     font-size: 12px;
   }
-  /*Faith Based*/
+  /*--------Faith Based----------*/
   .faith-paragraphs-container {
     width: 75vw;
   }
@@ -575,8 +577,16 @@
   }
   .ps-pros {
     position: relative;
-    left: 8vw;
+    /* left: 8vw; */
     top: 3vh;
+  }
+  .ps-pros h4 {
+    position: relative;
+    bottom: 40px;
+  }
+  .ps-pros ul {
+    position: relative;
+    bottom: 40px;
   }
   /*---- TEAM -----*/
   /* .team-modal {
@@ -720,7 +730,7 @@
   }
 }
 
-/*laptop / ipad PRO*/
+/*-----------------laptop / ipad PRO---------*/
 @media screen and (min-width: 1023px) {
   /*-- HOME-- */
   .prev-logo {
@@ -815,6 +825,14 @@
     top: 3vh;
     width: 434px;
   }
+  .ps-pros h4 {
+    position: relative;
+    top: 10px;
+  }
+  .ps-pros ul {
+    position: relative;
+    top: 10px;
+  }
   
   /*--RESOURCES--*/
   .resources {
@@ -840,9 +858,8 @@
   }
 }
 
-
-
 @media screen and (max-width: 1200px) {
+  /*-----CORPORATIONS-----*/
   .corp-inner {
     flex-direction: column !important;
     margin: 10%;
@@ -857,6 +874,15 @@
   .corp-paragraph > p {
     font-size: 16px !important;
     text-align: left;
+  }
+  /*------PUBLIC SAFETY----*/
+  .fireFighter-img {
+    position: relative;
+    left: 5%;
+  }
+  .ps-pros {
+    position: relative;
+    left: 2%;
   }
   /*-------- TEAM --------*/
   .team-modal {
@@ -905,7 +931,7 @@
   }
 
 }
-/* DESKTOP*/
+/*--------------------DESKTOP-----------------*/
 @media screen and (min-width: 1201px) {
   /*-----HOME --------*/
   .prev-logo {
@@ -1044,7 +1070,7 @@
   }
 
 }
-/*XL*/
+/* ------------------------XL------------------*/
 @media screen and (min-width: 1500px) {
   .team-modal {
     width: 40% !important;

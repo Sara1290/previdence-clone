@@ -394,7 +394,7 @@
   text-align: left;
   font-size: 30px;
   position: relative;
-  top: 10px;
+  /* top: 10px; */
 }
 .PS-List {
   text-align: left;
@@ -402,7 +402,7 @@
   font-size: 20px;
   line-height: 35pt;
   position: relative;
-  top: 10px;
+  /* top: 10px; */
 }
 .fireFighter-img {
   width: auto;
@@ -794,6 +794,7 @@
 }
 .k12 > p {
   text-align: center;
+  font-weight: bolder;
 }
 .k12-img {
   max-width: 375px;
@@ -813,6 +814,7 @@
 
 .k12-paragraph > p  {
   text-align: center;
+  font-weight: bolderd;
 }
 /* ---------------------CORPORATIONS-------------------- */
 .corp-outer {
