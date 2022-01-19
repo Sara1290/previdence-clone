@@ -250,6 +250,9 @@
   width: 85%;
   left: 8% !important;
 }
+.faith-paragraphs-container {
+  width: 100%;
+}
 
 }
 @media screen and (min-width: 481px) {
