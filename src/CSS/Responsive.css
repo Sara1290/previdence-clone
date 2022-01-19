@@ -48,25 +48,13 @@
   .contact {
     margin: 0 0 10px 20px;
   }
-  /* CORPORATIONS */
+  /* -------CORPORATIONS------ */
   .corp-inner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  /* .corp-paragraph {
-    width: 90%;
-    display: flex;
-
-  }
-  .corp-paragraph > p {
-    position: relative;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 15px;
-  } */
+  } 
   .corp-inner > img {
     width: 80%;
     height: auto;
@@ -257,6 +245,11 @@
   .black-font {
     color: black;
   }
+/*------FAITH BASED-------*/
+.faith-button-parent {
+  width: 85%;
+  left: 8% !important;
+}
 
 }
 @media screen and (min-width: 481px) {
