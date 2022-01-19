@@ -1,13 +1,9 @@
 import React from "react";
 import NavBar from "../NavBar";
-// import CorCarousel from '../Correctional/CorCarousel'
 import "../../CSS/Pages.css";
 import "../../CSS/Responsive.css";
 import "../../CSS/App.css";
 import "../../CSS/index.css";
-import faithImage1Small from "../../images/faithImage1Small.jpg"
-import faithImage2Small from "../../images/faithImage2Small.jpg"
-import faithImage3Small from "../../images/faithImage3Small.jpg"
 import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
@@ -46,12 +42,6 @@ const FaithBased = () => {
             religious institution flourish.
           </p>
         </div>
-          {/* <CorCarousel /> */}
-            {/* <div className="faith-img-container k12-img-container">
-              <img alt="praying hands" className="k12-img" src={faithImage1Small} />
-              <img alt="praying hands" className="k12-img" src={faithImage2Small} />
-              <img alt="praying hands" className="k12-img" src={faithImage3Small} />
-            </div> */}
           <div className="faith-button-parent">
           <Mailto className="a" email="sales@previdence.com" subject="Faith Based Liaison" body="Hello">
             <button className="liaison-dark" >
