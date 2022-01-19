@@ -540,37 +540,57 @@
 
 
 /* ---------------------FAITH BASED------------------ */
-.faith-inner {
-  /* background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/sky.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
+/* .faith-inner {
   background-color: #8f2a2b;
-
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+} */
 
+.faith-inner {
+  background-image: url('../images/faithBased.jpg');
+  /* height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; */
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.faith-paragraphs-container{
-  width: 65%;
-  color: #b1b1b1;
-}
-.faith-paragraphs-container p {
-  font-size: 18px;
-  font-weight: 300;
-  text-align: center;
-  padding: 5vh;
+.faith-inner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(0deg, rgba(230, 230, 230, 0.822), rgba(230, 230, 230, 0.521) );
 }
 
 .faith {
   padding: 5vh;
   font-size: 50px;
   font-weight: 300;
-  color: #b1b1b1;
+  /* color: #b1b1b1; */
 }
+.faith-paragraphs-container{
+  width: 55%;
+  font-weight: bolder;
+  border-left: 4px solid #8f2a2b;
+  text-align: left;
+  position: relative;
+  left: 10%;
+  top: 10vh;
+}
+.faith-paragraphs-container p {
+  font-size: 18px;
+  padding: 2vh;
+  text-align: left;
+  margin-left: 2%;
+}
+/*---------------ICONS---------------*/
 .icon-container {
   display: flex;
   justify-content: center;
@@ -609,9 +629,12 @@
   border: 2px solid white;
 }
 .faith-button-parent {
-  padding-bottom: 20px;
   margin-bottom: 10vh;
-  margin-top: 10vh;
+  margin-top: 15vh;
+  display: flex;
+  justify-content: start;
+  position: relative;
+  left: 12%;
 }
 .faith-liaison {
   background-color: whitesmoke;
@@ -849,6 +872,7 @@
 .corp-paragraph > p {
 text-align: center;
 font-size: 18px;
+font-weight: bolder;
 }
 .button-parent-corp {
   padding-top: 100px;
@@ -868,9 +892,14 @@ font-size: 18px;
 }
 /* --------------MILITARY--------------- */
 
+.parallax-background {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .mili-inner {
   background-image: url('../images/fadedflag.jpg');
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;

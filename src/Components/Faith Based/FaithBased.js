@@ -27,10 +27,10 @@ const FaithBased = () => {
   return (
     <div className="faith-outer">
       {/* <img alt="clouds" src={sky} /> */}
-      <NavBar />
-      <div className="faith-inner">
-        <h1 className="faith">Faith Based</h1>
+      <NavBar />  
+      <div className="faith-inner parallax-background">
         <div className="faith-paragraphs-container">
+        <h1 className="faith">Faith Based</h1>
           <p>
             Previdence helps your organization create a stronger, healthier, and
             more productive community. Our incomparable mental health
@@ -47,14 +47,14 @@ const FaithBased = () => {
           </p>
         </div>
           {/* <CorCarousel /> */}
-            <div className="faith-img-container k12-img-container">
+            {/* <div className="faith-img-container k12-img-container">
               <img alt="praying hands" className="k12-img" src={faithImage1Small} />
               <img alt="praying hands" className="k12-img" src={faithImage2Small} />
               <img alt="praying hands" className="k12-img" src={faithImage3Small} />
-            </div>
-          <div className="faith-button-parent ">
+            </div> */}
+          <div className="faith-button-parent">
           <Mailto className="a" email="sales@previdence.com" subject="Faith Based Liaison" body="Hello">
-            <button className="liaison " >
+            <button className="liaison-dark" >
               CONTACT OUR FAITH BASED LIAISON
             </button>
           </Mailto>

@@ -3,12 +3,10 @@ import NavBar from "../NavBar";
 import Fade from "react-reveal/Fade";
 import ppnTherapist2Small from "../../images/ppnTherapist2Small.jpg";
 import ppnTherapist3Small from "../../images/ppnTherapist3Small.jpg";
-// import ppnTherapist5Small from "../../images/ppnTherapist5Small.jpg";
 import ppnTherapist1Small from "../../images/ppnTherapist1Small.jpg";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import UniFooter from "../UniFooter";
-// import ContactForm from "../Contact/ContactForm";
 
 const PpnInfo = () => {
   return (
@@ -61,7 +59,6 @@ const PpnInfo = () => {
         </div>
         <div className="welcome-vid-container">
           <Fade left>
-                {/* <img alt="video place holder" className="video1" src={videoPlaceHolder} /> */}
                 <div
                   className="assessment-training-vid"
                   style={{ padding: 0, margin: 0 }}

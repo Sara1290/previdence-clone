@@ -5,6 +5,7 @@ import NavBar from '../NavBar';
 import UniFooter from '../UniFooter';
 import ReactGA from 'react-ga';
 import CountUp from 'react-countup';
+import Fade from 'react-reveal/Fade';
 
 const Military = () => {
 
@@ -22,20 +23,24 @@ const Military = () => {
   return (
     <div>
       <NavBar />       
-      <div className="mili-inner">
+      <div className="mili-inner parallax-background">
           <h1 className="h1">
             MILITARY
           </h1>
-          <img alt="military uniform" className="mili-img" src={uniform} />
-          <div className="mili-paragraph">
-            <p>
-            Previdence helps your organization create a stronger, healthier,
-            and more productive, battle ready workforce. Our incomparable mental health assessments inform key leaders
-            about the strengths and risks of their organization, while keeping the individuals’ information
-            confidential. Additionally, the Previdence team provides customized mental health and wellness training,
-            professional clinical support, and crisis response.
-            </p>
-          </div>
+          <Fade right>
+            <img alt="military uniform" className="mili-img" src={uniform} />
+          </Fade>
+          <Fade left>
+            <div className="mili-paragraph">
+              <p>
+              Previdence helps your organization create a stronger, healthier,
+              and more productive, battle ready workforce. Our incomparable mental health assessments inform key leaders
+              about the strengths and risks of their organization, while keeping the individuals’ information
+              confidential. Additionally, the Previdence team provides customized mental health and wellness training,
+              professional clinical support, and crisis response.
+              </p>
+            </div>
+          </Fade>
           <div className="button-parent-mili">
           <Mailto className="a" email="sales@previdence.com" subject="Military Liaison" body="Hello">
             <button className="liaison-mili">

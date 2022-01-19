@@ -550,8 +550,9 @@
   }
   .corp-paragraph > p {
     position: relative;
-
     font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
   .corp-inner > img {
     width: 80%;
