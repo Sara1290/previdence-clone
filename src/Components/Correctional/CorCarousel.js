@@ -44,7 +44,7 @@ const CorCarousel = ({deviceType}) => {
       removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
       // dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
-      >
+      style={{backgroundColor: 'transparent'}}>
 
       <div className="cor-icon">
       <div className="icon-circle-cor">

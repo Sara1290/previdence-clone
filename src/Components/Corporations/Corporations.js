@@ -1,11 +1,9 @@
 import React from "react";
 import { withRouter } from "react-router";
-import officePeople from "../../images/officePeople.jpg";
-import meeting2 from '../../images/meeting2.jpg';
 import NavBar from "../NavBar";
-// import CorCarousel from "../Correctional/CorCarousel"
 import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
+import { Fade } from "react-reveal";
 
 
 
@@ -25,10 +23,11 @@ const Corporations = () => {
     <div>
       <NavBar />
       <div className="corp-outer">
-        <h1>Corporations</h1>
-        <div className="corp-inner">
-          <img alt="office people" className="corp-img image-scale box-shadow-slow" src={officePeople} />
+        <div className="corp-inner parallax-background">
+          <Fade left>
+
           <div className="corp-paragraph" >
+            <h1>Corporations</h1>
             <p>
               Previdence helps your organization create a stronger, healthier, and
               more productive workforce. Our incomparable mental health
@@ -39,18 +38,16 @@ const Corporations = () => {
               and crisis response.
             </p>
           </div>
-          <img alt="office people" className="corp-img box-shadow-slow" src={meeting2} />
-          </div>
           <div className="button-parent-corp">
           <Mailto className="a" email="sales@previdence.com" subject="Corportate Liaison" body="Hello">
-            <button className="liaison">
+            <button className="liaison-dark">
               CONTACT OUR CORPORATE LIAISON
             </button>
           </Mailto>
           </div>
+          </Fade>
+          </div>
       </div>
-        {/* <CorCarousel /> */}
-        <div className="whitespace"></div>
         <UniFooter />
     </div>
   );

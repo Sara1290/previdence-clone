@@ -533,10 +533,19 @@
   .faith-paragraphs-container {
     width: 75vw;
   }
-  /*CORRECTIONAL*/
-  .corr-inner {
-    height: 100vh;
+  
+  /*----------CORRECTIONAl-------*/
+  
+  .corr-para { 
+    width: 85%;
+    top: 10vh;
   }
+  .button-parent-corr {
+    width: 85%;
+    left: 8%;
+    margin-top: 15%;  
+  }
+  
   /* CORPORATIONS */
   .corp-inner {
     display: flex;
@@ -706,6 +715,16 @@
   .text-left {
     right: 30vw;
   }
+
+  /*-----CORRECTIONAL FACILITIES-----*/
+  .button-parent-corr {
+    left: 12%;
+    margin-top: 10%;
+  }
+  .corr-para {
+    top: 10vh;
+    width: 85%;
+  }
 }
 @media screen and (max-width: 991px) {
   .contact-btn {
@@ -772,9 +791,15 @@
     width: 350px;
   }
   /*-- CORRECTIONAL-- */
-  .corr-inner {
-    height: 100vh;
+  /* .button-parent-corr {
+    left: 12%;
+    margin-top: 10%;
   }
+  .corr-para {
+    top: 10vh;
+    width: 85%;
+  } */
+
   /* --CORPORATIONS --*/
   .corp-inner {
     display: flex;

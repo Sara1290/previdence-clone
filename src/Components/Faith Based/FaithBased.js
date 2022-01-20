@@ -6,6 +6,7 @@ import "../../CSS/App.css";
 import "../../CSS/index.css";
 import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
+import { Fade } from "react-reveal";
 
 
 const FaithBased = () => {
@@ -25,6 +26,8 @@ const FaithBased = () => {
       {/* <img alt="clouds" src={sky} /> */}
       <NavBar />  
       <div className="faith-inner parallax-background">
+        <Fade left>
+
         <div className="faith-paragraphs-container">
         <h1 className="faith">Faith Based</h1>
           <p>
@@ -49,6 +52,7 @@ const FaithBased = () => {
             </button>
           </Mailto>
           </div>
+        </Fade>
       <UniFooter />
       </div>
     </div>

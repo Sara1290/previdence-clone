@@ -5,9 +5,9 @@ import fireFighter1 from '../../images/fireFighter1.jpg';
 import fireLady from '../../images/fireLady.jpg';
 import medic from '../../images/medic.jpg';
 import TestimonialsPS from "./TestimonialsPS";
-import PsCarousel from "./PsCarousel";
 import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
+import { Fade } from "react-reveal";
 
 
 const PublicSafety = () => {
@@ -50,26 +50,28 @@ const PublicSafety = () => {
         <br></br>
           <div className="PS-list-outer">
           {/* <img alt="fireTruck" src={fireFighter2} className="fireTruck3" /> */}
-
-      <div className="ps-pros">
-          <h4>Public Safety Professionals Include:</h4>
-          <ul className="PS-List">
-            <li>Dispatchers</li>
-            <li>Emergency Medical Service Personnel</li>
-            <li>Firefighters</li>
-            <li>Fire Marshalls</li>
-            <li>Law Enforcement</li>
-            <li>Corrections and Jail Staff</li>
-            <li>Parole and Probation</li>
-            <li>Search and Rescue Teams</li>
-          </ul>
-      </div>
-          <img alt="firefighters" src={fireLady} className="fireFighter-img" />
+          <Fade left>
+            <div className="ps-pros">
+                <h4>Public Safety Professionals Include:</h4>
+                <ul className="PS-List">
+                  <li>Dispatchers</li>
+                  <li>Emergency Medical Service Personnel</li>
+                  <li>Firefighters</li>
+                  <li>Fire Marshalls</li>
+                  <li>Law Enforcement</li>
+                  <li>Corrections and Jail Staff</li>
+                  <li>Parole and Probation</li>
+                  <li>Search and Rescue Teams</li>
+                </ul>
+            </div>
+          </Fade>
+          <Fade right>
+            <img alt="firefighters" src={fireLady} className="fireFighter-img" />
+          </Fade>
           </div>
         <br></br>
         <br></br>
         <br></br>
-      <PsCarousel className="ps-carousel" />
       <div className="button-parent">
           <Mailto className="a"  email="sales@previdence.com" subject="Public Safety Liaison" body="Hello">
             <button className="liaison">

@@ -566,13 +566,13 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(0deg, rgba(230, 230, 230, 0.822), rgba(230, 230, 230, 0.521) );
+  background: linear-gradient(0deg, rgba(230, 230, 230, 0.719), rgba(230, 230, 230, 0.37) );
 }
 
 .faith {
   padding: 5vh;
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 400;
   /* color: #b1b1b1; */
 }
 .faith-paragraphs-container{
@@ -665,7 +665,7 @@
 .pro-inner {
   padding: 20px;
   text-align: left;
-  background-image: url('../images/officeSetting.jpg');
+  background-image: url('../images/plantFlipped.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -726,35 +726,49 @@
 }
 /*----------------------CORRECTIONAL FACILITIES-------------------*/
 .corr-inner {
-  /* background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/leaf.jpg');
+  background-image: url('../images/lockAndKey.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  object-fit: cover; */
-  height: 100%; 
-  color: #cfcfcf;
-  background-color: #8f2a2b;
+  background-position: unset;
+  object-fit: cover;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
 }
-.corr-inner > h1 {
-  padding-top: 30px;
-  padding-bottom: 15px;
-  font-size: 60px;
+.corr-inner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(0deg, rgba(230, 230, 230, 0.932), rgba(230, 230, 230, 0.801) );
+}
+.correctional {
+  padding: 20px;
   font-weight: 300;
-  font-style: italic;
-  
+  font-size: 50px;
+}
+.corr-para {
+  border-left: 4px solid #8f2a2b;
+  text-align: left;
+  position: relative;
+  left: 10%;
 }
 .corr-para > p {
-  font-size: 20  px;
+  font-size: 20px;
   padding: 20px;
   font-weight: 500;
-  text-align: center;
 }
 .button-parent-corr {
+  padding-top: 50px;
   padding-bottom: 50px;
+  position: relative;
+  /* left: 12%; */
 }
 .cor-icon {
   display: flex;
@@ -841,42 +855,66 @@
 }
 /* ---------------------CORPORATIONS-------------------- */
 .corp-outer {
-  background-color: #8f2a2b;
-  color: #CFCFCF;
+  /* background-color: #8f2a2b; */
+  /* color: #CFCFCF; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  /* width: 100vw; */
 }
 .corp-inner {
+  background-image: url('../images/officeSetting.jpg');
+  background-size: cover;
+  background-position: unset;
+  object-fit: cover;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
-  width: 99%;
+}
+.corp-inner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(0deg, rgba(230, 230, 230, 0.678), rgba(230, 230, 230, 0.801) );
 }
 .corp-inner > img {
   width: 80%;
   height: auto;
 }
-.corp-outer > h1 {
-  padding-top: 40px;
-  padding-bottom: 40px;
+.corp-paragraph > h1 {
+  margin-top: 5vh;
+  font-size: 50px;
   font-weight: 300;
 }
 .corp-paragraph {
-  width: 30%;
-  padding: 0 20px 0 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-left: 4px solid #8f2a2b;
+  margin-top: 10vh;
+  padding: 0 20px 0 35px;
+  position: relative;
+  left: 5vw;
 }
 .corp-paragraph > p {
 text-align: center;
-font-size: 18px;
+font-size: 20px;
+text-align: left;
 font-weight: bolder;
 }
 .button-parent-corp {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 .corp-inner > img:hover {
   -webkit-box-shadow: 0px 20px 35px -16px rgba(255, 255, 255, 0.65);
