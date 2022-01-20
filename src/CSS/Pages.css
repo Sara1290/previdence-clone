@@ -765,8 +765,8 @@
   font-weight: 500;
 }
 .button-parent-corr {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 8%;
+  margin-bottom: 100px;
   position: relative;
   /* left: 12%; */
 }
@@ -1051,20 +1051,24 @@ font-weight: bolder;
 .social:hover {
   color: #7b0303a4;
 }
-.contact-outer {
+.contact-inner {
+  height: 100vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-.background {
-  background-image: url('../images/handsin.jpg');
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+}
+.background {
+  background-image: url('../images/handsin.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
 }
 .background::before {
   content: "";

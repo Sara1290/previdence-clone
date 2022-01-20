@@ -79,8 +79,8 @@ const Humanitarian = ({deviceType}) => {
       </div>
       <div className="hum-right-bottom">
           <Carousel className="hum-carousel"
-            swipeable={false}
-            draggable={false}
+            swipeable={true}
+            draggable={true}
             // showDots={true}
             responsive={responsive}
             // ssr={true} // means to render carousel on server-side.

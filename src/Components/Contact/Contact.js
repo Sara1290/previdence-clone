@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../NavBar';
 import ReactGA from 'react-ga';
 import ContactForm from './ContactForm';
+import UniFooter from '../UniFooter';
 require('dotenv').config();
 
 const Contact = () => {
@@ -17,9 +18,9 @@ const Contact = () => {
 
 
   return (
-    <div>
+    <div className="contact-outer">
       <NavBar />
-      <div className="contact-outer background" >
+      <div className="contact-inner background" >
       <div className="contact-details">
         <h1>Contact Details</h1>
         <h5>Address</h5>
@@ -43,6 +44,7 @@ const Contact = () => {
       <ContactForm />
     
       </div> 
+      <UniFooter />
     </div>
   )
 }
