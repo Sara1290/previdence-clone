@@ -55,12 +55,21 @@
     justify-content: center;
     align-items: center;
   } 
+  .corp-paragraph {
+    width: 90% !important;
+    left: 1vw !important;
+  }
   .corp-inner > img {
     width: 80%;
     height: auto;
   }
-  .corp-outer > h1 {
+  .corp-paragraph > h1 {
     font-size: 50px;
+    position: relative;
+    right: 7%;
+  }
+  .button-parent-corp {
+    width: 85%;
   }
   /*----- CORRECTIONAL ----------*/
   .corr-inner > h1 {
@@ -884,10 +893,10 @@
   /*-----CORPORATIONS-----*/
   .corp-inner {
     flex-direction: column !important;
-    margin: 10%;
+
   }
   .corp-paragraph {
-    width: 90vw !important;
+    /* width: 90vw !important; */
     position: relative;
     /* right: 43%; */
     margin-left: 20px !important;

@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import { HashLink as Links } from 'react-router-hash-link';
 import { NavDropdown, Navbar, Nav, Button, Container, NavLink } from 'react-bootstrap';
 import eLogo from '../images/eLogo.png'
+// import bigETransparent from '../images/bigETransparent.png'
 
 const NavBar = () => {
 
