@@ -9,6 +9,9 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 import { Fade } from "react-reveal";
 
+import PsCarousel from "./PsCarousel";
+import ScrollToTop from "../ScrollToTop";
+
 
 const PublicSafety = () => {
   ReactGA.pageview('src/Components/Public Safety/PublicSafety.js');
@@ -69,9 +72,10 @@ const PublicSafety = () => {
             <img alt="firefighters" src={fireLady} className="fireFighter-img" />
           </Fade>
           </div>
-        <br></br>
-        <br></br>
-        <br></br>
+            <br></br>
+            <br></br> 
+            <PsCarousel />
+            <br></br>
       <div className="button-parent">
           <Mailto className="a"  email="sales@previdence.com" subject="Public Safety Liaison" body="Hello">
             <button className="liaison">
@@ -90,6 +94,7 @@ const PublicSafety = () => {
 
      </div>
      <TestimonialsPS />
+     <ScrollToTop />
      <UniFooter />
     </div>
   );

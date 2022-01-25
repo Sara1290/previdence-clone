@@ -1,4 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+/*---------scroll to top btn----------------*/
+.to-top-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 25px;
+  background-color: rgba(27, 27, 27, 0.849);
+  color: white;
+  /* background-color: white;
+  color: black; */
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  z-index: 2;
+}
+.to-top-btn:hover {
+  background-color: black;
+}
+
 /*--------------UNIversal FOOTER-------------*/
 .uni-footer {
   background-color: white !important;
@@ -310,6 +335,23 @@
   font-family: 'Montserrat', sans-serif;
 }
 /*--------------------- PUBLIC SAFETY--------------------- */ 
+.blurb-container {
+  border: 2px solid orange;
+  width: 35%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.blurb {
+  width: 30%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .liaison {
   background-color: transparent;
@@ -362,6 +404,10 @@
 }
 .Left-inner {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .ps-pros {
   border-left: 4px solid #e4e4e4;
@@ -373,7 +419,7 @@
 .ps-para {
   width: 60vw;
   position: relative;
-  left: 20vw;
+  /* left: 20vw; */
   font-size: 18px;
 }
 .ps-para > p {
@@ -1206,6 +1252,7 @@ iframe {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
+  font-weight: bolder;
   /* padding-top: 4vh; */
 }
 .airbb-texts > h4 {

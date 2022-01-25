@@ -4,6 +4,7 @@ import NavBar from '../NavBar';
 import UniFooter from '../UniFooter';
 import { resources } from './data'
 import ReactGA from 'react-ga';
+import ScrollToTop from '../ScrollToTop';
 
 
 const Resources = () => {
@@ -138,6 +139,7 @@ return (
         : mappedSearch 
         }
       </div>
+      <ScrollToTop />
       <UniFooter />
     </div>
   )

@@ -33,7 +33,10 @@ const Corporations = () => {
               more productive workforce. Our incomparable mental health
               assessments inform key leaders about the strengths and risks of
               their organization, while keeping the individuals’ information
-              confidential. Additionally, the Previdence team provides customized
+              confidential. 
+              <br></br>
+              <br></br>
+              Additionally, the Previdence team provides customized
               mental health and wellness training, professional clinical support,
               and crisis response.
             </p>

@@ -18,6 +18,7 @@ import MarkModal from './MarkModal';
 import SaraModal from './SaraModal';
 import TiaModal from './TiaModal';
 import ReactGA from 'react-ga';
+import ScrollToTop from '../ScrollToTop';
 
 
 
@@ -236,6 +237,7 @@ const Team = () => {
           </div>
         </div>
       </section>
+      <ScrollToTop />
       <UniFooter />
     </div>
   );
