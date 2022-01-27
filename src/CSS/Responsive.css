@@ -75,6 +75,9 @@
   .corr-inner > h1 {
     padding-right: 18px;
   }
+  .button-parent-corr {
+    margin-top: 40%;
+  }
   /*----------- MILITARY--------*/
   .mili-inner > img {
     width: 345px;
@@ -551,8 +554,8 @@
   }
   .button-parent-corr {
     width: 85%;
-    left: 8%;
-    margin-top: 15%;  
+
+    margin-top: 40%;  
   }
   
   /* CORPORATIONS */
@@ -801,13 +804,9 @@
   }
   /*-- CORRECTIONAL-- */
   /* .button-parent-corr {
-    left: 12%;
-    margin-top: 10%;
-  }
-  .corr-para {
-    top: 10vh;
-    width: 85%;
-  } */
+    margin-top: 15%;
+  }  */
+
 
   /* --CORPORATIONS --*/
   .corp-inner {

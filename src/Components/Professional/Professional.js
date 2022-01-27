@@ -19,7 +19,7 @@ const Professional = () => {
   return (
     <div className="pro-outer background">
       <NavBar />
-      <div className="pro-inner">
+      <div className="pro-inner parallax-background">
         <Fade left>
 
         <div className="pro-container">
