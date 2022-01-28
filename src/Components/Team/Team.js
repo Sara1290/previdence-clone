@@ -146,8 +146,8 @@ const Team = () => {
                   <button className="open-button" onClick={openSaraModal}>
                     <img src={saraMarble2} alt="" className="team-img " />
                   <div className="overlay">
-                    <p>Sara Allen, ME</p>
-                    <p>Public Safety Liaison</p>
+                    <p style={{color: 'black'}}>Sara Allen, ME</p>
+                    <p style={{color: 'black'}}>Public Safety Liaison</p>
                   </div>
                   </button>
                 </div>
@@ -202,9 +202,9 @@ const Team = () => {
                 <div className="thumb-corporate__main team-member-container">
                   <button className="open-button" onClick={openCodyModal}>
                     <img src={codyNew} alt="" className="team-img " />
-                  <div className="overlay">
-                    <p>Cody Wilson</p>
-                    <p>PPN Manager</p>
+                  <div className="overlay" >
+                    <p style={{color: 'black'}}>Cody Wilson</p>
+                    <p style={{color: 'black'}}>PPN & CCS Manager</p>
                   </div>
                   </button>
                 </div>
