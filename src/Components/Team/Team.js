@@ -6,7 +6,9 @@ import markMarble2 from '../../images/markMarble2.png';
 import tiaMarble from '../../images/tiaMarble.png';
 import saraMarble2 from '../../images/saraMarble2.png';
 import codyNew from '../../images/codyNew.png';
-import johnnyMarble from '../../images/johnnyMarble.jpg'
+import johnnyMarble from '../../images/johnnyMarble.jpg';
+// import StevieMarble from '../../images/StevieMarble.png';
+import StevieMarble2 from '../../images/StevieMarble2.png';
 import '../../CSS/Pages.css';
 import '../../CSS/App.css';
 import UniFooter from '../UniFooter';
@@ -17,6 +19,7 @@ import KentModal from './KentModal';
 import MarkModal from './MarkModal';
 import SaraModal from './SaraModal';
 import TiaModal from './TiaModal';
+import StevieModal from './StevieModal';
 import ReactGA from 'react-ga';
 import ScrollToTop from '../ScrollToTop';
 
@@ -34,6 +37,7 @@ const Team = () => {
   const [showMarkModal, setShowMarkModal] = useState(false);
   const [showSaraModal, setShowSaraModal] = useState(false);
   const [showTiaModal, setShowTiaModal] = useState(false);
+  const [showStevieModal, setShowStevieModal] = useState(false);
   const modalRef = useRef();
 
   //one function to open each team members modal .. we need a function with unique naming so that we don't open and close modals simultaneously.
@@ -58,6 +62,9 @@ const Team = () => {
   const openTiaModal = () => {
     setShowTiaModal(prev => !prev)
   };
+  const openStevieModal = () => {
+    setShowStevieModal(prev => !prev)
+  };
   
   
   //function will close all modals
@@ -70,6 +77,7 @@ const Team = () => {
       setShowMarkModal(false)
       setShowSaraModal(false)
       setShowTiaModal(false)
+      setShowStevieModal(false)
     }
     console.log('clicked')
   }
@@ -91,6 +99,8 @@ const Team = () => {
       <div className={(showSaraModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowSaraModal(prev => !prev)} >
       </div>
       <div className={(showTiaModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowTiaModal(prev => !prev)} >
+      </div>
+      <div className={(showStevieModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowStevieModal(prev => !prev)} >
       </div>
 
       <NavBar />
@@ -230,6 +240,24 @@ const Team = () => {
               <JohnOModal
                 showJohnOModal={showJohnOModal}
                 setShowJohnOModal={setShowJohnOModal}
+                />
+            </div>
+
+            <div className="col-md-6 col-lg-4 ">
+              <div className="thumb thumb-corporate">
+                <div className="thumb-corporate__main team-member-container">
+                  <button className="open-button" onClick={openStevieModal}>
+                    <img src={StevieMarble2} alt="" className="team-img " />
+                  <div className="overlay" >
+                    <p style={{color: 'black'}}>Stevie Rentmeister</p>
+                    <p style={{color: 'black'}}>Office Manager</p>
+                  </div>
+                  </button>
+                </div>
+              </div>
+              <StevieModal
+                showStevieModal={showStevieModal}
+                setShowStevieModal={setShowStevieModal}
                 />
             </div>
 

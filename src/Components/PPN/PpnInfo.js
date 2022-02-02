@@ -3,10 +3,14 @@ import NavBar from "../NavBar";
 import Fade from "react-reveal/Fade";
 import ppnTherapist2Small from "../../images/ppnTherapist2Small.jpg";
 import ppnTherapist3Small from "../../images/ppnTherapist3Small.jpg";
-import ppnTherapist1Small from "../../images/ppnTherapist1Small.jpg";
+// import ppnTherapist1Small from "../../images/ppnTherapist1Small.jpg";
+import faithImage3Small from "../../images/faithImage3Small.jpg";
+
+import therapist from '../../images/therapist.jpg';
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import UniFooter from "../UniFooter";
+
 
 const PpnInfo = () => {
   return (
@@ -35,13 +39,14 @@ const PpnInfo = () => {
           </Fade>
           <Fade right>
             <div className="text-right">
-              <h1> Welcome Providers!</h1>
+              <h1>Welcome, Providers, to your personal PPN website.</h1>
               <p>
-                You're beautiful, we love you, happy to have you etc etc etc.
-                <br></br>This page has lots of information for you. <br></br>
-                <br></br> Below is a welcome video. you'll also find training
-                schedules as well as an assessment training and a culture
-                training.
+                This page gives you access to valuable information regarding
+                Previdence instructional trainings, clinical discussion groups,
+                and upcoming ART training dates.
+                <br></br>Please watch the short video below for an explanation
+                of the content of this page. We highly appreciate and value your
+                willingness to assist us in this great work!
               </p>
               <Link
                 to="/contact"
@@ -59,20 +64,20 @@ const PpnInfo = () => {
         </div>
         <div className="welcome-vid-container">
           <Fade left>
-                <div
-                  className="assessment-training-vid"
-                  style={{ padding: 0, margin: 0 }}
-                  >
-                  <iframe
-                    src="https://player.vimeo.com/video/659743288?h=be615770b4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                    frameBorder="0"
-                    allow="autoplay; fullscreen; picture-in-picture"
-                    allowFullScreen
-                    className="iframe-video"
-                    // style={{width: 700, height: 700 }}
-                    title="Sara Allen Assessment Training - 12/23/2021, 11:50:48 AM"
-                    ></iframe>
-                </div>
+            <div
+              className="assessment-training-vid"
+              style={{ padding: 0, margin: 0 }}
+            >
+              <iframe
+                src="https://player.vimeo.com/video/672790661?h=99e73987a5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                className="iframe-video"
+                // style={{width: 700, height: 700 }}
+                title="Welcome Video - 12/23/2021, 11:50:48 AM"
+              ></iframe>
+            </div>
           </Fade>
         </div>
         <div className="ppn-trainings-outer">
@@ -91,13 +96,10 @@ const PpnInfo = () => {
                 <div className="utah-trainings">
                   <h2>Utah Providers</h2>
                   <p>
-                    <a
+                    {/* <a
                       href="https://us02web.zoom.us/j/5860273747?pwd=OTIwdndJMjQ1eVIxdkYvSEdSK1VLUT09"
-                      className="link"
-                    >
-                      January 12th - ART - with Laney Rosenzwig <br></br> Remote
-                      via Zoom 6pm Mountain Standard Time
-                    </a>
+                      className="link"> </a>*/}
+                      Trainings Coming Soon
                   </p>
                 </div>
               </Fade>
@@ -110,7 +112,7 @@ const PpnInfo = () => {
                   </h5>
                   <p>
                     <a
-                      href="https://acceleratedresolutiontherapy.com/"
+                      href="https://acceleratedresolutiontherapy.com/reg/icat.php?course=Basic"
                       className="link"
                     >
                       Accelerated Resolution Therapy
@@ -118,10 +120,10 @@ const PpnInfo = () => {
                   </p>
                   <p>
                     <a
-                      href="https://acceleratedresolutiontherapy.com/"
+                      href="https://artherapyinternational.org/events/maps/ "
                       className="link"
                     >
-                      Accelerated Resolution Therapy
+                      Accelerated Resolution Therapy Event Locations
                     </a>
                   </p>
                 </div>
@@ -137,6 +139,9 @@ const PpnInfo = () => {
                 style={{ padding: 0, margin: 0 }}
               >
                 <h2>Culture Training</h2>
+                <h5 style={{fontWeight: 400,}}>See 
+                   <a className="link-ppn" target="_blank" rel="noreferrer" href="localhost:3000/#/additionalresources"> Additional Resources </a>  
+                  for the slides featured in the Culture Training Video</h5>
                 <iframe
                   src="https://player.vimeo.com/video/666866491?h=026d5193ac&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                   frameBorder="0"
@@ -144,7 +149,7 @@ const PpnInfo = () => {
                   allowFullScreen
                   className="iframe-video"
                   // style={{width: 700, height: 700 }}
-                  title="Sara Allen Assessment Training - 12/23/2021, 11:50:48 AM"
+                  title="Culture Training - 12/23/2021, 11:50:48 AM"
                 ></iframe>
               </div>
             </div>
@@ -152,20 +157,20 @@ const PpnInfo = () => {
           <Fade right>
             <div className="vid-wrapper">
               <div className="assessment-training-vid" style={{ padding: 0, margin: 0 }}>
-                 <h2>Assessment Training</h2>
-                <iframe
-                  src="https://player.vimeo.com/video/659743288?h=be615770b4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen; picture-in-picture"
-                  allowFullScreen
-                  className="iframe-video"
-                  // style={{width: 700, height: 700 }}
-                  title="Sara Allen Assessment Training - 12/23/2021, 11:50:48 AM"
+                <h2>Assessment Training</h2>
+                <h5 style={{
+                  fontWeight: 400,
+                }} >See 
+                   <a className="link-ppn" target="_blank" rel="noreferrer" href="localhost:3000/#/additionalresources"> Additional Resources </a>  
+                  for the slides featured in the Assessment Training Video</h5>
+                <iframe src="https://player.vimeo.com/video/672459507?h=4e9ca734ce&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen className="iframe-video" // style={{width: 700, height: 700 }} 
+                title="PPN Assessment Training"
                 ></iframe>
               </div>
               <script src="https://player.vimeo.com/api/player.js"></script>
             </div>
           </Fade>
+
         </div>
         <div className="image-right-text-left clinical-directors-message">
           <Fade right>
@@ -173,7 +178,7 @@ const PpnInfo = () => {
               <img
                 className="img-right"
                 alt="therapist and client animation"
-                src={ppnTherapist1Small}
+                src={therapist}
               />
             </div>
           </Fade>
@@ -182,20 +187,12 @@ const PpnInfo = () => {
               <h1> Clinical Director's Message.</h1>
               <FaQuoteLeft />
               <p>
-                We can update this once a week or whatever is needed, whenever
-                the Clinical Director has a new message to share.
+              As we start out this year, I like a lot of individuals think about goals and what I’m going to do for the new year.  As therapists there is something that I would like you to consider as you look at your therapy goals.  Do you instill hope into the lives of your clients?  I have found over the lifetime of my career that when my clients have hope, it is usually followed up with change.
               </p>
               <FaQuoteRight />
             </div>
           </Fade>
         </div>
-
-        {/* <ContactForm /> */}
-        {/* <div className="addtl-resources">
-          <Link to="/additionalresources" className="link t-link">
-            Find Additional Resources Here
-          </Link>
-        </div> */}
         <UniFooter />
       </div>
     </div>

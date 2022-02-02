@@ -1392,7 +1392,7 @@ margin: 5vh 0 5vh 0;
   align-items: center;
 }
 .text-right h1 {
-  width: 75%;
+  width: 80%;
 }
 .text-right p {
   width: 65%;
@@ -1408,6 +1408,7 @@ margin: 5vh 0 5vh 0;
   width: 100%;
   background-color: #fff;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -1458,6 +1459,7 @@ margin: 5vh 0 5vh 0;
 .img-right {
   width: 70%;
   border-radius: 10px;
+  box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
 }
 /* div containing the 2 training videos*/
 .training-videos-container {
@@ -1547,4 +1549,24 @@ margin: 5vh 0 5vh 0;
 .addtl-resources {
   margin-top: 20vh;
   margin-bottom: 10vh;
+}
+.link-ppn {
+  font-style: italic;
+  text-decoration: none;
+  color: #111921;
+}
+.link-ppn:hover {
+  color: #8f2a2b;
+  font-style: italic;
+}
+/*----------additional resources--------*/
+.addl-outer {
+  background-color: #f1f1f1;
+
+}
+.slides-container {
+  background-color: #f1f1f1;
+  position: relative;
+  top: 10vh;
+  margin-bottom: 15vh;
 }
