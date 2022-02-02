@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import ppnTherapist2Small from "../../images/ppnTherapist2Small.jpg";
 import ppnTherapist3Small from "../../images/ppnTherapist3Small.jpg";
 // import ppnTherapist1Small from "../../images/ppnTherapist1Small.jpg";
-import faithImage3Small from "../../images/faithImage3Small.jpg";
+// import faithImage3Small from "../../images/faithImage3Small.jpg";
 
 import therapist from '../../images/therapist.jpg';
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
@@ -140,10 +140,10 @@ const PpnInfo = () => {
               >
                 <h2>Culture Training</h2>
                 <h5 style={{fontWeight: 400,}}>See 
-                   <a className="link-ppn" target="_blank" rel="noreferrer" href="localhost:3000/#/additionalresources"> Additional Resources </a>  
+                   <a className="link-ppn" target="_blank" rel="noreferrer" href="https://previdence.com/#/additionalresources"> Additional Resources </a>  
                   for the slides featured in the Culture Training Video</h5>
                 <iframe
-                  src="https://player.vimeo.com/video/666866491?h=026d5193ac&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                  src="https://player.vimeo.com/video/672921028?h=6ce79dbb3f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                   frameBorder="0"
                   allow="autoplay; fullscreen; picture-in-picture"
                   allowFullScreen
@@ -161,7 +161,7 @@ const PpnInfo = () => {
                 <h5 style={{
                   fontWeight: 400,
                 }} >See 
-                   <a className="link-ppn" target="_blank" rel="noreferrer" href="localhost:3000/#/additionalresources"> Additional Resources </a>  
+                   <a className="link-ppn" target="_blank" rel="noreferrer" href="https://previdence.com/#/additionalresources"> Additional Resources </a>  
                   for the slides featured in the Assessment Training Video</h5>
                 <iframe src="https://player.vimeo.com/video/672459507?h=4e9ca734ce&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen className="iframe-video" // style={{width: 700, height: 700 }} 
                 title="PPN Assessment Training"
@@ -187,7 +187,11 @@ const PpnInfo = () => {
               <h1> Clinical Director's Message.</h1>
               <FaQuoteLeft />
               <p>
-              As we start out this year, I like a lot of individuals think about goals and what I’m going to do for the new year.  As therapists there is something that I would like you to consider as you look at your therapy goals.  Do you instill hope into the lives of your clients?  I have found over the lifetime of my career that when my clients have hope, it is usually followed up with change.
+              As therapists there is something I would like you to consider as you look at your therapy goals: Do you instill hope into the lives of your clients? 
+Our first responders experience a tremendous amount of ongoing stress. Our role as therapists is to help them get their lives back in the fastest way possible. 
+When someone comes into my office who has experienced trauma, I try to have them leave with hope. I'm hoping many of you have discovered that when you use ART in your FIRST SESSION, your clients walk away with a smile and maybe, for the first time in many months, don't feel the heavy load they have been carrying. It is still a wonder to me that after just 3-4 sessions an individual who has experienced horrible things can say to me, "I've gotten my life back'. 
+That's the Previdence way!
+
               </p>
               <FaQuoteRight />
             </div>
