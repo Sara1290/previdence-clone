@@ -1459,7 +1459,7 @@ margin: 5vh 0 5vh 0;
 .img-right {
   width: 70%;
   border-radius: 10px;
-  box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.233);
 }
 /* div containing the 2 training videos*/
 .training-videos-container {

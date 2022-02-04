@@ -12,15 +12,15 @@ const history = createBrowserHistory();
 
 const Router = HashRouter;
 
-// const TRACKING_ID = process.env.REACT_APP_GA_TRACKING_ID; // YOUR_OWN_TRACKING_ID
-// ReactGA.initialize(TRACKING_ID, {
-//   debug: true,
-//   titleCase: false,
-//   gaOptions: {
-//     userId: '198972821',
-//     siteSpeedSampleRate: 100
-//   }
-// });;
+const TRACKING_ID = process.env.REACT_APP_GA_TRACKING_ID; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID, {
+  debug: true,
+  titleCase: false,
+  gaOptions: {
+    userId: '198972821',
+    siteSpeedSampleRate: 100
+  }
+});;
 
 history.listen(location => {
   ReactGA.set({ page: location.pathname }); // Update the user's current page

@@ -635,9 +635,7 @@
     width: 80vw !important;
   }
 
-  .left-img-wrapper, .right-img-wrapper, .left-img-wrapper2 {
-    display: none;
-  }
+ 
   
   /* .ppn-trainings-outer {
     width: 100%;
@@ -953,6 +951,9 @@
     flex-direction: column;
     align-items: stretch;
   } 
+  .left-img-wrapper, .right-img-wrapper, .left-img-wrapper2 {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1159px) {

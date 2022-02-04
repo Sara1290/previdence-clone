@@ -3,13 +3,13 @@ import NavBar from "../NavBar";
 import Fade from "react-reveal/Fade";
 import ppnTherapist2Small from "../../images/ppnTherapist2Small.jpg";
 import ppnTherapist3Small from "../../images/ppnTherapist3Small.jpg";
+import kentMarble from '../../images/kentMarble.png'
 // import ppnTherapist1Small from "../../images/ppnTherapist1Small.jpg";
 // import faithImage3Small from "../../images/faithImage3Small.jpg";
-
-import therapist from '../../images/therapist.jpg';
+// import therapist from '../../images/therapist.jpg';
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import UniFooter from "../UniFooter";
+import PpnFooter from "../PpnFooter";
 
 
 const PpnInfo = () => {
@@ -39,7 +39,7 @@ const PpnInfo = () => {
           </Fade>
           <Fade right>
             <div className="text-right">
-              <h1>Welcome, Providers, to your personal PPN website.</h1>
+              <h1>Thank you, for joining us in this great work</h1>
               <p>
                 This page gives you access to valuable information regarding
                 Previdence instructional trainings, clinical discussion groups,
@@ -139,7 +139,9 @@ const PpnInfo = () => {
                 style={{ padding: 0, margin: 0 }}
               >
                 <h2>Culture Training</h2>
-                <h5 style={{fontWeight: 400,}}>See 
+                <h5 style={{
+                  fontWeight: 400,
+                }} >See 
                    <a className="link-ppn" target="_blank" rel="noreferrer" href="https://previdence.com/#/additionalresources"> Additional Resources </a>  
                   for the slides featured in the Culture Training Video</h5>
                 <iframe
@@ -178,7 +180,7 @@ const PpnInfo = () => {
               <img
                 className="img-right"
                 alt="therapist and client animation"
-                src={therapist}
+                src={kentMarble}
               />
             </div>
           </Fade>
@@ -188,8 +190,8 @@ const PpnInfo = () => {
               <FaQuoteLeft />
               <p>
               As therapists there is something I would like you to consider as you look at your therapy goals: Do you instill hope into the lives of your clients? 
-Our first responders experience a tremendous amount of ongoing stress. Our role as therapists is to help them get their lives back in the fastest way possible. 
-When someone comes into my office who has experienced trauma, I try to have them leave with hope. I'm hoping many of you have discovered that when you use ART in your FIRST SESSION, your clients walk away with a smile and maybe, for the first time in many months, don't feel the heavy load they have been carrying. It is still a wonder to me that after just 3-4 sessions an individual who has experienced horrible things can say to me, "I've gotten my life back'. 
+Our first responders experience a tremendous amount of ongoing stress. Our role as therapists is to help them get their lives back in the fastest way possible. <br></br>
+When someone comes into my office who has experienced trauma, I try to have them leave with hope. I'm hoping many of you have discovered that when you use ART in your FIRST SESSION, your clients walk away with a smile and maybe, for the first time in many months, don't feel the heavy load they have been carrying.<br></br> It is still a wonder to me that after just 3-4 sessions an individual who has experienced horrible things can say to me, "I've gotten my life back'. 
 That's the Previdence way!
 
               </p>
@@ -197,7 +199,7 @@ That's the Previdence way!
             </div>
           </Fade>
         </div>
-        <UniFooter />
+        <PpnFooter />
       </div>
     </div>
   );
