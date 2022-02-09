@@ -13,6 +13,7 @@ import PpnFooter from "../PpnFooter";
 
 
 const PpnInfo = () => {
+
   return (
     <div>
       <NavBar />
@@ -96,10 +97,12 @@ const PpnInfo = () => {
                 <div className="utah-trainings">
                   <h2>Utah Providers</h2>
                   <p>
-                    {/* <a
-                      href="https://us02web.zoom.us/j/5860273747?pwd=OTIwdndJMjQ1eVIxdkYvSEdSK1VLUT09"
-                      className="link"> </a>*/}
-                      Trainings Coming Soon
+                     March 9 - 11  
+                     Weber School District
+                  </p>
+                  <p>
+                     March 10 - 12  
+                     Sutton Clinical Services
                   </p>
                 </div>
               </Fade>
