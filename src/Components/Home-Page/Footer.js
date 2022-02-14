@@ -20,7 +20,7 @@ return (
     <h5>
       Contact
     </h5>
-      <p>Address: 5685 S 1475 E, Suite 2B
+      <p>Address: 5742 S 1475 E, Suite 200 
         <br></br>
         South Ogden, UT 84403
       </p> 

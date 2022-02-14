@@ -22,7 +22,7 @@ const UniFooter = () => {
       <div className="footer-icons">
         <FaMapMarkerAlt className="footer-icon" />
       </div>
-        <p> Address: 5685 S 1475 E, <br></br>Suite 2B South Ogden, UT 84403</p>
+        <p> Address: 5742 S 1475 E, <br></br>Suite 200, South Ogden, UT 84403</p>
         <div className="footer-line"></div>
      </div>
 
