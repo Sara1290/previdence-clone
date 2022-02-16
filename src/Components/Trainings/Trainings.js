@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
 import NavBar from '../NavBar';
 import ShopifyBuy from '@shopify/buy-button-js';
-// import train2 from '../../images/train2.png'
-import UniFooter from '../UniFooter';
+// import train2 from '../../images/train2.png';
 import ReactGA from 'react-ga';
+import TrainingFooter from '../TrainingFooter';
 
 const Trainings = () => {
   ReactGA.pageview('src/Components/Trainings/Trainings.js');
@@ -27,7 +27,7 @@ const Trainings = () => {
     
     //Feb 1 & 2 
     ui.createComponent('productSet', {
-      id: [7128189075633],
+      id: [7128189075633, 7130049052849],
       node: document.getElementById('my-product'),
       options: {
         product: {
@@ -66,7 +66,7 @@ return (
       <div className="courses-container" id="my-product">
       </div>
       </div>
-      <UniFooter />
+      <TrainingFooter />
     </div>
   )
 }
