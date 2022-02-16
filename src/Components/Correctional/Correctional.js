@@ -42,7 +42,7 @@ const Correctional = () => {
             </p>
           </div>
         <div className="button-parent-corr">
-          <Mailto className="a" email="sales@previdence.com" subject="Correctional Facility Liaison" body="Hello">
+          <Mailto className="a" email="liaisons@previdence.com" subject="Correctional Facility Liaison" body="Hello">
             <button className="liaison-dark">
               CONTACT OUR CORRECTIONAL LIAISON
             </button>
