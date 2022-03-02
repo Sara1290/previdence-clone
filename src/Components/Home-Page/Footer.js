@@ -36,10 +36,7 @@ return (
 
   <div className="about">
     <h5>About</h5>
-    <p className="">Our Previdence mission is crystal clear: we have pioneered a full “Personalized
-       Mental Health Platform” for the mental health and behavioral science industry. We are known around the
-       world in mental health professional settings as the go-to-platform that is grounded in science and
-       outcomes.
+    <p className="">Our Previdence mission is crystal clear: Heal individuals and families one mind at a time. 
        <br></br> 
        <br></br>
        We discover, create, develop, and deliver the best tools, diagnostics, practices and

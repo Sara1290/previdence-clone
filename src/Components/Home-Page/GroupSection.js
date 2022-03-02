@@ -12,6 +12,7 @@ const GroupSection = () => {
 
 
       <h1>Personalized Mental Wellness Platform</h1>
+      {/* <h5 style={{fontStyle: "italic"}}>Saving lives one mind at a time</h5> */}
       <div className="group-wrapper">
         <div className="group-item">
         <img className="group-img" alt="" src={individuals}/>
