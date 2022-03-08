@@ -401,6 +401,7 @@ p {
 .about > p {
   width: 30vw;
   font-size: 14px;
+  font-weight: 400;
 }
 .about > h5 {
   text-align: left;
