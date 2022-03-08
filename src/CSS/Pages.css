@@ -1533,6 +1533,10 @@ margin: 5vh 0 5vh 0;
 .utah-trainings {
   margin-bottom: 10vh;
 }
+.monthly-clinicals {
+  position: relative;
+  right: 10px;
+}
 .text-training {
   width: 100%;
   display: flex;

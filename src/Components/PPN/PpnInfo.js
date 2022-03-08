@@ -4,15 +4,14 @@ import Fade from "react-reveal/Fade";
 import ppnTherapist2Small from "../../images/ppnTherapist2Small.jpg";
 import ppnTherapist3Small from "../../images/ppnTherapist3Small.jpg";
 import kentMarble from '../../images/kentMarble.png'
-// import ppnTherapist1Small from "../../images/ppnTherapist1Small.jpg";
-// import faithImage3Small from "../../images/faithImage3Small.jpg";
-// import therapist from '../../images/therapist.jpg';
+import ReactGA from 'react-ga';
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import PpnFooter from "../PpnFooter";
 
 
 const PpnInfo = () => {
+  ReactGA.pageview('src/Components/PPN/PpnInfo.js');
 
   return (
     <div>
@@ -107,10 +106,10 @@ const PpnInfo = () => {
                 </div>
               </Fade>
               <Fade right>
-                <div>
+                <div className="">
                   <h2>National Providers</h2>
                   <h5>
-                    Visit the ART websites below to check for available
+                    Visit the ART websites below<br></br> to check for available
                     trainings
                   </h5>
                   <p>
@@ -133,6 +132,59 @@ const PpnInfo = () => {
               </Fade>
             </div>
           </div>
+          <Fade left>
+                <div className="monthly-clinicals">
+                  <h2>Monthly Clinicals</h2>
+                  <h5>These clinicals will include a 15 minute training led by Kent Allen,<br></br> followed by a Q&A collaboration session with the attendees.</h5>
+            <div>
+                  <p>
+                     April 14th<br></br> 
+                     6p - 7p Mountain Time<br></br>
+                     <a
+                      href=" https://us02web.zoom.us/j/87918245986?pwd=dXJWNDJhN0NwUmlTZVhKUy90UnhlQT09"
+                      className="link"
+                      style={{
+                        fontWeight: 400,
+                        fontStyle: "italic",
+                        color: "#8f2a2b",
+                      }}
+                    >
+                      Join Here
+                    </a>
+                  </p>
+                  <p>
+                     May 12th <br></br>  
+                     6p - 7p Mountain Time<br></br>
+                     <a
+                      href=" https://us02web.zoom.us/j/87918245986?pwd=dXJWNDJhN0NwUmlTZVhKUy90UnhlQT09"
+                      className="link"
+                      style={{
+                        fontWeight: 400,
+                        fontStyle: "italic",
+                        color: "#8f2a2b",
+                      }}
+                    >
+                      Join Here
+                    </a>
+                  </p>
+                  <p>
+                     June 9th <br></br>  
+                     6p - 7p Mountain Time<br></br>
+                     <a
+                      href=" https://us02web.zoom.us/j/87918245986?pwd=dXJWNDJhN0NwUmlTZVhKUy90UnhlQT09"
+                      className="link"
+                      style={{
+                        fontWeight: 400,
+                        fontStyle: "italic",
+                        color: "#8f2a2b",
+                      }}
+                      >
+                      Join Here
+                    </a>
+                  </p>
+                </div>
+              </div>
+              </Fade>
         </div>
         <div className="training-videos-container">
           <Fade left>
