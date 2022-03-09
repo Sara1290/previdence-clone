@@ -36,7 +36,7 @@ return (
 
   <div className="about">
     <h5>About</h5>
-    <p className="footer-p">Our Previdence mission is crystal clear: Heal individuals and families one mind at a time. 
+    <p className="footer-p">Our Previdence mission: Heal individuals and families one mind at a time. 
        <br></br> 
        <br></br>
        We discover, create, develop, and deliver the best tools, diagnostics, practices and
