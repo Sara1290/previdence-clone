@@ -103,6 +103,22 @@ const PpnInfo = () => {
                      March 10 - 12  
                      Sutton Clinical Services
                   </p>
+                  <p>
+                    April 28 - 30 
+                    Ogden
+                  </p>
+                  <p>
+                    June 16 - 18 
+                    Ogden
+                  </p>
+                  <p>
+                    August 25 - 27 
+                    Ogden
+                  </p>
+                  <p>
+                    October 20 - 22 
+                    Ogden
+                  </p>
                 </div>
               </Fade>
               <Fade right>
@@ -245,9 +261,9 @@ const PpnInfo = () => {
               <FaQuoteLeft />
               <p>
               As therapists there is something I would like you to consider as you look at your therapy goals: Do you instill hope into the lives of your clients? 
-Our first responders experience a tremendous amount of ongoing stress. Our role as therapists is to help them get their lives back in the fastest way possible. <br></br>
-When someone comes into my office who has experienced trauma, I try to have them leave with hope. I'm hoping many of you have discovered that when you use ART in your FIRST SESSION, your clients walk away with a smile and maybe, for the first time in many months, don't feel the heavy load they have been carrying.<br></br> It is still a wonder to me that after just 3-4 sessions an individual who has experienced horrible things can say to me, "I've gotten my life back'. 
-That's the Previdence way!
+              Our first responders experience a tremendous amount of ongoing stress. Our role as therapists is to help them get their lives back in the fastest way possible. <br></br>
+              When someone comes into my office who has experienced trauma, I try to have them leave with hope. I'm hoping many of you have discovered that when you use ART in your FIRST SESSION, your clients walk away with a smile and maybe, for the first time in many months, don't feel the heavy load they have been carrying.<br></br> It is still a wonder to me that after just 3-4 sessions an individual who has experienced horrible things can say to me, "I've gotten my life back'. 
+              That's the Previdence way!
 
               </p>
               <FaQuoteRight />
