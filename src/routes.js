@@ -18,6 +18,7 @@ import OfdTips from './Components/Tips/OfdTips';
 import Ppn from './Components/Surveys/Ppn';
 import PpnNv from './Components/Surveys/PpnNv';
 import PpnAdditional from './Components/Surveys/PpnAddtional';
+import PostTraining from './Components/Surveys/PostTraining';
 import CrisisResponse from './Components/Surveys/CrisisResponse';
 import InClinicArt from './Components/Surveys/InClincArt';
 import ClientFollowUp from './Components/Surveys/ClientFollowUp';
@@ -53,6 +54,7 @@ export default (
     <Route path="/ppn" component={Ppn} />
     <Route path="/ppn-nv" component={PpnNv} />
     <Route path="/ppnadditional" component={PpnAdditional} />
+    <Route path="/posttraining" component={PostTraining} />
     <Route path="/crisisresponse" component={CrisisResponse} />
     <Route path="/inclinicart" component={InClinicArt} />
     <Route path="/clientfollowup" component={ClientFollowUp} />
