@@ -1530,6 +1530,9 @@ margin: 5vh 0 5vh 0;
 .left-img-wrapper2 {
   width: 60%;
 }
+.national-trainings p {
+  text-align: center;
+}
 .utah-trainings {
   margin-bottom: 10vh;
 }
@@ -1542,6 +1545,9 @@ margin: 5vh 0 5vh 0;
 .monthly-clinicals {
   position: relative;
   right: 10px;
+}
+.monthly-clinicals p {
+  text-align: center;
 }
 .text-training {
   width: 100%;

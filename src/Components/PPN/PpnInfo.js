@@ -123,7 +123,7 @@ const PpnInfo = () => {
                 </div>
               </Fade>
               <Fade right>
-                <div className="">
+                <div className="national-trainings">
                   <h2>National Providers</h2>
                   <h5>
                     Visit the ART websites via the links below<br></br> to check for available
