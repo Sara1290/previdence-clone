@@ -91,18 +91,14 @@ const PpnInfo = () => {
 
           <div className="text-training">
             <h1> Information About Trainings </h1>
+            <p>Reminder: Please contact Previdence Therapist Advocate Team for Basic ART registration information / non profit discount.</p>
+            <br></br>
+            <br></br>
             <div className="training-columns">
               <Fade left>
                 <div className="utah-trainings">
                   <h2>Utah Providers</h2>
-                  <p>
-                     March 9 - 11  
-                     Weber School District
-                  </p>
-                  <p>
-                     March 10 - 12  
-                     Sutton Clinical Services
-                  </p>
+                  <h5>ART - Basic Training</h5>
                   <p>
                     April 28 - 30 
                     Ogden
@@ -119,19 +115,29 @@ const PpnInfo = () => {
                     October 20 - 22 
                     Ogden
                   </p>
+                  <h5>ART - Advanced and Enhanced</h5>
+                  <p>
+                   May 5 - 8  
+                    Salt Lake City
+                  </p>
                 </div>
               </Fade>
               <Fade right>
                 <div className="">
                   <h2>National Providers</h2>
                   <h5>
-                    Visit the ART websites below<br></br> to check for available
+                    Visit the ART websites via the links below<br></br> to check for available
                     trainings
                   </h5>
                   <p>
                     <a
-                      href="https://acceleratedresolutiontherapy.com/reg/icat.php?course=Basic"
+                      href="https://acceleratedresolutiontherapy.com/"
                       className="link"
+                      style={{
+                        fontWeight: 400,
+                        fontStyle: "italic",
+                        color: "#8f2a2b",
+                      }}
                     >
                       Accelerated Resolution Therapy
                     </a>
@@ -139,9 +145,15 @@ const PpnInfo = () => {
                   <p>
                     <a
                       href="https://artherapyinternational.org/events/maps/ "
+                      
                       className="link"
+                      style={{
+                        fontWeight: 400,
+                        fontStyle: "italic",
+                        color: "#8f2a2b",
+                      }}
                     >
-                      Accelerated Resolution Therapy Event Locations
+                      ART International
                     </a>
                   </p>
                 </div>

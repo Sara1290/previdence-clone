@@ -1533,6 +1533,12 @@ margin: 5vh 0 5vh 0;
 .utah-trainings {
   margin-bottom: 10vh;
 }
+.utah-trainings p {
+  text-align: center;
+}
+.utah-trainings h5 {
+  border-bottom: 1px solid #8f2a2b;
+}
 .monthly-clinicals {
   position: relative;
   right: 10px;

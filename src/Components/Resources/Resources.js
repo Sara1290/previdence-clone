@@ -89,6 +89,7 @@ console.log(resources)
 let mappedSearch = searchResults.map((resources) => {
   console.log(resources.alpha)
   return (
+    // if the object contains an alpha value, handle it this way. If no alpha value, handle it a different way.
     resources.alpha 
     ? <div className="card-container">
         <div className="rsc-header" >  
@@ -134,6 +135,7 @@ return (
       <h1 id="h3">Resources</h1>
       <input className="resource-input" type="text" placeholder="Search" value={search} onChange={handleChange} />
       <div className="resources">
+        {/* basically saying if there is 0 search length return the original mapped, and if there is ANY amount of search text then return the searched results */}
         {searchResults.length < 1 
         ? mappedResources 
         : mappedSearch 
