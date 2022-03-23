@@ -27,12 +27,12 @@ const Trainings = () => {
     
     //Feb 1 & 2 
     ui.createComponent('productSet', {
-      id: [7128189075633, 7130049052849],
+      id: [7130049052849, 7128189075633, 7166845583537],
       node: document.getElementById('my-product'),
       options: {
         product: {
           buttonDestination: 'modal',
-          // layout: 'horizontal',
+          layout: 'horizontal',
           contents: {
             descrition: true
           }
