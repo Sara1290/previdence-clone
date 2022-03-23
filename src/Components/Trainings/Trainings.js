@@ -32,9 +32,13 @@ const Trainings = () => {
       options: {
         product: {
           buttonDestination: 'modal',
-          layout: 'horizontal',
+          // layout: 'horizontal',
+          text: {
+            button: 'View Product',
+          },
           contents: {
-            descrition: true
+            descrition: true,
+
           }
         },
         cart: {
@@ -59,7 +63,7 @@ return (
   <div className="trainings-outer">
       <NavBar />
       <div className="trainings-inner">
-        <h1>Courses</h1>
+        <h1>Previdence Peer Supporter Certification <br></br> For Public Safety Professionals</h1>
         {/* <div>
           <img alt="check back soon for more dates" className="training-soon" src={train2} />
         </div> */}
