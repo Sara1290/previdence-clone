@@ -27,7 +27,7 @@ const Trainings = () => {
     
     //Feb 1 & 2 
     ui.createComponent('productSet', {
-      id: [7130049052849, 7128189075633, 7166845583537],
+      id: [7130049052849, 7168121667761, 7128189075633, 7166845583537],
       node: document.getElementById('my-product'),
       options: {
         product: {
@@ -62,7 +62,7 @@ const Trainings = () => {
 return (
   <div className="trainings-outer">
       <NavBar />
-      <div className="trainings-inner">
+      <div className="trainings-inner background">
         <h1>Previdence Peer Supporter Certification <br></br> For Public Safety Professionals</h1>
         {/* <div>
           <img alt="check back soon for more dates" className="training-soon" src={train2} />
