@@ -2,8 +2,8 @@ import React from 'react';
 import ofd5 from '../../images/ofd5.png'
 import safeUT from '../../images/safeUT.jpg'
 import NavbarTwo from '../NavBar';
-import UniFooter from '../UniFooter';
 import ReactGA from 'react-ga';
+import LiaisonFooter from '../LiaisonFooter';
 
 
 const OfdTips = () => {
@@ -52,33 +52,33 @@ const OfdTips = () => {
           
           <ul>
           <li className="LI">Targee Williams</li>
-          <li>801-726-6860</li>
+          <li className='li-phone'>801-726-6860</li>
 
           <li className="LI">Amanda King</li>
-          <li>801-690-6473</li>
+          <li className='li-phone'>801-690-6473</li>
 
           <li className="LI">Darrell Young</li>
-          <li>801-725-9575</li>
+          <li className='li-phone'>801-725-9575</li>
 
           <li className="LI">Nick Roberts</li>
-          <li>801-230-3759</li>
+          <li className='li-phone'>801-230-3759</li>
 
           <li className="LI">Jesse Speth</li>
-          <li>801-540-2335</li>
+          <li className='li-phone'>801-540-2335</li>
 
           <li className="LI">Lex Proudfit</li>
-          <li>801-603-7588</li>
+          <li className='li-phone'>801-603-7588</li>
 
           <li className="LI">Andrew Snarr</li>
-          <li>801-864-3538</li>
+          <li className='li-phone'>801-864-3538</li>
 
           <li className="LI">Jarod Barto</li>
-          <li>702-882-1143</li>
+          <li className='li-phone'>702-882-1143</li>
           </ul>
         </div>
         <img alt="safeUT" src={safeUT} />
       </div>
-      <UniFooter />
+      <LiaisonFooter />
     </div>
   )
 

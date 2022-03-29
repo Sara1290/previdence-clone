@@ -1306,6 +1306,10 @@ ul {
   font-weight: bolder;
   text-align: center;
 }
+.CIT {
+
+  font-weight: 400;
+}
 .CIT h5:first-of-type {
 margin: 5vh 0 5vh 0;
 } 
@@ -1319,6 +1323,8 @@ margin: 5vh 0 5vh 0;
 .CRP {
   margin-top: 12vh;
   text-align: left;
+  font-weight: 400;
+
 }
 .CRP h2 {
   margin-left: 5vw;
@@ -1326,6 +1332,9 @@ margin: 5vh 0 5vh 0;
 .phones {
   text-align: left;
   margin:  12vh 2vw 10vh 5vw;
+}
+.li-phone {
+  font-weight: 300;
 }
 /*-----SURVEYS-------*/
 

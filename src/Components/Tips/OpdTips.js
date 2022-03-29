@@ -2,8 +2,8 @@ import React from 'react';
 import OPDTips from '../../images/OPDTips.png'
 import safeUT from '../../images/safeUT.jpg'
 import NavbarTwo from '../NavBar';
-import UniFooter from '../UniFooter';
 import ReactGA from 'react-ga';
+import LiaisonFooter from '../LiaisonFooter';
 
 const OpdTips = () => {
   ReactGA.pageview('src/Components/Tips/opdTips.js');
@@ -77,7 +77,7 @@ const OpdTips = () => {
         </div> */}
         <img alt="safeUT" src={safeUT} />
       </div>
-      <UniFooter />
+      <LiaisonFooter />
     </div>
   )
 
