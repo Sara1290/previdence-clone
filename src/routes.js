@@ -32,6 +32,7 @@ import PpnInfo from './Components/PPN/PpnInfo';
 import OpdTips from './Components/Tips/OpdTips';
 import TrojanReunion from './Components/Surveys/TrojanReunion';
 import AdditionalResources from './Components/PPN/AdditionalResources';
+import OpdTipsTest from './Components/Tips/OpdTipsTest';
 
 export default (
   <Switch>
@@ -51,6 +52,7 @@ export default (
     <Route path="/resources" component={Resources} />
     <Route path="/ofdtips" component={OfdTips} />
     <Route path="/opdtips" component={OpdTips} />
+    <Route path="/opdtipstest" component={OpdTipsTest} />
     <Route path="/ppn" component={Ppn} />
     <Route path="/ppn-nv" component={PpnNv} />
     <Route path="/ppnadditional" component={PpnAdditional} />

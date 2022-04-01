@@ -1,21 +1,23 @@
 import React from 'react';
-import ofd5 from '../../images/ofd5.png'
+import OPDTips from '../../images/OPDTips.png'
 import safeUT from '../../images/safeUT.jpg'
 import NavbarTwo from '../NavBar';
 import ReactGA from 'react-ga';
 import LiaisonFooter from '../LiaisonFooter';
 
+const OpdTipsTest = () => {
+  ReactGA.pageview('src/Components/Tips/opdTips.js');
 
-const OfdTips = () => {
-  ReactGA.pageview('src/Components/Tips/ofdTips.js');
-  
 
   return (
     <div className="tips-outer">
       <NavbarTwo />
       <div className="tips-container">
+        <div className='crisis-outreach'>
+          
+        </div>
         <div className="CIT">
-        <img src={ofd5} alt="odgen city fire dept logo" />
+        <img src={OPDTips} alt="odgen city police dept logo" />
         <h1>Crisis Intervention Tips</h1>
         <h5>Keep it simple. What do they need?</h5>
          <p> - Safe space, new environment</p>
@@ -45,39 +47,37 @@ const OfdTips = () => {
           <li>Professional Support <br></br> 800-273-TALK(8255) </li>
         </ol>
         </div>
-        <div className="phones">
+        {/* <div className="phones">
           <h2>PFFU Firefighter Crisis Support Line</h2>
           <h3>801-587-1800</h3>
           <h4>Peer Support Team</h4>
           
           <ul>
           <li className="LI">Targee Williams</li>
-          <li className='li-phone'>
-           <a href='tel:+1-801-726-6860'> 801-726-6860 </a> 
-          </li>
+          <li>801-726-6860</li>
 
           <li className="LI">Amanda King</li>
-          <li className='li-phone'>801-690-6473</li>
+          <li>801-690-6473</li>
 
           <li className="LI">Darrell Young</li>
-          <li className='li-phone'>801-725-9575</li>
+          <li>801-725-9575</li>
 
           <li className="LI">Nick Roberts</li>
-          <li className='li-phone'>801-230-3759</li>
+          <li>801-230-3759</li>
 
           <li className="LI">Jesse Speth</li>
-          <li className='li-phone'>801-540-2335</li>
+          <li>801-540-2335</li>
 
           <li className="LI">Lex Proudfit</li>
-          <li className='li-phone'>801-603-7588</li>
+          <li>801-603-7588</li>
 
           <li className="LI">Andrew Snarr</li>
-          <li className='li-phone'>801-864-3538</li>
+          <li>801-864-3538</li>
 
           <li className="LI">Jarod Barto</li>
-          <li className='li-phone'>702-882-1143</li>
+          <li>702-882-1143</li>
           </ul>
-        </div>
+        </div> */}
         <img alt="safeUT" src={safeUT} />
       </div>
       <LiaisonFooter />
@@ -85,4 +85,4 @@ const OfdTips = () => {
   )
 
 };
-export default OfdTips;
+export default OpdTipsTest;
