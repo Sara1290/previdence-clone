@@ -1,6 +1,7 @@
 import React from 'react';
 import OPDTips from '../../images/OPDTips.png'
 import safeUT from '../../images/safeUT.jpg'
+// import medic from '../../images/medic.jpg';
 import NavbarTwo from '../NavBar';
 import ReactGA from 'react-ga';
 import LiaisonFooter from '../LiaisonFooter';
@@ -13,9 +14,22 @@ const OpdTipsTest = () => {
     <div className="tips-outer">
       <NavbarTwo />
       <div className="tips-container">
-        <div className='crisis-outreach'>
-          
+        <div className='tips-header red-dec-border background'>
+          <h3>If you are in crisis please reach out to the crisis outreach hotline</h3>
+          <h3><a className='red-link' href='tel:+1-801-273-8255'>800-273-TALK(8255)</a></h3>
+          <h3>Or contact SafeUT by using the app</h3>
+          <a href='https://safeut.org/frontline' target="_blank" rel="noreferrer">
+        <img alt="safeUT" src={safeUT} className="safeUt"/>
+        </a>
+        <h3>or calling </h3>
+        <h3 ><a className='red-link' href='tel:+1-833-372-3335'>833-372-3335</a></h3>
         </div>
+
+        <div className='tips-header2 red-dec-border background'>
+            <h4>A Message From Bob</h4>
+            <p style={{fontWeight: 400, padding: 20}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </div>
+
         <div className="CIT">
         <img src={OPDTips} alt="odgen city police dept logo" />
         <h1>Crisis Intervention Tips</h1>
@@ -78,7 +92,7 @@ const OpdTipsTest = () => {
           <li>702-882-1143</li>
           </ul>
         </div> */}
-        <img alt="safeUT" src={safeUT} />
+        {/* <img alt="safeUT" src={safeUT} /> */}
       </div>
       <LiaisonFooter />
     </div>

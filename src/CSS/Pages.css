@@ -1284,7 +1284,7 @@ iframe {
   color: rgb(255, 255, 255);
 }
 
-/*----------- OFD TIPS --------*/
+/*----------- TIPS --------*/
 
 ol {
   text-align: left;
@@ -1336,6 +1336,50 @@ margin: 5vh 0 5vh 0;
 .li-phone {
   font-weight: 300;
 }
+.red-dec-border {
+  /* background: #F2F2F2; */
+  border-top: 2px solid #8f2a2b;
+  border-bottom: 2px solid #8f2a2b;
+  padding: 2em 0 0.5em;
+  position: relative;
+  margin-bottom: 10vh;
+}
+/* .red-dec-border::after {
+  background: white;
+  border: 2px solid #8f2a2b;
+  border-radius: 50%;
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  left: 50%;
+  margin-left: -12px;
+  position: absolute;
+  top: -14px;
+  transform: rotate(45deg);
+} */
+.tips-header {
+  background: url('../images/medic.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tips-header2 {
+  background: url('../images/paramedic.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.red-link {
+  text-decoration: none;
+  font-style: italic;
+  color: #8f2a2b
+}
+.safeUt {
+  width: 40%;
+}
+
 /*-----SURVEYS-------*/
 
 .survey {

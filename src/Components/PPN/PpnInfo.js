@@ -99,21 +99,27 @@ const PpnInfo = () => {
                 <div className="utah-trainings">
                   <h2>Utah Providers</h2>
                   <h5>ART - Basic Training</h5>
+
+                  <p> 
+                    <a target='_blank' rel="noreferrer" href="http://maps.google.com/maps?q=6545+Combee+Rd,+Ogden,+UT+84403"  className="link" style={{
+                        fontWeight: 400, fontStyle: "italic"
+                      }}>
+                      Crossroads Christian Fellowship <br></br>
+                      6545 Combee Rd.
+                      Ogden, UT 84403
+                    </a>
+                  </p>
                   <p>
                     April 28 - 30 
-                    Ogden
                   </p>
                   <p>
                     June 16 - 18 
-                    Ogden
                   </p>
                   <p>
                     August 25 - 27 
-                    Ogden
                   </p>
                   <p>
                     October 20 - 22 
-                    Ogden
                   </p>
                   <h5>ART - Advanced and Enhanced</h5>
                   <p>

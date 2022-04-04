@@ -32,7 +32,7 @@ const LiaisonFooter = () => {
       <div className="footer-icons">
         <FaPhoneAlt className="footer-icon" />
       </div>
-        <p> Call A Liaison: <br></br>801-917-4377</p>
+        <p> Call A Liaison: <br></br><a className='link' href='tel:+1-801-917-4377'>801-917-4377</a></p>
         <div className="footer-line"></div>
      </div>
 

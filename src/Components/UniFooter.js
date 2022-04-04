@@ -32,7 +32,7 @@ const UniFooter = () => {
       <div className="footer-icons">
         <FaPhoneAlt className="footer-icon" />
       </div>
-        <p> Call Us: <br></br>801-409-0904</p>
+        <p> Call Us: <br></br><a className='link' href='tel:+1-801-409-0904'>801-409-0904</a></p>
         <div className="footer-line"></div>
      </div>
 

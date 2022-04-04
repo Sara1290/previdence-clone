@@ -41,7 +41,7 @@ const OpdTips = () => {
           <li>Distraction and Coping Skills</li>
           <li>Reason for Living, Motivation to Keep Thinking Forward</li>
           <li>Social Support</li>
-          <li>Professional Support <br></br> 800-273-TALK(8255) </li>
+          <li>Professional Support <br></br> <a className='link' href='tel:+1-801-273-8255'> 800-273-TALK(8255)</a> </li>
         </ol>
         </div>
         {/* <div className="phones">

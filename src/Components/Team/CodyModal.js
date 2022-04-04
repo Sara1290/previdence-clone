@@ -1,5 +1,5 @@
 import React, {useCallback, useEffect} from 'react';
-import codyMarble from '../../images/codyMarble.jpg';
+import codyNew from '../../images/codyNew.png';
 
 const CodyModal = ({showCodyModal, setShowCodyModal}) => {
 
@@ -17,7 +17,7 @@ const CodyModal = ({showCodyModal, setShowCodyModal}) => {
     <div className="cody-modal">
       {showCodyModal ? (<div className="team-modal"> 
         <div className="modal-img-container">
-          <img alt="Team Member" className="modal-img" src={codyMarble} />
+          <img alt="Team Member" className="modal-img" src={codyNew} />
         </div>
         <div className="modal-text">
           <h3>Cody Wilson</h3>

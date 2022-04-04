@@ -47,38 +47,56 @@ const OfdTips = () => {
         </div>
         <div className="phones">
           <h2>PFFU Firefighter Crisis Support Line</h2>
-          <h3>801-587-1800</h3>
+          <h3>
+          <a className='link' href='tel:+1-801-587-1800'> 801-587-1800 </a>
+            </h3>
           <h4>Peer Support Team</h4>
           
           <ul>
           <li className="LI">Targee Williams</li>
           <li className='li-phone'>
-           <a href='tel:+1-801-726-6860'> 801-726-6860 </a> 
+           <a className='link' href='tel:+1-801-726-6860'> 801-726-6860 </a> 
           </li>
 
           <li className="LI">Amanda King</li>
-          <li className='li-phone'>801-690-6473</li>
+          <li className='li-phone'>
+          <a className='link' href='tel:+1-801-726-6860'> 801-690-6473 </a>
+            </li>
 
           <li className="LI">Darrell Young</li>
-          <li className='li-phone'>801-725-9575</li>
+          <li className='li-phone'>
+          <a className='link' href='tel:+1-801-725-9575'> 801-725-9575 </a>
+            </li>
 
           <li className="LI">Nick Roberts</li>
-          <li className='li-phone'>801-230-3759</li>
+          <li className='li-phone'>
+          <a className='link' href='tel:+1-801-230-3759'> 801-230-3759 </a>
+            </li>
 
           <li className="LI">Jesse Speth</li>
-          <li className='li-phone'>801-540-2335</li>
+          <li className='li-phone'>
+          <a className='link' href='tel:+1-801-540-2335'> 801-540-2335 </a>
+            </li>
 
           <li className="LI">Lex Proudfit</li>
-          <li className='li-phone'>801-603-7588</li>
+          <li className='li-phone'>
+          <a className='link' href='tel:+1-801-603-7588'> 801-603-7588 </a>
+            </li>
 
           <li className="LI">Andrew Snarr</li>
-          <li className='li-phone'>801-864-3538</li>
+          <li className='li-phone'>
+          <a className='link' href='tel:+1-801-864-3538'> 801-864-3538 </a>
+            </li>
 
           <li className="LI">Jarod Barto</li>
-          <li className='li-phone'>702-882-1143</li>
+          <li className='li-phone'>
+          <a className='link' href='tel:+1-801-882-1143'> 702-882-1143 </a>
+            </li>
           </ul>
         </div>
+        <a href='https://safeut.org/frontline'>
         <img alt="safeUT" src={safeUT} />
+        </a>
       </div>
       <LiaisonFooter />
     </div>
