@@ -1359,13 +1359,13 @@ margin: 5vh 0 5vh 0;
   transform: rotate(45deg);
 } */
 .tips-header {
-  background: url('../images/medic.jpg');
+  background: url('../images/ogdenPD.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .tips-header2 {
-  background: url('../images/paramedic.jpg');
+  background: url('../images/ogdenArch.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
