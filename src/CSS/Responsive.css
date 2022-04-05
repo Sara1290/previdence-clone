@@ -434,31 +434,33 @@
     width: 80% !important;
   }
 
-/*------ TIPS ------*/
-  .tips-container {
-    width: 80vw;
-  }
-/* ----- TEAM ----*/
+  /* ----- TEAM ----*/
   /* .team-modal {
-  flex-direction: column;
-  width: 40% !important;
-  left: 22% !important;
-  top: 25% !important;
-}  */
-.team-modal p {
-  font-size: 12px;
-}
-.modal-img-container {
-  border-right: 1px solid transparent !important;
-  width: 105% !important;
-  margin-bottom: 10px;
-}
-.exit-btn {
-  display: none;
-}
-.col-md-6 {
-  padding-left: 0 !important;
-}
+    flex-direction: column;
+    width: 40% !important;
+    left: 22% !important;
+    top: 25% !important;
+  }  */
+  .team-modal p {
+    font-size: 12px;
+  }
+  .modal-img-container {
+    border-right: 1px solid transparent !important;
+    width: 105% !important;
+    margin-bottom: 10px;
+  }
+  .exit-btn {
+    display: none;
+  }
+  .col-md-6 {
+    padding-left: 0 !important;
+  }
+
+  /*------ TIPS ------*/
+    .tips-container {
+      width: 100vw;
+    }
+
 
 
 }
@@ -1082,7 +1084,7 @@
     width: 100%;
   }
   .tips-container {
-    width: 60vw;
+    width: 100vw;
   }
   /*----------------ppn info min 1201---------*/
   .training-columns {
@@ -1207,7 +1209,7 @@
     justify-content: space-around;
   }
   .tips-container {
-    width: 50vw;
+    width: 100vw;
   }
 }
 @media screen and (min-width: 1719px) {

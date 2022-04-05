@@ -1366,11 +1366,31 @@ margin: 5vh 0 5vh 0;
 }
 .tips-header2 {
   background: url('../images/ogdenArch.jpg');
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin-top: 10vh;
+  padding-top: 5vh;
 }
 
+.tips-header3 {
+  background: url('../images/officeHands2.jpg');
+  /* background-color: #F6E9E8; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding-top: 5vh;
+}
 .red-link {
   text-decoration: none;
   font-style: italic;
@@ -1450,7 +1470,7 @@ margin: 5vh 0 5vh 0;
 }
 .text-right {
   width: 35%;
-  border-right: 4px solid#8f2a2b;
+  border-right: 4px solid #8f2a2b;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1501,7 +1521,7 @@ margin: 5vh 0 5vh 0;
   position: relative;
   /* right: 30vw; */
   width: 35%;
-  border-left: 4px solid#8f2a2b;
+  border-left: 4px solid #8f2a2b;
   display: flex;
   flex-direction: column;
   justify-content: center;
