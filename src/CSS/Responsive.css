@@ -457,8 +457,11 @@
   }
 
   /*------ TIPS ------*/
-    .tips-container {
-      width: 100vw;
+  .tips-header2 {
+      width: 75vw;
+    }  
+  .tips-header3 {
+      width: 75vw;
     }
 
 
@@ -886,6 +889,17 @@
     width: 90% !important;
     justify-content: space-around;
   }
+
+    /*------ TIPS ------*/
+    .tips-header2 {
+      width: 50vw;
+    }  
+  .tips-header3 {
+      width: 50vw;
+    }
+    .safeUt {
+      width: 20% !important;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -1208,8 +1222,13 @@
     width: 75% !important;
     justify-content: space-around;
   }
-  .tips-container {
-    width: 100vw;
+
+/*------ TIPS ------*/
+  .tips-header2 {
+    width: 35vw;
+  }  
+ .tips-header3 {
+    width: 35vw;
   }
 }
 @media screen and (min-width: 1719px) {
@@ -1321,4 +1340,12 @@
 .corp-paragraph {
   width: 90vw;
 }
+
+    /*------ TIPS ------*/
+    .tips-header2 {
+      width: 35vw;
+    }  
+  .tips-header3 {
+      width: 35vw;
+    }
 }

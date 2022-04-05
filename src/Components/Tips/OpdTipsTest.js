@@ -30,7 +30,8 @@ const OpdTipsTest = () => {
         <div className="CIT">
             <img src={OPDTips} alt="odgen city police dept logo" />
             <h1>Crisis Intervention Tips</h1>
-            
+
+          <div className='tips-header-container'>           
             <div className='tips-header2 red-dec-borde background'>
                 <h4>A Message From Bob</h4>
                 <p style={{fontWeight: 400, padding: 20}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
@@ -40,6 +41,8 @@ const OpdTipsTest = () => {
                 <h4>Mental Health Message</h4>
                 <p style={{fontWeight: 400, padding: 20}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </div>
+          </div>        
+
             <h5>Keep it simple. What do they need?</h5>
             <p> - Safe space, new environment</p>
             <p> - Water, snack, blanket</p>
