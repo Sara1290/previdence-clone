@@ -174,8 +174,8 @@ const Team = () => {
                   <button className="open-button" onClick={openTiaModal}>
                     <img src={tiaMarble} alt="" className="team-img " />
                   <div className="overlay">
-                    <p>Tia White, LCSW</p>
-                    <p>Director of Research</p>
+                    <p>Dr. Tia White DSW, LCSW</p>
+                    <p>Director of Research and Development</p>
                   </div>
                   </button>
                 </div>
