@@ -4,7 +4,7 @@ import johnMarble2 from '../../images/johnMarble2.png';
 import kentMarble from '../../images/kentMarble.png';
 import markMarble2 from '../../images/markMarble2.png';
 import tiaMarble from '../../images/tiaMarble.png';
-import saraMarble2 from '../../images/saraMarble2.png';
+// import saraMarble2 from '../../images/saraMarble2.png';
 import codyNew from '../../images/codyNew.png';
 import johnnyMarble from '../../images/johnnyMarble.jpg';
 // import StevieMarble from '../../images/StevieMarble.png';
@@ -17,7 +17,7 @@ import JohnModal from './JohnModal';
 import JohnOModal from './JohnOModal';
 import KentModal from './KentModal';
 import MarkModal from './MarkModal';
-import SaraModal from './SaraModal';
+// import SaraModal from './SaraModal';
 import TiaModal from './TiaModal';
 import StevieModal from './StevieModal';
 import ReactGA from 'react-ga';
@@ -35,7 +35,7 @@ const Team = () => {
   const [showJohnOModal, setShowJohnOModal] = useState(false);
   const [showKentModal, setShowKentModal] = useState(false);
   const [showMarkModal, setShowMarkModal] = useState(false);
-  const [showSaraModal, setShowSaraModal] = useState(false);
+  // const [showSaraModal, setShowSaraModal] = useState(false);
   const [showTiaModal, setShowTiaModal] = useState(false);
   const [showStevieModal, setShowStevieModal] = useState(false);
   const modalRef = useRef();
@@ -56,9 +56,9 @@ const Team = () => {
   const openMarkModal = () => {
     setShowMarkModal(prev => !prev)
   };
-  const openSaraModal = () => {
-    setShowSaraModal(prev => !prev)
-  };
+  // const openSaraModal = () => {
+  //   setShowSaraModal(prev => !prev)
+  // };
   const openTiaModal = () => {
     setShowTiaModal(prev => !prev)
   };
@@ -75,7 +75,7 @@ const Team = () => {
       setShowJohnOModal(false)
       setShowKentModal(false)
       setShowMarkModal(false)
-      setShowSaraModal(false)
+      // setShowSaraModal(false)
       setShowTiaModal(false)
       setShowStevieModal(false)
     }
@@ -96,8 +96,8 @@ const Team = () => {
       </div>
       <div className={(showMarkModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowMarkModal(prev => !prev)} >
       </div>
-      <div className={(showSaraModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowSaraModal(prev => !prev)} >
-      </div>
+      {/* <div className={(showSaraModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowSaraModal(prev => !prev)} > */}
+      {/* </div> */}
       <div className={(showTiaModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowTiaModal(prev => !prev)} >
       </div>
       <div className={(showStevieModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowStevieModal(prev => !prev)} >
@@ -108,7 +108,7 @@ const Team = () => {
         <div className="container team-spacing">
           <div className="row row-fix row-30 justify-content-lg-center">
             <div className="col-lg-11 col-xl-9 team-inner">
-              <h2 className="even-section">Meet the Team</h2>
+              {/* <h2 className="even-section">Meet the Team</h2> */}
             </div>
           </div>
 
@@ -149,7 +149,7 @@ const Team = () => {
                 setShowKentModal={setShowKentModal}
                 />
             </div>
-
+{/* 
             <div className="col-md-6 col-lg-4 ">
               <div className="thumb thumb-corporate">
                 <div className="thumb-corporate__main team-member-container">
@@ -166,7 +166,7 @@ const Team = () => {
                 showSaraModal={showSaraModal}
                 setShowSaraModal={setShowSaraModal}
                 />
-            </div>
+            </div> */}
 
             <div className="col-md-6 col-lg-4">
               <div className="thumb thumb-corporate">

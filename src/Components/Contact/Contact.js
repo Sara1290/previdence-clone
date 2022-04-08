@@ -24,8 +24,8 @@ const Contact = () => {
       <div className="contact-details">
         <h1>Contact Details</h1>
         <h5>Address</h5>
-        <p style={{fontWeight: 300}}>5685 S 1475 E <br></br>
-           Suite 2B
+        <p style={{fontWeight: 300}}>5742 S 1475 E<br></br>
+           Suite 200
            South Ogden, UT 84403
         </p>
         <h5>Phone</h5>
