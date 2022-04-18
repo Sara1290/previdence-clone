@@ -175,7 +175,7 @@ const PpnInfo = () => {
                      April 14th<br></br> 
                      6p - 7p Mountain Time<br></br>
                      <a
-                      href=" https://us02web.zoom.us/j/87918245986?pwd=dXJWNDJhN0NwUmlTZVhKUy90UnhlQT09"
+                      href="https://us02web.zoom.us/j/89430956818"
                       className="link"
                       style={{
                         fontWeight: 400,
@@ -190,7 +190,7 @@ const PpnInfo = () => {
                      May 12th <br></br>  
                      6p - 7p Mountain Time<br></br>
                      <a
-                      href=" https://us02web.zoom.us/j/87918245986?pwd=dXJWNDJhN0NwUmlTZVhKUy90UnhlQT09"
+                      href="https://us02web.zoom.us/j/89430956818"
                       className="link"
                       style={{
                         fontWeight: 400,
@@ -205,7 +205,7 @@ const PpnInfo = () => {
                      June 9th <br></br>  
                      6p - 7p Mountain Time<br></br>
                      <a
-                      href=" https://us02web.zoom.us/j/87918245986?pwd=dXJWNDJhN0NwUmlTZVhKUy90UnhlQT09"
+                      href="https://us02web.zoom.us/j/89430956818"
                       className="link"
                       style={{
                         fontWeight: 400,

@@ -21,7 +21,7 @@ const TiaModal = ({showTiaModal, setShowTiaModal}) => {
         </div>
         <div className="modal-text">
           <h3>Tia White, DSW (ABD), MSW, LCSW</h3>
-          <h4>Director of Research</h4>
+          <h4>Director of Research and Development</h4>
           <p>Tia is a mental health and wellness consultant, researcher, program and curriculum developer, as well as a training instructor to first responders and public safety personnel. She is a Licensed Clinical Social Worker and has 20 years of experience working with a variety of populations and social systems. Additionally, she serves as an adjunct instructor for two local universities.</p>
         </div>
         <button aria-label="CloseModal" className="exit-btn" onClick={() => setShowTiaModal(prev => !prev)}>X</button>
