@@ -110,9 +110,6 @@ const PpnInfo = () => {
                     </a>
                   </p>
                   <p>
-                    April 28 - 30 
-                  </p>
-                  <p>
                     June 16 - 18 
                   </p>
                   <p>
@@ -120,6 +117,12 @@ const PpnInfo = () => {
                   </p>
                   <p>
                     October 20 - 22 
+                  </p>
+                  <p>
+                    November 17 - 19 
+                  </p>
+                  <p>
+                    December 15 - 17 
                   </p>
                   <h5>ART - Advanced and Enhanced</h5>
                   <p>

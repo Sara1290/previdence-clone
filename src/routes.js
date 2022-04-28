@@ -33,6 +33,7 @@ import OpdTips from './Components/Tips/OpdTips';
 import TrojanReunion from './Components/Surveys/TrojanReunion';
 import AdditionalResources from './Components/PPN/AdditionalResources';
 import OpdTipsTest from './Components/Tips/OpdTipsTest';
+import WFRCsurvey from './Components/Surveys/WFRCsurvey';
 
 export default (
   <Switch>
@@ -57,6 +58,7 @@ export default (
     <Route path="/ppn-nv" component={PpnNv} />
     <Route path="/ppnadditional" component={PpnAdditional} />
     <Route path="/posttraining" component={PostTraining} />
+    <Route path="/wfrc-survey" component={WFRCsurvey} />
     <Route path="/crisisresponse" component={CrisisResponse} />
     <Route path="/inclinicart" component={InClinicArt} />
     <Route path="/clientfollowup" component={ClientFollowUp} />
