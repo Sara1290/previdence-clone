@@ -34,6 +34,7 @@ import TrojanReunion from './Components/Surveys/TrojanReunion';
 import AdditionalResources from './Components/PPN/AdditionalResources';
 import OpdTipsTest from './Components/Tips/OpdTipsTest';
 import WFRCsurvey from './Components/Surveys/WFRCsurvey';
+import ClearfieldPDTips from './Components/Tips/ClearfieldPDTips';
 
 export default (
   <Switch>
@@ -53,6 +54,7 @@ export default (
     <Route path="/resources" component={Resources} />
     <Route path="/ofdtips" component={OfdTips} />
     <Route path="/opdtips" component={OpdTips} />
+    <Route path="/clearfield-pd-tips" component={ClearfieldPDTips} />
     <Route path="/opdtipstest" component={OpdTipsTest} />
     <Route path="/ppn" component={Ppn} />
     <Route path="/ppn-nv" component={PpnNv} />
