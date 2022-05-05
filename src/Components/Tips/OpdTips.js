@@ -1,9 +1,10 @@
 import React from 'react';
-import OPDTips from '../../images/OPDTips.png'
-import safeUT from '../../images/safeUT.jpg'
+import OPDTips from '../../images/OPDTips.png';
+import safeUT from '../../images/safeUT.jpg';
+import reactionsToTrauma from '../../images/reactionsToTrauma.png';
 import NavbarTwo from '../NavBar';
-import ReactGA from 'react-ga';
 import LiaisonFooter from '../LiaisonFooter';
+import ReactGA from 'react-ga';
 
 const OpdTips = () => {
   ReactGA.pageview('src/Components/Tips/opdTips.js');
@@ -75,6 +76,7 @@ const OpdTips = () => {
           <li>702-882-1143</li>
           </ul>
         </div> */}
+        <img className='rtt' alt='reactions to trauma handout' src={reactionsToTrauma} />
         <img alt="safeUT" src={safeUT} />
       </div>
       <LiaisonFooter />

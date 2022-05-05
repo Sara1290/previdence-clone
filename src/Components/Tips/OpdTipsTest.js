@@ -1,5 +1,6 @@
 import React from 'react';
 import OPDTips from '../../images/OPDTips.png'
+import reactionsToTrauma from '../../images/reactionsToTrauma.png';
 import safeUT from '../../images/safeUT.jpg'
 // import medic from '../../images/medic.jpg';
 import NavbarTwo from '../NavBar';
@@ -24,7 +25,6 @@ const OpdTipsTest = () => {
             <h3>or calling </h3>
             <h3 ><a className='red-link' href='tel:+1-833-372-3335'>833-372-3335</a></h3>
         </div>
-
 
 
         <div className="CIT">
@@ -103,6 +103,7 @@ const OpdTipsTest = () => {
           </ul>
         </div> */}
         {/* <img alt="safeUT" src={safeUT} /> */}
+        <img className='rtt' alt='reactions to trauma handout' src={reactionsToTrauma} />
       </div>
       <LiaisonFooter />
     </div>
