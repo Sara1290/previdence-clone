@@ -9,6 +9,7 @@ import '../../CSS/App.css';
 import TheClipComponent from './TheClipComponent';
 import ReactGA from 'react-ga';
 import ScrollToTop from "../ScrollToTop";
+// import Steps from "./Steps";
 
 
 
@@ -23,8 +24,9 @@ const Homepage = () => {
       <NavBar />
       <TheClipComponent />
       <GroupSection />
+      {/* <Steps /> */}
       <ScrollToTop />
-
+      
       <Specialties />
       <MultiCarousel />
       <Testimonials id="testimonials"/>

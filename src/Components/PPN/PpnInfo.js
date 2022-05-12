@@ -110,6 +110,14 @@ const PpnInfo = () => {
                     </a>
                   </p>
                   <p>
+                    June 9 - 11 <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/dir/41.1140776,-111.9641728/451+E+400+N,+Price,+UT+84501/@40.3571789,-111.9508969,9z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x874eb9542ccefdab:0x368b36a2c091208e!2m2!1d-110.8039829!2d39.607914"  className="link" style={{
+                        fontWeight: 400, fontStyle: "italic"}}>
+                      USU Campus, C.I.B. Building<br></br>
+                      401 E 400 N
+                      Price, UT 84403
+                    </a> 
+                  </p>
+                  <p>
                     June 16 - 18 
                   </p>
                   <p>
