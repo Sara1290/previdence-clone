@@ -109,33 +109,57 @@ const PpnInfo = () => {
                       Ogden, UT 84403
                     </a>
                   </p>
-                  <p>
+                  {/* <p>
                     June 9 - 11 <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/dir/41.1140776,-111.9641728/451+E+400+N,+Price,+UT+84501/@40.3571789,-111.9508969,9z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x874eb9542ccefdab:0x368b36a2c091208e!2m2!1d-110.8039829!2d39.607914"  className="link" style={{
                         fontWeight: 400, fontStyle: "italic"}}>
                       USU Campus, C.I.B. Building<br></br>
                       401 E 400 N
                       Price, UT 84403
                     </a> 
-                  </p>
+                  </p> */}
                   <p>
                     June 16 - 18 
                   </p>
                   <p>
                     August 25 - 27 
                   </p>
-                  <p>
+                  {/* <p>
                     October 20 - 22 
-                  </p>
+                  </p> */}
                   <p>
                     November 17 - 19 
                   </p>
                   <p>
                     December 15 - 17 
                   </p>
-                  <h5>ART - Advanced and Enhanced</h5>
+                  {/* <h5>ART - Advanced and Enhanced</h5>
                   <p>
                    May 5 - 8  
                     Salt Lake City
+                  </p> */}
+                  <p> 
+                    <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/place/90+E+200+N,+Logan,+UT+84321/@41.7347988,-111.8349198,17z/data=!4m13!1m7!3m6!1s0x87547e732a3af5d7:0x56a912f87a9226b6!2s90+E+200+N,+Logan,+UT+84321!3b1!8m2!3d41.7347948!4d-111.8327311!3m4!1s0x87547e732a3af5d7:0x56a912f87a9226b6!8m2!3d41.7347948!4d-111.8327311"  className="link" style={{
+                        fontWeight: 400, fontStyle: "italic"
+                      }}>
+                      Bear River Mental Health Services <br></br>
+                      90 E 200 N.
+                      Logan, UT 84321
+                    </a>
+                  </p>
+                    <p>
+                    October 20 - 22 
+                  </p>
+                  <p> 
+                    <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/place/5320+Adams+Ave+Pkwy,+Ogden,+UT+84405/@41.1671001,-111.9699945,17z/data=!3m1!4b1!4m5!3m4!1s0x875305eedc7371f5:0x2f3acb04c50241b7!8m2!3d41.1670961!4d-111.9678058"  className="link" style={{
+                        fontWeight: 400, fontStyle: "italic"
+                      }}>
+                      Weber School District <br></br>
+                      5320 Adams Avenue Pkwy
+                      Ogden, UT 84403
+                    </a>
+                  </p>
+                    <p>
+                    August 15 - 16 
                   </p>
                 </div>
               </Fade>
@@ -183,7 +207,7 @@ const PpnInfo = () => {
                   <h5>These clinicals will include a 15 minute training led by Kent Allen,<br></br> followed by a Q&A collaboration session with the attendees.</h5>
             <div>
 
-                  <p>
+                  {/* <p>
                      May 12th <br></br>  
                      6p - 7p Mountain Time<br></br>
                      <a
@@ -197,7 +221,7 @@ const PpnInfo = () => {
                     >
                       Join Here
                     </a>
-                  </p>
+                  </p> */}
                   <p>
                      June 9th <br></br>  
                      6p - 7p Mountain Time<br></br>
