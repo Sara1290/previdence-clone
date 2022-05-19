@@ -46,7 +46,7 @@ const OpdTipsTest = () => {
         <img className='rtt' alt='reactions to trauma handout' src={reactionsToTrauma} />
         <img className='rtt' alt='reactions to trauma handout' src={reaction2Trauma} />
 
-            <h5>Keep it simple. What do they need?</h5>
+            <h5>If you're talking to an officer in need, consider the following:</h5>
             <p> - Safe space, new environment</p>
             <p> - Water, snack, blanket</p>
             <p> - Walk, if they need to</p>
