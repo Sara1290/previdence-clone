@@ -27,6 +27,7 @@ history.listen(location => {
   ReactGA.pageview(location.pathname); // Record a pageview for the given page
 });
 
+<div id="fb-root"></div>
 
 
 ReactDOM.render(

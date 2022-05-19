@@ -14,30 +14,29 @@ const Steps = () => {
       <div className='step-item'>
         <FaUsers className='step-icon'/>
         <div className='step-texts'>
-          <h3>Introduce</h3>
-          <p>We’ll introduce your department or organization to our platform. A deep dive into what Previdence is, and what we can offer your department or organization.</p>
+          <h3>Assess</h3>
+          <p>Previdence provides a panel of data-based assessments, which are scored by a trained clinician to determine an appropriate mode of care.</p>
         </div>
       </div>
       <div className='step-item'>
         <FaBrain className='step-icon' />
         <div className='step-texts'>
-          <h3>Assess</h3>
-          <p>Take our panel of data-driven, outcome-based assessments. They will be scored by a clinician to determine an appropriate level of care.</p>
+          <h3>Connect</h3>
+          <p>A member of our Liaison Team will reach out to you personally, when necessary, to connect you to a vetted, trauma-trained therapist. </p>
         </div>
       </div>
       <div className='step-item'>
         <FaUserFriends className='step-icon' />
         <div className='step-texts'>
-          <h3>Connect</h3>
-          <p>A member of our liaison team will reach out to you to connect you to a therapist. 
-          We partner with trauma trained therapists who practive evidence based modalities.</p>
+          <h3>Educate</h3>
+          <p>Previdence provides education and trainings specific to each agency to strengthen mental health and well-being within the organization. </p>
         </div>
       </div>
       <div className='step-item'>
         <FaChartArea className='step-icon' />
         <div className='step-texts'>
           <h3>Monitor</h3>
-          <p>Attend therapy appointments and track your progess</p>
+          <p>Organizational and individual health and well-being are monitored through quarterly reports, collaboration with administration, and individual follow-up procedures.</p>
         </div>
 </div>
       </div>

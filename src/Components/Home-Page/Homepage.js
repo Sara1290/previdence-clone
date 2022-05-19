@@ -9,7 +9,8 @@ import '../../CSS/App.css';
 import TheClipComponent from './TheClipComponent';
 import ReactGA from 'react-ga';
 import ScrollToTop from "../ScrollToTop";
-// import Steps from "./Steps";
+import Steps from "./Steps";
+// import FacebookFeed from "./FacebookFeed";
 
 
 
@@ -24,10 +25,11 @@ const Homepage = () => {
       <NavBar />
       <TheClipComponent />
       <GroupSection />
-      {/* <Steps /> */}
+      <Steps />
       <ScrollToTop />
       
       <Specialties />
+      {/* <FacebookFeed /> */}
       <MultiCarousel />
       <Testimonials id="testimonials"/>
       <Footer />

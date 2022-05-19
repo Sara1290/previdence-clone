@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
    {routes}
+   <div id="fb-root"></div>
     </div>
   );
 }

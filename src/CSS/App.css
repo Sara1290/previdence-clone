@@ -252,7 +252,6 @@ p {
 }
 /* STEP BY STEP */
 .steps-outer {
-  background-color: #e0e0e0;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -262,24 +261,29 @@ p {
   position: relative;
   bottom: 30vh;
 }
+.steps-outer > h1 {
+  margin-bottom: 10vh;
+}
 .steps-inner {
-  width: 70vw;
+  background-color: #e0e0e0;
+  width: 68vw;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 10vh 0 0 0;
+  padding: 5vh 0 5vh 0;
 }
 .step-item {
+  background-color: white;
   width: 35%;
-  border: 1px solid black;
-  border-radius: 10px;
+  /* border: 1px solid black; */
+  /* border-radius: 10px; */
   text-align: left;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin: 2%;
-  /* padding: 2%; */
+  padding: 1%;
 }
 .step-icon {
   font-size: 35pt;
