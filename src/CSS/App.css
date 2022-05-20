@@ -251,13 +251,13 @@ p {
   line-height: 1.8;
 }
 /* STEP BY STEP */
-.steps-outer {
+/* .steps-outer {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
   padding: 10% 0;
-  /* margin-bottom: 40vh; */
+
   position: relative;
   bottom: 30vh;
 }
@@ -275,9 +275,7 @@ p {
 }
 .step-item {
   background-color: white;
-  width: 35%;
-  /* border: 1px solid black; */
-  /* border-radius: 10px; */
+
   text-align: left;
   display: flex;
   justify-content: space-evenly;
@@ -296,7 +294,7 @@ p {
 }
 .step-texts p {
   font-weight: 400;
-}
+} */
 
   /* SPECIALITIES SECTION */
   .specialties-outer {

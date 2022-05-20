@@ -19,14 +19,14 @@ const Steps = () => {
         </div>
       </div>
       <div className='step-item'>
-        <FaBrain className='step-icon' />
+        <FaUserFriends className='step-icon' />
         <div className='step-texts'>
           <h3>Connect</h3>
           <p>A member of our Liaison Team will reach out to you personally, when necessary, to connect you to a vetted, trauma-trained therapist. </p>
         </div>
       </div>
       <div className='step-item'>
-        <FaUserFriends className='step-icon' />
+        <FaBrain className='step-icon' />
         <div className='step-texts'>
           <h3>Educate</h3>
           <p>Previdence provides education and trainings specific to each agency to strengthen mental health and well-being within the organization. </p>
