@@ -201,27 +201,11 @@ const PpnInfo = () => {
               </Fade>
             </div>
           </div>
-          <Fade left>
+          {/* <Fade left>
                 <div className="monthly-clinicals">
                   <h2>Monthly Clinicals</h2>
                   <h5>These clinicals will include a 15 minute training led by Kent Allen,<br></br> followed by a Q&A collaboration session with the attendees.</h5>
             <div>
-
-                  {/* <p>
-                     May 12th <br></br>  
-                     6p - 7p Mountain Time<br></br>
-                     <a
-                      href="https://us02web.zoom.us/j/89430956818"
-                      className="link"
-                      style={{
-                        fontWeight: 400,
-                        fontStyle: "italic",
-                        color: "#8f2a2b",
-                      }}
-                    >
-                      Join Here
-                    </a>
-                  </p> */}
                   <p>
                      June 9th <br></br>  
                      6p - 7p Mountain Time<br></br>
@@ -254,7 +238,7 @@ const PpnInfo = () => {
                   </p>
                 </div>
               </div>
-              </Fade>
+              </Fade> */}
         </div>
         <div className="training-videos-container">
           <Fade left>
