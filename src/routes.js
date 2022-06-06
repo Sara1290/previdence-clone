@@ -28,6 +28,7 @@ import DSMParents from './Components/Surveys/DSMParents';
 import DSMSample from './Components/Surveys/DSMSample';
 import DSMSpanish from './Components/Surveys/DSMSpanish';
 import DSMSpanishParents from './Components/Surveys/DSMSpanishParents';
+import NonProfitBillingInquiry from './Components/Surveys/NonProfitBillingInquiry';
 import PpnInfo from './Components/PPN/PpnInfo';
 import OpdTips from './Components/Tips/OpdTips';
 import TrojanReunion from './Components/Surveys/TrojanReunion';
@@ -70,6 +71,7 @@ export default (
     <Route path="/dsmsample" component={DSMSample} />
     <Route path="/dsmspanishwebersd" component={DSMSpanish} />
     <Route path="/dsmspanishparentswebersd" component={DSMSpanishParents} />
+    <Route path="/npbi" component={NonProfitBillingInquiry} />
     <Route path="/ppninfo" component={PpnInfo} />
     <Route path="/trojanreunion" component={TrojanReunion} />
     <Route path="/additionalresources" component={AdditionalResources} />

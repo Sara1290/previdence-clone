@@ -232,7 +232,7 @@ const Team = () => {
                     <img src={johnnyMarble} alt="" className="team-img " />
                   <div className="overlay">
                     <p>John O'Callaghan</p>
-                    <p>Business Development</p>
+                    <p>Corporate Development Officer</p>
                   </div>
                   </button>
                 </div>

@@ -3,6 +3,8 @@ import * as Survey from "survey-react";
 import NavBar from '../NavBar'
 import "survey-react/modern.css";
 
+// URL = https://previdence.com/#/dsmparentswebersd
+// SURVEY TITLE = Weber School District DSM-5 Parent/Guardian Child Age 6–17
 
 const DSMParents = () => {
   Survey.StylesManager.applyTheme("modern");
@@ -11,888 +13,888 @@ const DSMParents = () => {
     surveyId: 'a2efd309-3c61-4af9-9ec0-9693f9f09b7e',
     surveyPostId: '4517e4dc-d75e-4b4d-81c1-52aa28092a73', 
     title: "Weber School District DSM-5 Parent/Guardian Child Age 6–17",
- pages: [
-  {
-   name: "Student Info",
-   elements: [
-    {
-     type: "radiogroup",
-     name: "Gender",
-     title: "Student gender",
-     hideNumber: true,
-     choices: [
-      {
-       value: "item1",
-       text: "Male"
-      },
-      {
-       value: "item2",
-       text: "Female"
-      },
-      {
-       value: "item3",
-       text: "Non-Binary"
-      }
-     ]
-    },
-    {
-     type: "dropdown",
-     name: "Grade",
-     title: "Student grade",
-     hideNumber: true,
-     choices: [
-      {
-       value: "item1",
-       text: "1st grade"
-      },
-      {
-       value: "item2",
-       text: "2nd grade"
-      },
-      {
-       value: "item3",
-       text: "3rd grade"
-      },
-      {
-       value: "item4",
-       text: "4th grade"
-      },
-      {
-       value: "item5",
-       text: "5th grade"
-      },
-      {
-       value: "item6",
-       text: "6th grade"
-      },
-      {
-       value: "item7",
-       text: "7th grade"
-      },
-      {
-       value: "item8",
-       text: "8th grade"
-      },
-      {
-       value: "item9",
-       text: "9th grade"
-      },
-      {
-       value: "item10",
-       text: "10th grade"
-      },
-      {
-       value: "item11",
-       text: "11th grade"
-      },
-      {
-       value: "item12",
-       text: "12th grade"
-      }
-     ]
-    },
-    {
-     type: "dropdown",
-     name: "Race",
-     title: "Student race",
-     hideNumber: true,
-     choices: [
-      {
-       value: "item1",
-       text: "African American"
-      },
-      {
-       value: "item2",
-       text: "American Indian or Alaska Native"
-      },
-      {
-       value: "item3",
-       text: "Asian"
-      },
-      {
-       value: "item4",
-       text: "Caucasian"
-      },
-      {
-       value: "item5",
-       text: "Hispanic/ Latinx"
-      },
-      {
-       value: "item6",
-       text: "Mixed race"
-      },
-      {
-       value: "item7",
-       text: "Native Hawaiian or Pacific Islander"
-      }
-     ]
-    }
-   ],
-   title: "Student Info"
-  },
-  {
-   name: "DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure—Child Age 11–17",
-   elements: [
-    {
-     type: "panel",
-     name: "Somatic Symptoms",
-     elements: [
-      {
-       type: "radiogroup",
-       name: "I-1",
-       title: "Complained of stomachaches, headaches, or other aches and pains?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "I-2",
-       title: "Said they were worried about their health or about getting sick?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      }
-     ],
-     title: "During the past TWO (2) WEEKS, how much (or how often) has your child",
-     showQuestionNumbers: "off"
-    },
-    {
-     type: "panel",
-     name: "Sleep Problems",
-     elements: [
-      {
-       type: "radiogroup",
-       name: "II-1",
-       title: "Had problems sleeping—that is, trouble falling asleep, staying asleep, or waking up too early?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      }
-     ],
-     showQuestionNumbers: "off"
-    },
-    {
-     type: "panel",
-     name: "Inattention",
-     elements: [
-      {
-       type: "radiogroup",
-       name: "III-1",
-       title: "Had problems paying attention when they were in class or doing their \nhomework or reading a book or playing a game?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      }
-     ],
-     showQuestionNumbers: "off"
-    },
-    {
-     type: "panel",
-     name: "Depression",
-     elements: [
-      {
-       type: "radiogroup",
-       name: "IV-1",
-       title: "Had less fun doing things than they used to? ",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "IV-2",
-       title: "Seemed sad or depressed for several hours?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      }
-     ],
-     showQuestionNumbers: "off"
-    },
-    {
-     type: "panel",
-     name: "Anger & Irritability",
-     elements: [
-      {
-       type: "radiogroup",
-       name: "V&VI-1",
-       title: "Seemed more irritated or easily annoyed than usual?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "V&VI-2Felt angry or lost your temper",
-       title: "Seemed angry or lost their temper?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      }
-     ],
-     showQuestionNumbers: "off"
-    },
-    {
-     type: "panel",
-     name: "Mania",
-     elements: [
-      {
-       type: "radiogroup",
-       name: "VII-1",
-       title: "Started lots more projects than usual or done more risky things than usual? ",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "VII-2",
-       title: "Slept less than usual for them, but still had lots of energy?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      }
-     ],
-     showQuestionNumbers: "off"
-    },
-    {
-     type: "panel",
-     name: "Anxiety",
-     elements: [
-      {
-       type: "radiogroup",
-       name: "VIII-1",
-       title: "Said they felt nervous, anxious, or scared?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "VIII-2",
-       title: "Not been able to stop worrying?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "VIII-3",
-       title: "Said they couldn’t do things they wanted to or should have done,\nbecause they made them feel nervous?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      }
-     ],
-     showQuestionNumbers: "off"
-    },
-    {
-     type: "panel",
-     name: "Psychosis",
-     elements: [
-      {
-       type: "radiogroup",
-       name: "IX-1",
-       title: "Said that they heard voices—when there was no one there—speaking \nabout them or telling them what to do or saying bad things to them?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "IX-2",
-       title: "Said that they had a vision when they were completely awake—that is, \nsaw something or someone that no one else could see? ",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      }
-     ],
-     showQuestionNumbers: "off"
-    },
-    {
-     type: "panel",
-     name: "Repetitive Thoughts  & Behaviors",
-     elements: [
-      {
-       type: "radiogroup",
-       name: "X-1",
-       title: "Said that they had thoughts that kept coming into their mind that they \nwould do something bad or that something bad would happen to them or \nto someone else?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "X-2",
-       title: "Said they felt the need to check on certain things over and over again, like \nwhether a door was locked or whether the stove was turned off?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "X-3",
-       title: "Seemed to worry a lot about things they touched being dirty or having \ngerms or being poisoned?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "X-4",
-       title: "Said that they had to do things in a certain way, like counting or saying \nspecial things out loud, in order to keep something bad from happening?",
-       isRequired: true,
-       choices: [
-        {
-         value: "0",
-         text: "None"
-        },
-        {
-         value: "1",
-         text: "Slight"
-        },
-        {
-         value: "2",
-         text: "Mild"
-        },
-        {
-         value: "3",
-         text: "Moderate"
-        },
-        {
-         value: "4",
-         text: "Severe"
-        }
-       ],
-       colCount: 5
-      }
-     ],
-     showQuestionNumbers: "off"
-    },
-    {
-     type: "panel",
-     name: "Substance Use",
-     elements: [
-      {
-       type: "radiogroup",
-       name: "XI-1",
-       title: "Had an alcoholic beverage (beer, wine, liquor, etc.)?",
-       isRequired: true,
-       choices: [
-        {
-         value: "2",
-         text: "Yes"
-        },
-        {
-         value: "0",
-         text: "No"
-        },
-        {
-         value: "1",
-         text: "Don't Know"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "XI-2",
-       title: "Smoked a cigarette, a cigar, or pipe, or used snuff or chewing tobacco?",
-       isRequired: true,
-       choices: [
-        {
-         value: "2",
-         text: "Yes"
-        },
-        {
-         value: "0",
-         text: "No"
-        },
-        {
-         value: "1",
-         text: "Don't Know"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "XI-3",
-       title: "Used drugs like marijuana, cocaine or crack, club drugs (like Ecstasy),  hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or  methamphetamine (like speed)?",
-       isRequired: true,
-       choices: [
-        {
-         value: "2",
-         text: "Yes"
-        },
-        {
-         value: "0",
-         text: "No"
-        },
-        {
-         value: "1",
-         text: "Don't Know"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "XI-4",
-       title: "Used any medicine without a doctor’s prescription to get high or change  the way you feel (e.g., painkillers [like Vicodin], stimulants [like Ritalin or  Adderall], sedatives or tranquilizers [like sleeping pills or Valium], or  steroids)?",
-       isRequired: true,
-       choices: [
-        {
-         value: "2",
-         text: "Yes"
-        },
-        {
-         value: "0",
-         text: "No"
-        },
-        {
-         value: "1",
-         text: "Don't Know"
-        }
-       ],
-       colCount: 5
-      }
-     ],
-     title: "In the past TWO (2) WEEKS, has your child …",
-     showQuestionNumbers: "off"
-    },
-    {
-     type: "panel",
-     name: "Suicidal Ideation/  Suicide Attempts",
-     elements: [
-      {
-       type: "radiogroup",
-       name: "XII-1",
-       title: "In the past TWO (2) WEEKS, have they talked about wanting to kill \nhimself/herself or about wanting to commit suicide?",
-       isRequired: true,
-       choices: [
-        {
-         value: "2",
-         text: "Yes"
-        },
-        {
-         value: "0",
-         text: "No"
-        },
-        {
-         value: "1",
-         text: "Don't Know"
-        }
-       ],
-       colCount: 5
-      },
-      {
-       type: "radiogroup",
-       name: "XII-2",
-       title: "have they EVER tried to kill themselves?",
-       isRequired: true,
-       choices: [
-        {
-         value: "2",
-         text: "Yes"
-        },
-        {
-         value: "0",
-         text: "No"
-        },
-        {
-         value: "1",
-         text: "Don't Know"
-        }
-       ],
-       colCount: 5
-      }
-     ],
-     showQuestionNumbers: "off"
-    }
-   ],
-   title: "DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure—Child Age 11–17"
-  }
- ],
+//  pages: [
+//   {
+//    name: "Student Info",
+//    elements: [
+//     {
+//      type: "radiogroup",
+//      name: "Gender",
+//      title: "Student gender",
+//      hideNumber: true,
+//      choices: [
+//       {
+//        value: "item1",
+//        text: "Male"
+//       },
+//       {
+//        value: "item2",
+//        text: "Female"
+//       },
+//       {
+//        value: "item3",
+//        text: "Non-Binary"
+//       }
+//      ]
+//     },
+//     {
+//      type: "dropdown",
+//      name: "Grade",
+//      title: "Student grade",
+//      hideNumber: true,
+//      choices: [
+//       {
+//        value: "item1",
+//        text: "1st grade"
+//       },
+//       {
+//        value: "item2",
+//        text: "2nd grade"
+//       },
+//       {
+//        value: "item3",
+//        text: "3rd grade"
+//       },
+//       {
+//        value: "item4",
+//        text: "4th grade"
+//       },
+//       {
+//        value: "item5",
+//        text: "5th grade"
+//       },
+//       {
+//        value: "item6",
+//        text: "6th grade"
+//       },
+//       {
+//        value: "item7",
+//        text: "7th grade"
+//       },
+//       {
+//        value: "item8",
+//        text: "8th grade"
+//       },
+//       {
+//        value: "item9",
+//        text: "9th grade"
+//       },
+//       {
+//        value: "item10",
+//        text: "10th grade"
+//       },
+//       {
+//        value: "item11",
+//        text: "11th grade"
+//       },
+//       {
+//        value: "item12",
+//        text: "12th grade"
+//       }
+//      ]
+//     },
+//     {
+//      type: "dropdown",
+//      name: "Race",
+//      title: "Student race",
+//      hideNumber: true,
+//      choices: [
+//       {
+//        value: "item1",
+//        text: "African American"
+//       },
+//       {
+//        value: "item2",
+//        text: "American Indian or Alaska Native"
+//       },
+//       {
+//        value: "item3",
+//        text: "Asian"
+//       },
+//       {
+//        value: "item4",
+//        text: "Caucasian"
+//       },
+//       {
+//        value: "item5",
+//        text: "Hispanic/ Latinx"
+//       },
+//       {
+//        value: "item6",
+//        text: "Mixed race"
+//       },
+//       {
+//        value: "item7",
+//        text: "Native Hawaiian or Pacific Islander"
+//       }
+//      ]
+//     }
+//    ],
+//    title: "Student Info"
+//   },
+//   {
+//    name: "DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure—Child Age 11–17",
+//    elements: [
+//     {
+//      type: "panel",
+//      name: "Somatic Symptoms",
+//      elements: [
+//       {
+//        type: "radiogroup",
+//        name: "I-1",
+//        title: "Complained of stomachaches, headaches, or other aches and pains?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "I-2",
+//        title: "Said they were worried about their health or about getting sick?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       }
+//      ],
+//      title: "During the past TWO (2) WEEKS, how much (or how often) has your child",
+//      showQuestionNumbers: "off"
+//     },
+//     {
+//      type: "panel",
+//      name: "Sleep Problems",
+//      elements: [
+//       {
+//        type: "radiogroup",
+//        name: "II-1",
+//        title: "Had problems sleeping—that is, trouble falling asleep, staying asleep, or waking up too early?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       }
+//      ],
+//      showQuestionNumbers: "off"
+//     },
+//     {
+//      type: "panel",
+//      name: "Inattention",
+//      elements: [
+//       {
+//        type: "radiogroup",
+//        name: "III-1",
+//        title: "Had problems paying attention when they were in class or doing their \nhomework or reading a book or playing a game?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       }
+//      ],
+//      showQuestionNumbers: "off"
+//     },
+//     {
+//      type: "panel",
+//      name: "Depression",
+//      elements: [
+//       {
+//        type: "radiogroup",
+//        name: "IV-1",
+//        title: "Had less fun doing things than they used to? ",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "IV-2",
+//        title: "Seemed sad or depressed for several hours?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       }
+//      ],
+//      showQuestionNumbers: "off"
+//     },
+//     {
+//      type: "panel",
+//      name: "Anger & Irritability",
+//      elements: [
+//       {
+//        type: "radiogroup",
+//        name: "V&VI-1",
+//        title: "Seemed more irritated or easily annoyed than usual?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "V&VI-2Felt angry or lost your temper",
+//        title: "Seemed angry or lost their temper?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       }
+//      ],
+//      showQuestionNumbers: "off"
+//     },
+//     {
+//      type: "panel",
+//      name: "Mania",
+//      elements: [
+//       {
+//        type: "radiogroup",
+//        name: "VII-1",
+//        title: "Started lots more projects than usual or done more risky things than usual? ",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "VII-2",
+//        title: "Slept less than usual for them, but still had lots of energy?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       }
+//      ],
+//      showQuestionNumbers: "off"
+//     },
+//     {
+//      type: "panel",
+//      name: "Anxiety",
+//      elements: [
+//       {
+//        type: "radiogroup",
+//        name: "VIII-1",
+//        title: "Said they felt nervous, anxious, or scared?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "VIII-2",
+//        title: "Not been able to stop worrying?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "VIII-3",
+//        title: "Said they couldn’t do things they wanted to or should have done,\nbecause they made them feel nervous?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       }
+//      ],
+//      showQuestionNumbers: "off"
+//     },
+//     {
+//      type: "panel",
+//      name: "Psychosis",
+//      elements: [
+//       {
+//        type: "radiogroup",
+//        name: "IX-1",
+//        title: "Said that they heard voices—when there was no one there—speaking \nabout them or telling them what to do or saying bad things to them?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "IX-2",
+//        title: "Said that they had a vision when they were completely awake—that is, \nsaw something or someone that no one else could see? ",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       }
+//      ],
+//      showQuestionNumbers: "off"
+//     },
+//     {
+//      type: "panel",
+//      name: "Repetitive Thoughts  & Behaviors",
+//      elements: [
+//       {
+//        type: "radiogroup",
+//        name: "X-1",
+//        title: "Said that they had thoughts that kept coming into their mind that they \nwould do something bad or that something bad would happen to them or \nto someone else?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "X-2",
+//        title: "Said they felt the need to check on certain things over and over again, like \nwhether a door was locked or whether the stove was turned off?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "X-3",
+//        title: "Seemed to worry a lot about things they touched being dirty or having \ngerms or being poisoned?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "X-4",
+//        title: "Said that they had to do things in a certain way, like counting or saying \nspecial things out loud, in order to keep something bad from happening?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "0",
+//          text: "None"
+//         },
+//         {
+//          value: "1",
+//          text: "Slight"
+//         },
+//         {
+//          value: "2",
+//          text: "Mild"
+//         },
+//         {
+//          value: "3",
+//          text: "Moderate"
+//         },
+//         {
+//          value: "4",
+//          text: "Severe"
+//         }
+//        ],
+//        colCount: 5
+//       }
+//      ],
+//      showQuestionNumbers: "off"
+//     },
+//     {
+//      type: "panel",
+//      name: "Substance Use",
+//      elements: [
+//       {
+//        type: "radiogroup",
+//        name: "XI-1",
+//        title: "Had an alcoholic beverage (beer, wine, liquor, etc.)?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "2",
+//          text: "Yes"
+//         },
+//         {
+//          value: "0",
+//          text: "No"
+//         },
+//         {
+//          value: "1",
+//          text: "Don't Know"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "XI-2",
+//        title: "Smoked a cigarette, a cigar, or pipe, or used snuff or chewing tobacco?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "2",
+//          text: "Yes"
+//         },
+//         {
+//          value: "0",
+//          text: "No"
+//         },
+//         {
+//          value: "1",
+//          text: "Don't Know"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "XI-3",
+//        title: "Used drugs like marijuana, cocaine or crack, club drugs (like Ecstasy),  hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or  methamphetamine (like speed)?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "2",
+//          text: "Yes"
+//         },
+//         {
+//          value: "0",
+//          text: "No"
+//         },
+//         {
+//          value: "1",
+//          text: "Don't Know"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "XI-4",
+//        title: "Used any medicine without a doctor’s prescription to get high or change  the way you feel (e.g., painkillers [like Vicodin], stimulants [like Ritalin or  Adderall], sedatives or tranquilizers [like sleeping pills or Valium], or  steroids)?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "2",
+//          text: "Yes"
+//         },
+//         {
+//          value: "0",
+//          text: "No"
+//         },
+//         {
+//          value: "1",
+//          text: "Don't Know"
+//         }
+//        ],
+//        colCount: 5
+//       }
+//      ],
+//      title: "In the past TWO (2) WEEKS, has your child …",
+//      showQuestionNumbers: "off"
+//     },
+//     {
+//      type: "panel",
+//      name: "Suicidal Ideation/  Suicide Attempts",
+//      elements: [
+//       {
+//        type: "radiogroup",
+//        name: "XII-1",
+//        title: "In the past TWO (2) WEEKS, have they talked about wanting to kill \nhimself/herself or about wanting to commit suicide?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "2",
+//          text: "Yes"
+//         },
+//         {
+//          value: "0",
+//          text: "No"
+//         },
+//         {
+//          value: "1",
+//          text: "Don't Know"
+//         }
+//        ],
+//        colCount: 5
+//       },
+//       {
+//        type: "radiogroup",
+//        name: "XII-2",
+//        title: "have they EVER tried to kill themselves?",
+//        isRequired: true,
+//        choices: [
+//         {
+//          value: "2",
+//          text: "Yes"
+//         },
+//         {
+//          value: "0",
+//          text: "No"
+//         },
+//         {
+//          value: "1",
+//          text: "Don't Know"
+//         }
+//        ],
+//        colCount: 5
+//       }
+//      ],
+//      showQuestionNumbers: "off"
+//     }
+//    ],
+//    title: "DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure—Child Age 11–17"
+//   }
+//  ],
  showPageTitles: false
   }
   const survey = new Survey.Model(json);
