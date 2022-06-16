@@ -99,7 +99,30 @@ const PpnInfo = () => {
                 <div className="utah-trainings">
                   <h2>Utah Providers</h2>
                   <h5>ART - Basic Training</h5>
-
+                  <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
+                    <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/place/401+E+400+N,+Price,+UT+84501/@39.6066454,-110.7972132,17z/data=!3m1!4b1!4m5!3m4!1s0x874eb950232c87cf:0x986dfcde628b3fa5!8m2!3d39.6066454!4d-110.7972132"  className="link" style={{
+                        fontWeight: 400, fontStyle: "italic"
+                      }}>
+                      USU Campus, C.I.B. Building <br></br>
+                      401 E. 400 N. 
+                      Price, UT 84501
+                    </a>
+                    <p>
+                    June 23 - 25 
+                  </p>
+                  </p>
+                  <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
+                    <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/place/5320+Adams+Ave+Pkwy,+Ogden,+UT+84405/@41.1671001,-111.9699945,17z/data=!3m1!4b1!4m5!3m4!1s0x875305eedc7371f5:0x2f3acb04c50241b7!8m2!3d41.1670961!4d-111.9678058"  className="link" style={{
+                        fontWeight: 400, fontStyle: "italic"
+                      }}>
+                      Weber School District <br></br>
+                      5320 Adams Avenue Pkwy
+                      Ogden, UT 84403
+                    </a>
+                    <p>
+                    August 15 - 16 
+                  </p>
+                  </p>
                   <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
                     <a target='_blank' rel="noreferrer" href="http://maps.google.com/maps?q=6545+Combee+Rd,+Ogden,+UT+84403"  className="link" style={{
                         fontWeight: 400, fontStyle: "italic"
@@ -116,9 +139,6 @@ const PpnInfo = () => {
                       Price, UT 84403
                     </a> 
                   </p> */}
-                  <p>
-                    June 16 - 18 
-                  </p>
                   <p>
                     August 25 - 27 
                   </p>
@@ -137,18 +157,8 @@ const PpnInfo = () => {
                   May 5 - 8  
                   Salt Lake City
                 </p> */}
-                  <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
-                    <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/place/401+E+400+N,+Price,+UT+84501/@39.6066454,-110.7972132,17z/data=!3m1!4b1!4m5!3m4!1s0x874eb950232c87cf:0x986dfcde628b3fa5!8m2!3d39.6066454!4d-110.7972132"  className="link" style={{
-                        fontWeight: 400, fontStyle: "italic"
-                      }}>
-                      USU Campus, C.I.B. Building <br></br>
-                      401 E. 400 N. 
-                      Price, UT 84501
-                    </a>
-                    <p>
-                    June 23 - 25 
-                  </p>
-                  </p>
+
+
                   <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
                     <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/place/90+E+200+N,+Logan,+UT+84321/@41.7347988,-111.8349198,17z/data=!4m13!1m7!3m6!1s0x87547e732a3af5d7:0x56a912f87a9226b6!2s90+E+200+N,+Logan,+UT+84321!3b1!8m2!3d41.7347948!4d-111.8327311!3m4!1s0x87547e732a3af5d7:0x56a912f87a9226b6!8m2!3d41.7347948!4d-111.8327311"  className="link" style={{
                         fontWeight: 400, fontStyle: "italic"
@@ -159,18 +169,6 @@ const PpnInfo = () => {
                     </a>
                     <p>
                     October 20 - 22 
-                  </p>
-                  </p>
-                  <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
-                    <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/place/5320+Adams+Ave+Pkwy,+Ogden,+UT+84405/@41.1671001,-111.9699945,17z/data=!3m1!4b1!4m5!3m4!1s0x875305eedc7371f5:0x2f3acb04c50241b7!8m2!3d41.1670961!4d-111.9678058"  className="link" style={{
-                        fontWeight: 400, fontStyle: "italic"
-                      }}>
-                      Weber School District <br></br>
-                      5320 Adams Avenue Pkwy
-                      Ogden, UT 84403
-                    </a>
-                    <p>
-                    August 15 - 16 
                   </p>
                   </p>
 
