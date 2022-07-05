@@ -218,10 +218,19 @@ nav {
   
 } */
 
+.compH1 {
+  position: relative;
+  bottom: 30vh;
+  margin: 10vh 0 10vh 0;
+}
+
 /* GROUPS SECTION */
 .group-parent {
-  background-color: #8f2a2b;
-  color: #CFCFCF;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
   bottom: 30vh;
   padding-bottom: 10vh;
@@ -230,17 +239,23 @@ nav {
   padding: 40px;
 }
 .group-wrapper {
+  width: 80vw;
+  flex-wrap: wrap;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .group-item {
   width: 400px;
   padding: 10px;
 }
+.group-item > p{
+  font-weight: 400;
+}
 .group-img {
   width: 100%;
   height: auto;
 }
+
 .caption {
   text-align: left;
   line-height: 2;
@@ -295,6 +310,19 @@ p {
 .step-texts p {
   font-weight: 400;
 } */
+
+#hubspotForm {
+  width: 60vw;
+  margin-bottom: 10vh;
+}
+.hubspot-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#hbspt-form-1656602655191-9596552611 {
+  margin-bottom: 10vh;
+}
 
   /* SPECIALITIES SECTION */
   .specialties-outer {

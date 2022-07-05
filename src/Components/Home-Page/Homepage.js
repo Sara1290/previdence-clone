@@ -10,6 +10,7 @@ import TheClipComponent from './TheClipComponent';
 import ReactGA from 'react-ga';
 import ScrollToTop from "../ScrollToTop";
 import Steps from "./Steps";
+import Hubspot from "../Hubspot";
 // import FacebookFeed from "./FacebookFeed";
 
 
@@ -24,10 +25,11 @@ const Homepage = () => {
     <div>
       <NavBar />
       <TheClipComponent />
+      <h1 className="compH1">Comprehensive Mental Health and Wellness Platform</h1>
       <GroupSection />
       <Steps />
+      <Hubspot />
       <ScrollToTop />
-      
       <Specialties />
       {/* <FacebookFeed />
       <br></br>

@@ -1,7 +1,11 @@
 import React from 'react';
-import parents from '../../images/parents.jpg';
-import individuals from '../../images/individuals.jpg';
-import specialtyGroups from '../../images/specialtyGroups.jpg';
+
+import sheriff from '../../images/sheriff.jpg';
+import police from '../../images/police.jpg';
+import fireFighter3 from '../../images/fireFighter3.jpg';
+import paramedic from '../../images/paramedic.jpg';
+import firefighters from '../../images/firefighters.jpg';
+import policeAtCar from '../../images/policeAtCar.jpg';
 import '../../CSS/App.css';
 import '../../CSS/Responsive.css';
 
@@ -10,27 +14,48 @@ const GroupSection = () => {
   return(
     <div className=" group-parent">
 
-
-      <h1>Comprehensive Mental Health and Wellness Platform</h1>
+      <br></br>
+      <h2>Build Resiliency to On-The-Job Stress</h2>
       {/* <h5 style={{fontStyle: "italic"}}>Saving lives one mind at a time</h5> */}
       <div className="group-wrapper">
-        <div className="group-item">
-        <img className="group-img" alt="" src={individuals}/>
-          <h3 className="caption">Individuals</h3>
-          <p>Whether you’re concerned about yourself or someone else, Previdence can help. When an individual takes our completely confidential mental health assessment, our risk assessment team will connect that individual with a qualified and vetted member of the Previdence Professional Network (PPN) to meet their specific needs. Individuals can also access comprehensive materials and information through the Previdence database.</p>
+
+      <div className="group-item">
+        <img className=" group-img" alt="" src={police}/>
+          <h4 className="caption">Attract and Retain</h4>
+          <p>Build a desirable culture that creates pyschological safety, trust, and unity</p>
         </div>
 
         <div className="group-item">
-        <img className="group-img" alt="" src={parents}/>
-          <h3 className="caption">Parents</h3>
-          <p>Using the Previdence specialized assessment tools, parents are guided and supported while easily assessing their children's mental health and wellness needs. The Previdence Professional Network (PPN) connects parents with vetted therapists. Parents can also access comprehensive materials and informational resources through the Previdence database to assist with their child’s needs.</p>
+        <img className="group-img" alt="" src={paramedic}/>
+          <h4 className="caption">Increase Performance</h4>
+          <p>Help your staff stay mentally fit and prepared for any incident or emergency</p>
         </div>
 
         <div className="group-item">
-        <img className="group-img" alt="" src={specialtyGroups}/>
-          <h3 className="caption">Specialty Groups</h3>
-          <p>Previdence helps your organization create a stronger, healthier workforce with our incomparable mental health assessments. Our assessments inform organizational leaders about the strengths and risks of their workforce, while keeping the employee’s information confidential. Additionally, the Previdence team provides customized mental health and wellness training, professional clinical support, and crisis response.</p>
+        <img className="group-img" alt="" src={sheriff}/>
+          <h4 className="caption">Strengthen Resiliency</h4>
+          <p>Get your staff educated and aware of the signs and symptoms of trauma, and provide them confidential access to treatment</p>
         </div>
+
+        <div className="group-item">
+        <img className="group-img" alt="" src={firefighters}/>
+          <h4 className="caption">Provide Individual Support</h4>
+          <p>Give your team members the ability to consult with someone outside of work regarding their mental wellness</p>
+        </div>
+
+        <div className="group-item">
+        <img className="group-img" alt="" src={fireFighter3}/>
+          <h4 className="caption">Support Growth & Development</h4>
+          <p>Help your department grow, advance their careers, accept more responsibility, so they can thrive at work and at home</p>
+        </div>
+
+        <div className="group-item">
+        <img className="group-img" alt="" src={policeAtCar}/>
+          <h4 className="caption">Support Growth & Development</h4>
+          <p>Help your department grow, advance their careers, accept more responsibility, so they can thrive at work and at home</p>
+        </div>
+      
+      
       </div>
     </div>
  

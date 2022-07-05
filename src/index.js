@@ -12,12 +12,15 @@ const history = createBrowserHistory();
 
 const Router = HashRouter;
 
+// REACT_APP_GA_TRACKING_ID = UA-198972821-1
+// REACT_APP_GA_USER_ID=198972821
+//old one ^^
 const TRACKING_ID = process.env.REACT_APP_GA_TRACKING_ID; // YOUR_OWN_TRACKING_ID
 ReactGA.initialize(TRACKING_ID, {
   debug: true,
   titleCase: false,
   gaOptions: {
-    userId: '198972821',
+    userId: '270251034',
     siteSpeedSampleRate: 100
   }
 });;

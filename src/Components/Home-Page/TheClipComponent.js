@@ -10,9 +10,10 @@ const TheClipComponent = () => {
     <video autoPlay loop muted className="prev-clip">
        <source src={TheClip} type="video/mp4" />
     </video>
-  <div className="logo-wrapper">
-    <img alt="previdence logo" src={PrevLogo} className="prev-logo" />
-  </div>
+    <div className="logo-wrapper">
+      <img alt="previdence logo" src={PrevLogo} className="prev-logo" />
+    </div>
+    
   </div>
   )
 }

@@ -12,18 +12,17 @@
     width: 48px;
     margin: 0px 40px 40px 0px;
   }
-  .group-parent {
-    position: relative;
-    bottom: 40vh !important;
+   .group-parent {
+  width: 100vw;
   }
   .group-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100vw;
   }
-  .group-item {
-    width: 350px;
+ .group-item {
+    width: 80%;
+  }
+  .group-img1 {
+    height: 157.33px;
   }
   .prev-logo {
     position: relative;
