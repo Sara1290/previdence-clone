@@ -26,6 +26,7 @@ const Homepage = () => {
       <NavBar />
       <TheClipComponent />
       <h1 className="compH1">Comprehensive Mental Health and Wellness Platform</h1>
+      <h3 className="compH3">For first responders and public safety</h3>
       <GroupSection />
       <Steps />
       <Hubspot />

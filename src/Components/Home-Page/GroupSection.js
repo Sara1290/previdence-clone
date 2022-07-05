@@ -13,8 +13,9 @@ const GroupSection = () => {
 
   return(
     <div className=" group-parent">
-
       <br></br>
+      
+
       <h2>Build Resiliency to On-The-Job Stress</h2>
       {/* <h5 style={{fontStyle: "italic"}}>Saving lives one mind at a time</h5> */}
       <div className="group-wrapper">
@@ -34,7 +35,7 @@ const GroupSection = () => {
         <div className="group-item">
         <img className="group-img" alt="" src={sheriff}/>
           <h4 className="caption">Strengthen Resiliency</h4>
-          <p>Get your staff educated and aware of the signs and symptoms of trauma, and provide them confidential access to treatment</p>
+          <p>Get your staff educated and aware of the signs and symptoms of trauma and suicidality</p>
         </div>
 
         <div className="group-item">
@@ -51,8 +52,8 @@ const GroupSection = () => {
 
         <div className="group-item">
         <img className="group-img" alt="" src={policeAtCar}/>
-          <h4 className="caption">Support Growth & Development</h4>
-          <p>Help your department grow, advance their careers, accept more responsibility, so they can thrive at work and at home</p>
+          <h4 className="caption">Protect Career and Reputation</h4>
+          <p>Provide your team confidential access to treatment, with zero kickback</p>
         </div>
       
       

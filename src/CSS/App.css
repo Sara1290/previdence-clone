@@ -221,7 +221,13 @@ nav {
 .compH1 {
   position: relative;
   bottom: 30vh;
-  margin: 10vh 0 10vh 0;
+  margin: 10vh 0 0vh 0;
+}
+.compH3 {
+  position: relative;
+  bottom: 30vh;
+  margin: 3vh 0 10vh 0;
+  font-style: italic;
 }
 
 /* GROUPS SECTION */
@@ -235,8 +241,9 @@ nav {
   bottom: 30vh;
   padding-bottom: 10vh;
 }
-.group-parent > h1 {
-  padding: 40px;
+.group-parent > h2 {
+  /* padding: 40px; */
+  margin-top: 2%;
 }
 .group-wrapper {
   width: 80vw;
