@@ -99,7 +99,7 @@ const PpnInfo = () => {
                 <div className="utah-trainings">
                   <h2>Utah Providers</h2>
                   <h5>ART - Basic Training</h5>
-                  <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
+                  {/* <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
                     <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/place/401+E+400+N,+Price,+UT+84501/@39.6066454,-110.7972132,17z/data=!3m1!4b1!4m5!3m4!1s0x874eb950232c87cf:0x986dfcde628b3fa5!8m2!3d39.6066454!4d-110.7972132"  className="link" style={{
                         fontWeight: 400, fontStyle: "italic"
                       }}>
@@ -110,7 +110,7 @@ const PpnInfo = () => {
                     <p>
                     June 23 - 25 
                   </p>
-                  </p>
+                  </p> */}
                   <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
                     <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/place/5320+Adams+Ave+Pkwy,+Ogden,+UT+84405/@41.1671001,-111.9699945,17z/data=!3m1!4b1!4m5!3m4!1s0x875305eedc7371f5:0x2f3acb04c50241b7!8m2!3d41.1670961!4d-111.9678058"  className="link" style={{
                         fontWeight: 400, fontStyle: "italic"
