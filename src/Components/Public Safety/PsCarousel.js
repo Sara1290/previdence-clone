@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
-import {FaTrophy, FaUserFriends} from 'react-icons/fa';
+import {FaUserFriends} from 'react-icons/fa';
 import {FaUsers} from 'react-icons/fa';
 import {FaCertificate} from 'react-icons/fa';
 import {FaHeart} from 'react-icons/fa';
@@ -49,12 +49,12 @@ const PsCarousel = ({deviceType}) => {
       itemClass="carousel-item-padding-40-px"
       >
       
-      <div className="icon-item">
+      {/* <div className="icon-item">
         <FaTrophy className="icon-light" /><br></br>
         <div className="ps-icon-para">
           <p>Served Over 10,000 First Responders</p>
         </div>
-      </div>
+      </div> */}
       <div className="icon-item">
         <FaUserFriends className="icon-light" /><br></br>
         <p>Peer Support Team Set Up and Specialized Training</p>

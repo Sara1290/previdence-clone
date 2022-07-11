@@ -331,6 +331,25 @@ p {
   margin-bottom: 10vh;
 }
 
+#hubspotTY {
+  width: 60vw;
+  background-color: rgb(219, 219, 219);
+}
+.hubspotTY-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20vh;
+}
+.hubspotTY-img {
+  margin-top: 5vh;
+}
+.hubspotTY-outer h6 {
+  font-style: italic;
+  margin-bottom: 5vh;
+}
+
+
   /* SPECIALITIES SECTION */
   .specialties-outer {
     background-color: white;

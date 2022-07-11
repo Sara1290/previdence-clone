@@ -194,7 +194,7 @@ const PpnInfo = () => {
                       Accelerated Resolution Therapy
                     </a>
                   </p>
-                  <p>
+                  {/* <p>
                     <a
                       href="https://artherapyinternational.org/events/maps/ "
                       
@@ -207,7 +207,7 @@ const PpnInfo = () => {
                     >
                       ART International
                     </a>
-                  </p>
+                  </p> */}
                 </div>
               </Fade>
             </div>

@@ -1,5 +1,6 @@
 import React, {useEffect} from "react";
 
+
 const Hubspot = () => {
     useEffect(() => {
         const script = document.createElement('script');
@@ -19,6 +20,8 @@ const Hubspot = () => {
         });
     }, []);
 
+
+    
     return (
         <div className="hubspot-outer">
           <h1>Request A Demo</h1>

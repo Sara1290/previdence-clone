@@ -10,7 +10,8 @@ import TheClipComponent from './TheClipComponent';
 import ReactGA from 'react-ga';
 import ScrollToTop from "../ScrollToTop";
 import Steps from "./Steps";
-import Hubspot from "../Hubspot";
+import Hubspot from "../HubSpot/Hubspot";
+
 // import FacebookFeed from "./FacebookFeed";
 
 
@@ -30,6 +31,7 @@ const Homepage = () => {
       <GroupSection />
       <Steps />
       <Hubspot />
+
       <ScrollToTop />
       <Specialties />
       {/* <FacebookFeed />
