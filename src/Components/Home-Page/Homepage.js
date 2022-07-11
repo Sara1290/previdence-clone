@@ -11,7 +11,7 @@ import ReactGA from 'react-ga';
 import ScrollToTop from "../ScrollToTop";
 import Steps from "./Steps";
 import Hubspot from "../HubSpot/Hubspot";
-
+// import HubspotThankYou from "../HubSpot/HubspotThankYou";
 // import FacebookFeed from "./FacebookFeed";
 
 
@@ -31,7 +31,7 @@ const Homepage = () => {
       <GroupSection />
       <Steps />
       <Hubspot />
-
+      {/* <HubspotThankYou /> */}
       <ScrollToTop />
       <Specialties />
       {/* <FacebookFeed />

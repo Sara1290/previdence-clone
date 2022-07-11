@@ -81,6 +81,10 @@
     width: 75%;
     font-weight: 300;
   }
+  #hubspotTY {
+    width: 80vw;
+    padding: 2%;
+  }
   /* -------CORPORATIONS------ */
   .corp-inner {
     display: flex;

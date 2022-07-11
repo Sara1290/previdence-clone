@@ -36,6 +36,7 @@ import AdditionalResources from './Components/PPN/AdditionalResources';
 import OpdTipsTest from './Components/Tips/OpdTipsTest';
 import WFRCsurvey from './Components/Surveys/WFRCsurvey';
 import ClearfieldPDTips from './Components/Tips/ClearfieldPDTips';
+import HubspotThankYou from './Components/HubSpot/HubspotThankYou';
 
 export default (
   <Switch>
@@ -75,5 +76,6 @@ export default (
     <Route path="/ppninfo" component={PpnInfo} />
     <Route path="/trojanreunion" component={TrojanReunion} />
     <Route path="/additionalresources" component={AdditionalResources} />
+    <Route path="/thank-you" component={HubspotThankYou} />
   </Switch>
 )
