@@ -333,7 +333,7 @@ p {
 
 #hubspotTY {
   width: 60vw;
-  background-color: rgb(219, 219, 219);
+  /* background-color: rgb(219, 219, 219); */
 }
 .hubspotTY-outer {
   display: flex;
