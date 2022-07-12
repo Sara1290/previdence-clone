@@ -879,7 +879,7 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 5vh 0 5vh 0;
-    margin-bottom: 10vh;
+    margin-bottom: 0vh;
   }
   .step-item {
     background-color: white;
@@ -1089,6 +1089,9 @@
   } 
   .left-img-wrapper, .right-img-wrapper, .left-img-wrapper2 {
     display: none;
+  }
+  .steps-inner {
+    margin-bottom: 15vh;
   }
 }
 

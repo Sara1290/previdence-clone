@@ -27,14 +27,15 @@ import DSM from './Components/Surveys/DSM';
 import DSMParents from './Components/Surveys/DSMParents';
 import DSMSample from './Components/Surveys/DSMSample';
 import DSMSpanish from './Components/Surveys/DSMSpanish';
+import TrojanReunion from './Components/Surveys/TrojanReunion';
 import DSMSpanishParents from './Components/Surveys/DSMSpanishParents';
 import NonProfitBillingInquiry from './Components/Surveys/NonProfitBillingInquiry';
+import WFRCsurvey from './Components/Surveys/WFRCsurvey';
+import ClientPPNSatisfaction from './Components/Surveys/ClientPPNSatisfaction';
 import PpnInfo from './Components/PPN/PpnInfo';
 import OpdTips from './Components/Tips/OpdTips';
-import TrojanReunion from './Components/Surveys/TrojanReunion';
 import AdditionalResources from './Components/PPN/AdditionalResources';
 import OpdTipsTest from './Components/Tips/OpdTipsTest';
-import WFRCsurvey from './Components/Surveys/WFRCsurvey';
 import ClearfieldPDTips from './Components/Tips/ClearfieldPDTips';
 import HubspotThankYou from './Components/HubSpot/HubspotThankYou';
 
@@ -75,6 +76,7 @@ export default (
     <Route path="/npbi" component={NonProfitBillingInquiry} />
     <Route path="/ppninfo" component={PpnInfo} />
     <Route path="/trojanreunion" component={TrojanReunion} />
+    <Route path="/clientppnsatisfaction" component={ClientPPNSatisfaction} />
     <Route path="/additionalresources" component={AdditionalResources} />
     <Route path="/thank-you" component={HubspotThankYou} />
   </Switch>
