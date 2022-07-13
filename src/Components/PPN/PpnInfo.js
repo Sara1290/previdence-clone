@@ -120,7 +120,7 @@ const PpnInfo = () => {
                       Ogden, UT 84403
                     </a>
                     <p>
-                    August 15 - 16 
+                    August 15 - 17 
                   </p>
                   </p>
                   <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
