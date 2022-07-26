@@ -16,6 +16,7 @@ import Testimonials from './Components/Home-Page/Testimonials';
 import Resources from './Components/Resources/Resources';
 import OfdTips from './Components/Tips/OfdTips';
 import Ppn from './Components/Surveys/Ppn';
+import ClientPPNSatisfaction from './Surveys/ClientPPNSatisfaction';
 import PpnNv from './Components/Surveys/PpnNv';
 import PpnAdditional from './Components/Surveys/PpnAddtional';
 import CrisisResponse from './Components/Surveys/CrisisResponse';
@@ -53,6 +54,7 @@ export default (
     <Route path="/opdtips" component={OpdTips} />
     <Route path="/thank-you" component={HubspotThankYou} />
     <Route path="/ppn" component={Ppn} />
+    <Route path="/clientppnsatisfaction" component={ClientPPNSatisfaction} />
     <Route path="/ppn-nv" component={PpnNv} />
     <Route path="/ppnadditional" component={PpnAdditional} />
     <Route path="/crisisresponse" component={CrisisResponse} />
