@@ -5,14 +5,14 @@ import kentMarble from '../../images/kentMarble.png';
 import markMarble2 from '../../images/markMarble2.png';
 import tiaMarble from '../../images/tiaMarble.png';
 // import saraMarble2 from '../../images/saraMarble2.png';
-import codyNew from '../../images/codyNew.png';
+// import codyNew from '../../images/codyNew.png';
 import johnnyMarble from '../../images/johnnyMarble.jpg';
 // import StevieMarble from '../../images/StevieMarble.png';
 import StevieMarble2 from '../../images/StevieMarble2.png';
 import '../../CSS/Pages.css';
 import '../../CSS/App.css';
 import UniFooter from '../UniFooter';
-import CodyModal from './CodyModal';
+// import CodyModal from './CodyModal';
 import JohnModal from './JohnModal';
 import JohnOModal from './JohnOModal';
 import KentModal from './KentModal';
@@ -30,7 +30,7 @@ const Team = () => {
 
 
   //one state hook for each team member's modal
-  const [showCodyModal, setShowCodyModal] = useState(false);
+  // const [showCodyModal, setShowCodyModal] = useState(false);
   const [showJohnModal, setShowJohnModal] = useState(false);
   const [showJohnOModal, setShowJohnOModal] = useState(false);
   const [showKentModal, setShowKentModal] = useState(false);
@@ -41,9 +41,9 @@ const Team = () => {
   const modalRef = useRef();
 
   //one function to open each team members modal .. we need a function with unique naming so that we don't open and close modals simultaneously.
-  const openCodyModal = () => {
-    setShowCodyModal(prev => !prev)
-  };
+  // const openCodyModal = () => {
+  //   setShowCodyModal(prev => !prev)
+  // };
   const openJohnModal = () => {
     setShowJohnModal(prev => !prev)
   };
@@ -70,7 +70,7 @@ const Team = () => {
   //function will close all modals
   const closeModal = e => {
     if(modalRef.current === e.target) {
-      setShowCodyModal(false)
+      // setShowCodyModal(false)
       setShowJohnModal(false)
       setShowJohnOModal(false)
       setShowKentModal(false)
@@ -86,8 +86,8 @@ const Team = () => {
 
   return (
     <div >
-      <div className={(showCodyModal ? "dark-background " : "hide")} ref={modalRef} onClick={() => setShowCodyModal(prev => !prev)} >
-      </div>
+      {/* <div className={(showCodyModal ? "dark-background " : "hide")} ref={modalRef} onClick={() => setShowCodyModal(prev => !prev)} >
+      </div> */}
       <div className={(showJohnModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowJohnModal(prev => !prev)} >
       </div>
       <div className={(showJohnOModal ? "dark-background" : "hide")} ref={modalRef} onClick={() => setShowJohnOModal(prev => !prev)} >
@@ -207,7 +207,7 @@ const Team = () => {
               />
             </div>
 
-            <div className="col-md-6 col-lg-4 ">
+            {/* <div className="col-md-6 col-lg-4 ">
               <div className="thumb thumb-corporate">
                 <div className="thumb-corporate__main team-member-container">
                   <button className="open-button" onClick={openCodyModal}>
@@ -223,7 +223,7 @@ const Team = () => {
                 showCodyModal={showCodyModal}
                 setShowCodyModal={setShowCodyModal}
                 />
-            </div>
+            </div> */}
 
             <div className="col-md-6 col-lg-4 ">
               <div className="thumb thumb-corporate">
