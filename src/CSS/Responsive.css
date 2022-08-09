@@ -414,13 +414,15 @@
     left: 10%
   } */
   .journey-item {
-    width: 452px
+    width: 452px;
+    /* height: 245px; */
   } 
   .journey-item-dark {
     width: 452px;
+    /* height: 245px; */
   }
   .padright{
-    padding-right: 19%;
+   font-size: 15px;
   }
   .journey-icon-dark {
     position: relative;
