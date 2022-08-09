@@ -43,9 +43,9 @@ background-color: rgb(241, 240, 240);
   100% {transform: scaleY(1)}
 }
 
-ul {
+/* ul {
   list-style-type: none;
-}
+} */
 
 /* .home-link {
   color: #8f2a2b;
@@ -181,6 +181,64 @@ nav {
   color: #333333;
 }
 
+/* Journey */
+.journey-outer {
+  background-color: rgba(255, 253, 232, 0.705);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+.journey-container{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.journey-item {
+  width: 306px;
+  background-color: #85ACDE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+  filter: drop-shadow(5px 5px 4px rgba(133, 172, 222, 0.5));
+}
+.journey-item-dark {
+  width: 306px;
+  background-color: #0C366D;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+  filter: drop-shadow(5px 5px 4px rgba(12, 54, 109, 0.5));
+}
+.journey-icon {
+  font-size: 80px;
+  margin: 20px;
+}
+.journey-icon-dark {
+  width: 110px;
+}
+.journey-texts {
+  text-align: left;
+  border-left: 1px solid black;
+  padding: 20px 0 0 20px;
+}
+.journey-texts-dark {
+  text-align: left;
+  border-right: 1px solid white;
+  padding: 20px 0px 0 10px;
+}
+.journey-texts ul {
+  font-weight: 300;
+}
 /* VIDEO */
 .background-video {
   position: relative;
@@ -295,16 +353,6 @@ p {
   flex-wrap: wrap;
   padding: 5vh 0 5vh 0;
 }
-.step-item {
-  background-color: white;
-
-  text-align: left;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 2%;
-  padding: 1%;
-}
 .step-icon {
   font-size: 35pt;
   filter: drop-shadow(10px 5px 4px rgba(0, 0, 0, 0.274));
@@ -317,6 +365,9 @@ p {
 .step-texts p {
   font-weight: 400;
 } */
+.step-item {
+border-radius: 15px;
+}
 
 #hubspotForm {
   width: 60vw;

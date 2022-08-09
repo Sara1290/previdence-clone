@@ -60,6 +60,7 @@
     align-items: center;
     width: 95vw;
     margin-bottom: 20vh;
+    border-radius: 20px;
   }
   .step-item {
     background-color: white;
@@ -70,6 +71,7 @@
     align-items: center;
     margin: 2%;
     padding: 1%;
+    border-radius: 20px;
   }
   .step-icon {
     font-size: 25pt;
@@ -406,6 +408,25 @@
 }
 
 @media screen and (min-width: 760px) {
+  /* Journey */
+  /* .journey-item-dark {
+    position: relative;
+    left: 10%
+  } */
+  .journey-item {
+    width: 452px
+  } 
+  .journey-item-dark {
+    width: 452px;
+  }
+  .padright{
+    padding-right: 19%;
+  }
+  .journey-icon-dark {
+    position: relative;
+    right: 10px;
+  }
+
   /*UNI FOOTER*/
   .footer-line-mobile {
     background-color: white !important;
@@ -833,6 +854,14 @@
 /*-----------------laptop / ipad PRO---------*/
 @media screen and (min-width: 1023px) {
   /*-- HOME-- */
+  .journey-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+  }
   .prev-logo {
     position: relative;
     top: 16vh;
@@ -1244,7 +1273,7 @@
 @media screen and (min-width: 1500px) {
 
   .steps-inner {
-    width: 65vw;
+    width: 45vw;
   }
 
   .team-modal {
@@ -1415,6 +1444,14 @@
 /* ------------------ SUPER LARGE ------------ */
 @media screen and (min-width: 2000px) {
   /*----HOME--------*/
+  .journey-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 45%;
+  }
   .prev-logo {
     position: relative;
     top: 3vh;
