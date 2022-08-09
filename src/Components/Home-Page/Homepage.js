@@ -34,7 +34,13 @@ const Homepage = () => {
       {/* <h4 className="compH3">Currently live with 26 Public Safety departments, covering over 1000 lives</h4> */}
       <GroupSection />
       <Journey />
-      {/* <Steps /> */}
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <Steps />
       <Hubspot />
       <ScrollToTop />
       <Specialties />
