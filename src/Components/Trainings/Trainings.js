@@ -27,7 +27,7 @@ const Trainings = () => {
     
     //Feb 1 & 2 
     ui.createComponent('productSet', {
-      id: [7128189075633, 7166845583537],
+      id: [7166845583537],
       node: document.getElementById('my-product'),
       options: {
         product: {
