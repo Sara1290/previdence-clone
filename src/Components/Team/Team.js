@@ -139,7 +139,7 @@ const Team = () => {
                     <img src={kentMarble} alt="" className="team-img " />
                   <div className="overlay">
                     <p>Kent Allen, LMFT</p>
-                    <p>Founder / Clinical Director</p>
+                    <p>Founder</p>
                   </div>
                   </button>
                 </div>

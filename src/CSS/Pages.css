@@ -1447,6 +1447,34 @@ td {
 }
 
 /*--------- PPN WELCOME PAGE -----------*/
+/* this is for the flyer
+.conference-flyer {
+  width: 35vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flyer {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15vw;
+}
+.download {
+  width: 50%;
+  margin-bottom: 5%;
+}
+.flyer-texts p {
+  font-weight: 300;
+  margin-bottom: 5%;
+}
+.flyer-texts a {
+  color: black;
+}
+.flyer-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
 /*contains the whole page minus the nav bar*/
 .ppn-wrapper {
   /* height: 1600px; */

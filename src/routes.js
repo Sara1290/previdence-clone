@@ -32,6 +32,7 @@ import DSMSpanishParents from './Components/Surveys/DSMSpanishParents';
 import NonProfitBillingInquiry from './Components/Surveys/NonProfitBillingInquiry';
 import WFRCsurvey from './Components/Surveys/WFRCsurvey';
 import ClientPPNSatisfaction from './Components/Surveys/ClientPPNSatisfaction';
+import PpnConference from './Components/Surveys/PpnConference';
 import PpnInfo from './Components/PPN/PpnInfo';
 import OpdTips from './Components/Tips/OpdTips';
 import AdditionalResources from './Components/PPN/AdditionalResources';
@@ -77,6 +78,7 @@ export default (
     <Route path="/ppninfo" component={PpnInfo} />
     <Route path="/trojanreunion" component={TrojanReunion} />
     <Route path="/clientppnsatisfaction" component={ClientPPNSatisfaction} />
+    <Route path="/ppnconference" component={PpnConference} />
     <Route path="/additionalresources" component={AdditionalResources} />
     <Route path="/thank-you" component={HubspotThankYou} />
   </Switch>

@@ -3,9 +3,10 @@ import NavBar from "../NavBar";
 import Fade from "react-reveal/Fade";
 import ppnTherapist2Small from "../../images/ppnTherapist2Small.jpg";
 import ppnTherapist3Small from "../../images/ppnTherapist3Small.jpg";
-import kentMarble from '../../images/kentMarble.png'
+import saveTheDate from "../../images/saveTheDate.png";
+import download from "../../images/download.png";
 import ReactGA from 'react-ga';
-import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
+// import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import PpnFooter from "../PpnFooter";
 
@@ -61,6 +62,17 @@ const PpnInfo = () => {
               </Link>
             </div>
           </Fade>
+        </div>
+        <div className="conference-flyer">
+          <a href={saveTheDate} download target="_blank" rel="noreferrer" className="flyer">
+          <img src={download} className="download" alt="click to download the flyer" />
+
+          <img src={saveTheDate} className="flyer" alt="ppn-flyer" />
+          </a>
+          <div className="flyer-texts">
+          <h1><a href="https://previdence.com/#/ppnconference" target="_blank" rel="noreferrer">Register now</a> for the Previdence Provider Network Conference</h1>
+          <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none', textAlign: 'center'}}> <a target='_blank' rel="noreferrer" href="http://maps.google.com/maps?q=6545+Combee+Rd,+Ogden,+UT+84403"  className="link" style={{ fontWeight: 400}}>Crossroads Christian Fellowship <br></br>6545 Combee Road Ogden, UT 84403</a></p> 
+          </div>
         </div>
         <div className="welcome-vid-container">
           <Fade left>
@@ -294,7 +306,7 @@ const PpnInfo = () => {
           </Fade>
 
         </div>
-        <div className="image-right-text-left clinical-directors-message">
+        {/* <div className="image-right-text-left clinical-directors-message">
           <Fade right>
             <div className="right-img-wrapper">
               <img
@@ -318,7 +330,7 @@ const PpnInfo = () => {
               <FaQuoteRight />
             </div>
           </Fade>
-        </div>
+        </div> */}
         <PpnFooter />
       </div>
     </div>
