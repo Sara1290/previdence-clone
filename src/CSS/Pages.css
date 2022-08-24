@@ -1447,7 +1447,37 @@ td {
 }
 
 /*--------- PPN WELCOME PAGE -----------*/
+.conf-mail {
+  display: block;
+  position: relative;
+  border: none;
+  padding: 4px;
+  border-radius: 5px;
+  font-weight: 300;
+  color: white;
+  background-color: #7b0303;
+}
+.conf-mail::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgba(255,255,255,0.4);
+	-webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+.conf-mail:hover::after {
+  width: 120%;
+  background-color: rgba(255,255,255,0);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
 /* this is for the flyer
+
 .conference-flyer {
   width: 35vw;
   display: flex;
