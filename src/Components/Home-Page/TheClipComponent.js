@@ -13,7 +13,6 @@ const TheClipComponent = () => {
     <div className="logo-wrapper">
       <img alt="previdence logo" src={PrevLogo} className="prev-logo" />
     </div>
-    
   </div>
   )
 }

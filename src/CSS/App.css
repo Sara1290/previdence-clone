@@ -293,6 +293,7 @@ nav {
   margin: 10vh 0 0vh 0;
 }
 .compH3 {
+  
   position: relative;
   bottom: 30vh;
   margin: 3vh 0 10vh 0;
@@ -301,7 +302,7 @@ nav {
 
 /* GROUPS SECTION */
 .group-parent {
-  background-color: #e0e0e0;
+  background-color: #e9e9e9;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -312,7 +313,8 @@ nav {
 }
 .group-parent > h2 {
   /* padding: 40px; */
-  margin-top: 2%;
+  font-size: 24px;
+  margin-top: 1%;
 }
 .group-wrapper {
   width: 80vw;
@@ -330,6 +332,8 @@ nav {
 .group-img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.125);
 }
 
 .caption {
