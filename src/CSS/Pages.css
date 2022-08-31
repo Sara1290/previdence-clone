@@ -1508,7 +1508,7 @@ td {
 /*contains the whole page minus the nav bar*/
 .ppn-wrapper {
   /* height: 1600px; */
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1543,7 +1543,7 @@ td {
 }
 /*first div of image and text - welcome paragraph*/
 .image-left-text-right1 {
-  /* background-color: #fff; */
+  background-color: #f1f1f1;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -1681,6 +1681,7 @@ td {
 /*  upcoming trainings  */
 .ppn-trainings-outer {
   width: 70%;
+  background-color: #f1f1f1;
   margin: 10vh 0 0 0;
   display: flex;
   flex-direction: column;
@@ -1689,6 +1690,7 @@ td {
 }
 .ppn-trainings-outer h1 {
   margin-bottom: 10vh;
+  margin-top: 5vh;
 }
 .ppn-trainings-outer h2 {
   border-bottom: 2px solid #8f2a2b;

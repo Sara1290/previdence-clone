@@ -3,7 +3,7 @@ import NavBar from "../NavBar";
 import Fade from "react-reveal/Fade";
 import ppnTherapist2Small from "../../images/ppnTherapist2Small.jpg";
 import ppnTherapist3Small from "../../images/ppnTherapist3Small.jpg";
-import saveTheDate from "../../images/saveTheDate.png";
+import SaveTheDateNew from "../../images/SaveTheDateNew.png";
 import download from "../../images/download.png";
 import ReactGA from 'react-ga';
 // import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
@@ -72,10 +72,10 @@ const PpnInfo = () => {
           </Fade>
         </div>
         <div className="conference-flyer">
-          <a href={saveTheDate} download target="_blank" rel="noreferrer" className="flyer">
+          <a href={SaveTheDateNew} download target="_blank" rel="noreferrer" className="flyer">
           <img src={download} className="download" alt="click to download the flyer" />
 
-          <img src={saveTheDate} className="flyer" alt="ppn-flyer" />
+          <img src={SaveTheDateNew} className="flyer" alt="ppn-flyer" />
           </a>
           <div className="flyer-texts">
           <h1><a href="https://previdence.com/#/ppnconference" target="_blank" rel="noreferrer">Register now</a> for the Previdence Provider Network Conference</h1>
@@ -134,18 +134,7 @@ const PpnInfo = () => {
                     June 23 - 25 
                   </p>
                   </p> */}
-                  <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
-                    <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/place/5320+Adams+Ave+Pkwy,+Ogden,+UT+84405/@41.1671001,-111.9699945,17z/data=!3m1!4b1!4m5!3m4!1s0x875305eedc7371f5:0x2f3acb04c50241b7!8m2!3d41.1670961!4d-111.9678058"  className="link" style={{
-                        fontWeight: 400, fontStyle: "italic"
-                      }}>
-                      Weber School District <br></br>
-                      5320 Adams Avenue Pkwy
-                      Ogden, UT 84403
-                    </a>
-                    <p>
-                    August 15 - 17 
-                  </p>
-                  </p>
+
                   <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
                     <a target='_blank' rel="noreferrer" href="http://maps.google.com/maps?q=6545+Combee+Rd,+Ogden,+UT+84403"  className="link" style={{
                         fontWeight: 400, fontStyle: "italic"
@@ -162,9 +151,7 @@ const PpnInfo = () => {
                       Price, UT 84403
                     </a> 
                   </p> */}
-                  <p>
-                    August 25 - 27 
-                  </p>
+
                   {/* <p>
                     October 20 - 22 
                   </p> */}
