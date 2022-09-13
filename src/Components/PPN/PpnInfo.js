@@ -78,11 +78,11 @@ const PpnInfo = () => {
           <img src={SaveTheDateNew} className="flyer" alt="ppn-flyer" />
           </a>
           <div className="flyer-texts">
-          <h1><a href="https://previdence.com/#/ppnconference" target="_blank" rel="noreferrer">Register now</a> for the Previdence Provider Network Conference</h1>
+          <h1><a href="https://previdence.com/#/ppnconference" target="_blank" rel="noreferrer">Register now</a><br></br>Previdence Provider Network Conference</h1>
           <Mailto email="kimberly.clark@previdence.com" subject="PPN Conference Question" body="Hello, ">
           <p className="conf-mail">For questions email kimberly.clark@previdence.com</p>
         </Mailto>
-          <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none', textAlign: 'center'}}> <a target='_blank' rel="noreferrer" href="http://maps.google.com/maps?q=6545+Combee+Rd,+Ogden,+UT+84403"  className="link" style={{ fontWeight: 400}}>Crossroads Christian Fellowship <br></br>6545 Combee Road Ogden, UT 84403</a></p> 
+          <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none', textAlign: 'center'}}> <a target='_blank' rel="noreferrer" href="http://maps.google.com/maps?q=6545+Combee+Rd,+Ogden,+UT+84403"  className="link" style={{ fontWeight: 400}}>Location: CCF Builing<br></br>6545 Combe Road Ogden, UT 84403</a></p> 
           </div>
         </div>
         <div className="welcome-vid-container">
