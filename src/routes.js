@@ -39,6 +39,7 @@ import AdditionalResources from './Components/PPN/AdditionalResources';
 import OpdTipsTest from './Components/Tips/OpdTipsTest';
 import ClearfieldPDTips from './Components/Tips/ClearfieldPDTips';
 import HubspotThankYou from './Components/HubSpot/HubspotThankYou';
+import ClinicalTeam from './Components/Team/ClinicalTeam';
 
 export default (
   <Switch>
@@ -81,5 +82,6 @@ export default (
     <Route path="/ppnconference" component={PpnConference} />
     <Route path="/additionalresources" component={AdditionalResources} />
     <Route path="/thank-you" component={HubspotThankYou} />
+    <Route path="/clinicalteam" component={ClinicalTeam} />
   </Switch>
 )
