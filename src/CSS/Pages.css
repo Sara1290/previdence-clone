@@ -113,15 +113,9 @@
 .teams-outer > h2 {
   margin-bottom: 3vh;
 }
-.team-nav {
-  font-weight: 400;
-  width: 20vw;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 5vh;
-}
+
 .team-inner {
-  width: 60%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -140,10 +134,12 @@
   color: #CFCFCF;
 }
 .team-item {
+  width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .team-item p {
   width: 300px;
   font-weight: 400;
