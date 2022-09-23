@@ -127,7 +127,7 @@
 }
 /* Rows with only 2 people instead of 3 */
 .team-group {
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
