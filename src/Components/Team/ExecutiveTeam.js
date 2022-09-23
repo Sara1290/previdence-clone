@@ -1,6 +1,8 @@
 import React from "react";
 
 import markMarble2 from '../../images/markMarble2.png';
+import clark from '../../images/clark.png';
+import dan from '../../images/dan.png';
 import StevieMarble2 from '../../images/StevieMarble2.png';
 import johnMarble2 from '../../images/johnMarble2.png';
 import johnnyMarble from '../../images/johnnyMarble.jpg';
@@ -17,7 +19,7 @@ const ExecutiveTeam = () => {
           <img src={markMarble2} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Mark Kendell</h3>
-            <h4>CEO</h4>
+            <h4>Chief Executive Officer</h4>
             <p>
               Mark is a purpose-driven serial entrepreneur and runs his family
               office focusing on direct investments and what he calls “true
@@ -30,6 +32,40 @@ const ExecutiveTeam = () => {
             </p>
           </div>
         </div>
+
+        <div className="team-item">
+          <img src={johnnyMarble} alt="" className="team-img" />
+          <div className="team-item-texts">
+            <h3>John O'Callaghan</h3>
+            <h4>Corporate Development Officer</h4>
+            <p>
+              John has held significant leadership positions at Concordia
+              Capital, a hedge fund and separate account manager, where he was
+              co-founder and responsible for assets under management. Early in
+              his career, at State Street Global Advisors, he helped create the
+              advisor strategies division, which gained $1.6 billion in assets
+              within two years. John serves as an advisor to Marron Energy, a
+              Boston based solar energy development firm. He also serves on the
+              advisory board for Celeris Media Group and is an advisor to the
+              Chairman/Senior Partner of Taurus Investment Holdings and Mark
+              Kendell Associates.
+            </p>
+          </div>
+        </div>
+
+        <div className="team-item">
+          <img src={clark} alt="" className="team-img" />
+          <div className="team-item-texts">
+            <h3>Jeff Clark</h3>
+            <h4>Chief Financial Officer</h4>
+            <p>
+            Jeff Clark started J. D. Clark & Company and the Praesideo Funds in January of 1991. Mr. Clark's companies are headquartered in Utah with offices in New York and Grand Cayman.
+            After earning a bachelor's in accounting at Utah State in 1982, Mr. Clark began his career at KPMG in Seattle. He later served for several years as the vice president of finance for the Cascade Funds and Rainier Partners as well as the CFO of the Genesee Funds.
+            Mr. Clark is also active in community service as a board member of the Weber Foundation where he chairs its Business Development Committee. Mr. and Mrs. Clark fund a Jon M. Huntsman School of Business scholarship.
+ 
+            </p>
+          </div>
+        </div> 
         
         <div className="team-item">
               <img src={StevieMarble2} alt="" className="team-img" />
@@ -61,6 +97,8 @@ const ExecutiveTeam = () => {
                 </div>
           </div>
 
+    <div className="team-group2">
+
           <div className="team-item">
           <img src={sara3} alt="" className="team-img" />
           <div className="team-item-texts">
@@ -73,24 +111,19 @@ const ExecutiveTeam = () => {
         </div> 
 
         <div className="team-item">
-          <img src={johnnyMarble} alt="" className="team-img" />
+          <img src={dan} alt="" className="team-img" />
           <div className="team-item-texts">
-            <h3>John O'Callaghan</h3>
-            <h4>Corporate Development Officer</h4>
+            <h3>Dan Mcooey</h3>
+            <h4>Director</h4>
             <p>
-              John has held significant leadership positions at Concordia
-              Capital, a hedge fund and separate account manager, where he was
-              co-founder and responsible for assets under management. Early in
-              his career, at State Street Global Advisors, he helped create the
-              advisor strategies division, which gained $1.6 billion in assets
-              within two years. John serves as an advisor to Marron Energy, a
-              Boston based solar energy development firm. He also serves on the
-              advisory board for Celeris Media Group and is an advisor to the
-              Chairman/Senior Partner of Taurus Investment Holdings and Mark
-              Kendell Associates.
+            Dan began his career in 1991 as an assistant Nasdaq market maker at Nash Weiss, later moving to Citigroup where he spent the next ten years as a Nasdaq market maker covering technology stocks.
+            In 2002 he became Head of the Nasdaq trading department and a senior partner at Weeden & Co.
+            Dan co-founded Adit Ventures in 2014, a venture firm focused on investing in private growth equity.  Dan also co-founded a broker dealer Third Seven Capital in 2017.  
+            Today Dan resides in Park City Utah with his wife Suzanne and his three children Dan Jr, Jack and Quinn.
             </p>
           </div>
-        </div>
+        </div> 
+    </div>
 
       </div>
   </div>

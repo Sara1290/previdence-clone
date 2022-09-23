@@ -10,11 +10,12 @@ const ClinicalTeam = () => {
     <div className="team-inner">
       <h2>Clinical Operations</h2>
       <div className="team-group">
+     
       <div className="team-item">
               <img src={tiaMarble} alt="" className="team-img" />
                 <div className="team-item-texts">
                   <h3>Tia White DSW, LCSW</h3>
-                  <h4>Director of Research and Development</h4>
+                  <h4>Director of R&D</h4>
                   <p>Tia is a mental health and wellness consultant, researcher, program and curriculum developer, as well as a training instructor to first responders and public safety personnel. She is a Licensed Clinical Social Worker and has 20 years of experience working with a variety of populations and social systems. Additionally, she serves as an adjunct instructor for two local universities.</p>
                 </div>
           </div>
@@ -40,6 +41,7 @@ const ClinicalTeam = () => {
             </p>
           </div>
         </div>
+    <div className="team-group2">
 
         <div className="team-item">
           <img src={cindee3} alt="" className="team-img" />
@@ -62,7 +64,7 @@ const ClinicalTeam = () => {
             </p>
           </div>
         </div>
-
+    </div>
       </div>
      
     </div>

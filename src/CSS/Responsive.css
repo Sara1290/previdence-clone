@@ -602,7 +602,7 @@
 @media screen and (max-width: 768px) {
  .team-group {
   display: flex;
-  justify-content: center !important;
+  justify-content: center;
  } 
 }
 /*-----------------tablet-------------------*/
