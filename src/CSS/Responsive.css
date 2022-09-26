@@ -35,7 +35,9 @@
     position: relative;
     right: 10px;
   }
-
+  .team-inner {
+    width: 80vw;
+  }
   .assessment-training-vid {
     width: 95vw;
     display: flex;
@@ -607,10 +609,19 @@
 
 }
 @media screen and (max-width: 768px) {
+
   .team-item {
-    width: 45% !important;
+    width: 45%;
     position: relative;
     right: 10px;
+  }
+  .team-group2 {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .team-item2 {
+    width: 50%;
   }
 }
 /*-----------------tablet-------------------*/
@@ -1212,6 +1223,14 @@
 @media screen and (min-width: 1159px) {
   .specialty-parent {
     width: 100vw;
+  }
+  .team-inner {
+    width: 60vw;
+  }
+  .team-group2 {
+    width: 62%;
+    display: flex;
+    justify-content: space-between !important;
   }
 
 }

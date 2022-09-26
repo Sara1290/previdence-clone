@@ -43,7 +43,7 @@ const ClinicalTeam = () => {
         </div>
     <div className="team-group2">
 
-        <div className="team-item">
+        <div className="team-item team-item2">
           <img src={cindee3} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Cindee Paulsen</h3>
@@ -54,7 +54,7 @@ const ClinicalTeam = () => {
           </div>
         </div>
 
-        <div className="team-item">
+        <div className="team-item team-item2">
           <img src={sabrina3} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Sabrina Woodrick</h3>

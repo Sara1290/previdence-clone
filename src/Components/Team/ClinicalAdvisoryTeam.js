@@ -8,7 +8,7 @@ const ClinicalAdvisoryTeam = () => {
       <h2>Clinical Advisors</h2>
       <div className="team-group2">
 
-      <div className="team-item">
+      <div className="team-item team-item2">
           <img src={david} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Dr. David Norton</h3>
@@ -24,7 +24,7 @@ const ClinicalAdvisoryTeam = () => {
         </div>
 
         
-      <div className="team-item">
+      <div className="team-item team-item2">
           <img src={kentMarble} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Kent Allen</h3>

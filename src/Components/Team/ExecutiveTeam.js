@@ -99,18 +99,18 @@ const ExecutiveTeam = () => {
 
     <div className="team-group2">
 
-          <div className="team-item">
+          <div className="team-item team-item2">
           <img src={sara3} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Sara Reed</h3>
             <h4>Front End Developer</h4>
             <p>
-              After getting a certification in web development, Sara knew she wanted to use her new skills to improve people's lives. Having had many mental health struggles herself, she's a firm believer in mental health in the work place, and in her personal life.  
+              After getting a certification in web development, Sara knew she wanted to use her new skills to improve people's lives. She's a firm believer in mental health in the work place, and in her personal life.  
             </p>
           </div>
         </div> 
 
-        <div className="team-item">
+        <div className="team-item team-item2">
           <img src={dan} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Dan Mcooey</h3>
