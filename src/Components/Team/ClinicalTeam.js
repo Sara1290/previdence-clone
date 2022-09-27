@@ -32,6 +32,17 @@ const ClinicalTeam = () => {
           </div>
         </div>
 
+        <div className="team-item team-item2">
+          <img src={sabrina3} alt="" className="team-img" />
+          <div className="team-item-texts">
+            <h3>Sabrina Woodrick</h3>
+            <h4>Administrative Assistant</h4>
+            <p>
+            Since being here with my fellow teammates at Previdence; I have not only been able to help others on their healing journey, but I have also been able to start my own healing process with the help and resources provided by Previdence. Being here has not only been uplifting, but it has also instilled good habits for my everyday life. 
+            </p>
+          </div>
+        </div>
+
         <div className="team-item">
           <img src={bobbi3} alt="" className="team-img" />
           <div className="team-item-texts">
@@ -54,16 +65,6 @@ const ClinicalTeam = () => {
           </div>
         </div>
 
-        <div className="team-item team-item2">
-          <img src={sabrina3} alt="" className="team-img" />
-          <div className="team-item-texts">
-            <h3>Sabrina Woodrick</h3>
-            <h4>Administrative Assistant</h4>
-            <p>
-            Since being here with my fellow teammates at Previdence; I have not only been able to help others on their healing journey, but I have also been able to start my own healing process with the help and resources provided by Previdence. Being here has not only been uplifting, but it has also instilled good habits for my everyday life. 
-            </p>
-          </div>
-        </div>
     </div>
       </div>
 
