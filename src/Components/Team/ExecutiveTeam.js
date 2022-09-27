@@ -97,9 +97,8 @@ const ExecutiveTeam = () => {
                 </div>
           </div>
 
-    <div className="team-group2">
 
-          <div className="team-item team-item2">
+          <div className="team-item">
           <img src={sara3} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Sara Reed</h3>
@@ -110,7 +109,7 @@ const ExecutiveTeam = () => {
           </div>
         </div> 
 
-        <div className="team-item team-item2">
+        <div className="team-item">
           <img src={dan} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Dan Mcooey</h3>
@@ -126,7 +125,6 @@ const ExecutiveTeam = () => {
     </div>
 
       </div>
-  </div>
      
   );
 };

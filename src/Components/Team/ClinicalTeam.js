@@ -31,6 +31,7 @@ const ClinicalTeam = () => {
             </p>
           </div>
         </div>
+
         <div className="team-item">
           <img src={bobbi3} alt="" className="team-img" />
           <div className="team-item-texts">
@@ -41,7 +42,6 @@ const ClinicalTeam = () => {
             </p>
           </div>
         </div>
-    <div className="team-group2">
 
         <div className="team-item team-item2">
           <img src={cindee3} alt="" className="team-img" />
@@ -66,8 +66,7 @@ const ClinicalTeam = () => {
         </div>
     </div>
       </div>
-     
-    </div>
+
   );
 };
 export default ClinicalTeam;

@@ -31,13 +31,11 @@
 @media screen and (max-width: 480px) {
 
   .team-item {
-    width: 100% !important;
-    position: relative;
-    right: 10px;
+    width: 100%;
   }
-  .team-inner {
+  /* .team-inner {
     width: 80vw;
-  }
+  }  */
   .assessment-training-vid {
     width: 95vw;
     display: flex;
@@ -457,6 +455,13 @@
 }
 
 @media screen and (min-width: 760px) {
+.team-group {
+  display: flex;
+  justify-content: center !important;
+}
+  .team-item p {
+    width: 350px;
+  }
   /* Journey */
   /* .journey-item-dark {
     position: relative;
@@ -610,19 +615,12 @@
 }
 @media screen and (max-width: 768px) {
 
-  .team-item {
+  /* .team-item {
     width: 45%;
     position: relative;
     right: 10px;
-  }
-  .team-group2 {
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-  }
-  .team-item2 {
-    width: 50%;
-  }
+  } */
+
 }
 /*-----------------tablet-------------------*/
 @media screen and (max-width: 900px ) {
@@ -920,6 +918,10 @@
 
 /*-----------------laptop / ipad PRO---------*/
 @media screen and (min-width: 1023px) {
+  .team-group {
+    justify-content: flex-start !important;
+  }
+
   /* this is for the flyer */
 .conference-flyer {
   width: 50vw;
@@ -1221,16 +1223,14 @@
 }
 
 @media screen and (min-width: 1159px) {
+
+  .team-item {
+    width: 50%;
+  }
+ 
+
   .specialty-parent {
     width: 100vw;
-  }
-  .team-inner {
-    width: 60vw;
-  }
-  .team-group2 {
-    width: 62%;
-    display: flex;
-    justify-content: space-between !important;
   }
 
 }
@@ -1378,6 +1378,13 @@
 }
 
 @media screen and (min-width: 1375px) {
+  .team-group {
+    width: 80%;
+  }
+  .team-item {
+    width: 33%;
+  }
+
   .specialty-parent {
     width: 90vw;
   }
@@ -1522,6 +1529,9 @@
   .specialty-parent {
     width: 73vw !important;
   }
+  /* .team-item {
+    width: 20vw !important;
+  } */
 }
 @media screen and (min-width: 1900px) {
     /* HOME */
