@@ -16,12 +16,9 @@ import Testimonials from './Components/Home-Page/Testimonials';
 import Resources from './Components/Resources/Resources';
 import OfdTips from './Components/Tips/OfdTips';
 import Ppn from './Components/Surveys/Ppn';
-import PpnNv from './Components/Surveys/PpnNv';
 import PpnAdditional from './Components/Surveys/PpnAddtional';
 import PostTraining from './Components/Surveys/PostTraining';
 import CrisisResponse from './Components/Surveys/CrisisResponse';
-import InClinicArt from './Components/Surveys/InClincArt';
-import ClientFollowUp from './Components/Surveys/ClientFollowUp';
 import PrevEval from './Components/Surveys/PrevEval';
 import DSM from './Components/Surveys/DSM';
 import DSMParents from './Components/Surveys/DSMParents';
@@ -29,8 +26,6 @@ import DSMSample from './Components/Surveys/DSMSample';
 import DSMSpanish from './Components/Surveys/DSMSpanish';
 import TrojanReunion from './Components/Surveys/TrojanReunion';
 import DSMSpanishParents from './Components/Surveys/DSMSpanishParents';
-import NonProfitBillingInquiry from './Components/Surveys/NonProfitBillingInquiry';
-import WFRCsurvey from './Components/Surveys/WFRCsurvey';
 import ClientPPNSatisfaction from './Components/Surveys/ClientPPNSatisfaction';
 import PpnConference from './Components/Surveys/PpnConference';
 import PpnInfo from './Components/PPN/PpnInfo';
@@ -62,20 +57,15 @@ export default (
     <Route path="/clearfield-pd-tips" component={ClearfieldPDTips} />
     <Route path="/opdtipstest" component={OpdTipsTest} />
     <Route path="/ppn" component={Ppn} />
-    <Route path="/ppn-nv" component={PpnNv} />
     <Route path="/ppnadditional" component={PpnAdditional} />
     <Route path="/posttraining" component={PostTraining} />
-    <Route path="/wfrc-survey" component={WFRCsurvey} />
     <Route path="/crisisresponse" component={CrisisResponse} />
-    <Route path="/inclinicart" component={InClinicArt} />
-    <Route path="/clientfollowup" component={ClientFollowUp} />
     <Route path="/preveval" component={PrevEval} />
     <Route path="/dsmwebersd" component={DSM} />
     <Route path="/dsmparentswebersd" component={DSMParents} />
     <Route path="/dsmsample" component={DSMSample} />
     <Route path="/dsmspanishwebersd" component={DSMSpanish} />
     <Route path="/dsmspanishparentswebersd" component={DSMSpanishParents} />
-    <Route path="/npbi" component={NonProfitBillingInquiry} />
     <Route path="/ppninfo" component={PpnInfo} />
     <Route path="/trojanreunion" component={TrojanReunion} />
     <Route path="/clientppnsatisfaction" component={ClientPPNSatisfaction} />

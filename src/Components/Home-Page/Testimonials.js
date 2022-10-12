@@ -50,30 +50,10 @@ const Testimonials = ({deviceType}) => {
           <br></br>
           <br></br>
           <div className="paragraph">
-
-          <p>I fully endorse Previdence Corporation and their program for first
-                  responders, they save lives.<br></br> As Commander of the 19th Special Forces Group (Airborne), Utah
-                  Army National Guard, I became aware of Previdence's success in the U.S. Army's Wounded Warrior
-                  Transition Unit and the positive impact they had in the lives of many soldiers. When I became Chief of
-                  Police for the Ogden, Utah, Police Department I immediately reached out to see if the same results
-                  could be achieved within the Public Safety sector. Previdence worked closely with me and built a
-                  program designed specifically for police, fire, and dispatch personnel who suffer from many of the
-                  same stress-induced traumatic events as military veterans, along with some unique to their
-                  trades. <br></br> The impact of the evaluation and treatment program was immediate. Upon making the
-                  program mandatory within the Department, we identified that 11% of our police officers were in
-                  high-risk categories for negative behaviors, including risk to self or others. Once the confidential
-                  findings were made available to the individual officers, many immediately began seeking treatment from
-                  Previdence. In one extreme case, an officer reported he had been suicidal in the most recent week and
-                  had put his gun in his mouth on two different occasions. He told his therapist the evaluation and
-                  treatment saved his life.<br></br>To date, no officer or family member who has enrolled in treatment
-                  through Previdence has had a poor outcome. Lives have been saved, families have remained intact,
-                  mental health issues have been resolved, negative behaviors have been reduced, work performance has
-                  improved.
-                  </p><br></br>
-
+          <p>I fully endorse Previdence Corporation and their program for first responders, they save lives.<br></br> As Commander of the 19th Special Forces Group (Airborne), Utah Army National Guard, I became aware of Previdence's success in the U.S. Army's Wounded Warrior Transition Unit and the positive impact they had in the lives of many soldiers. When I became Chief of Police for the Ogden, Utah, Police Department I immediately reached out to see if the same results could be achieved within the Public Safety sector. Previdence worked closely with me and built a program designed specifically for police, fire, and dispatch personnel who suffer from many of the same stress-induced traumatic events as military veterans, along with some unique to their trades. <br></br> The impact of the evaluation and treatment program was immediate. Upon making the program mandatory within the Department, we identified that 11% of our police officers were in high-risk categories for negative behaviors, including risk to self or others. Once the confidential findings were made available to the individual officers, many immediately began seeking treatment from Previdence. In one extreme case, an officer reported he had been suicidal in the most recent week and had put his gun in his mouth on two different occasions. He told his therapist the evaluation and treatment saved his life.<br></br>To date, no officer or family member who has enrolled in treatment through Previdence has had a poor outcome. Lives have been saved, families have remained intact, mental health issues have been resolved, negative behaviors have been reduced, work performance has improved.
+          </p><br></br>
           </div>
-          <span> - Steven R. Watt, MSS, MBA, BS. Chief (ret.), Ogden, UT, PD and Colonel
-                (ret.) USA, SF, IN</span>
+          <span> - Steven R. Watt, MSS, MBA, BS. Chief (ret.), Ogden, UT, PD and Colonel (ret.) USA, SF, IN</span>
         </div>
         <div className="client-container">
           <img alt="" className="testimonial-logo" src={wsdlogo1} />

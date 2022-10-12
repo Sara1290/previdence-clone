@@ -30,7 +30,7 @@ const Professional = () => {
             </p>
             </div>
         <div className="professional-contact">
-          <Mailto className="a" email="cody.wilson@previdence.com" subject="Therapist Advocate" body="Hello">
+          <Mailto className="a" email="kimberly.clark@previdence.com" subject="Therapist Advocate" body="Hello">
             <button className="liaison-dark">
               CONTACT OUR THERAPIST ADVOCATE
             </button>
