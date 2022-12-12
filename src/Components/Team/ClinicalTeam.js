@@ -1,5 +1,5 @@
 import React from "react";
-import tiaMarble from '../../images/tiaMarble.png';
+// import tiaMarble from '../../images/tiaMarble.png';
 import kim3 from '../../images/kim3.png';
 import bobbi3 from '../../images/bobbi3.png';
 import cindee3 from '../../images/cindee3.png';
@@ -11,14 +11,15 @@ const ClinicalTeam = () => {
       <h2>Clinical Operations</h2>
       <div className="team-group">
      
-      <div className="team-item">
+      {/* <div className="team-item">
               <img src={tiaMarble} alt="" className="team-img" />
                 <div className="team-item-texts">
                   <h3>Tia White DSW, LCSW</h3>
                   <h4>Director of R&D</h4>
                   <p>Tia is a mental health and wellness consultant, researcher, program and curriculum developer, as well as a training instructor to first responders and public safety personnel. She is a Licensed Clinical Social Worker and has 20 years of experience working with a variety of populations and social systems. Additionally, she serves as an adjunct instructor for two local universities.</p>
                 </div>
-          </div>
+          </div> */}
+
           <div className="team-item">
           <img src={kim3} alt="" className="team-img" />
           <div className="team-item-texts">
