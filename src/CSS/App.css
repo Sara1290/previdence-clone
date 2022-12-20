@@ -47,9 +47,6 @@ background-color: rgb(241, 240, 240);
   list-style-type: none;
 } */
 
-/* .home-link {
-  color: #8f2a2b;
-} */
 .my-2 {
   margin-top: 0;
 }
@@ -79,6 +76,9 @@ background-color: rgb(241, 240, 240);
 }
 .white-hover:hover {
   color: white;
+}
+.home-link {
+  color: #005180 !important;
 }
 .contact-btn {
   border: 1px solid #111921 !important;

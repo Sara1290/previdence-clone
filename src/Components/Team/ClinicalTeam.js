@@ -26,8 +26,7 @@ const ClinicalTeam = () => {
             <h3>Kimberly Clark</h3>
             <h4>PPN Manager</h4>
             <p>
-            Kimberly came to Previdence as a licensed educator with an English degree from Weber State University.  She has 18+ years of experience teaching young children, youth in custody, and adult learners. She regularly volunteers as a member of the Nomad Alliance serving Salt Lake’s unhoused communities, and with a number of local nonprofits.  
-            She lives with her partner and two sons in Ogden, where they can be found outdoors most of the time, either in the mountains - hiking, backpacking, camping, skiing, and fishing, or around 25th street - enjoying a Twilight concert, the farmer’s market, or the First Friday Art Stroll.   
+            Kimberly came to Previdence as a licensed educator with an English degree from Weber State University.  She has 18+ years of experience teaching young children, youth in custody, and adult learners. She regularly volunteers as a member of the Nomad Alliance serving Salt Lake’s unhoused communities, and with a number of local nonprofits.     
             Kimberly is passionate about destigmatizing and increasing access to mental healthcare for persons of all backgrounds and circumstances. She particularly enjoy working with underserved populations, connecting people with each other and to community resources. 
             </p>
           </div>
