@@ -3,8 +3,6 @@ import NavBar from "../NavBar";
 import Fade from "react-reveal/Fade";
 import ppnTherapist2Small from "../../images/ppnTherapist2Small.jpg";
 import ppnTherapist3Small from "../../images/ppnTherapist3Small.jpg";
-import SaveTheDateNew from "../../images/SaveTheDateNew.png";
-import download from "../../images/download.png";
 import ReactGA from 'react-ga';
 // import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -14,13 +12,13 @@ import PpnFooter from "../PpnFooter";
 const PpnInfo = () => {
   ReactGA.pageview('src/Components/PPN/PpnInfo.js');
 
-  const Mailto = ({ email, subject = '', body = '', children }) => {
-    let params = subject || body ? '?' : '';
-    if (subject) params += `subject=${encodeURIComponent(subject)}`;
-    if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+  // const Mailto = ({ email, subject = '', body = '', children }) => {
+  //   let params = subject || body ? '?' : '';
+  //   if (subject) params += `subject=${encodeURIComponent(subject)}`;
+  //   if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
   
-    return <a className="a2" href={`mailto:${email}${params}`}>{children}</a>;
-  };
+  //   return <a className="a2" href={`mailto:${email}${params}`}>{children}</a>;
+  // };
 
   return (
     <div>
@@ -71,20 +69,7 @@ const PpnInfo = () => {
             </div>
           </Fade>
         </div>
-        <div className="conference-flyer">
-          <a href={SaveTheDateNew} download target="_blank" rel="noreferrer" className="flyer">
-          <img src={download} className="download" alt="click to download the flyer" />
 
-          <img src={SaveTheDateNew} className="flyer" alt="ppn-flyer" />
-          </a>
-          <div className="flyer-texts">
-          <h1><a href="https://previdence.com/#/ppnconference" target="_blank" rel="noreferrer">Register now</a><br></br>Previdence Provider Network Conference</h1>
-          <Mailto email="kimberly.clark@previdence.com" subject="PPN Conference Question" body="Hello, ">
-          <p className="conf-mail">For questions email kimberly.clark@previdence.com</p>
-        </Mailto>
-          <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none', textAlign: 'center'}}> <a target='_blank' rel="noreferrer" href="http://maps.google.com/maps?q=6545+Combee+Rd,+Ogden,+UT+84403"  className="link" style={{ fontWeight: 400}}>Location: CCF Builing<br></br>6545 Combe Road Ogden, UT 84403</a></p> 
-          </div>
-        </div>
         <div className="welcome-vid-container">
           <Fade left>
             <div
@@ -115,75 +100,7 @@ const PpnInfo = () => {
           <div className="text-training">
             <h1> Information About Trainings </h1>
             <p>Reminder: Please contact Previdence Therapist Advocate Team for Basic ART registration information / non profit discount.</p>
-            <br></br>
-            <br></br>
             <div className="training-columns">
-              <Fade left>
-                <div className="utah-trainings">
-                  <h2>Utah Providers</h2>
-                  <h5>ART - Basic Training</h5>
-                  {/* <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
-                    <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/place/401+E+400+N,+Price,+UT+84501/@39.6066454,-110.7972132,17z/data=!3m1!4b1!4m5!3m4!1s0x874eb950232c87cf:0x986dfcde628b3fa5!8m2!3d39.6066454!4d-110.7972132"  className="link" style={{
-                        fontWeight: 400, fontStyle: "italic"
-                      }}>
-                      USU Campus, C.I.B. Building <br></br>
-                      401 E. 400 N. 
-                      Price, UT 84501
-                    </a>
-                    <p>
-                    June 23 - 25 
-                  </p>
-                  </p> */}
-
-                  <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
-                    <a target='_blank' rel="noreferrer" href="http://maps.google.com/maps?q=6545+Combee+Rd,+Ogden,+UT+84403"  className="link" style={{
-                        fontWeight: 400, fontStyle: "italic"
-                      }}>
-                      Crossroads Christian Fellowship <br></br>
-                      6545 Combee Rd.
-                      Ogden, UT 84403
-                    </a>
-                  {/* <p>
-                    June 9 - 11 <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/dir/41.1140776,-111.9641728/451+E+400+N,+Price,+UT+84501/@40.3571789,-111.9508969,9z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x874eb9542ccefdab:0x368b36a2c091208e!2m2!1d-110.8039829!2d39.607914"  className="link" style={{
-                        fontWeight: 400, fontStyle: "italic"}}>
-                      USU Campus, C.I.B. Building<br></br>
-                      401 E 400 N
-                      Price, UT 84403
-                    </a> 
-                  </p> */}
-
-                  {/* <p>
-                    October 20 - 22 
-                  </p> */}
-                  <p>
-                    November 17 - 19 
-                  </p>
-                  <p>
-                    December 15 - 17 
-                  </p>
-                  </p>
-                  {/* <h5>ART - Advanced and Enhanced</h5>
-                  <p>
-                  May 5 - 8  
-                  Salt Lake City
-                </p> */}
-
-
-                  <p style={{borderWidth: 1, borderColor: 'black', borderStyle: 'solid', borderTop: 'none', borderLeft: 'none', borderRight: 'none'}}> 
-                    <a target='_blank' rel="noreferrer" href="https://www.google.com/maps/place/90+E+200+N,+Logan,+UT+84321/@41.7347988,-111.8349198,17z/data=!4m13!1m7!3m6!1s0x87547e732a3af5d7:0x56a912f87a9226b6!2s90+E+200+N,+Logan,+UT+84321!3b1!8m2!3d41.7347948!4d-111.8327311!3m4!1s0x87547e732a3af5d7:0x56a912f87a9226b6!8m2!3d41.7347948!4d-111.8327311"  className="link" style={{
-                        fontWeight: 400, fontStyle: "italic"
-                      }}>
-                      Bear River Mental Health Services <br></br>
-                      90 E 200 N.
-                      Logan, UT 84321
-                    </a>
-                    <p>
-                    October 20 - 22 
-                  </p>
-                  </p>
-
-                </div>
-              </Fade>
               <Fade right>
                 <div className="national-trainings">
                   <h2>National Providers</h2>
