@@ -43,8 +43,8 @@ const PpnFooter = () => {
       <div className="footer-icons">
         <FaRegEnvelope className="footer-icon" />
       </div>
-        <Mailto className="footer-email" email="kimberly.clark@previdence.com" subject="Question from the PPN Info Page" body="Hello">
-          <p className="email-hover-dark" style={{color: 'black', marginRight: "5px"}}>Email The PPN Team: <br></br> kimberly.clark@previdence.com</p>
+        <Mailto className="footer-email" email="cody.wilson@previdence.com" subject="Question from the PPN Info Page" body="Hello">
+          <p className="email-hover-dark" style={{color: 'black', marginRight: "5px"}}>Email The PPN Team: <br></br>cody.wilson@previdence.com</p>
         </Mailto>
         <div className="footer-line"></div>
      </div>

@@ -77,7 +77,7 @@ const PpnInfo = () => {
               style={{ padding: 0, margin: 0 }}
             >
               <iframe
-                src="https://player.vimeo.com/video/672790661?h=99e73987a5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                src="https://player.vimeo.com/video/800978966?h=6b53e585bc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
@@ -212,7 +212,7 @@ const PpnInfo = () => {
                 }} >See 
                    <a className="link-ppn" target="_blank" rel="noreferrer" href="https://previdence.com/#/additionalresources"> Additional Resources </a>  
                   for the slides featured in the Assessment Training Video</h5>
-                <iframe src="https://player.vimeo.com/video/672459507?h=4e9ca734ce&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen className="iframe-video" // style={{width: 700, height: 700 }} 
+                <iframe src="https://player.vimeo.com/video/801380193?h=b11e5b9fed&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen className="iframe-video" // style={{width: 700, height: 700 }} 
                 title="PPN Assessment Training"
                 ></iframe>
               </div>
