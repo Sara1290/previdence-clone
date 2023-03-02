@@ -28,7 +28,9 @@
   font-weight: 200;
   box-sizing: border-box;
 }
-
+.nav-wrapper {
+  font-size: 14px;
+}
 /* ClassName for <a> tags is "a" */
 .a {
   text-decoration: none;
@@ -46,3 +48,9 @@
   font-family: 'Montserrat', sans-serif;
 
 } */
+@media screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 34px;
+  }
+}

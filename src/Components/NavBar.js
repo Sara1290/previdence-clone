@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 import { HashLink as Links } from 'react-router-hash-link';
 import { NavDropdown, Navbar, Nav, Button, Container, NavLink } from 'react-bootstrap';
-import eLogo from '../images/eLogo.png'
+import eLogo from '../images/eLogo.png';
 // import bigETransparent from '../images/bigETransparent.png'
 
 const NavBar = () => {
@@ -34,7 +34,14 @@ const NavBar = () => {
       <Link to="/trainings" className="link t-link">TRAINING</Link>
       <Link to="/team" className="link t-link">TEAM</Link>
       <Link to="/resources" className="link t-link">RESOURCES</Link>
-      <a href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer" className="link t-link">LOGIN</a>
+      {/* <a href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer" className="link t-link dropbtn">LOGIN</a> */}
+      <div class="nav-item dropdown">
+		   <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> LOGIN </a>
+		  <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer">Church and School Organizations</a></li>
+			  <li><a class="dropdown-item" href="https://previdence.tech9app.com/" target="_blank" rel="noreferrer">All Other Organization Types</a></li>
+		  </ul>
+      </div>
       <li>
           <Link to="/contact" className="link contact-button"><Button className="contact-btn " variant="">CONTACT </Button></Link>
       </li>
@@ -44,8 +51,6 @@ const NavBar = () => {
   </Navbar.Collapse>
  </Container>
 </Navbar>
-
-
-  )
+)
 }
 export default NavBar;
