@@ -33,6 +33,8 @@ import OpdTips from './Components/Tips/OpdTips';
 import TrojanReunion from './Components/Surveys/TrojanReunion';
 import AdditionalResources from './Components/PPN/AdditionalResources';
 import HubspotThankYou from './Components/HubSpot/HubspotThankYou';
+import Providers from './Components/PPN/Providers';
+import PpnDirection from './PPN/PpnDirection';
 
 export default (
   <Switch>
@@ -69,5 +71,7 @@ export default (
     <Route path="/ppninfo" component={PpnInfo} />
     <Route path="/trojanreunion" component={TrojanReunion} />
     <Route path="/additionalresources" component={AdditionalResources} />
+    <Route path="/providers" component={Providers} />
+    <Route path="/ppndirection" component={PpnDirection} />
   </Switch>
 )

@@ -96,6 +96,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 99%;
   }
   .steps-inner {
     background-color: #e0e0e0;

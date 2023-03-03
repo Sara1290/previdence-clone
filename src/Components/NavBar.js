@@ -35,13 +35,12 @@ const NavBar = () => {
       <Link to="/team" className="link t-link">TEAM</Link>
       <Link to="/resources" className="link t-link">RESOURCES</Link>
       {/* <a href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer" className="link t-link dropbtn">LOGIN</a> */}
-      <div class="nav-item dropdown">
-		   <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> LOGIN </a>
-		  <ul class="dropdown-menu">
-			  <li><a class="dropdown-item" href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer">Church and School Organizations</a></li>
-			  <li><a class="dropdown-item" href="https://previdence.tech9app.com/" target="_blank" rel="noreferrer">All Other Organization Types</a></li>
-		  </ul>
-      </div>
+    
+      <NavDropdown title="LOGIN" id="navbarScrollingDropdown" className="link" renderMenuOnMount={true}>
+      <a class="dropdown-item" href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer">Church and School Organizations</a>
+      <a class="dropdown-item" href="https://previdence.tech9app.com/" target="_blank" rel="noreferrer">All Other Organization Types</a>
+      </NavDropdown>
+
       <li>
           <Link to="/contact" className="link contact-button"><Button className="contact-btn " variant="">CONTACT </Button></Link>
       </li>
