@@ -29,12 +29,13 @@ import DSMSample from './Components/Surveys/DSMSample';
 import DSMSpanish from './Components/Surveys/DSMSpanish';
 import DSMSpanishParents from './Components/Surveys/DSMSpanishParents';
 import PpnInfo from './Components/PPN/PpnInfo';
+import Providers from './Components/PPN/Providers';
 import OpdTips from './Components/Tips/OpdTips';
 import TrojanReunion from './Components/Surveys/TrojanReunion';
 import AdditionalResources from './Components/PPN/AdditionalResources';
 import HubspotThankYou from './Components/HubSpot/HubspotThankYou';
-import Providers from './Components/PPN/Providers';
-import PpnDirection from './PPN/PpnDirection';
+
+import PpnDirection from './Components/PPN/PpnDirection';
 
 export default (
   <Switch>
@@ -69,9 +70,9 @@ export default (
     <Route path="/dsmspanishwebersd" component={DSMSpanish} />
     <Route path="/dsmspanishparentswebersd" component={DSMSpanishParents} />
     <Route path="/ppninfo" component={PpnInfo} />
+    <Route path="/providers" component={Providers} />
     <Route path="/trojanreunion" component={TrojanReunion} />
     <Route path="/additionalresources" component={AdditionalResources} />
-    <Route path="/providers" component={Providers} />
     <Route path="/ppndirection" component={PpnDirection} />
   </Switch>
 )
