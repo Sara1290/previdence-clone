@@ -9,12 +9,14 @@ import ProviderMain from './ProviderMain';
 
 const Providers = () => {
   return (
-    <div className="">
+    <div className="providers-container">
       <NavBar />
-      <ProviderHeader />
-      <ProviderMain />
-      <ProviderBenefits />
-      <ProviderCta />
+      <div className='providers-inner'>
+        <ProviderHeader />
+        <ProviderMain />
+        <ProviderBenefits />
+        <ProviderCta />
+      </div>
       <UniFooter />
     </div>
   );

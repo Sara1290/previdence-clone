@@ -11,8 +11,10 @@ const ProviderMain = () => {
         </span>
         <img className='prov-img' alt='therapists' src={ppnTherapist3Small} />
       </div>
-      <div className='prov-sidebyside2'>
-
+      <div className='prov-sidebyside'>
+        <img className='prov-img' alt='therapists' src={ppnTherapist3Small} />
+      <span className='prov-text'>who utilize appropriate therapy modalities to treat these individuals when you become a referral source for Previdence.
+        </span>
       </div>
     </div>
   )
