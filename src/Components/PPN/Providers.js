@@ -1,13 +1,24 @@
 import React from 'react';
-import NavBar from '../NavBar';
-// import './ppn.css';
+import NavBar from '../NavBar'
+import UniFooter from '../UniFooter';
+import ProviderBenefits from './ProviderBenefits';
+import ProviderCta from './ProviderCta';
+import ProviderHeader from './ProviderHeader';
+import ProviderMain from './ProviderMain';
+
 
 const Providers = () => {
   return (
-    <div>
+    <div className="">
       <NavBar />
-      <h1>hello world</h1>
+      <ProviderHeader />
+      <ProviderMain />
+      <ProviderBenefits />
+      <ProviderCta />
+      <UniFooter />
     </div>
   );
+
 };
 export default Providers;
+

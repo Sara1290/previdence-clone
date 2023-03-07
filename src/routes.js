@@ -24,7 +24,6 @@ import DSM from './Components/Surveys/DSM';
 import DSMParents from './Components/Surveys/DSMParents';
 import DSMSample from './Components/Surveys/DSMSample';
 import DSMSpanish from './Components/Surveys/DSMSpanish';
-import TrojanReunion from './Components/Surveys/TrojanReunion';
 import DSMSpanishParents from './Components/Surveys/DSMSpanishParents';
 import ClientPPNSatisfaction from './Components/Surveys/ClientPPNSatisfaction';
 import PpnConference from './Components/Surveys/PpnConference';
@@ -35,6 +34,9 @@ import OpdTipsTest from './Components/Tips/OpdTipsTest';
 import ClearfieldPDTips from './Components/Tips/ClearfieldPDTips';
 import HubspotThankYou from './Components/HubSpot/HubspotThankYou';
 import ClinicalTeam from './Components/Team/ClinicalTeam';
+import Providers from './Components/PPN/Providers';
+
+// this is the correct routes . js
 
 export default (
   <Switch>
@@ -67,11 +69,11 @@ export default (
     <Route path="/dsmspanishwebersd" component={DSMSpanish} />
     <Route path="/dsmspanishparentswebersd" component={DSMSpanishParents} />
     <Route path="/ppninfo" component={PpnInfo} />
-    <Route path="/trojanreunion" component={TrojanReunion} />
     <Route path="/clientppnsatisfaction" component={ClientPPNSatisfaction} />
     <Route path="/ppnconference" component={PpnConference} />
     <Route path="/additionalresources" component={AdditionalResources} />
     <Route path="/thank-you" component={HubspotThankYou} />
     <Route path="/clinicalteam" component={ClinicalTeam} />
+    <Route path="/providers" component={Providers} />
   </Switch>
 )
