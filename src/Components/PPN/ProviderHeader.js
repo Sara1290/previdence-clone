@@ -6,7 +6,7 @@ const ProviderHeader = () => {
   return (
       <div className="provheader-container">
         <h1>Join our mission to facilitate healing for individuals and families</h1>
-      <img className="provider-header-img" alt="therapist and client animation" src={ppnTherapist3Small}/>
+      <img className="header-img" alt="therapist and client animation" src={ppnTherapist3Small}/>
       </div>
   )
 }

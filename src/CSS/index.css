@@ -52,3 +52,14 @@
 a.dropdown-item:hover {
   background-color: #cfcfcf;
 }
+.primary-btn {
+  background-color: #7b0303;
+  width: 125px;
+  color: white;
+  font-size: 14pt;
+  border: none;
+  border-radius: 20px;
+  padding: 0.6%;
+  -webkit-box-shadow: 4px 7px 16px -7px rgba(0,0,0,0.71); 
+  box-shadow: 4px 7px 16px -7px rgba(0,0,0,0.71);
+}

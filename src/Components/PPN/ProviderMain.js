@@ -7,15 +7,18 @@ const ProviderMain = () => {
     <div className='provmain-container'>
       <h1> Join our Previdence Professional Network </h1>
       <div className='prov-sidebyside'>
-        <span className='prov-text'>As a PPN provider, you have the opportunity to assist us in the great work of connecting members in need to qualified therapists (that’s you!)
-        </span>
-        <img className='prov-img' alt='therapists' src={ppnTherapist3Small} />
+        <p className='prov-text'>
+        As a Previdence Professional Network (PPN) provider, you have the opportunity to assist us in the great work of providing services for our client referrals who need qualified, specialized therapists to assist in guiding them on their path to healing and enhanced quality of life.
+        </p>
+        <div className='provmain-imgs'>
+        <img className='prov-main-img' alt='therapists' src={ppnTherapist3Small} />
+      <img className='prov-main-img display-none' alt='therapists' src={ppnTherapist3Small} />
       </div>
-      <div className='prov-sidebyside'>
-        <img className='prov-img' alt='therapists' src={ppnTherapist3Small} />
-      <span className='prov-text'>who utilize appropriate therapy modalities to treat these individuals when you become a referral source for Previdence.
-        </span>
-      </div>
+    </div>
+      {/* <div className='prov-sidebyside'>
+      <p className='prov-text'>who need qualified, specialized therapists to assist in guiding them on their path to healing and enhanced quality of life.
+        </p>
+      </div> */}
     </div>
   )
 }
