@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../NavBar'
-import UniFooter from '../UniFooter';
+import PpnFooter from '../PpnFooter';
 import ProviderBenefits from './ProviderBenefits';
 import ProviderCta from './ProviderCta';
 import ProviderHeader from './ProviderHeader';
@@ -17,7 +17,7 @@ const Providers = () => {
         <ProviderBenefits />
         <ProviderCta />
       </div>
-      <UniFooter />
+      <PpnFooter />
     </div>
   );
 

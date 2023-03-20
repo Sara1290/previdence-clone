@@ -63,7 +63,7 @@ return (
   <div className="trainings-outer">
       <NavBar />
       <div className="trainings-inner background">
-        <h1>Previdence Peer Supporter Certification <br></br> For Public Safety Professionals</h1>
+        <h1>Trainings and Conferences Offered by Previdence</h1>
         <div>
           <img alt="check back soon for more dates" className="training-soon" src={train2} />
         </div>
