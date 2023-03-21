@@ -6,7 +6,7 @@ const ProviderCta = () => {
     <div className="provcta-container">
       <h1>Unite with us to empower lives, one mind at a time</h1>
       <p>Start with this brief questionairre</p>
-      <button className="primary-btn">Join Today</button>
+      <button className="primary-btn"><a className="a2" href="https://previdence.com/#/ppn" target="_blank" rel="noreferrer" >Join Today</a></button>
     </div>
   );
 };
