@@ -36,6 +36,7 @@ import HubspotThankYou from './Components/HubSpot/HubspotThankYou';
 import ClinicalTeam from './Components/Team/ClinicalTeam';
 import Providers from './Components/PPN/Providers';
 
+
 // this is the correct routes . js
 
 export default (
@@ -75,5 +76,6 @@ export default (
     <Route path="/thank-you" component={HubspotThankYou} />
     <Route path="/clinicalteam" component={ClinicalTeam} />
     <Route path="/providers" component={Providers} />
+
   </Switch>
 )

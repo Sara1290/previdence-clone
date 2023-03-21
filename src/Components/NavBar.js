@@ -35,6 +35,11 @@ const NavBar = () => {
       <Link to="/team" className="link t-link">TEAM</Link>
       <Link to="/resources" className="link t-link">RESOURCES</Link>
       {/* <a href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer" className="link t-link dropbtn">LOGIN</a> */}
+     
+      <NavDropdown title="PROVIDERS" id="navbarScrollingDropdown" className="link" renderMenuOnMount={true}>
+      <a class="dropdown-item" href="https://previdence.com/#/ppninfo" target="_blank" rel="noreferrer">Current PPN</a>
+      <a class="dropdown-item" href="https://previdence.com/#/providers" target="_blank" rel="noreferrer">Want to join our network of providers?</a>
+      </NavDropdown>
     
       <NavDropdown title="LOGIN" id="navbarScrollingDropdown" className="link" renderMenuOnMount={true}>
       <a class="dropdown-item" href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer">Church and School Organizations</a>
