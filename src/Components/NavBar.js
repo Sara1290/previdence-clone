@@ -24,7 +24,6 @@ const NavBar = () => {
         <NavLink as={Link} to="/publicsafety" className="link NavLink">Public Safety</NavLink>
         <NavLink as={Link} to="/k12" className="link NavLink">K12</NavLink>
         <NavLink as={Link} to="/military" className="link NavLink">Military</NavLink>
-        <NavLink as={Link} to="/professional" className="link NavLink">Professional</NavLink>
         <NavLink as={Link} to="/faithbased" className="link NavLink">Faith Based</NavLink>
         <NavLink as={Link} to="/humanitarian" className="link NavLink">Humanitarian</NavLink>
         <NavLink as={Link} to="/correctional" className="link NavLink">Correctional Facilities</NavLink>
@@ -34,12 +33,13 @@ const NavBar = () => {
       <Link to="/trainings" className="link t-link">TRAINING</Link>
       <Link to="/team" className="link t-link">TEAM</Link>
       <Link to="/resources" className="link t-link">RESOURCES</Link>
-      {/* <a href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer" className="link t-link dropbtn">LOGIN</a> */}
+      <Link to="/providers" className="link t-link">PROVIDERS</Link>
+
      
-      <NavDropdown title="PROVIDERS" id="navbarScrollingDropdown" className="link" renderMenuOnMount={true}>
+      {/* <NavDropdown title="PROVIDERS" id="navbarScrollingDropdown" className="link" renderMenuOnMount={true}>
       <a class="dropdown-item" href="https://previdence.com/#/ppninfo" target="_blank" rel="noreferrer">Current PPN</a>
       <a class="dropdown-item" href="https://previdence.com/#/providers" target="_blank" rel="noreferrer">Want to join our network of providers?</a>
-      </NavDropdown>
+      </NavDropdown> */}
     
       <NavDropdown title="LOGIN" id="navbarScrollingDropdown" className="link" renderMenuOnMount={true}>
       <a class="dropdown-item" href="https://login.previdence.com/Login.aspx?ReturnUrl=%2f" target="_blank" rel="noreferrer">Church and School Organizations</a>

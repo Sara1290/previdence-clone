@@ -5,7 +5,6 @@ import Team from './Components/Team/Team';
 import PublicSafety from './Components/Public Safety/PublicSafety';
 import Humanitarian from './Components/Humanitarian/Humanitarian';
 import FaithBased from './Components/Faith Based/FaithBased';
-import Professional from './Components/Professional/Professional';
 import Correctional from './Components/Correctional/Correctional';
 import Corporations from './Components/Corporations/Corporations';
 import K12 from './Components/K12/K12';
@@ -46,7 +45,6 @@ export default (
     <Route path="/publicsafety" component={PublicSafety} />
     <Route path="/humanitarian" component={Humanitarian} />
     <Route path="/faithbased" component={FaithBased} />
-    <Route path="/professional" component={Professional} />
     <Route path="/correctional" component={Correctional} />
     <Route path="/corporations" component={Corporations} />
     <Route path="/k12" component={K12} />
