@@ -5,7 +5,7 @@ import clark from '../../images/clark.png';
 import dan from '../../images/dan.png';
 import StevieMarble2 from '../../images/StevieMarble2.png';
 // import johnMarble2 from '../../images/johnMarble2.png';
-import johnnyMarble from '../../images/johnnyMarble.jpg';
+// import johnnyMarble from '../../images/johnnyMarble.jpg';
 import aaron3 from '../../images/aaron3.png';
 import sara3 from '../../images/sara3.png';
 
@@ -33,7 +33,7 @@ const ExecutiveTeam = () => {
           </div>
         </div>
 
-        <div className="team-item">
+        {/* <div className="team-item">
           <img src={johnnyMarble} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>John O'Callaghan</h3>
@@ -51,7 +51,7 @@ const ExecutiveTeam = () => {
               Kendell Associates.
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div className="team-item">
           <img src={clark} alt="" className="team-img" />
