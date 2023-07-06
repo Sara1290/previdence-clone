@@ -30,7 +30,7 @@ const NavBar = () => {
         <NavLink as={Link} to="/corporations" className="link NavLink">Corporations</NavLink>
       </NavDropdown>
       <Links smooth to="/#testimonials" className="link t-link">TESTIMONIALS</Links>
-      <Link to="/trainings" className="link t-link">TRAINING</Link>
+      <Link to="https://previdence.myshopify.com/collections/all" className="link t-link">STORE</Link>
       <Link to="/team" className="link t-link">TEAM</Link>
       <Link to="/resources" className="link t-link">RESOURCES</Link>
       <Link to="/providers" className="link t-link">PROVIDERS</Link>
