@@ -134,6 +134,31 @@ return (
       <NavBar />
       <h1 id="h3">Resources</h1>
       <input className="resource-input" type="text" placeholder="Search" value={search} onChange={handleChange} />
+
+    <div className='hotline-resource-container'>
+      <h1>National Crisis Hotlines</h1>
+        <div className='hrc-inner'>
+          <h3>United States</h3> 
+          <ul>
+            <li> <span style={{color:'red', fontWeight: 'bold'}}>Emergency: </span><span>911</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>Suicide & Crisis Lifeline: </span><span>Call or Text 988</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>National Domestic Violience Hotline: </span><span>1-800-799-7233</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>Crisis Text Line: </span><span>Text "DESERVE" TO 741-741</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>Lifeline Crisis Chat (Online live messaging): </span><span>https://988lifeline.org/chat</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>Self-Harm Hotline: </span><span>1-800-DONT CUT (1-800-366-8288)</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>Essential local and community services: </span><span> 211, https://www.211.org/</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>Planned Parenthood Hotline: </span><span>1-800-230-PLAN (7526)</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>American Association of Poison Control Centers: </span><span>1-800-222-1222</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>National Council on Alcoholism & Drug Dependency Hope Line: </span><span>1-800-622-2255</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>National Crisis Line - Anorexia and Bulimia: </span><span>1-800-233-4357</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>LGBT Hotline: </span><span>1-888-843-4564</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>TREVOR Crisis Hotline: </span><span> 1-866-488-7386</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>AIDS Crisis Line: </span><span>1-800-221-7044</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>Veterans Crisis Line: </span><span>https://www.veteranscrisisline.net</span></li>
+            <li> <span style={{fontWeight: 'bold'}}>TransLifeline: </span><span>https://www.translifeline.org - 877-565-8860</span></li>
+          </ul>
+        </div>
+    </div>
       <div className="resources">
         {/* basically saying if there is 0 search length return the original mapped, and if there is ANY amount of search text then return the searched results */}
         {searchResults.length < 1 

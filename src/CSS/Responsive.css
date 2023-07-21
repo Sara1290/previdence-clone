@@ -1237,6 +1237,8 @@
 }
 /*--------------------DESKTOP-----------------*/
 @media screen and (min-width: 1201px) {
+
+
 /* first responder conf flyer home page */
 .center-content {
   display: flex;
@@ -1370,6 +1372,9 @@
     width: 33.3%;
   }
   /*---------RESOURCES-------*/
+  /* .hrc-inner {
+    margin-left: 15% !important;
+  } */
   .resources {
     flex-direction: row;
     flex-wrap: wrap;

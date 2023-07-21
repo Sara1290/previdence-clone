@@ -1229,6 +1229,21 @@ iframe {
 }
 
 /*------------- RESOURCES -----------*/
+.hotline-resource-container {
+  background-color: white;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.hrc-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5%;
+  font-size: 16pt;
+  font-weight: 400;
+}
+
 .resource-outer {
   margin-top: 5vh;
   /* display: flex;
@@ -1323,6 +1338,7 @@ iframe {
   background-color: #8f2a2b;
   color: rgb(255, 255, 255);
 }
+
 
 /*----------- TIPS --------*/
 
@@ -1807,4 +1823,44 @@ td {
   position: relative;
   top: 10vh;
   margin-bottom: 15vh;
+}
+
+/* LEGAL PAGES  */
+
+/* phone size */
+.legal-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 5%;
+}
+.legal-item h3 {
+  font-weight: bold;
+}
+.legal-item h5 {
+  margin-left: 7%;
+}
+.legal-item h6 {
+  margin-left: 10%;
+}
+.legal-item p {
+  font-weight: 400;
+}
+
+/* large screen  */
+@media screen and (min-width: 1440px) {
+.legal-outer {
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.legal-item {
+  width: 40%;
+}
+
+.hrc-inner {
+  margin-left: 15%;
+}
 }

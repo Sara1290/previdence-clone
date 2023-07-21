@@ -34,6 +34,7 @@ import ClearfieldPDTips from './Components/Tips/ClearfieldPDTips';
 import HubspotThankYou from './Components/HubSpot/HubspotThankYou';
 import ClinicalTeam from './Components/Team/ClinicalTeam';
 import Providers from './Components/PPN/Providers';
+import PrivacyPolicy from './Components/Legal/PrivacyPolicy';
 
 
 // this is the correct routes . js
@@ -74,6 +75,7 @@ export default (
     <Route path="/thank-you" component={HubspotThankYou} />
     <Route path="/clinicalteam" component={ClinicalTeam} />
     <Route path="/providers" component={Providers} />
+    <Route path="/privacy" component={PrivacyPolicy} />
 
   </Switch>
 )
