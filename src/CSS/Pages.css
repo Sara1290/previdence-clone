@@ -1240,7 +1240,7 @@ iframe {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 5%;
-  font-size: 16pt;
+  font-size: 14pt;
   font-weight: 400;
 }
 
@@ -1861,6 +1861,6 @@ td {
 }
 
 .hrc-inner {
-  margin-left: 15%;
+  margin-left: 20%;
 }
 }

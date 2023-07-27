@@ -140,22 +140,22 @@ return (
         <div className='hrc-inner'>
           <h3>United States</h3> 
           <ul>
-            <li> <span style={{color:'red', fontWeight: 'bold'}}>Emergency: </span><span>911</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>Suicide & Crisis Lifeline: </span><span>Call or Text 988</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>National Domestic Violience Hotline: </span><span>1-800-799-7233</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>Crisis Text Line: </span><span>Text "DESERVE" TO 741-741</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>Lifeline Crisis Chat (Online live messaging): </span><span>https://988lifeline.org/chat</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>Self-Harm Hotline: </span><span>1-800-DONT CUT (1-800-366-8288)</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>Essential local and community services: </span><span> 211, https://www.211.org/</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>Planned Parenthood Hotline: </span><span>1-800-230-PLAN (7526)</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>American Association of Poison Control Centers: </span><span>1-800-222-1222</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>National Council on Alcoholism & Drug Dependency Hope Line: </span><span>1-800-622-2255</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>National Crisis Line - Anorexia and Bulimia: </span><span>1-800-233-4357</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>LGBT Hotline: </span><span>1-888-843-4564</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>TREVOR Crisis Hotline: </span><span> 1-866-488-7386</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>AIDS Crisis Line: </span><span>1-800-221-7044</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>Veterans Crisis Line: </span><span>https://www.veteranscrisisline.net</span></li>
-            <li> <span style={{fontWeight: 'bold'}}>TransLifeline: </span><span>https://www.translifeline.org - 877-565-8860</span></li>
+            <li> <span style={{color:'red', fontWeight: 'bold'}}>Emergency: </span><a href='tel:+1-911'>911</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>Suicide & Crisis Lifeline: </span><a href='tel:+1-911'>Call or Text 988</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>National Domestic Violience Hotline: </span><a href='tel:+1-800-799-7233'>1-800-799-7233</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>Crisis Text Line: </span><a href='tel:+1-741-741'>Text "DESERVE" TO 741-741</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>Lifeline Crisis Chat (Online live messaging): </span><a href='tel:+1-988'>https://988lifeline.org/chat</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>Self-Harm Hotline: </span><a href='tel:+1-800-366-8288'>1-800-DONT CUT (1-800-366-8288)</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>Essential local and community services: </span><a href='tel:+1-211'> 211, https://www.211.org/</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>Planned Parenthood Hotline: </span><a href='tel:+1-800-230-7526'>1-800-230-PLAN (7526)</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>American Association of Poison Control Centers: </span><a href='tel:+1-800-222-1222'>1-800-222-1222</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>National Council on Alcoholism & Drug Dependency Hope Line: </span><a href='tel:+1-800-622-2255'>1-800-622-2255</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>National Crisis Line - Anorexia and Bulimia: </span><a href='tel:+1-800-233-4357'>1-800-233-4357</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>LGBT Hotline: </span><a href='tel:+1-888-843-4564'>1-888-843-4564</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>TREVOR Crisis Hotline: </span><a href='tel:+1-866-488-7386'> 1-866-488-7386</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>AIDS Crisis Line: </span><a href='tel:+1-800-221-7044'>1-800-221-7044</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>Veterans Crisis Line: </span><a href='https://www.veteranscrisisline.net'>https://www.veteranscrisisline.net</a></li>
+            <li> <span style={{fontWeight: 'bold'}}>TransLifeline: </span><a href='tel:+1-877-565-8860'>https://www.translifeline.org - 877-565-8860</a></li>
           </ul>
         </div>
     </div>
