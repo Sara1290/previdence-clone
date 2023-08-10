@@ -34,13 +34,14 @@ const Trainings = () => {
         product: {
           buttonDestination: 'modal',
           // layout: 'horizontal',
+
           text: {
-            button: 'View Product',
+            button: 'Details',
           },
           contents: {
             descrition: true,
+          },
 
-          }
         },
         cart: {
           startOpen: false,
@@ -64,7 +65,7 @@ return (
   <div className="trainings-outer">
       <NavBar />
       <div className="trainings-inner background">
-        <h1>Trainings and Conferences Offered by Previdence</h1>
+        <h1>Trainings and Conferences</h1>
         {/* <div>
           <img alt="check back soon for more dates" className="training-soon" src={train2} />
         </div> */}

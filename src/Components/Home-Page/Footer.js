@@ -27,9 +27,9 @@ return (
         <p>Phone: (801) 409-0904</p>
           <Mailto email="sales@previdence.com" subject="Public Relations" body="Hello">
         <p className="white-hover">Email: public-relations@previdence.com</p>
+          </Mailto>
         <p className="white-hover">Liaison Email: liaisons@previdence.com</p>
         <p className="white-hover"><a className='a2' href='tel:+1-800-273-8255'>Liaison Phone: 801-917-4377</a></p>
-          </Mailto>
         <p>Hours: Monday - Friday <br></br>
           8:00 am - 5:00 pm MST</p>
 

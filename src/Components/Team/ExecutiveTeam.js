@@ -94,7 +94,7 @@ const ExecutiveTeam = () => {
           <img src={sara3} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Sara Reed</h3>
-            <h4>Front End Developer</h4>
+            <h4>IT</h4>
             <p>
               After getting a certification in web development, Sara knew she wanted to use her new skills to improve people's lives. She's a firm believer in mental health in the work place, and in her personal life.  
             </p>

@@ -44,11 +44,11 @@ const TrainingFooter = () => {
         <FaRegEnvelope className="footer-icon" />
       </div>
         <Mailto className="footer-email" email="cindee.paulsen@previdence.com" subject="Trainings" body="Hello">
-          <p className="email-hover-dark" style={{color: 'black', marginRight: "5px"}}>Email Us: <br></br>cindee.paulsen@previdence.com</p>
+          <p className="email-hover-dark" style={{color: 'black', marginRight: "5px"}}>Email Us: <br></br>cindee.paulsen<br></br>@previdence.com</p>
         </Mailto>
         <div className="footer-line"></div>
      </div>
-
+ 
 
 
      {/* <div className="socials-footer">
