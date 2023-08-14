@@ -35,6 +35,7 @@ import HubspotThankYou from './Components/HubSpot/HubspotThankYou';
 import ClinicalTeam from './Components/Team/ClinicalTeam';
 import Providers from './Components/PPN/Providers';
 import PrivacyPolicy from './Components/Legal/PrivacyPolicy';
+import TermsAndConditions from './Components/Legal/TermsAndConditions';
 
 
 // this is the correct routes . js
@@ -76,6 +77,7 @@ export default (
     <Route path="/clinicalteam" component={ClinicalTeam} />
     <Route path="/providers" component={Providers} />
     <Route path="/privacy" component={PrivacyPolicy} />
+    <Route path="/termsandconditions" component={TermsAndConditions} />
 
   </Switch>
 )

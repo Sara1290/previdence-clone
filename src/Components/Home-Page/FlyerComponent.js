@@ -1,5 +1,5 @@
 import  React from "react";
-import firstRCFlyer from '../../images/firstRCFlyer.png';
+import firstRCFlyer from '../../images/firstRCFlyer.jpg';
 
 const FlyerComponent = () => {
 
@@ -24,7 +24,7 @@ const FlyerComponent = () => {
           Welcome to the most remarkable mental wellness conference hosted by the nationwide organization: 1st Responder Conference.  This is the first time in history that this amazing organization and conference have visited our beautiful State of Utah!
         </p>
        <p>
-        This conference is co-hosted by YOUR fellow department, Brigham City Police Department and endorsed by Brigham City Fire Department, Centerville Police and Price Police Departments! 
+        This conference is co-hosted by YOUR fellow department, Brigham City Police Department. It is also endorsed by Brigham City Fire Department, Centerville Police Department, Price Police Department, Utah FOP, Roy City Fire Department, and Snowbird Resort! 
         We are encouraging you to research, share, and post this flyer for all personnel and their families to attend. 
         </p>
         <p>
