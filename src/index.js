@@ -37,6 +37,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Router history={history} >
       <App />
+      <div>
+    </div>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

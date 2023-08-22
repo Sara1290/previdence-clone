@@ -36,7 +36,7 @@ import ClinicalTeam from './Components/Team/ClinicalTeam';
 import Providers from './Components/PPN/Providers';
 import PrivacyPolicy from './Components/Legal/PrivacyPolicy';
 import TermsAndConditions from './Components/Legal/TermsAndConditions';
-
+import Blog from '../blog/src/components/Blog';
 
 // this is the correct routes . js
 
@@ -78,6 +78,10 @@ export default (
     <Route path="/providers" component={Providers} />
     <Route path="/privacy" component={PrivacyPolicy} />
     <Route path="/termsandconditions" component={TermsAndConditions} />
+    <Route path="/blog" render={({ history, match }) => (
+   <Blog history={history} basename={match.url} />
+ )}
+></Route>
 
   </Switch>
 )
