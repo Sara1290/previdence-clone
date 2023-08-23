@@ -36,6 +36,8 @@ import ClinicalTeam from './Components/Team/ClinicalTeam';
 import Providers from './Components/PPN/Providers';
 import PrivacyPolicy from './Components/Legal/PrivacyPolicy';
 import TermsAndConditions from './Components/Legal/TermsAndConditions';
+import Blog from './Components/Blog/Blog';
+import SleepHygiene from './Components/Blog/SleepHygiene';
 
 // this is the correct routes . js
 
@@ -77,5 +79,7 @@ export default (
     <Route path="/providers" component={Providers} />
     <Route path="/privacy" component={PrivacyPolicy} />
     <Route path="/termsandconditions" component={TermsAndConditions} />
+    <Route path="/blog" component={Blog} />
+    <Route path="/sleephygiene" component={SleepHygiene}/>
   </Switch>
 )
