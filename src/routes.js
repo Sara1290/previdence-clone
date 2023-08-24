@@ -36,7 +36,28 @@ import ClinicalTeam from './Components/Team/ClinicalTeam';
 import Providers from './Components/PPN/Providers';
 import PrivacyPolicy from './Components/Legal/PrivacyPolicy';
 import TermsAndConditions from './Components/Legal/TermsAndConditions';
-
+import Blog from './Components/Blog/Blog';
+import SleepHygiene from './Components/Blog/SleepHygiene';
+import Microbiome from './Components/Blog/Microbiome';
+import Transference from './Components/Blog/Transference';
+import Sleep from './Components/Blog/Sleep';
+import Stigma from './Components/Blog/Stigma';
+import Trauma from './Components/Blog/Trauma';
+import Hope from './Components/Blog/Hope';
+import Resilience from './Components/Blog/Resilience';
+import MHAwareness from './Components/Blog/MHAwareness';
+import Connection from './Components/Blog/Connection';
+import SocialMedia from './Components/Blog/SocialMedia';
+import Happiness from './Components/Blog/Happiness';
+import Neuroscience from './Components/Blog/Neuroscience';
+import VTpt1 from './Components/Blog/VTpt1';
+import VTpt2 from './Components/Blog/VTpt2';
+import PositiveLight from './Components/Blog/PositiveLight';
+import Music from './Components/Blog/Music';
+import Breathing from './Components/Blog/Breathing';
+import CultureofWellness from './Components/Blog/CultureofWellness';
+import FinancialFreedom from './Components/Blog/FinancialFreedom';
+import PowerofPlay from './Components/Blog/PowerofPlay';
 
 // this is the correct routes . js
 
@@ -78,6 +99,30 @@ export default (
     <Route path="/providers" component={Providers} />
     <Route path="/privacy" component={PrivacyPolicy} />
     <Route path="/termsandconditions" component={TermsAndConditions} />
+    {/* blog */}
+    <Route path="/blog" component={Blog} />
+    <Route path="/sleephygiene" component={SleepHygiene}/>
+    <Route path="/microbiome" component={Microbiome} />
+    <Route path="/transference" component={Transference} />
+    <Route path="/sleep" component={Sleep} />
+    <Route path="/stigma" component={Stigma} />
+    <Route path="/trauma" component={Trauma} />
+    <Route path="/hope" component={Hope} />
+    <Route path="/resilience" component={Resilience} />
+    <Route path="/mhawareness" component={MHAwareness} />
+    <Route path="/connection" component={Connection} />
+    <Route path="/socialmedia" component={SocialMedia} />
+    <Route path="/happiness" component={Happiness} />
+    <Route path="/neuroscience" component={Neuroscience} />
+    <Route path="/vicariouspt1" component={VTpt1} />
+    <Route path="/vicariouspt2" component={VTpt2} />
+    <Route path="/positivelight" component={PositiveLight} />
+    <Route path="/music" component={Music} />
+    <Route path="/breathing" component={Breathing} />
+    <Route path="/culture" component={CultureofWellness} />
+    <Route path="/financialfreedom" component={FinancialFreedom} />
+    <Route path="/powerofplay" component={PowerofPlay} />
+
 
   </Switch>
 )

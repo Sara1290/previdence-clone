@@ -1,0 +1,123 @@
+@media screen and (min-width: 1375px) {
+  /* BLOG PAGE - WITH ALL THE CARDS OF THE POSTS */
+  .blog-container {
+    display: flex;
+    justify-content: center;
+
+  }
+  .blog-inner {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+    /* border: 1px solid orange; */
+  }
+  .blog-card {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+  }
+  .blogImg{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+  }
+  .blog-texts {
+    text-align: left;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 2%;
+  }
+  .blog-texts p {
+    font-weight: 400;
+  }
+  .read-more-btn {
+    border: none;
+    background-color: #7b0303;
+    color: black;
+    width: 45%;
+    border-radius: 50px;
+  }
+  .blog-references {
+    padding-top: 20px;
+    margin-bottom: -10px;
+  }
+  .blog-references p {
+    margin: 2px;
+    margin-bottom: -10px;
+    font-weight: 400;
+    font-size: 10pt;
+    padding-left: 5%;
+  }
+
+
+  /* BLOG POST - INDIVIDUAL FULL PAGE POST */
+  .blog-post-container {
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-top: 5%;
+  }
+  .blog-post-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    /* border: 1px solid green; */
+  }
+  /* if we dont like the title, description, and img centered, then get rid of ai center above and the width on the image otherwise the image is pushed left */
+  .blog-line {
+    background-color: rgb(218, 218, 218);
+    height: 1px;
+    width: 100%;
+  }
+  .blog-post-inner h1 {
+    font-weight: bold;
+    text-align: left;
+  }
+  .blog-post-inner p {
+    font-weight: 500;
+    text-align: center;
+    /* i prefer left aligned but everyone else will like center ^^ */
+    font-size: 15pt;
+  }
+  .blog-post-attributes p {
+    line-height: 10%;
+    font-size: 11pt;
+    font-weight: 200;
+  }
+  .blog-post-img {
+    width: 60%;
+    box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+  }
+  .blog-content {
+    margin-top: 5%;
+  }
+  .blog-content h5 {
+    line-height: 1.75;
+    font-weight: bold;
+  }
+  .blog-content p {
+    text-align: left;
+  }
+  .blog-post-ul {
+    font-weight: 400;
+    font-size: 14pt;
+  }
+  .blog-post-ul h5 {
+    font-weight: bold;
+  }
+
+}
