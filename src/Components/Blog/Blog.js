@@ -45,47 +45,37 @@ const Blog = () => {
     return (
       blogdata.alpha 
       ? <div className="blog-card">
-          <div className="blog-title" >
-          <h3 id="alpha">{blogdata.alpha}</h3>
-          <div className="line"></div>
-          <p>{blogdata.topic}</p>
-          </div>
-        <div key={blogdata.id} className="airbb">
-        <img src={blogdata.img} alt="" className="blogImg"  />
-        <div className="airbb-texts">
-          <h4>{blogdata.title}</h4>
-          <p>{blogdata.description}</p>
-          {/* <p>{blogdata.link}</p> */}
-          {/* <p>{blogdata.topic}</p> */}
-          <button className="read-more-btn" ><a href= {blogdata.link} target="_blank" rel="noreferrer" className='link2'>Read More</a></button>
-          </div> 
-          </div>
-          <br></br>
-          <div className='blog-references'>
-        <p>{blogdata.author}</p>
-        <p>{blogdata.date}</p>
-        </div>
-        </div>
+    <div key={blogdata.id} className="">
+    <img src={blogdata.img} alt="" className="blogImg"  />
+    <div className="blog-texts">
+      <h4>{blogdata.title}</h4>
+      <p>{blogdata.description}</p>
+      {/* <p>{blogdata.topic}</p> */}
+      <button className="read-more-btn" ><a href={blogdata.link} target="_blank" rel="noreferrer" className='link2'>Read More</a></button>
+      </div> 
+      </div>
+      <div className='blog-references'>
+      <p>{blogdata.author}</p>
+      <p>{blogdata.date}</p>
+      </div>
+      <br></br>
+    </div>
         : <div className="blog-card" >
-         <div className="blog-title">
-            <div className="line"></div>
-            <p>{blogdata.topic}</p>
-            </div> 
-          <div key={blogdata.id} className="">
-          <img src={blogdata.img} alt="" className="blogImg"  />
-          <div className="blog-texts">
-            <h4>{blogdata.title}</h4>
-            <p>{blogdata.description}</p>
-            {/* <p>{blogdata.link}</p> */}
-            {/* <p>{blogdata.topic}</p> */}
-            <button className="read-more-btn" ><a href= {blogdata.link} target="_blank" rel="noreferrer" className='link2'>Read More</a></button>
-            </div> 
-        </div>
-        <div className='blog-references'>
-        <p>{blogdata.author}</p>
-        <p>{blogdata.date}</p>
-        </div>
+         <div key={blogdata.id} className="">
+         <img src={blogdata.img} alt="" className="blogImg"  />
+         <div className="blog-texts">
+           <h4>{blogdata.title}</h4>
+           <p>{blogdata.description}</p>
+           <p>{blogdata.link}</p>
+           {/* <p>{blogdata.topic}</p> */}
+           <button className="read-more-btn" ><a href={blogdata.link} target="_blank" rel="noreferrer" className='link2'>Read More</a></button>
+           </div> 
+       </div>
+       <div className='blog-references'>
+         <p>{blogdata.author}</p>
+         <p>{blogdata.date}</p>
          </div>
+        </div>
     )
       })
 
@@ -96,11 +86,6 @@ let mappedSearch = searchResults.map((blogdata) => {
     // if the object contains an alpha value, handle it this way. If no alpha value, handle it a different way.
     blogdata.alpha 
     ? <div className="blog-card">
-        <div className="" >  
-        {/* <h3 id="alpha">{blogdata.alpha}</h3> */}
-        {/* <div className="line"></div> */}
-        {/* <p>{blogdata.topic}</p> */}
-        </div>
       <div key={blogdata.id} className="">
       <img src={blogdata.img} alt="" className="blogImg"  />
       <div className="blog-texts">
@@ -116,11 +101,7 @@ let mappedSearch = searchResults.map((blogdata) => {
         </div>
         <br></br>
       </div>
-      : <div className="blog-card" >
-       <div className="blog-title" >
-          {/* <div className="line"></div> */}
-          {/* <p>{blogdata.topic}</p> */}
-          </div> 
+      : <div className="blog-card" > 
         <div key={blogdata.id} className="">
         <img src={blogdata.img} alt="" className="blogImg"  />
         <div className="blog-texts">

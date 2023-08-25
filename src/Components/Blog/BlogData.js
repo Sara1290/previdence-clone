@@ -25,7 +25,7 @@ export const blogdata = [
     "link": "previdence.com/#/powerofplay",
     "description": "Play is Never Over, We Just Press Pause. How Will You Play Today?",
     "img": soccer,
-    "topic": "Physical Health",
+    "topic": "Physical Health play",
     "alpha": "P",
     "author": "Bobbi Mcgraw",
     "date": "August 25, 2023"
@@ -36,7 +36,7 @@ export const blogdata = [
     "link": "previdence.com/#/financialfreedom",
     "description": "Is it possible to be debt-free and financially independent?",
     "img": peacefulgirl,
-    "topic": "Finances",
+    "topic": "Finances financial freedom",
     "alpha": "F",
     "author": "Bobbi Mcgraw",
     "date": "August 18, 2023"
@@ -124,7 +124,7 @@ export const blogdata = [
     "link": "previdence.com/#/happiness",
     "description": "2nd part in the neuroscience series (taken from Harvard Health and Mayo Clinic).",
     "img": ppnTherapist3small,
-    "topic": "Neuroscience",
+    "topic": "Neuroscience happiness",
     "alpha": "N",
     "author": "Bobbi Mcgraw",
     "date": "June 16, 2023"
@@ -135,7 +135,7 @@ export const blogdata = [
     "link": "previdence.com/#/socialmedia",
     "description": "The brain and social media. 1st in a three-part series of neuroscience.",
     "img": ppnTherapist2small,
-    "topic": "Neuroscience",
+    "topic": "Neuroscience social media",
     "alpha": "N",
     "author": "Bobbi Mcgraw",
     "date": "June 9, 2023"
@@ -157,7 +157,7 @@ export const blogdata = [
     "link": "previdence.com/#/opentomhawareness",
     "description": "Intentional conversations help remove the stigma.",
     "img": ppnTherapist5,
-    "topic": "Openness",
+    "topic": "Openness mental health awareness",
     "alpha": "O",
     "author": "Bobbi Mcgraw",
     "date": "May 26, 2023"
@@ -234,7 +234,7 @@ export const blogdata = [
     "link": "previdence.com/#/microbiome",
     "description": "Microbiome, you say? What's it got to do with sleep? Actually, what is it?",
     "img": microbiome,
-    "topic": "Physical Health",
+    "topic": "Physical Health Microbiome",
     "alpha": "M",
     "author": "Bobbi Mcgraw",
     "date": "April 7, 2023"
