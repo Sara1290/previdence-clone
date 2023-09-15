@@ -81,7 +81,7 @@ const ExecutiveTeam = () => {
           <img src={aaron3} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Aaron Burgin</h3>
-            <h4>Director of Sales</h4>
+            <h4>Executive VP</h4>
             <p>
             After losing his younger brother to suicide at age 18, Aaron spent many years in the pursuit of a high-quality suicide prevention model that could “do more, sooner.” He is extremely excited to work with business leaders who are ready to invest in their people’s mental health and wellbeing. Aaron received his Bachelor’s in Business from Weber State and has a Master’s in Communication and Leadership from Gonzaga University. Combined with his passion for supporting people’s mental wellbeing, his experience working in the tech industry for brands such as Pinterest, Uber and Route give Aaron a perspective of fast-paced, service oriented leadership that make him uniquely qualified to do what he does in the battle for better mental health. 
             </p>
