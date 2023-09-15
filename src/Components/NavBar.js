@@ -30,6 +30,7 @@ const NavBar = () => {
         <NavLink as={Link} to="/corporations" className="link NavLink">Corporations</NavLink>
       </NavDropdown>
       <Links smooth to="/#testimonials" className="link t-link">TESTIMONIALS</Links>
+      <Link to="/blog" className="link t-link">BLOG</Link>
       <Link to="/trainings" className="link t-link">TRAININGS</Link>
       <Link to="/team" className="link t-link">TEAM</Link>
       <Link to="/resources" className="link t-link">RESOURCES</Link>
