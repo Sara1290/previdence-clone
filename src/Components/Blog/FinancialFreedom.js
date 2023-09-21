@@ -59,7 +59,7 @@ let mappedBlogPost = blogdata.map((blogdata) => {
         <p>
         This has been a much longer Mental Health Minute, but money management is crucial in relieving stress and maintaining healthy relationships, because the burden of debt is lighter, and those difficult times won’t seem so challenging when you have something soft to fall on.
         </p>
-        <p>This Mental Health Minute was created for you with contributions from Lighthouse Health and Current. </p>
+        <p style={{fontStyle: "italic"}}>This Mental Health Minute was created for you with contributions from Lighthouse Health and Current. </p>
       </div>
     </div>
   </div>

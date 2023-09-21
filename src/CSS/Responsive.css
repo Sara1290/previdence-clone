@@ -73,7 +73,7 @@
     top: 12vh;
     margin: 0px 8px 0px 5px;
     padding: 0px 20px 0px 10px;
-    width: 377px !important;
+    width: 400git px !important;
     /* height: 100px; */
   }
   .footer-outer {
@@ -1285,7 +1285,7 @@
   .prev-logo {
     position: relative;
     top: 3vh;
-    height: 172px !important;
+    height: 400px !important;
     margin: 0px 10px 0px 10px;
     padding: 0px 20px 0px 10px;
   }
@@ -1455,8 +1455,8 @@
   }
   /* HOME */
   .prev-logo {
-    height: 250px;
-    margin: 0px 10px 100px 10px;
+    height: 400px;
+    margin: 0px 10px 90px 10px;
     padding: 0px 20px 0px 10px;
   }
   .background-video {
@@ -1575,8 +1575,8 @@
       position: relative;
       /* top: 3vh; */
       /* width: 70%; */
-      height: 260px !important;
-      margin: 0px 10px 0px 10px;
+      height: 400px !important;
+      margin: -60px 10px 90px 10px;
       padding: 0px 20px 0px 10px;
     }
     .specialty-parent {

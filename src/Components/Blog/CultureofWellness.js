@@ -47,7 +47,7 @@ let mappedBlogPost = blogdata.map((blogdata) => {
         <p>
         Though mental health and wellness programs and conversations continue to develop, it is imperative to note that inspiration for new approaches, models, and standards are invited in order to care for those who protect and serve our communities. As stated, it is a circle of wellness among family, work, and social life.
         </p>
-        <p>
+        <p style={{fontStyle: "italic"}}>
         This Mental Health Minute was created for you with contributions from the CDC and First Responder Wellness.
         </p>
       </div>

@@ -58,6 +58,10 @@ import Breathing from './Components/Blog/Breathing';
 import CultureofWellness from './Components/Blog/CultureofWellness';
 import FinancialFreedom from './Components/Blog/FinancialFreedom';
 import PowerofPlay from './Components/Blog/PowerofPlay';
+import SupportForFamilies from './Components/Blog/SupportForFamilies';
+import WorstDay from './Components/Blog/WorstDay';
+import Diet from './Components/Blog/Diet';
+import CostofCaring from './Components/Blog/CostofCaring';
 
 // this is the correct routes . js
 
@@ -122,7 +126,9 @@ export default (
     <Route path="/culture" component={CultureofWellness} />
     <Route path="/financialfreedom" component={FinancialFreedom} />
     <Route path="/powerofplay" component={PowerofPlay} />
-
-
-  </Switch>
+    <Route path="/supportforfamilies" component={SupportForFamilies} />
+    <Route path="/worstday" component={WorstDay} />
+    <Route path="/diet" component={Diet} />
+    <Route path="/costofcaring" component={CostofCaring} />
+      </Switch>
 )

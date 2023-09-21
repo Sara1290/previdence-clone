@@ -66,7 +66,7 @@ let mappedBlogPost = blogdata.map((blogdata) => {
         <p>
         As you are well aware, secondary/vicarious trauma is real, it is pervasive, and it requires attention and, often, professional help. Reach out when you are in need, attend to your well-being and live to function at full capacity.
         </p>
-        <p>
+        <p style={{fontStyle: "italic"}}>
         This Mental Health Minute has been created for you, with contributions from National Institutes of Health and American Psychological Association.
         </p>
       </div>

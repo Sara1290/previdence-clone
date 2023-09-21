@@ -23,6 +23,7 @@ let mappedBlogPost = blogdata.map((blogdata) => {
       <img src={blogdata.img} alt="tired person" className="blog-post-img" />
       <div className="blog-content">
         <h5>
+          first paragraph
         </h5> 
         <p>
         </p>
@@ -35,13 +36,16 @@ let mappedBlogPost = blogdata.map((blogdata) => {
         <p>
         </p>
         <ul className="blog-post-ul">
-          <h5>Sleep Tips</h5>
+          <h5>List Heading</h5>
             <li></li>
             <li></li>
             <li></li>
             <li></li>
             <li></li>
         </ul>
+        <p style={{fontStyle: "italic"}}>
+
+        </p>
       </div>
     </div>
   </div>

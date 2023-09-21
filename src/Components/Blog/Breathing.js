@@ -41,7 +41,7 @@ let mappedBlogPost = blogdata.map((blogdata) => {
         <p>
         Are you breathing?
         </p>
-        <p>
+        <p style={{fontStyle: "italic"}}>
         This Mental Health Minute was created for you with contributions from the American Heart Association and Neuroscience News. 
         </p>
       </div>

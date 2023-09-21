@@ -1,6 +1,7 @@
 import React from 'react';
 import TheClip from '../../images/TheClip.mp4';
-import PrevLogo from '../../images/PrevLogo.png';
+// import PrevLogo from '../../images/PrevLogo.png';
+import PrevNoMotto from '../../images/PrevNoMotto.png';
 
 
 const TheClipComponent = () => {
@@ -11,7 +12,7 @@ const TheClipComponent = () => {
        <source src={TheClip} type="video/mp4" />
     </video>
     <div className="logo-wrapper">
-      <img alt="previdence logo" src={PrevLogo} className="prev-logo" />
+      <img alt="previdence logo" src={PrevNoMotto} className="prev-logo" />
     </div>
   </div>
   )

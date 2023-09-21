@@ -37,7 +37,7 @@ You’ve heard of play therapy and its benefits to treat emotional problems and 
         <p>
         How will you play today?
         </p>
-        <p>
+        <p style={{fontStyle: "italic"}}>
         This Mental Health Minute has been created for you with contributions from PsychCentral and Mayo Clinic Health Systems.
         </p>
         <span>While the Mental Health Minute is geared toward first responders and health care providers, the next one will focus on support for families. Your job is diverse and with it comes a great deal of stress for you, as well as your relationships. Your loved ones need to know they are supported, as well. The MHMs can be beneficial for your family and friends, so please share as you see fit.</span>

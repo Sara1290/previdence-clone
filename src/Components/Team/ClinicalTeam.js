@@ -60,7 +60,7 @@ const ClinicalTeam = () => {
           <img src={bobbi3} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Bobbi McGraw</h3>
-            <h4>Client Advocate</h4>
+            <h4>Member Care Specialist</h4>
             <p>
             Bobbi has more than 25 years of experience working with youth and victims of crime. She has degrees in Special Education, English, and Psychology, and is trained in forensic interviewing. Bobbi has substantial experience in the field of advocacy in sexual assault, domestic violence, and human trafficking and crisis response. She has extensive knowledge in Human Resources development and management. Bobbi owns a non-profit organization with independent advocates on call 24/7 in response to crime. She volunteers her time in numerous positions and presents to students and community members on understanding and preventing sexual assault; child abuse; bystander intervention, among other topics.
             </p>

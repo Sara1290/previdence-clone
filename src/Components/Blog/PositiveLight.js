@@ -60,7 +60,7 @@ let mappedBlogPost = blogdata.map((blogdata) => {
       <p>
       For some positive mental health reading/listening, here are a few organizations and campaigns that focus on addressing the issue of mental health stigma and removing the negative labels; bring change to mind; STAMP OUT STIGMA; Make it OK; This is My Brave; How Are You Really?; Safe Space Radio; stigma free; Healthy Minds with Dr. Jeffrey Borenstein. 
       </p>
-      <p>
+      <p style={{fontStyle: "italic"}}>
       This Mental Health Minute has been created for you. Contributions from American Psychiatric Association, National Institute of Health, and NAMI. 
       </p>
     </div>

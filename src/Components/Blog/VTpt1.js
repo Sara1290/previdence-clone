@@ -40,7 +40,7 @@ let mappedBlogPost = blogdata.map((blogdata) => {
         “I wish my head could forget what my eyes have seen” 
         <a href="https://www.youtube.com/watch?v=Zn6wKAuXIH8 "> Behind The Shield</a>
         </p>
-        <p>
+        <p style={{fontStyle: "italic"}}>
         This Mental Health Minute contributors are National Institute of Health and Psychology Today.
         </p>
       </div>
