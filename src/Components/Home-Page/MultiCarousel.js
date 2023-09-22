@@ -1,20 +1,20 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import DHA from '../../images/DHA.png';
-import WTU from '../../images/WTU.png';
 import tooele from '../../images/tooele.png';
-import DOD from '../../images/DOD.png';
-import harrisville from '../../images/harrisville.png';
-import LDS from '../../images/LDS.png';
-import opd from '../../images/opd.png';
-import osd from '../../images/osd.png';
-import wsd from '../../images/wsd.png';
 import bcpd11 from '../../images/bcpd11.png';
-import ofdWhite from '../../images/ofdWhite.png';
-import weberRed from '../../images/weberRed.png';
+import LDS from '../../images/LDS.png';
+import wsd from '../../images/wsd.png';
 import riverdalePDRed from '../../images/riverdalePDRed.png';
 import CJCRed from '../../images/CJCRed.png';
+// import DHA from '../../images/DHA.png';
+// import WTU from '../../images/WTU.png';
+// import DOD from '../../images/DOD.png';
+// import harrisville from '../../images/harrisville.png';
+// import opd from '../../images/opd.png';
+// import osd from '../../images/osd.png';
+// import ofdWhite from '../../images/ofdWhite.png';
+// import weberRed from '../../images/weberRed.png';
 
 
 const MultiCarousel = ({deviceType}) => {
@@ -54,45 +54,45 @@ const MultiCarousel = ({deviceType}) => {
   // dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
 >
-  <div className="logo-carousel-item">
+  {/* <div className="logo-carousel-item">
     <img alt="" className="DHA" src={DHA} />
-  </div>
-  <div className="logo-carousel-item">
+  </div> */}
+  {/* <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={WTU} />
-  </div>
+  </div> */}
   <div className="logo-carousel-item">
   <img alt="" className="bcpd" src={bcpd11} />
   </div>
   <div className="logo-carousel-item">
   <img alt="" className="tooele" src={tooele} />
   </div>
-  <div className="logo-carousel-item">
+  {/* <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={DOD} />
-  </div>
-  <div className="logo-carousel-item">
+  </div> */}
+  {/* <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={harrisville}/>
-  </div>
+  </div> */}
   <div className="logo-carousel-item">
   <img alt="" className="lds" src={LDS} />
   </div>
-  <div className="logo-carousel-item">
+  {/* <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={opd} />
-  </div>
-  <div className="logo-carousel-item">
+  </div> */}
+  {/* <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={osd} />
-  </div>
+  </div> */}
   <div className="logo-carousel-item">
   <img alt="" className="org-lo" src={riverdalePDRed} />
   </div>
   <div className="logo-carousel-item">
   <img alt="" className="CJC" src={CJCRed} />
   </div>
-  <div className="logo-carousel-item">
+  {/* <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={ofdWhite} />
-  </div>
-  <div className="logo-carousel-item">
+  </div> */}
+  {/* <div className="logo-carousel-item">
   <img alt="" className="org-logo" src={weberRed} />
-  </div>
+  </div> */}
   <div className="logo-carousel-item">
   <img alt="" className="wsd" src={wsd} />
   </div>

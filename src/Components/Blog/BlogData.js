@@ -17,7 +17,10 @@ import resourceImg from '../../images/resourceImg.jpg';
 import sherriff from '../../images/sheriff.jpg';
 import peacefulgirl from '../../images/peacfulgirl.jpg';
 import soccer from '../../images/soccer.jpg';
-import diet1 from '../../images/diet1.jpg';
+// import diet1 from '../../images/diet1.jpg';
+import hope from '../../images/hope.jpg';
+import officerAndNeighbor from '../../images/officerAndNeighbor.jpg';
+import dietandmentalhealth2 from '../../images/dietandmentalhealth2.jpg';
 
 export const blogdata = [
   {
@@ -25,7 +28,7 @@ export const blogdata = [
     "title": "The Cost of Caring",
     "link": "#/costofcaring",
     "description": "The cost of caring, also referred to as compassion fatigue, is real, it is normal for those in high-stress positions. ",
-    "img": soccer,
+    "img": ppnTherapist5,
     "topic": "diet affect affects mental health breakfast lunch dinner healthy food",
     "alpha": "D",
     "author": "Bobbi Mcgraw",
@@ -36,7 +39,7 @@ export const blogdata = [
     "title": "Diet and Mental Health",
     "link": "#/diet",
     "description": "You know your diet is important, but do you realize how it affects your brain and your mental health? ",
-    "img": diet1,
+    "img": dietandmentalhealth2,
     "topic": "diet affect affects mental health breakfast lunch dinner healthy food",
     "alpha": "D",
     "author": "Bobbi Mcgraw",
@@ -47,7 +50,7 @@ export const blogdata = [
     "title": "Worst Day",
     "link": "#/worstday",
     "description": "Today was the absolute worst day ever ...or was it?",
-    "img": soccer,
+    "img": hope,
     "topic": "fun read change in thinking perspective point of view",
     "alpha": "W",
     "author": "Bobbi Mcgraw",
@@ -58,7 +61,7 @@ export const blogdata = [
     "title": "Support for Families",
     "link": "#/supportforfamilies",
     "description": "Families of first responders understand that nearly every aspect of their life is affected by their loved one’s career.",
-    "img": soccer,
+    "img": officerAndNeighbor,
     "topic": "family support familial families",
     "alpha": "S",
     "author": "Bobbi Mcgraw",
