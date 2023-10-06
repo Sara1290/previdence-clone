@@ -21,8 +21,32 @@ import soccer from '../../images/soccer.jpg';
 import hope from '../../images/hope.jpg';
 import officerAndNeighbor from '../../images/officerAndNeighbor.jpg';
 import dietandmentalhealth2 from '../../images/dietandmentalhealth2.jpg';
+import mindfullnessJourney from '../../images/mindfullnessJourney.jpg';
+import sauna from '../../images/sauna.jpg';
 
 export const blogdata = [
+    {
+    "id": 26,
+    "title": "Heat Therapy",
+    "link": "#/heattherapy",
+    "description": "Heat therapy can help decompress your mind, relax your muscles, and increase resilience to uncontrolled stressors.",
+    "img": sauna,
+    "topic": "mindfullness awareness present self-awareness",
+    "alpha": "M",
+    "author": "Bobbi Mcgraw",
+    "date": "September 29, 2023"
+  },
+  {
+    "id": 25,
+    "title": "A Mindfullness Journey",
+    "link": "#/mindfullness",
+    "description": "The primitive human capacity to be completely present, thoughtfully bringing your attention to the present moment.",
+    "img": mindfullnessJourney,
+    "topic": "mindfullness awareness present self-awareness",
+    "alpha": "M",
+    "author": "Bobbi Mcgraw",
+    "date": "September 29, 2023"
+  },
   {
     "id": 24,
     "title": "The Cost of Caring",

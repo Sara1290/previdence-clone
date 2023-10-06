@@ -26,7 +26,7 @@ const Trainings = () => {
 
   useEffect(() => {
     
-    //Feb 1 & 2 
+
     ui.createComponent('productSet', {
       id: [7495716241585, 7488809631921],
       node: document.getElementById('my-product'),
