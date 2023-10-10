@@ -17,7 +17,6 @@ import resourceImg from '../../images/resourceImg.jpg';
 import sherriff from '../../images/sheriff.jpg';
 import peacefulgirl from '../../images/peacfulgirl.jpg';
 import soccer from '../../images/soccer.jpg';
-// import diet1 from '../../images/diet1.jpg';
 import hope from '../../images/hope.jpg';
 import officerAndNeighbor from '../../images/officerAndNeighbor.jpg';
 import dietandmentalhealth2 from '../../images/dietandmentalhealth2.jpg';
@@ -25,16 +24,17 @@ import mindfullnessJourney from '../../images/mindfullnessJourney.jpg';
 import sauna from '../../images/sauna.jpg';
 
 export const blogdata = [
-    {
+
+  {
     "id": 26,
     "title": "Heat Therapy",
     "link": "#/heattherapy",
     "description": "Heat therapy can help decompress your mind, relax your muscles, and increase resilience to uncontrolled stressors.",
     "img": sauna,
-    "topic": "mindfullness awareness present self-awareness",
-    "alpha": "M",
+    "topic": "heat thermo therapy",
+    "alpha": "H",
     "author": "Bobbi Mcgraw",
-    "date": "September 29, 2023"
+    "date": "October 6, 2023"
   },
   {
     "id": 25,

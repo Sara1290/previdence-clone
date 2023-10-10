@@ -65,6 +65,9 @@ import CostofCaring from './Components/Blog/CostofCaring';
 import Mindfullness from './Components/Blog/Mindufullness';
 import HeatTherapy from './Components/Blog/HeatTherapy';
 
+
+
+
 // this is the correct routes . js
 
 export default (

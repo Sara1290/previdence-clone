@@ -9,7 +9,7 @@ const BlogTemplate = () => {
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (
     // pick the blog post you want - lets grab it by the title. if it matches that title ? then display that post : if it does not match the title then display nothing - so we only get the one post on the page.
-    blogdata.title === "Sleep Hygiene" ?
+    blogdata.title === "New Blog" ?
     <div className="blog-post-container">
     <div className="blog-post-inner">
       <h1>{blogdata.title}</h1>

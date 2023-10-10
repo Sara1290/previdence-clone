@@ -51,12 +51,12 @@ let mappedBlogPost = blogdata.map((blogdata) => {
         </p>
         <p>
         The dry heat of saunas and infrared saunas will work your body much more than a hot tub, which makes them a bit more dangerous to use. With saunas, the ambient air temperatures increase body temperature from the outside. Infrared saunas use infrared lights to increase body temperature from the inside out, like a microwave, which is why it can be dangerous when not done correctly. 
-        <br>
+        <p>
         Your body uses the same process to become heat-acclimated.
-        </br>
+        </p>
         </p>
         <p>
-        Low and slow…no more than five minutes at your desired temperature. It is so important to remember this. As your body easily manages five minutes, gradually increase the time 20 minutes at the same temperature. As your body safely manages 20 minutes at that temperature, increase the temperature by five degrees until you reach your desired temperature. This process can take weeks, so just take your time and don’t be in a hurry. Times and temperatures are unique to the individual, so be acutely aware of what your body is doing and how you feel. Just as important, stay hydrated during the process. 
+        Low and slow… no more than five minutes at your desired temperature. It is so important to remember this. As your body easily manages five minutes, gradually increase the time 20 minutes at the same temperature. As your body safely manages 20 minutes at that temperature, increase the temperature by five degrees until you reach your desired temperature. This process can take weeks, so just take your time and don’t be in a hurry. Times and temperatures are unique to the individual, so be acutely aware of what your body is doing and how you feel. Just as important, stay hydrated during the process. 
         </p>
         <p>
         In conclusion, your profession is unique and with it comes unique challenges, mental and physical stressors, as well as unforeseen trials. Heat therapy can help decompress your mind, relax your muscles, and change cellular construction, which in turn can increase your resistance and resilience to these uncontrolled stresses
@@ -68,6 +68,7 @@ let mappedBlogPost = blogdata.map((blogdata) => {
         This Mental Health Minute is created for you with the help of EMS1 and National Institutes of Health. 
         </p>
       </div>
+
     </div>
   </div>
   : null
