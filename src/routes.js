@@ -64,6 +64,7 @@ import Diet from './Components/Blog/Diet';
 import CostofCaring from './Components/Blog/CostofCaring';
 import Mindfullness from './Components/Blog/Mindufullness';
 import HeatTherapy from './Components/Blog/HeatTherapy';
+import PolarPlunge from './Components/Blog/PolarPlunge';
 
 
 
@@ -137,5 +138,6 @@ export default (
     <Route path="/costofcaring" component={CostofCaring} />
     <Route path="/mindfullness" component={Mindfullness} />
     <Route path="/heattherapy" component={HeatTherapy} />
+    <Route path="/polarplunge" component={PolarPlunge} />
       </Switch>
 )

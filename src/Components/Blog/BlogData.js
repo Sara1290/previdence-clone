@@ -22,8 +22,20 @@ import officerAndNeighbor from '../../images/officerAndNeighbor.jpg';
 import dietandmentalhealth2 from '../../images/dietandmentalhealth2.jpg';
 import mindfullnessJourney from '../../images/mindfullnessJourney.jpg';
 import sauna from '../../images/sauna.jpg';
+import polar from '../../images/polar.jpg';
 
 export const blogdata = [
+    {
+    "id": 27,
+    "title": "Polar Plunge",
+    "link": "#/polarplunge",
+    "description": "Cryotherapy, or ice bath, is used to flush toxins and enrich red blood cells with oxygen, nutrients and enzymes.",
+    "img": polar,
+    "topic": "cryotherapy polar plunge cold therapy",
+    "alpha": "P",
+    "author": "Bobbi Mcgraw",
+    "date": "October 13, 2023"
+  },
 
   {
     "id": 26,
