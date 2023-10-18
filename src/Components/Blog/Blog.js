@@ -5,10 +5,11 @@ import UniFooter from '../UniFooter';
 import { blogdata } from './BlogData.js';
 import ReactGA from 'react-ga';
 import ScrollToTop from '../ScrollToTop';
+
 import './blog.css';
 
 const Blog = () => {
-  ReactGA.pageview('src/Components/Resources/Resources.js');
+  ReactGA.pageview('src/Components/Blog/Blog.js');
 
   // const [resources, setResources] = useState([]);
   const [search, setSearch] = useState("");

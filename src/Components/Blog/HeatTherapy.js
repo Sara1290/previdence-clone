@@ -2,6 +2,7 @@ import  React from "react";
 import NavBar from '../NavBar';
 import { blogdata } from './BlogData.js';
 import UniFooter from "../UniFooter";
+import ReactGA from 'react-ga';
 
 const HeatTherapy = () => {
 
