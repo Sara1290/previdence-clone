@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const Resilience = () => {
-
+  ReactGA.pageview('src/Components/Blog/Resilience.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

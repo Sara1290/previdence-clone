@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const SocialMedia = () => {
-
+  ReactGA.pageview('src/Components/Blog/SocialMedia.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

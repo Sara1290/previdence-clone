@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const VTpt2 = () => {
-
+  ReactGA.pageview('src/Components/Blog/VTp2.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

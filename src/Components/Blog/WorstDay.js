@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const WorstDay = () => {
-
+  ReactGA.pageview('src/Components/Blog/WorstDay.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

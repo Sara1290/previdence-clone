@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const MHAwareness = () => {
-
+  ReactGA.pageview('src/Components/Blog/MHAwareness.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

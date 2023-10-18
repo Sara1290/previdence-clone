@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const Microbiome = () => {
-
+  ReactGA.pageview('src/Components/Blog/Microbiome.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

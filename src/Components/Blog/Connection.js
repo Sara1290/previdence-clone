@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const Connection = () => {
-
+  ReactGA.pageview('src/Components/Blog/Connection.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const PositiveLight = () => {
-
+  ReactGA.pageview('src/Components/Blog/PositiveLight.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

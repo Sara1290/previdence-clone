@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const Diet = () => {
-
+  ReactGA.pageview('src/Components/Blog/Diet.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

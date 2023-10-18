@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const CultureofWellness = () => {
-
+  ReactGA.pageview('src/Components/Blog/CultureofWellness.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

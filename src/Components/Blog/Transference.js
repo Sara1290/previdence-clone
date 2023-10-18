@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const Transference = () => {
-
+  ReactGA.pageview('src/Components/Blog/Transference.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

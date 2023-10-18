@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const Breathing = () => {
-
+  ReactGA.pageview('src/Components/Blog/Breathing.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

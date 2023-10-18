@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const FinancialFreedom = () => {
-
+  ReactGA.pageview('src/Components/Blog/FinancialFreedom.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

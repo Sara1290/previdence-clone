@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const Music = () => {
-
+  ReactGA.pageview('src/Components/Blog/Music.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

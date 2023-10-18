@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const HeatTherapy = () => {
-
+  ReactGA.pageview('src/Components/Blog/HeatTherapy.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

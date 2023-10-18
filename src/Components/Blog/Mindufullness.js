@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const Mindfullness = () => {
-
+  ReactGA.pageview('src/Components/Blog/Mindfullness.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (

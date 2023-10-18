@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const CostofCaring = () => {
-
+  ReactGA.pageview('src/Components/Blog/CostofCaring.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (
