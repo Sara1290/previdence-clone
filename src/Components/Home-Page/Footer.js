@@ -20,16 +20,16 @@ return (
     <h5>
       Contact
     </h5>
-      <p>Address: 5742 S 1475 E, Suite 200 
+      <p>Address: 5677 S 1475 E, Suite 4B 
         <br></br>
         South Ogden, UT 84403
       </p> 
         <p>Phone: (801) 409-0904</p>
           <Mailto email="sales@previdence.com" subject="Public Relations" body="Hello">
-        <p className="white-hover">Email: public-relations@previdence.com</p>
+        <p className="white-hover">Email: sales@previdence.com</p>
           </Mailto>
-        <p className="white-hover">Liaison Email: liaisons@previdence.com</p>
-        <p className="white-hover"><a className='a2' href='tel:+1-800-273-8255'>Liaison Phone: 801-917-4377</a></p>
+        <p className="white-hover">Member Care Email: MemberCare@previdence.com</p>
+        <p className="white-hover"><a className='a2' href='tel:+1-800-273-8255'>Member Care Phone: 801-917-4377</a></p>
         <p>Hours: Monday - Friday <br></br>
           8:00 am - 5:00 pm MST</p>
 

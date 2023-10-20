@@ -5,7 +5,7 @@ import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
 
 const AnxietyOrPanic = () => {
-  ReactGA.pageview('src/Components/Blog/AnxietyOrPanic.js');
+  ReactGA.pageview('src/Components/Blog/AnxietyOrPanicnp.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (
