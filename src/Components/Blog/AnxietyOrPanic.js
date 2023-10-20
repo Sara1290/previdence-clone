@@ -2,9 +2,10 @@ import  React from "react";
 import NavBar from '../NavBar';
 import { blogdata } from './BlogData.js';
 import UniFooter from "../UniFooter";
+import ReactGA from 'react-ga';
 
 const AnxietyOrPanic = () => {
-
+  ReactGA.pageview('src/Components/Blog/AnxietyOrPanic.js');
 
 let mappedBlogPost = blogdata.map((blogdata) => {
   return (
