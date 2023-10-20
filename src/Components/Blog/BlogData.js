@@ -23,8 +23,20 @@ import dietandmentalhealth2 from '../../images/dietandmentalhealth2.jpg';
 import mindfullnessJourney from '../../images/mindfullnessJourney.jpg';
 import sauna from '../../images/sauna.jpg';
 import polar from '../../images/polar.jpg';
+import fireHands from '../../images/fireHands.jpg';
 
 export const blogdata = [
+  {
+    "id": 28,
+    "title": "Anxiety or Panic",
+    "link": "#/anxietyorpanic",
+    "description": "Ever wonder what the difference is between a panic attack and an anxiety attack? Have you experienced either of these?",
+    "img": fireHands,
+    "topic": "anxiety panic attack ",
+    "alpha": "A",
+    "author": "Bobbi Mcgraw",
+    "date": "October 20, 2023"
+  },
     {
     "id": 27,
     "title": "Polar Plunge",
