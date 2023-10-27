@@ -66,6 +66,7 @@ import Mindfullness from './Components/Blog/Mindufullness';
 import HeatTherapy from './Components/Blog/HeatTherapy';
 import PolarPlunge from './Components/Blog/PolarPlunge';
 import AnxietyOrPanic from './Components/Blog/AnxietyOrPanic';
+import SocialRelationships from './Components/Blog/SocialRelationships';
 
 
 
@@ -141,5 +142,6 @@ export default (
     <Route path="/heattherapy" component={HeatTherapy} />
     <Route path="/polarplunge" component={PolarPlunge} />
     <Route path="/anxietyorpanic" component={AnxietyOrPanic} />
+    <Route path="/socialrelationships" component={SocialRelationships} />
       </Switch>
 )

@@ -24,8 +24,20 @@ import mindfullnessJourney from '../../images/mindfullnessJourney.jpg';
 import sauna from '../../images/sauna.jpg';
 import polar from '../../images/polar.jpg';
 import fireHands from '../../images/fireHands.jpg';
+import social from '../../images/social.png';
 
 export const blogdata = [
+  {
+    "id": 29,
+    "title": "Social Relationships",
+    "link": "#/socialrelationships",
+    "description": "Connecting with others can be rewarding and bring you a great deal of happiness and relief.",
+    "img": social,
+    "topic": "friends family social relationships",
+    "alpha": "S",
+    "author": "Bobbi Mcgraw",
+    "date": "October 27, 2023"
+  },
   {
     "id": 28,
     "title": "Anxiety or Panic",

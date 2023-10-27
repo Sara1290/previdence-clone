@@ -28,6 +28,9 @@ const Homepage = () => {
     <div>
       <NavBar />
       <TheClipComponent />
+      <div className="mhm-form">
+      <iframe src="https://cdn.forms-content.sg-form.com/031f70a4-71d2-11ee-b1f0-f2593f7e8893" title="mhm sign up" className="mhm-form"></iframe> 
+      </div>
       <FlyerComponent />
       {/* <h1 className="compH1">Comprehensive Mental Health and Wellness Platform</h1> */}
       {/* <h4 className="compH3">Currently live with 26 Public Safety departments, covering over 1000 lives</h4> */}
