@@ -25,8 +25,20 @@ import sauna from '../../images/sauna.jpg';
 import polar from '../../images/polar.jpg';
 import fireHands from '../../images/fireHands.jpg';
 import social from '../../images/social.png';
+import transition from '../../images/transition.png';
 
 export const blogdata = [
+  {
+    "id": 30,
+    "title": "Transition",
+    "link": "#/transition",
+    "description": "As we transition from spooky season into the season of gratitude and finding our blessings, take a moment to recognize the good around you.",
+    "img": transition,
+    "topic": "gratitude",
+    "alpha": "G",
+    "author": "Bobbi Mcgraw",
+    "date": "November 3, 2023"
+  },
   {
     "id": 29,
     "title": "Social Relationships",
