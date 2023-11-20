@@ -26,8 +26,32 @@ import polar from '../../images/polar.jpg';
 import fireHands from '../../images/fireHands.jpg';
 import social from '../../images/social.png';
 import transition from '../../images/transition.png';
+import sad from '../../images/sad.jpg';
+import thanksgiving from '../../images/thanksgiving.png'
 
 export const blogdata = [
+  {
+    "id": 32,
+    "title": "Thanksgiving",
+    "link": "#/thanks",
+    "description": "To all of our first responders and your families, we wish you the most peaceful, content Thanksgiving. ",
+    "img": thanksgiving,
+    "topic": "thanks",
+    "alpha": "T",
+    "author": "Bobbi Mcgraw",
+    "date": "November 17, 2023"
+  },
+  {
+    "id": 31,
+    "title": "Seasonal Affective Disorder",
+    "link": "#/sad",
+    "description": "What are your thoughts about the winter blues? What do you know about Seasonal Affective Disorder, or Seasonal Depression?",
+    "img": sad,
+    "topic": "seasonal affective disorder",
+    "alpha": "S",
+    "author": "Bobbi Mcgraw",
+    "date": "November 10, 2023"
+  },
   {
     "id": 30,
     "title": "Transition",

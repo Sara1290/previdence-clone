@@ -6,6 +6,10 @@
   margin-top: -100px;
 } */
 
+.blog-link {
+  color: black;
+}
+
 /*---------scroll to top btn----------------*/
 .to-top-btn {
   display: flex;
