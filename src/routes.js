@@ -70,6 +70,7 @@ import SocialRelationships from './Components/Blog/SocialRelationships';
 import Transition from './Components/Blog/Transition';
 import Sad from './Components/Blog/Sad';
 import Thanksgiving from './Components/Blog/Thanksgiving';
+import PPNHighStakes from './Components/Surveys/PPNHighStakes';
 
 
 
@@ -97,6 +98,7 @@ export default (
     <Route path="/opdtipstest" component={OpdTipsTest} />
     <Route path="/ppn" component={Ppn} />
     <Route path="/ppnadditional" component={PpnAdditional} />
+    <Route path="/ppnhighstakes" component={PPNHighStakes} />
     <Route path="/posttraining" component={PostTraining} />
     <Route path="/crisisresponse" component={CrisisResponse} />
     <Route path="/preveval" component={PrevEval} />
