@@ -71,7 +71,8 @@ import Transition from './Components/Blog/Transition';
 import Sad from './Components/Blog/Sad';
 import Thanksgiving from './Components/Blog/Thanksgiving';
 import PPNHighStakes from './Components/Surveys/PPNHighStakes';
-
+import Gratitude from './Components/Blog/Gratitude';
+import Hustle from './Components/Blog/Hustle';
 
 
 
@@ -151,5 +152,7 @@ export default (
     <Route path="/transition" component={Transition} />
     <Route path="/sad" component={Sad} />
     <Route path="/thanks" component={Thanksgiving} />
+    <Route path="/gratitude" component={Gratitude} />
+    <Route path="/hustle" component={Hustle} />
       </Switch>
 )

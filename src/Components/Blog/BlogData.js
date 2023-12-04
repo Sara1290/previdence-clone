@@ -28,8 +28,32 @@ import social from '../../images/social.png';
 import transition from '../../images/transition.png';
 import sad from '../../images/sad.jpg';
 import thanksgiving from '../../images/thanksgiving.png'
+import gratitude from '../../images/gratitude.jpg'
+import hustleAndBustle from '../../images/hustleAndBustle.jpg'
 
 export const blogdata = [
+  {
+    "id": 34,
+    "title": "Hustle and Bustle",
+    "link": "#/hustle",
+    "description": "What an exhilarating time of year! The music, lights, the excitement of children, the food, family get-togethers, and the love surrounding us during one of the happiest of holidays.",
+    "img": hustleAndBustle,
+    "topic": "hustle",
+    "alpha": "H",
+    "author": "Bobbi Mcgraw",
+    "date": "December 1, 2023"
+  },
+  {
+    "id": 33,
+    "title": "Gratitude",
+    "link": "#/gratitude",
+    "description": "If we really want to be happy and content, gratitude and integrity can do a lot for us, a lot for our family, friends, career, and society.",
+    "img": gratitude,
+    "topic": "gratitude",
+    "alpha": "G",
+    "author": "Bobbi Mcgraw",
+    "date": "November 24, 2023"
+  },
   {
     "id": 32,
     "title": "Thanksgiving",
