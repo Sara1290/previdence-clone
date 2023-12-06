@@ -29,7 +29,7 @@ return (
         <p className="white-hover">Email: sales@previdence.com</p>
           </Mailto>
         <p className="white-hover">Member Care Email: MemberCare@previdence.com</p>
-        <p className="white-hover"><a className='a2' href='tel:+1-800-273-8255'>Member Care Phone: 801-917-4377</a></p>
+        <p className="white-hover"><a className='a2' href='tel:+1-tel:385-298-8152'>Member Care Phone: 385-298-8152</a></p>
         <p>Hours: Monday - Friday <br></br>
           8:00 am - 5:00 pm MST</p>
 
