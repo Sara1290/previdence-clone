@@ -30,8 +30,20 @@ import sad from '../../images/sad.jpg';
 import thanksgiving from '../../images/thanksgiving.png'
 import gratitude from '../../images/gratitude.jpg'
 import hustleAndBustle from '../../images/hustleAndBustle.jpg'
+import wonderful from '../../images/wonderful.jpg'
 
 export const blogdata = [
+  {
+    "id": 35,
+    "title": "The Most Wonderful Time of the Year",
+    "link": "#/wonderful",
+    "description": "We smile more, say hi to strangers, and find ourselves in a whole other frame of mind. Music does that.",
+    "img": wonderful,
+    "topic": "wonderful time of the year",
+    "alpha": "W",
+    "author": "Bobbi Mcgraw",
+    "date": "December 8, 2023"
+  },
   {
     "id": 34,
     "title": "Hustle and Bustle",

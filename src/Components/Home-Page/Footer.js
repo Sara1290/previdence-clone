@@ -25,8 +25,8 @@ return (
         South Ogden, UT 84403
       </p> 
         <p>Phone: (801) 409-0904</p>
-          <Mailto email="sales@previdence.com" subject="Public Relations" body="Hello">
-        <p className="white-hover">Email: sales@previdence.com</p>
+          <Mailto email="dave.reeder@previdence.com" subject="Sales Inquiry" body="Hello">
+        <p className="white-hover">Sales: dave.reeder@previdence.com</p>
           </Mailto>
         <p className="white-hover">Member Care Email: MemberCare@previdence.com</p>
         <p className="white-hover"><a className='a2' href='tel:+1-tel:385-298-8152'>Member Care Phone: 385-298-8152</a></p>
