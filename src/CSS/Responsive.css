@@ -665,7 +665,7 @@
   .prev-logo {
     position: relative;
     /* bottom: 10vh; */
-    /* width: 100vw; */
+    width: 100vw;
   }
   .group-parent {
     position: relative;
@@ -919,6 +919,19 @@
 
 /*-----------------laptop / ipad PRO---------*/
 @media screen and (min-width: 1023px) {
+  .mhm-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 25vh;
+  }
+  .mhm-signup {
+    width: 75%;
+    height: 650px;
+    /* margin-bottom: 50px; */
+  }
+  
   .team-group {
     justify-content: flex-start !important;
   }
