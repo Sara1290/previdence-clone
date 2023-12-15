@@ -11,7 +11,7 @@ import ReactGA from 'react-ga';
 import ScrollToTop from "../ScrollToTop";
 import Steps from "./Steps";
 import Hubspot from "../HubSpot/Hubspot";
-import FlyerComponent from "./FlyerComponent";
+// import FlyerComponent from "./FlyerComponent";
 // import Journey from "./Journey";
 // import HubspotThankYou from "../HubSpot/HubspotThankYou";
 // import FacebookFeed from "./FacebookFeed";
@@ -28,8 +28,6 @@ const Homepage = () => {
     <div>
       <NavBar />
       <TheClipComponent />
-
-  
       {/* <h1 className="compH1">Comprehensive Mental Health and Wellness Platform</h1> */}
       {/* <h4 className="compH3">Currently live with 26 Public Safety departments, covering over 1000 lives</h4> */}
       <GroupSection />

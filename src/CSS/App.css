@@ -333,7 +333,7 @@ nav {
   align-items: center;
   justify-content: center;
   position: relative;
-  /* bottom: 30vh; */
+  bottom: 30vh;
   padding-bottom: 10vh;
 }
 .group-parent > h2 {
