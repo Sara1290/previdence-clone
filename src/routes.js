@@ -74,6 +74,7 @@ import PPNHighStakes from './Components/Surveys/PPNHighStakes';
 import Gratitude from './Components/Blog/Gratitude';
 import Hustle from './Components/Blog/Hustle';
 import Wonderful from './Components/Blog/Wonderful';
+import MakeHappy from './Components/Blog/MakeHappy';
 
 
 
@@ -156,5 +157,6 @@ export default (
     <Route path="/gratitude" component={Gratitude} />
     <Route path="/hustle" component={Hustle} />
     <Route path="/wonderful" component={Wonderful} />
+    <Route path="/makehappy" component={MakeHappy} />
       </Switch>
 )

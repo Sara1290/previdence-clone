@@ -31,8 +31,20 @@ import thanksgiving from '../../images/thanksgiving.png'
 import gratitude from '../../images/gratitude.jpg'
 import hustleAndBustle from '../../images/hustleAndBustle.jpg'
 import wonderful from '../../images/wonderful.jpg'
+import winter from '../../images/winter.jpg'
 
 export const blogdata = [
+  {
+    "id": 36,
+    "title": "If I Could Make You Happy",
+    "link": "#/makehappy",
+    "description": "A poem from our own Bobbi McGraw",
+    "img": winter,
+    "topic": "Happy poetry service courage hero",
+    "alpha": "H",
+    "author": "Bobbi Mcgraw",
+    "date": "December 15, 2023"
+  },
   {
     "id": 35,
     "title": "The Most Wonderful Time of the Year",
