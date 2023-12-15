@@ -104,7 +104,7 @@
     flex-direction: column;
     align-items: center;
     width: 95vw;
-    margin-bottom: 20vh;
+    margin-bottom: 50vh;
     border-radius: 20px;
   }
   .step-item {
@@ -993,7 +993,7 @@
     padding: 5% 0 0 0;
     /* margin-bottom: 40vh; */
     position: relative;
-    /* bottom: 30vh; */
+    bottom: 30vh;
   }
   .steps-outer > h1 {
     margin-bottom: 15vh;
