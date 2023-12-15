@@ -1,7 +1,7 @@
 import React, {useState, useEffect } from 'react';
 // import axios from 'axios';
 import NavBar from '../NavBar';
-import UniFooter from '../UniFooter';
+import MemberCareFooter from "../MemberCareFooter.js";
 import { blogdata } from './BlogData.js';
 import ReactGA from 'react-ga';
 import ScrollToTop from '../ScrollToTop';
@@ -130,7 +130,7 @@ return (
 <div className='blog-container'>
 
       <div className="blog-inner">
-        {/* basically saying if there is 0 search length return the original mapped, and if there is ANY amount of search text then return the searched results */}
+        {/* basically saying if there is 0 search length, then return the original mapped blog posts (an array), and if there is ANY amount of search text then return the searched results */}
         {searchResults.length < 1 
         ? mappedResources 
         : mappedSearch 
@@ -138,7 +138,7 @@ return (
       </div>
   </div>
       <ScrollToTop />
-      <UniFooter />
+      <MemberCareFooter />
     </div>
   )
 

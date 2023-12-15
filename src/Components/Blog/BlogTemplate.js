@@ -59,7 +59,7 @@ let mappedBlogPost = blogdata.map((blogdata) => {
       <div className="BlogPost">
       {mappedBlogPost}
       </div>
-      <UniFooter />
+      <MemberCareFooter />
     </div>
   )
   

@@ -1,8 +1,9 @@
 import  React from "react";
 import NavBar from '../NavBar';
 import { blogdata } from './BlogData.js';
-import UniFooter from "../UniFooter";
+// import UniFooter from "../UniFooter";
 import ReactGA from 'react-ga';
+import MemberCareFooter from "../MemberCareFooter.js";
 
 const AnxietyOrPanic = () => {
   ReactGA.pageview('src/Components/Blog/AnxietyOrPanicnp.js');
@@ -81,7 +82,7 @@ and Healthline.
       <div className="BlogPost">
       {mappedBlogPost}
       </div>
-      <UniFooter />
+      <MemberCareFooter />
     </div>
   )
   

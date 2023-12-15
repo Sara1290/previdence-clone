@@ -1,7 +1,7 @@
 import  React from "react";
 import NavBar from '../NavBar';
 import { blogdata } from './BlogData.js';
-import UniFooter from "../UniFooter";
+import MemberCareFooter from "../MemberCareFooter.js";
 import ReactGA from 'react-ga';
 
 const Breathing = () => {
@@ -58,7 +58,7 @@ let mappedBlogPost = blogdata.map((blogdata) => {
       <div className="BlogPost">
       {mappedBlogPost}
       </div>
-      <UniFooter />
+      <MemberCareFooter />
     </div>
   )
   
