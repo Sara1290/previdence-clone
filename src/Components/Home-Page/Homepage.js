@@ -29,7 +29,7 @@ const Homepage = () => {
       <NavBar />
       <TheClipComponent />
 
-      <FlyerComponent />
+  
       {/* <h1 className="compH1">Comprehensive Mental Health and Wellness Platform</h1> */}
       {/* <h4 className="compH3">Currently live with 26 Public Safety departments, covering over 1000 lives</h4> */}
       <GroupSection />
