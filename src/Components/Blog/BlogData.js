@@ -32,8 +32,20 @@ import gratitude from '../../images/gratitude.jpg'
 import hustleAndBustle from '../../images/hustleAndBustle.jpg'
 import wonderful from '../../images/wonderful.jpg'
 import winter from '../../images/winter.jpg'
+import dec22 from '../../images/dec22.png'
 
 export const blogdata = [
+  {
+    "id": 37,
+    "title": "Happy Holidays",
+    "link": "#/happyholidays",
+    "description": "Happy holidays to you, to your family, and all those you hold dear. ",
+    "img": dec22,
+    "topic": "Holidays first responder thank you",
+    "alpha": "H",
+    "author": "Bobbi Mcgraw",
+    "date": "December 22, 2023"
+  },
   {
     "id": 36,
     "title": "If I Could Make You Happy",

@@ -75,6 +75,7 @@ import Gratitude from './Components/Blog/Gratitude';
 import Hustle from './Components/Blog/Hustle';
 import Wonderful from './Components/Blog/Wonderful';
 import MakeHappy from './Components/Blog/MakeHappy';
+import HappyHolidays from './Components/Blog/HappyHolidays';
 
 
 
@@ -158,5 +159,6 @@ export default (
     <Route path="/hustle" component={Hustle} />
     <Route path="/wonderful" component={Wonderful} />
     <Route path="/makehappy" component={MakeHappy} />
+    <Route path="/happyholidays" component={HappyHolidays} />
       </Switch>
 )

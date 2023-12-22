@@ -33,8 +33,8 @@ const Contact = () => {
           801-409-0904
         </p>
         <h5>Email</h5>
-        <Mailto className="a" email="sales@previdence.com" subject="Contact Us" body="Hello">
-        <p style={{fontWeight: 300}}>sales@previdence.com</p>
+        <Mailto className="a" email="membercare@previdence.com" subject="Contact Us" body="Hello">
+        <p style={{fontWeight: 300}}>membercare@previdence.com</p>
         </Mailto>
         {/* <div className="socials">
         <a href="https://www.facebook.com/PrevidenceMentalHealthRiskAssessment/" target="_blank" rel="noreferrer"><FaFacebook className="social" /></a>

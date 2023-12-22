@@ -1,7 +1,7 @@
 import  React from "react";
 import NavBar from '../NavBar';
 import { blogdata } from './BlogData.js';
-import UniFooter from "../UniFooter";
+import MemberCareFooter from "../MemberCareFooter";
 
 const BlogTemplate = () => {
 
