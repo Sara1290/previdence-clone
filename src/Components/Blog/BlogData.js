@@ -33,8 +33,20 @@ import hustleAndBustle from '../../images/hustleAndBustle.jpg'
 import wonderful from '../../images/wonderful.jpg'
 import winter from '../../images/winter.jpg'
 import dec22 from '../../images/dec22.png'
+import fine from '../../images/fine.png'
 
 export const blogdata = [
+  {
+    "id": 38,
+    "title": "Goodbye to the old, hello to the new.",
+    "link": "#/fine",
+    "description": "In 2024 be ready for Mental Health Minutes that will inspire you, and give you hope. ",
+    "img": fine,
+    "topic": "resilience hope new year wishes",
+    "alpha": "G",
+    "author": "Bobbi Mcgraw",
+    "date": "December 29, 2023"
+  },
   {
     "id": 37,
     "title": "Happy Holidays",
