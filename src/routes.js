@@ -76,6 +76,7 @@ import Hustle from './Components/Blog/Hustle';
 import Wonderful from './Components/Blog/Wonderful';
 import MakeHappy from './Components/Blog/MakeHappy';
 import HappyHolidays from './Components/Blog/HappyHolidays';
+import Fine from './Components/Blog/Fine';
 
 
 
@@ -160,5 +161,6 @@ export default (
     <Route path="/wonderful" component={Wonderful} />
     <Route path="/makehappy" component={MakeHappy} />
     <Route path="/happyholidays" component={HappyHolidays} />
+    <Route path="/fine" component={Fine} />
       </Switch>
 )
