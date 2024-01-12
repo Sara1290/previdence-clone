@@ -77,6 +77,8 @@ import Wonderful from './Components/Blog/Wonderful';
 import MakeHappy from './Components/Blog/MakeHappy';
 import HappyHolidays from './Components/Blog/HappyHolidays';
 import Fine from './Components/Blog/Fine';
+import WhatMentalHealthIs from './Components/Blog/WhatMentalHealthIs';
+import MythsAndFacts from './Components/Blog/MythsAndFacts';
 
 
 
@@ -162,5 +164,7 @@ export default (
     <Route path="/makehappy" component={MakeHappy} />
     <Route path="/happyholidays" component={HappyHolidays} />
     <Route path="/fine" component={Fine} />
+    <Route path="/whatmentalhealthis" component={WhatMentalHealthIs} />
+    <Route path="/mythsandfacts" component={MythsAndFacts} />
       </Switch>
 )

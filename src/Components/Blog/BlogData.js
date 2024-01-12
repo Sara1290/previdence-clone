@@ -37,6 +37,28 @@ import fine from '../../images/fine.png'
 
 export const blogdata = [
   {
+    "id": 40,
+    "title": "Myths and Facts",
+    "link": "#/mythsandfacts",
+    "description": "In 2024 be ready for Mental Health Minutes that will inspire you, and give you hope. ",
+    "img": fine,
+    "topic": "resilience hope new year wishes",
+    "alpha": "G",
+    "author": "Bobbi Mcgraw",
+    "date": "December 29, 2023"
+  },
+  {
+    "id": 39,
+    "title": "What Mental Health Is",
+    "link": "#/whatmentalhealthis",
+    "description": "In 2024 be ready for Mental Health Minutes that will inspire you, and give you hope. ",
+    "img": fine,
+    "topic": "resilience hope new year wishes",
+    "alpha": "G",
+    "author": "Bobbi Mcgraw",
+    "date": "December 29, 2023"
+  },
+  {
     "id": 38,
     "title": "Goodbye to the old, hello to the new.",
     "link": "#/fine",
