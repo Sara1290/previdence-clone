@@ -26,6 +26,7 @@ import DSMSpanish from './Components/Surveys/DSMSpanish';
 import DSMSpanishParents from './Components/Surveys/DSMSpanishParents';
 import ClientPPNSatisfaction from './Components/Surveys/ClientPPNSatisfaction';
 import PpnConference from './Components/Surveys/PpnConference';
+import CustomerSatisfaction from './Components/Surveys/CustomerSatisfaction';
 import PpnInfo from './Components/PPN/PpnInfo';
 import OpdTips from './Components/Tips/OpdTips';
 import AdditionalResources from './Components/PPN/AdditionalResources';
@@ -116,6 +117,7 @@ export default (
     <Route path="/dsmspanishparentswebersd" component={DSMSpanishParents} />
     <Route path="/ppninfo" component={PpnInfo} />
     <Route path="/clientppnsatisfaction" component={ClientPPNSatisfaction} />
+    <Route path="/customersatisfaction" component={CustomerSatisfaction} />
     <Route path="/ppnconference" component={PpnConference} />
     <Route path="/additionalresources" component={AdditionalResources} />
     <Route path="/thank-you" component={HubspotThankYou} />
