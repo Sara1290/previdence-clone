@@ -34,29 +34,30 @@ import wonderful from '../../images/wonderful.jpg'
 import winter from '../../images/winter.jpg'
 import dec22 from '../../images/dec22.png'
 import fine from '../../images/fine.png'
+import mythsfacts from '../../images/mythsfacts.jpg'
 
 export const blogdata = [
   {
     "id": 40,
     "title": "Myths and Facts",
     "link": "#/mythsandfacts",
-    "description": "In 2024 be ready for Mental Health Minutes that will inspire you, and give you hope. ",
-    "img": fine,
+    "description": "Myths and misconceptions about mental health influence society’s beliefs and attitudes about suicide, which could be a major barrier to seeking help for themselves and their loved ones. ",
+    "img": mythsfacts,
     "topic": "resilience hope new year wishes",
     "alpha": "G",
     "author": "Bobbi Mcgraw",
-    "date": "December 29, 2023"
+    "date": "Janurary 12, 2024"
   },
   {
     "id": 39,
     "title": "What Mental Health Is",
     "link": "#/whatmentalhealthis",
-    "description": "In 2024 be ready for Mental Health Minutes that will inspire you, and give you hope. ",
-    "img": fine,
+    "description": "Literally everything we do and experience in life either involves or affects our mental health to some extent. So why not take care of it, be proud of it, and maintain it the way we do our physical health? ",
+    "img": ppnTherapist4,
     "topic": "resilience hope new year wishes",
     "alpha": "G",
     "author": "Bobbi Mcgraw",
-    "date": "December 29, 2023"
+    "date": "January 5, 2024"
   },
   {
     "id": 38,

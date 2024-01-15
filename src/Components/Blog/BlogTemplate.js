@@ -35,6 +35,16 @@ let mappedBlogPost = blogdata.map((blogdata) => {
         </p>
         <p>
         </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
         <ul className="blog-post-ul">
           <h5>List Heading</h5>
             <li></li>

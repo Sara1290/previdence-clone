@@ -1,6 +1,7 @@
 import  React from "react";
 import NavBar from '../NavBar';
 import { blogdata } from './BlogData.js';
+import isisnt from '../../images/isisnt.jpg'
 import MemberCareFooter from "../MemberCareFooter";
 
 const WhatMentalHealthIs = () => {
@@ -20,7 +21,9 @@ let mappedBlogPost = blogdata.map((blogdata) => {
           <p>{blogdata.author}</p>
           <p>{blogdata.date}</p>
         </div>
-      <img src={blogdata.img} alt="tired person" className="blog-post-img" />
+      {/* <img src={blogdata.img} alt="tired person" className="blog-post-img" /> */}
+      <br></br>
+      <img src={isisnt} alt="what mental health is and isn't" className="blog-img" />
       <div className="blog-content">
         <h5>
         You and I are alike. We have mental health, just like we have physical health, and we want to be our best. Literally everything we do and experience in life either involves or affects our mental health to some extent. So why not take care of it, be proud of it, and maintain it the way we do our physical health? 
