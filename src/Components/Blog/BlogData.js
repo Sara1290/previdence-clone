@@ -35,8 +35,20 @@ import winter from '../../images/winter.jpg'
 import dec22 from '../../images/dec22.png'
 import fine from '../../images/fine.png'
 import mythsfacts from '../../images/mythsfacts.jpg'
+import selfcare from '../../images/selfcare.jpg'
 
 export const blogdata = [
+  {
+    "id": 41,
+    "title": "Self Care Isn't Selfish",
+    "link": "#/selfcare",
+    "description": "Self-care is at the heart of preserving our whole health. However, practicing self-care isn’t as easy as it sounds. We say we are taking care of ourselves, but are we actually doing it?",
+    "img": selfcare,
+    "topic": "resilience hope new year wishes",
+    "alpha": "G",
+    "author": "Bobbi Mcgraw",
+    "date": "Janurary 12, 2024"
+  },
   {
     "id": 40,
     "title": "Myths and Facts",

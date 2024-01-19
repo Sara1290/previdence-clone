@@ -80,6 +80,7 @@ import HappyHolidays from './Components/Blog/HappyHolidays';
 import Fine from './Components/Blog/Fine';
 import WhatMentalHealthIs from './Components/Blog/WhatMentalHealthIs';
 import MythsAndFacts from './Components/Blog/MythsAndFacts';
+import SelfCare from './Components/Blog/SelfCare';
 
 
 
@@ -168,5 +169,6 @@ export default (
     <Route path="/fine" component={Fine} />
     <Route path="/whatmentalhealthis" component={WhatMentalHealthIs} />
     <Route path="/mythsandfacts" component={MythsAndFacts} />
+    <Route path="/selfcare" component={SelfCare} />
       </Switch>
 )
