@@ -77,9 +77,9 @@ const PublicSafety = () => {
             <PsCarousel />
             <br></br>
       <div className="button-parent">
-          <Mailto className="a"  email="liaisons@previdence.com" subject="Public Safety Liaison" body="Hello">
+          <Mailto className="a"  email="membercare@previdence.com" subject="Reaching out from the Public Safety page on the website" body="Hello">
             <button className="liaison">
-              CONTACT OUR PUBLIC SAFETY LIAISON
+              CONTACT OUR MEMBER CARE SPECIALIST
             </button>
           </Mailto>
           </div>

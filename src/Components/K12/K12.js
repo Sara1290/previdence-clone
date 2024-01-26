@@ -32,9 +32,9 @@ const K12 = () => {
         </p>
         </div>
         <div className="k12-liaison">
-          <Mailto className="a" email="liaisons@previdence.com" subject="K-12 Liaison" body="Hello">
+          <Mailto className="a" email="membercare@previdence.com" subject="Reaching out from the k-12 page on the website" body="Hello">
             <button className="liaison">
-              CONTACT OUR K-12 LIAISON
+              CONTACT OUR MEMBER CARE SPECIALIST
             </button>
           </Mailto>
           </div>

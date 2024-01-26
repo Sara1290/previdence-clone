@@ -37,6 +37,9 @@ import ClinicalTeam from './Components/Team/ClinicalTeam';
 import Providers from './Components/PPN/Providers';
 import PrivacyPolicy from './Components/Legal/PrivacyPolicy';
 import TermsAndConditions from './Components/Legal/TermsAndConditions';
+import Cookies from './Components/Home-Page/Cookies';
+
+// Blog
 import Blog from './Components/Blog/Blog';
 import SleepHygiene from './Components/Blog/SleepHygiene';
 import Microbiome from './Components/Blog/Microbiome';
@@ -81,6 +84,7 @@ import Fine from './Components/Blog/Fine';
 import WhatMentalHealthIs from './Components/Blog/WhatMentalHealthIs';
 import MythsAndFacts from './Components/Blog/MythsAndFacts';
 import SelfCare from './Components/Blog/SelfCare';
+import Questions from './Components/Blog/Questions';
 
 
 
@@ -126,6 +130,7 @@ export default (
     <Route path="/providers" component={Providers} />
     <Route path="/privacy" component={PrivacyPolicy} />
     <Route path="/termsandconditions" component={TermsAndConditions} />
+    <Route path="/cookies" component={Cookies} />
     {/* blog */}
     <Route path="/blog" component={Blog} />
     <Route path="/sleephygiene" component={SleepHygiene}/>
@@ -170,5 +175,6 @@ export default (
     <Route path="/whatmentalhealthis" component={WhatMentalHealthIs} />
     <Route path="/mythsandfacts" component={MythsAndFacts} />
     <Route path="/selfcare" component={SelfCare} />
+    <Route path="/questions" component={Questions} />
       </Switch>
 )

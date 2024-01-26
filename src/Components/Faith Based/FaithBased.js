@@ -46,9 +46,9 @@ const FaithBased = () => {
           </p>
         </div>
           <div className="faith-button-parent">
-          <Mailto className="a" email="liaisons@previdence.com" subject="Faith Based Liaison" body="Hello">
+          <Mailto className="a" email="membercare@previdence.com" subject="Reaching out from the Faith Based page on the website" body="Hello">
             <button className="liaison-dark" >
-              CONTACT OUR FAITH BASED LIAISON
+              CONTACT OUR MEMBER CARE SPECIALIST
             </button>
           </Mailto>
           </div>

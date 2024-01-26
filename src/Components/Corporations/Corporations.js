@@ -42,9 +42,9 @@ const Corporations = () => {
             </p>
           </div>
           <div className="button-parent-corp">
-          <Mailto className="a" email="liaisons@previdence.com" subject="Corportate Liaison" body="Hello">
+          <Mailto className="a" email="MemberCare@previdence.com" subject="Reaching out from the Corporations page on the website" body="Hello">
             <button className="liaison-dark">
-              CONTACT OUR CORPORATE LIAISON
+              CONTACT OUR MEMBER CARE SPECIALIST
             </button>
           </Mailto>
           </div>

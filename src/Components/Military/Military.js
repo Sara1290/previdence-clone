@@ -42,9 +42,9 @@ const Military = () => {
             </div>
           </Fade>
           <div className="button-parent-mili">
-          <Mailto className="a" email="liaisons@previdence.com" subject="Military Liaison" body="Hello">
+          <Mailto className="a" email="membercare@previdence.com" subject="Reaching out from the Military page on the website" body="Hello">
             <button className="liaison-mili">
-              CONTACT OUR MILITARY LIAISON
+              CONTACT OUR MEMBER CARE SPECIALIST
             </button>
           </Mailto>
           </div>

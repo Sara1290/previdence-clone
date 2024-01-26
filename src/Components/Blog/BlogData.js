@@ -37,7 +37,19 @@ import fine from '../../images/fine.png'
 import mythsfacts from '../../images/mythsfacts.jpg'
 import selfcare from '../../images/selfcare.jpg'
 
+
 export const blogdata = [
+  {
+    "id": 42,
+    "title": "Questions",
+    "link": "#/questions",
+    "description": "Questions About Mental Health, how does age, career, and our perception of it ei'm going with effect us?",
+    "img": ppnTherapist5,
+    "topic": "resilience hope new year wishes",
+    "alpha": "Q",
+    "author": "Bobbi Mcgraw",
+    "date": "Janurary 26, 2024"
+  },
   {
     "id": 41,
     "title": "Self Care Isn't Selfish",
@@ -45,9 +57,9 @@ export const blogdata = [
     "description": "Self-care is at the heart of preserving our whole health. However, practicing self-care isn’t as easy as it sounds. We say we are taking care of ourselves, but are we actually doing it?",
     "img": selfcare,
     "topic": "resilience hope new year wishes",
-    "alpha": "G",
+    "alpha": "S",
     "author": "Bobbi Mcgraw",
-    "date": "Janurary 12, 2024"
+    "date": "Janurary 19, 2024"
   },
   {
     "id": 40,
@@ -56,7 +68,7 @@ export const blogdata = [
     "description": "Myths and misconceptions about mental health influence society’s beliefs and attitudes about suicide, which could be a major barrier to seeking help for themselves and their loved ones. ",
     "img": mythsfacts,
     "topic": "resilience hope new year wishes",
-    "alpha": "G",
+    "alpha": "M",
     "author": "Bobbi Mcgraw",
     "date": "Janurary 12, 2024"
   },

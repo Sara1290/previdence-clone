@@ -70,9 +70,9 @@ const Humanitarian = ({deviceType}) => {
         </div>
         <br></br>
         <div className="button-parent">
-          <Mailto className="a" email="liaisons@previdence.com" subject="Humanitarian Liaison" body="Hello">
+          <Mailto className="a" email="membercare@previdence.com" subject="Reaching out from the Humanitarian page on the website" body="Hello">
             <button className="liaison" >
-              CONTACT OUR HUMANITARIAN LIAISON
+              CONTACT OUR MEMBER CARE SPECIALIST
             </button>
           </Mailto>
           </div>

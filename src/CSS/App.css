@@ -179,6 +179,40 @@ nav {
 #navbarScrollingDropdown {
   color: #333333;
 }
+/* Cookies */
+.cookie-btn {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid white;
+  border-radius: 3px;
+  font-size: 10pt;
+  margin-left: 1%;
+}
+.cookies-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+}
+.cookie-text {
+  background-color: rgba(211, 211, 211, 0.267);
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 1rem;
+  border-image: linear-gradient(to right, #7b0303, #cfcfcf) 1 50;
+  font-weight: 400;
+  font-size: larger;
+  margin-bottom: 10vh;
+}
 
 /* Journey */
 .journey-outer {
@@ -333,7 +367,7 @@ nav {
   align-items: center;
   justify-content: center;
   position: relative;
-  bottom: 40vh;
+  bottom: 30vh;
   padding-bottom: 10vh;
 }
 .group-parent > h2 {
