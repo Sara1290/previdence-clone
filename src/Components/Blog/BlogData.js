@@ -43,7 +43,7 @@ export const blogdata = [
     "id": 42,
     "title": "Questions",
     "link": "#/questions",
-    "description": "Questions About Mental Health, how does age, career, and our perception of it ei'm going with effect us?",
+    "description": "Questions about mental health, how does age, career, and our perception of it affect us?",
     "img": ppnTherapist5,
     "topic": "resilience hope new year wishes",
     "alpha": "Q",
