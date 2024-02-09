@@ -36,16 +36,39 @@ import dec22 from '../../images/dec22.png'
 import fine from '../../images/fine.png'
 import mythsfacts from '../../images/mythsfacts.jpg'
 import selfcare from '../../images/selfcare.jpg'
-
+import selflove from '../../images/selflove.png'
+import healthyRelationships from '../../images/healthyRelationships.png'
 
 export const blogdata = [
+  {
+    "id": 44,
+    "title": "Healthy Relationships",
+    "link": "#/healthyrelationships",
+    "description": "A healthy relationship just feels different, it feels good to be around, it is contagious, and leaves people with a sense of human goodness. ",
+    "img": healthyRelationships,
+    "topic": "healthy relationships",
+    "alpha": "H",
+    "author": "Bobbi Mcgraw",
+    "date": "February 9, 2024"
+  },
+  {
+    "id": 43,
+    "title": "Self Love",
+    "link": "#/selflove",
+    "description": "Your relationship with yourself is the most important one you will ever have. To truly love and understand others, you need to start with yourself",
+    "img": selflove,
+    "topic": "self love",
+    "alpha": "S",
+    "author": "Bobbi Mcgraw",
+    "date": "February 2, 2024"
+  },
   {
     "id": 42,
     "title": "Questions",
     "link": "#/questions",
     "description": "Questions about mental health, how does age, career, and our perception of it affect us?",
     "img": ppnTherapist5,
-    "topic": "resilience hope new year wishes",
+    "topic": "questions",
     "alpha": "Q",
     "author": "Bobbi Mcgraw",
     "date": "Janurary 26, 2024"
@@ -56,7 +79,7 @@ export const blogdata = [
     "link": "#/selfcare",
     "description": "Self-care is at the heart of preserving our whole health. However, practicing self-care isn’t as easy as it sounds. We say we are taking care of ourselves, but are we actually doing it?",
     "img": selfcare,
-    "topic": "resilience hope new year wishes",
+    "topic": "self care",
     "alpha": "S",
     "author": "Bobbi Mcgraw",
     "date": "Janurary 19, 2024"
@@ -67,7 +90,7 @@ export const blogdata = [
     "link": "#/mythsandfacts",
     "description": "Myths and misconceptions about mental health influence society’s beliefs and attitudes about suicide, which could be a major barrier to seeking help for themselves and their loved ones. ",
     "img": mythsfacts,
-    "topic": "resilience hope new year wishes",
+    "topic": "myths misconceptions beliefs attitudes",
     "alpha": "M",
     "author": "Bobbi Mcgraw",
     "date": "Janurary 12, 2024"
@@ -78,7 +101,7 @@ export const blogdata = [
     "link": "#/whatmentalhealthis",
     "description": "Literally everything we do and experience in life either involves or affects our mental health to some extent. So why not take care of it, be proud of it, and maintain it the way we do our physical health? ",
     "img": ppnTherapist4,
-    "topic": "resilience hope new year wishes",
+    "topic": "mental health",
     "alpha": "G",
     "author": "Bobbi Mcgraw",
     "date": "January 5, 2024"

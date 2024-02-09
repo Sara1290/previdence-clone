@@ -85,6 +85,8 @@ import WhatMentalHealthIs from './Components/Blog/WhatMentalHealthIs';
 import MythsAndFacts from './Components/Blog/MythsAndFacts';
 import SelfCare from './Components/Blog/SelfCare';
 import Questions from './Components/Blog/Questions';
+import SelfLove from './Components/Blog/SelfLove';
+import HealthyRelationships from './Components/Blog/HealthyRelationships';
 
 
 
@@ -176,5 +178,7 @@ export default (
     <Route path="/mythsandfacts" component={MythsAndFacts} />
     <Route path="/selfcare" component={SelfCare} />
     <Route path="/questions" component={Questions} />
+    <Route path="/selflove" component={SelfLove} />
+    <Route path="/healthyrelationships" component={HealthyRelationships} />
       </Switch>
 )
