@@ -1,9 +1,9 @@
 import React from "react";
 // import tiaMarble from '../../images/tiaMarble.png';
-import codyFinal from '../../images/codyFinal.png';
+// import codyFinal from '../../images/codyFinal.png';
 import bobbi3 from '../../images/bobbi3.png';
 import cindee3 from '../../images/cindee3.png';
-import sabrina3 from '../../images/sabrina3.png';
+
 
 const ClinicalTeam = () => {
   return (
@@ -31,7 +31,7 @@ const ClinicalTeam = () => {
             </p>
           </div>
         </div> */}
-
+{/* 
         <div className="team-item">
           <img src={codyFinal} alt="" className="team-img" />
           <div className="team-item-texts">
@@ -43,18 +43,9 @@ const ClinicalTeam = () => {
  
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <div className="team-item team-item2">
-          <img src={sabrina3} alt="" className="team-img" />
-          <div className="team-item-texts">
-            <h3>Sabrina Woodrick</h3>
-            <h4>Administrative Assistant</h4>
-            <p>
-            Since being here with my fellow teammates at Previdence; I have not only been able to help others on their healing journey, but I have also been able to start my own healing process with the help and resources provided by Previdence. Being here has not only been uplifting, but it has also instilled good habits for my everyday life. 
-            </p>
-          </div>
-        </div>
+
 
         <div className="team-item">
           <img src={bobbi3} alt="" className="team-img" />
