@@ -7,7 +7,8 @@ import StevieMarble2 from '../../images/StevieMarble2.png';
 import aaron3 from '../../images/aaron3.png';
 import sara3 from '../../images/sara3.png';
 import sabrina3 from '../../images/sabrina3.png';
-import AaronJonesMarble from '../../images/AaronJonesMarble.png'
+import AaronJonesMarble from '../../images/AaronJonesMarble.png';
+import DaveMarble from '../../images/DaveMarble.png';
 
 
 const ExecutiveTeam = () => {
@@ -68,6 +69,19 @@ const ExecutiveTeam = () => {
           </div>
         </div>
 
+        <div className="team-item">
+          <img src={DaveMarble} alt="" className="team-img" />
+          <div className="team-item-texts">
+            <h3>Dave Reeder</h3>
+            <h4>Account Executive</h4>
+            <p>
+            Dave Reeder is an accomplished customer relations manager with a long history of developing, and growing relationships in business to business efforts.  Having spent time in most aspecst of marketing/sales/customer service.
+Dave is adept at building and nurturing relationships with key stakeholders, from prospective clients to industry influencers. His strong communication skills and desire to grow have helped him serve customers in verticals such as Medical, Legal, Marketing, and B2C
+At his core, Dave is a person who believes that building goals centered in helping others with their needs, will help us achieve our greatest accomplishments.
+            </p>
+          </div>
+        </div> 
+
         <div className="team-item team-item2">
           <img src={sabrina3} alt="" className="team-img" />
           <div className="team-item-texts">
@@ -96,7 +110,7 @@ const ExecutiveTeam = () => {
             <h3>Aaron Jones</h3>
             <h4>Developer</h4>
             <p>
-            Meet Aaron, our passionate Software Developer who discovered Providence by chance and instantly connected with its mission. With a rich background spanning over a decade in education, he served as a former case worker at Weber School District and an educator at Davis School District. His tenure in these roles granted him invaluable insights into the pressing necessity for mental health support and prevention. Aaron brings a unique perspective, blending his technical expertise with a profound understanding of real-world needs, driving our team's commitment to enhancing mental health care through innovative solutions.
+            Meet Aaron, our passionate Software Developer who discovered Previdence by chance and instantly connected with its mission. With a rich background spanning over a decade in education, he served as a former case worker at Weber School District and an educator at Davis School District. His tenure in these roles granted him invaluable insights into the pressing necessity for mental health support and prevention. Aaron brings a unique perspective, blending his technical expertise with a profound understanding of real-world needs, driving our team's commitment to enhancing mental health care through innovative solutions.
             </p>
           </div>
         </div> 

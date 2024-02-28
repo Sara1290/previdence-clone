@@ -38,8 +38,32 @@ import mythsfacts from '../../images/mythsfacts.jpg'
 import selfcare from '../../images/selfcare.jpg'
 import selflove from '../../images/selflove.png'
 import healthyRelationships from '../../images/healthyRelationships.png'
+import worklifebal from '../../images/worklifebal.jpg';
+import brainrun from '../../images/brainrun.jpg';
 
 export const blogdata = [
+  {
+    "id": 46,
+    "title": "Physical Fitness",
+    "link": "#/physicalfitness",
+    "description": "For the month of March, the MHM will focus on the correlation between physical and mental health with a few tips on how to maintain and improve both. ",
+    "img": brainrun,
+    "topic": "physical fitness health",
+    "alpha": "P",
+    "author": "Bobbi Mcgraw",
+    "date": "February 23, 2024"
+  },
+  {
+    "id": 45,
+    "title": "You'd Rather Be At Work",
+    "link": "#/ratherbeatwork",
+    "description": "     Most first responders will experience a period of time during their career when life outside of work seems hard. This is normal. This is OK — until it’s not.",
+    "img": worklifebal,
+    "topic": "home life work",
+    "alpha": "W",
+    "author": "Bobbi Mcgraw",
+    "date": "February 16, 2024"
+  },
   {
     "id": 44,
     "title": "Healthy Relationships",
