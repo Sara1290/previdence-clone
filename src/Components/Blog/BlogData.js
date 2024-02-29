@@ -40,8 +40,20 @@ import selflove from '../../images/selflove.png'
 import healthyRelationships from '../../images/healthyRelationships.png'
 import worklifebal from '../../images/worklifebal.jpg';
 import brainrun from '../../images/brainrun.jpg';
+import brainWeights from '../../images/brainWeights.png';
 
 export const blogdata = [
+  {
+    "id": 47,
+    "title": "The Science of Mentahl and Physical Health",
+    "link": "#/mentalandphysical",
+    "description": "Things like cortisol, adrenal glands, the amygdala, stress…among other things… and how these all combine to not only help you physically, but mentally and emotionally. ",
+    "img": brainWeights,
+    "topic": "physical fitness health",
+    "alpha": "P",
+    "author": "Bobbi Mcgraw",
+    "date": "March 1, 2024"
+  },
   {
     "id": 46,
     "title": "Physical Fitness",

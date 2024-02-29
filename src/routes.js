@@ -89,6 +89,7 @@ import SelfLove from './Components/Blog/SelfLove';
 import HealthyRelationships from './Components/Blog/HealthyRelationships';
 import PhysicalFitness from './Components/Blog/PhysicalFitness';
 import RatherBeAtWork from './Components/Blog/RatherBeAtWork';
+import MentalPhysical from './Components/Blog/MentalPhysical';
 
 
 
@@ -184,5 +185,6 @@ export default (
     <Route path="/healthyrelationships" component={HealthyRelationships} />
     <Route path="/physicalfitness" component={PhysicalFitness} />
     <Route path="/ratherbeatwork" component={RatherBeAtWork} />
+    <Route path="/mentalandphysical" component={MentalPhysical} />
       </Switch>
 )
