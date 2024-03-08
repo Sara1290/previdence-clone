@@ -41,8 +41,20 @@ import healthyRelationships from '../../images/healthyRelationships.png'
 import worklifebal from '../../images/worklifebal.jpg';
 import brainrun from '../../images/brainrun.jpg';
 import brainWeights from '../../images/brainWeights.png';
+import Clock from '../../images/Clock.png';
 
 export const blogdata = [
+  {
+    "id": 48,
+    "title": "Spring Ahead",
+    "link": "#/springahead",
+    "description": "These are just a few steps to help adjust to the time change, make your life a bit easier, and prepare to take care of yourself.",
+    "img": Clock,
+    "topic": "spring ahead time change",
+    "alpha": "S",
+    "author": "Bobbi Mcgraw",
+    "date": "March 8, 2024"
+  },
   {
     "id": 47,
     "title": "The Science of Mentahl and Physical Health",
