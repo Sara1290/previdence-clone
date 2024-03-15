@@ -91,6 +91,7 @@ import PhysicalFitness from './Components/Blog/PhysicalFitness';
 import RatherBeAtWork from './Components/Blog/RatherBeAtWork';
 import MentalPhysical from './Components/Blog/MentalPhysical';
 import SpringAhead from './Components/Blog/SpringAhead';
+import PhysFitChallenge from './Components/Blog/PhysFitChallenge';
 
 
 
@@ -188,5 +189,6 @@ export default (
     <Route path="/ratherbeatwork" component={RatherBeAtWork} />
     <Route path="/mentalandphysical" component={MentalPhysical} />
     <Route path="/springahead" component={SpringAhead} />
+    <Route path="/physfitchallenge" component={PhysFitChallenge} />
       </Switch>
 )

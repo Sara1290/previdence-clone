@@ -42,8 +42,20 @@ import worklifebal from '../../images/worklifebal.jpg';
 import brainrun from '../../images/brainrun.jpg';
 import brainWeights from '../../images/brainWeights.png';
 import Clock from '../../images/Clock.png';
+import ChallengeAccepted from '../../images/ChallengeAccepted.jpg';
 
 export const blogdata = [
+  {
+    "id": 49,
+    "title": "A Physical Fitness Challenge",
+    "link": "#/physfitchallenge",
+    "description": "As each person engages in a fitness challenge and meets their own goals, they build autonomy and start choosing healthy habits.",
+    "img": ChallengeAccepted,
+    "topic": "physical fitness challenge",
+    "alpha": "P",
+    "author": "Bobbi Mcgraw",
+    "date": "March 15, 2024"
+  },
   {
     "id": 48,
     "title": "Spring Ahead",
