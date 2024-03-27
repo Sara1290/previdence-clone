@@ -43,8 +43,32 @@ import brainrun from '../../images/brainrun.jpg';
 import brainWeights from '../../images/brainWeights.png';
 import Clock from '../../images/Clock.png';
 import ChallengeAccepted from '../../images/ChallengeAccepted.jpg';
+import fitnessplan from '../../images/fitnessplan.jpg';
+import healthFitness from '../../images/healthFitness.jpg';
 
 export const blogdata = [
+  {
+    "id": 51,
+    "title": "One Year Fitness Plan Continued",
+    "link": "#/fitnessplan2",
+    "description": " In last week’s Mental Health Minute, the focus was physical fitness, building your strength and endurance, and how to maintain your one-year plan. This week continues with September through December.",
+    "img": healthFitness,
+    "topic": "fitness plan",
+    "alpha": "F",
+    "author": "Bobbi Mcgraw",
+    "date": "March 29, 2024"
+  },
+  {
+    "id": 50,
+    "title": "One Year Fitness Plan",
+    "link": "#/fitnessplan",
+    "description": " We’re already heading toward the end of March, but it’s not too late to plan your one-year fitness routine.",
+    "img": fitnessplan,
+    "topic": "fitness plan",
+    "alpha": "F",
+    "author": "Bobbi Mcgraw",
+    "date": "March 22, 2024"
+  },
   {
     "id": 49,
     "title": "A Physical Fitness Challenge",
