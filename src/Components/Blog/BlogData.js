@@ -93,7 +93,7 @@ export const blogdata = [
   },
   {
     "id": 47,
-    "title": "The Science of Mentahl and Physical Health",
+    "title": "The Science of Mental and Physical Health",
     "link": "#/mentalandphysical",
     "description": "Things like cortisol, adrenal glands, the amygdala, stress…among other things… and how these all combine to not only help you physically, but mentally and emotionally. ",
     "img": brainWeights,

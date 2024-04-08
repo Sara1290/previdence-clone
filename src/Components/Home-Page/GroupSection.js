@@ -23,7 +23,7 @@ const GroupSection = () => {
         <div className="group-item">
           <img className=" group-img" alt="" src={police}/>
             <h4 className="caption">Attract and Retain</h4>
-            <p>Build a desirable culture that creates pyschological safety, trust, and unity</p>
+            <p>Build a desirable culture that creates pychological safety, trust, and unity</p>
           </div>
 
           <div className="group-item">
