@@ -7,7 +7,6 @@ import StevieMarble2 from '../../images/StevieMarble2.png';
 import aaron3 from '../../images/aaron3.png';
 import sara3 from '../../images/sara3.png';
 import sabrina3 from '../../images/sabrina3.png';
-import AaronJonesMarble from '../../images/AaronJonesMarble.png';
 import DaveMarble from '../../images/DaveMarble.png';
 
 
@@ -35,6 +34,7 @@ const ExecutiveTeam = () => {
           </div>
         </div>
 
+        {/* add Stef CFO */}
         <div className="team-item">
           <img src={aaron3} alt="" className="team-img" />
           <div className="team-item-texts">
@@ -46,18 +46,6 @@ const ExecutiveTeam = () => {
           </div>
         </div>
 
-        <div className="team-item">
-          <img src={clark} alt="" className="team-img" />
-          <div className="team-item-texts">
-            <h3>Jeff Clark</h3>
-            <h4>Chief Financial Officer</h4>
-            <p>
-            Jeff Clark started J. D. Clark & Company and the Praesideo Funds in January of 1991. Mr. Clark's companies are headquartered in Utah with offices in New York and Grand Cayman.
-            After earning a bachelor's in accounting at Utah State in 1982, Mr. Clark began his career at KPMG in Seattle. He later served for several years as the vice president of finance for the Cascade Funds and Rainier Partners as well as the CFO of the Genesee Funds.
-            Mr. Clark is also active in community service as a board member of the Weber Foundation where he chairs its Business Development Committee. Mr. and Mrs. Clark fund a Jon M. Huntsman School of Business scholarship.
-            </p>
-          </div>
-        </div> 
         
         <div className="team-item">
               <img src={StevieMarble2} alt="" className="team-img" />
@@ -104,16 +92,7 @@ At his core, Dave is a person who believes that building goals centered in helpi
           </div>
         </div> 
 
-        <div className="team-item">
-          <img src={AaronJonesMarble} alt="" className="team-img" />
-          <div className="team-item-texts">
-            <h3>Aaron Jones</h3>
-            <h4>Developer</h4>
-            <p>
-            Meet Aaron, our passionate Software Developer who discovered Previdence by chance and instantly connected with its mission. With a rich background spanning over a decade in education, he served as a former case worker at Weber School District and an educator at Davis School District. His tenure in these roles granted him invaluable insights into the pressing necessity for mental health support and prevention. Aaron brings a unique perspective, blending his technical expertise with a profound understanding of real-world needs, driving our team's commitment to enhancing mental health care through innovative solutions.
-            </p>
-          </div>
-        </div> 
+
 
         <div className="team-item">
           <img src={dan} alt="" className="team-img" />
@@ -128,9 +107,22 @@ At his core, Dave is a person who believes that building goals centered in helpi
             </p>
           </div>
         </div> 
-    </div>
 
-      </div>
+    <div className="team-item">
+          <img src={clark} alt="" className="team-img" />
+          <div className="team-item-texts">
+            <h3>Jeff Clark</h3>
+            <h4>Chief Financial Officer</h4>
+            <p>
+            Jeff Clark started J. D. Clark & Company and the Praesideo Funds in January of 1991. Mr. Clark's companies are headquartered in Utah with offices in New York and Grand Cayman.
+            After earning a bachelor's in accounting at Utah State in 1982, Mr. Clark began his career at KPMG in Seattle. He later served for several years as the vice president of finance for the Cascade Funds and Rainier Partners as well as the CFO of the Genesee Funds.
+            Mr. Clark is also active in community service as a board member of the Weber Foundation where he chairs its Business Development Committee. Mr. and Mrs. Clark fund a Jon M. Huntsman School of Business scholarship.
+            </p>
+          </div>
+        </div> 
+   
+    </div>
+  </div>
      
   );
 };

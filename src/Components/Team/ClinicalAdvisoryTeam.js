@@ -8,11 +8,13 @@ const ClinicalAdvisoryTeam = () => {
       <h2>Clinical Advisors</h2>
       <div className="team-group">
 
+        {/* add Rick - Chief Psychology Officer */}
+
       <div className="team-item">
           <img src={david} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Dr. David Norton</h3>
-            <h4>...</h4>
+            <h4>Advisor</h4>
             <p>
             Dr. Norton has 48 years of industrial experience in high-tech companies. His industrial career began with IBM where he began as a Junior Engineer and advanced to that of a Senior Engineer and Program Manager. He was involved in manufacturing before moving into research and product development. 
             After 16 years with IBM, Norton left to become a co-founder of IOMEGA where he served as vice president for Research and Development, Manufacturing, Product Management, Administration and Communications. He then founded and served as Director of Utah Research Institute, a division of Utah State University Research Foundation.
@@ -28,7 +30,7 @@ const ClinicalAdvisoryTeam = () => {
           <img src={kentMarble} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Kent Allen</h3>
-            <h4>Founder</h4>
+            <h4>Advisor</h4>
             <p>
               Kent is the founder of Previdence Corporation. He is a master
               clinician practicing therapy for over 30 years. He is a graduate
@@ -41,7 +43,6 @@ const ClinicalAdvisoryTeam = () => {
 
 
       </div>
-     
     </div>
   );
 };
