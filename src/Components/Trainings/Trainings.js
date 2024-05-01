@@ -28,7 +28,7 @@ const Trainings = () => {
     
 
     ui.createComponent('productSet', {
-      id: [7680082182321],
+      id: [7918789558449],
       node: document.getElementById('my-product'),
       options: {
         product: {
