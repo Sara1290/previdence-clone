@@ -4,6 +4,7 @@ import markMarble2 from '../../images/markMarble2.png';
 import clark from '../../images/clark.png';
 import dan from '../../images/dan.png';
 import StevieMarble2 from '../../images/StevieMarble2.png';
+import RobMarble from '../../images/RobMarble.png';
 import aaron3 from '../../images/aaron3.png';
 import sara3 from '../../images/sara3.png';
 import sabrina3 from '../../images/sabrina3.png';
@@ -53,7 +54,19 @@ const ExecutiveTeam = () => {
                   <h3>Stevie Rentmeister</h3>
                   <h4>Office Manager</h4>
                   <p>Stevie comes to Previdence with over 30 years in business management, accounting, and human resource experience.
-                    She has worked in the business industry of profit and non-profit organizations. During this time, she has also supported her husband in these areas and managed their other four businesses. Stevie is committed to providing exceptional leadership, management, financial administration and staff development to achieve the vision, goals and priorities of Previdence.</p>
+                    She has worked in the business industry of profit and non-profit organizations. During this time, she has also supported her husband in these areas and managed their other four businesses. Stevie is committed to providing exceptional leadership, management, financial administration and staff development to achieve the vision, goals and priorities of Previdence.
+                </p>
+          </div>
+        </div>
+
+        <div className="team-item">
+              <img src={RobMarble} alt="" className="team-img" />
+                <div className="team-item-texts">
+                  <h3>Rob James</h3>
+                  <h4>Clinical Director</h4>
+                  <p>
+                  Rob has 19 years of experience working in community mental health, as a mental health practitioner,  working in corrections, and developing mental health practices.
+                </p>
           </div>
         </div>
 
