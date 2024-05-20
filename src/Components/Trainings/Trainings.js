@@ -1,7 +1,7 @@
 import {React, useEffect} from 'react';
 import NavBar from '../NavBar';
 import ShopifyBuy from '@shopify/buy-button-js';
-// import train2 from '../../images/train2.png';
+import train2 from '../../images/train2.png';
 import ReactGA from 'react-ga';
 import TrainingFooter from '../TrainingFooter';
 
@@ -66,9 +66,9 @@ return (
       <NavBar />
       <div className="trainings-inner background">
         <h1>Trainings and Conferences</h1>
-        {/* <div>
+        <div>
           <img alt="check back soon for more dates" className="training-soon" src={train2} />
-        </div> */}
+        </div>
       <div className="courses-container" id="my-product">
       </div>
       </div>
