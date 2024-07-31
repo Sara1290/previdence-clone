@@ -18,7 +18,7 @@ const ElecComms = () => {
       <NavBar />
       <div className='disclosures-inner'>
     <div className='disclosures-texts'>
-    <h1>Insecure Communications Warning</h1>
+    <h1>Electric Communications Disclosure</h1>
 <br></br>
     <h3>Important Notice to Members</h3>
     <p>Your privacy and the security of your health information are of utmost importance to us. However, we want to make you aware of the potential risks associated with certain forms of communication.</p>

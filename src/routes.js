@@ -141,7 +141,7 @@ export default (
     <Route path="/privacy" component={PrivacyPolicy} />
     <Route path="/termsandconditions" component={TermsAndConditions} />
     <Route path="/cookies" component={Cookies} />
-    <Route path="/eleccomms" component={ElecComms} />
+    <Route path="/commsdisclosure" component={ElecComms} />
     {/* blog */}
     <Route path="/blog" component={Blog} />
     <Route path="/sleephygiene" component={SleepHygiene}/>
