@@ -1,0 +1,17 @@
+/* .disclosures-container {
+
+} */
+
+.disclosures-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.disclosures-texts {
+
+  text-align: left;
+  background-color: lightblue;
+  max-width: 80vw;
+}

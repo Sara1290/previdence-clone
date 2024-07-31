@@ -43,8 +43,8 @@ const UniFooter = () => {
       <div className="footer-icons">
         <FaRegEnvelope className="footer-icon" />
       </div>
-        <Mailto className="footer-email" email="sales@previdence.com" subject="Public Relations and Sales" body="Hello">
-          <p className="email-hover-dark" style={{color: 'black', marginRight: "5px"}}>Email Us: <br></br> sales@previdence.com</p>
+        <Mailto className="footer-email" email="support@previdence.com" subject="Hello" body="Hello">
+          <p className="email-hover-dark" style={{color: 'black', marginRight: "5px"}}>Email Us: <br></br> support@previdence.com</p>
         </Mailto>
         <div className="footer-line"></div>
      </div>

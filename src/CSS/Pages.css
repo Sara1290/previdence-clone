@@ -42,6 +42,25 @@
   background-color: black;
 }
 
+/*-----------------------DISCLOSURES--------------------*/
+/* .disclosures-container {
+
+} */
+
+.disclosures-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.disclosures-texts {
+
+  text-align: left;
+  /* background-color:; */
+  max-width: 80vw;
+}
+
 /*--------------UNIversal FOOTER-------------*/
 .uni-footer {
   background-color: white !important;

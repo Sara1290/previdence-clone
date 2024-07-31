@@ -38,6 +38,7 @@ import Providers from './Components/PPN/Providers';
 import PrivacyPolicy from './Components/Legal/PrivacyPolicy';
 import TermsAndConditions from './Components/Legal/TermsAndConditions';
 import Cookies from './Components/Home-Page/Cookies';
+import ElecComms from './Components/Terms and Disclosures/ElecComms';
 
 // Blog
 import Blog from './Components/Blog/Blog';
@@ -140,6 +141,7 @@ export default (
     <Route path="/privacy" component={PrivacyPolicy} />
     <Route path="/termsandconditions" component={TermsAndConditions} />
     <Route path="/cookies" component={Cookies} />
+    <Route path="/eleccomms" component={ElecComms} />
     {/* blog */}
     <Route path="/blog" component={Blog} />
     <Route path="/sleephygiene" component={SleepHygiene}/>
