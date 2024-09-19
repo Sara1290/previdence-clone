@@ -14,7 +14,6 @@ import Contact from './Components/Contact/Contact';
 import Testimonials from './Components/Home-Page/Testimonials';
 import Resources from './Components/Resources/Resources';
 import OfdTips from './Components/Tips/OfdTips';
-import Ppn from './Components/Surveys/Ppn';
 import PpnAdditional from './Components/Surveys/PpnAddtional';
 import PostTraining from './Components/Surveys/PostTraining';
 import CrisisResponse from './Components/Surveys/CrisisResponse';
@@ -95,6 +94,7 @@ import SpringAhead from './Components/Blog/SpringAhead';
 import PhysFitChallenge from './Components/Blog/PhysFitChallenge';
 import FitnessPlan from './Components/Blog/FitnessPlan';
 import FitnessPlan2 from './Components/Blog/FitnessPlan2';
+import PpnApplication from './Components/Surveys/PpnApplication';
 
 
 
@@ -119,7 +119,7 @@ export default (
     <Route path="/opdtips" component={OpdTips} />
     <Route path="/clearfield-pd-tips" component={ClearfieldPDTips} />
     <Route path="/opdtipstest" component={OpdTipsTest} />
-    <Route path="/ppn" component={Ppn} />
+    <Route path="/ppnapplication" component={PpnApplication} />
     <Route path="/ppnadditional" component={PpnAdditional} />
     <Route path="/ppnhighstakes" component={PPNHighStakes} />
     <Route path="/posttraining" component={PostTraining} />

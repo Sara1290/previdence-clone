@@ -19,8 +19,6 @@ const Hubspot = () => {
             }
         });
     }, []);
-
-
     
     return (
         <div className="hubspot-outer">
@@ -29,7 +27,6 @@ const Hubspot = () => {
             <div id="hubspotForm"></div>
         </div>
     );
-
 }
 
 export default Hubspot;
