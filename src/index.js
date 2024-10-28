@@ -5,6 +5,7 @@ import { HashRouter } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import ReactGA from 'react-ga';
 import 'bootstrap/dist/css/bootstrap.css';
+
 // import reportWebVitals from './reportWebVitals';
 require('dotenv').config();
 
