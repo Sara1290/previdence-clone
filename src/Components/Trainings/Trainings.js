@@ -1,7 +1,7 @@
 import {React, useEffect} from 'react';
 import NavBar from '../NavBar';
 import ShopifyBuy from '@shopify/buy-button-js';
-import train2 from '../../images/train2.png';
+// import train2 from '../../images/train2.png';
 import ReactGA from 'react-ga';
 import TrainingFooter from '../TrainingFooter';
 
