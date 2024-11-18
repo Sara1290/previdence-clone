@@ -28,7 +28,7 @@ const Trainings = () => {
     
 
     ui.createComponent('productSet', {
-      id: [7918789558449],
+      id: [8176123379889],
       node: document.getElementById('my-product'),
       options: {
         product: {
@@ -66,9 +66,9 @@ return (
       <NavBar />
       <div className="trainings-inner background">
         <h1>Trainings and Conferences</h1>
-        <div>
+        {/* <div>
           <img alt="check back soon for more dates" className="training-soon" src={train2} />
-        </div>
+        </div> */}
       <div className="courses-container" id="my-product">
       </div>
       </div>
