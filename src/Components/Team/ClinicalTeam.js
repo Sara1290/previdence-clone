@@ -2,7 +2,7 @@ import React from "react";
 // import tiaMarble from '../../images/tiaMarble.png';
 // import codyFinal from '../../images/codyFinal.png';
 import bobbi3 from '../../images/bobbi3.png';
-import cindee3 from '../../images/cindee3.png';
+// import cindee3 from '../../images/cindee3.png';
 
 
 const ClinicalTeam = () => {
