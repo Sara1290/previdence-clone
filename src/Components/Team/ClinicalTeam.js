@@ -22,7 +22,7 @@ const ClinicalTeam = () => {
           </div>
         </div>
 
-        <div className="team-item team-item2">
+        {/* <div className="team-item team-item2">
           <img src={cindee3} alt="" className="team-img" />
           <div className="team-item-texts">
             <h3>Cindee Paulsen</h3>
@@ -31,7 +31,7 @@ const ClinicalTeam = () => {
             Cindee has been involved with police work and recently retired after 30 years. She spent the first 15 years as a 911 dispatcher and shift lead, working with police, fire, and EMS, and was a member of a negotiations team.  The last 15 years was spent as an evidence technician, detective secretary and records specialist.  Cindee has been married for 37 years; her husband was a police officer for 10 of those years. She has 2 grown children, 4 grandchildren, and several extended family members, whom she enjoys spending family time with, camping, fishing, and being outdoors. 
             </p>
           </div>
-        </div>
+        </div> */}
 
     </div>
       </div>
