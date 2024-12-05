@@ -22,7 +22,7 @@ const PpnFooter = () => {
       <div className="footer-icons">
         <FaMapMarkerAlt className="footer-icon" />
       </div>
-        <p> Address: 5742 S 1475 E, Ste 200, <br></br> South Ogden, UT 84403</p>
+        <p> Address: 5677 S 1475 E, Ste 4B, <br></br> South Ogden, UT 84403</p>
         <div className="footer-line"></div>
      </div>
 
