@@ -4,12 +4,8 @@ import markMarble2 from '../../images/markMarble2.png';
 import clark from '../../images/clark.png';
 import dan from '../../images/dan.png';
 import StevieMarble2 from '../../images/StevieMarble2.png';
-import RobMarble from '../../images/RobMarble.png';
 import aaron3 from '../../images/aaron3.png';
-import sara3 from '../../images/sara3.png';
 import sabrina3 from '../../images/sabrina3.png';
-import DaveMarble from '../../images/DaveMarble.png';
-
 
 const ExecutiveTeam = () => {
   return (
@@ -59,30 +55,6 @@ const ExecutiveTeam = () => {
           </div>
         </div>
 
-        <div className="team-item">
-              <img src={RobMarble} alt="" className="team-img" />
-                <div className="team-item-texts">
-                  <h3>Rob James</h3>
-                  <h4>Clinical Director</h4>
-                  <p>
-                  Rob has 19 years of experience working in community mental health, as a mental health practitioner,  working in corrections, and developing mental health practices.
-                </p>
-          </div>
-        </div>
-
-        <div className="team-item">
-          <img src={DaveMarble} alt="" className="team-img" />
-          <div className="team-item-texts">
-            <h3>Dave Reeder</h3>
-            <h4>Account Executive</h4>
-            <p>
-            Dave Reeder is an accomplished customer relations manager with a long history of developing, and growing relationships in business to business efforts.  Having spent time in most aspecst of marketing/sales/customer service.
-Dave is adept at building and nurturing relationships with key stakeholders, from prospective clients to industry influencers. His strong communication skills and desire to grow have helped him serve customers in verticals such as Medical, Legal, Marketing, and B2C
-At his core, Dave is a person who believes that building goals centered in helping others with their needs, will help us achieve our greatest accomplishments.
-            </p>
-          </div>
-        </div> 
-
         <div className="team-item team-item2">
           <img src={sabrina3} alt="" className="team-img" />
           <div className="team-item-texts">
@@ -94,16 +66,7 @@ At his core, Dave is a person who believes that building goals centered in helpi
           </div>
         </div>
 
-          <div className="team-item">
-          <img src={sara3} alt="" className="team-img" />
-          <div className="team-item-texts">
-            <h3>Sara Reed</h3>
-            <h4>IT</h4>
-            <p>
-              After getting a certification in web development, Sara knew she wanted to use her new skills to improve people's lives. She's a firm believer in mental health in the work place, and in her personal life.  
-            </p>
-          </div>
-        </div> 
+ 
 
 
 

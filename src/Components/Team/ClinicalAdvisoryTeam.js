@@ -1,5 +1,5 @@
 import React from "react";
-import kentMarble from '../../images/kentMarble.png';
+import RickHawksEdit from '../../images/RickHawksEdit.jpg';
 import david from '../../images/david.png';
 
 const ClinicalAdvisoryTeam = () => {
@@ -27,16 +27,22 @@ const ClinicalAdvisoryTeam = () => {
 
         
       <div className="team-item">
-          <img src={kentMarble} alt="" className="team-img" />
+          <img src={RickHawksEdit} alt="" className="team-img" />
           <div className="team-item-texts">
-            <h3>Kent Allen</h3>
+            <h3>Dr. Rick Hawks</h3>
             <h4>Advisor</h4>
             <p>
-              Kent is the founder of Previdence Corporation. He is a master
-              clinician practicing therapy for over 30 years. He is a graduate
-              of Auburn University and is a licensed Marriage and Family
-              Therapist. Kent is the organizer of the Widow/Widower’s Grieving
-              Group and is an accomplished speaker.
+            Dr. Rick Hawks earned both his Master’s and Doctorate degrees from Brigham Young University. Over the past 40 years, he has been a licensed psychologist, working in a local community mental health center and maintaining a private practice.<br></br>
+
+Dr. Hawks specializes in assessment and testing, having developed extensive software systems designed to assess risk in high-stress occupations, such as the military. These systems have been implemented in over 330 military installations worldwide. He has served as the Clinical Director for an innovative mental health and wellness technology platform company.<br></br>
+
+His expertise has earned him the reputation as one of the best forensic phycologists in the United States. He is a sought-after expert witness on very complex legal cases in the Western United States, involving serial rapists and murderers.<br></br>
+
+An accomplished author, Dr. Hawks has written books on suicide, addiction, and mental illness. Additionally, he has shared his expertise as an adjunct faculty member at Utah State University, Brigham Young University and Weber State University.<br></br>
+
+Beyond his professional achievements, Dr. Hawks and his wife, Karla, have three children. The Hawks family pursues a variety of interests, including horseback riding, skiing, running half-marathons, and engaging in family activities. Dr. Hawks is also a master gardener, raising dozens of varieties of chili peppers, fruits, and vegetables, which he shares with his community.<br></br>
+
+Dr. Hawks is deeply committed to community service, serving as a board member for the Upward Reach Foundation and supporting other community programs.
             </p>
           </div>
         </div>
